@@ -2,6 +2,7 @@
 build/build-r.txt
 build/apk/
 libs/base-error.zip
+desktop/run
 
 .gradle
 build/
@@ -11,10 +12,7 @@ build/
 .kotlin
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+.idea
 *.iws
 *.iml
 *.ipr

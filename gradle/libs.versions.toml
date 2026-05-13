@@ -1,8 +1,12 @@
 [versions]
 agp = "9.1.1"
+asm = "9.9.1"
 
 [libraries]
+asm = { module = "org.ow2.asm:asm", version.ref = "asm" }
+asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "asm" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
+java-library = { id = "java-library" }
 

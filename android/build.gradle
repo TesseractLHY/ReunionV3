@@ -27,6 +27,7 @@ android {
 }
 
 dependencies {
+    implementation project(':core')
     implementation 'cn.tesseract.soviet:base-patched:1.0'
     implementation 'cn.tesseract.crosshook:crosshook-android:1.0.0'
 }

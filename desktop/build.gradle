@@ -1,0 +1,98 @@
+plugins {
+    alias(libs.plugins.java.library)
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+dependencies {
+    implementation project(':core')
+    implementation 'cn.tesseract.crosshook:crosshook-desktop:1.0.0'
+    implementation libs.asm
+    implementation libs.asm.commons
+}
+
+// ---- Game directory ----
+// Default: run/ subdirectory (dev setup). Override via -PgameDir=... or in gradle.properties.
+ext.gameDir = project.findProperty('gameDir') ?: layout.projectDirectory.dir('run').asFile.absolutePath
+
+// ---- Dev: copy mod JAR into game dir ----
+tasks.register('copyToRun', Copy) {
+    dependsOn jar
+    from jar
+    into file("$gameDir/mods")
+}
+
+// ---- One-click run (dev) ----
+// Usage: ./gradlew :desktop:runDesktop
+//        ./gradlew :desktop:runDesktop -PgameDir="D:/MyGame"
+tasks.register('runDesktop', JavaExec) {
+    group = 'soviet'
+    description = 'Launch Rusted Warfare with Soviet mod (one-click dev run)'
+
+    dependsOn jar, ':core:jar', copyToRun
+
+    def gamePath = file(gameDir).absolutePath
+    workingDir = file(gameDir)
+
+    classpath = files(
+        file("$gameDir/game-lib.jar"),
+        fileTree("$gameDir/libs") { include '*.jar' },
+        jar.archiveFile,
+        project(':core').jar.archiveFile,
+        configurations.runtimeClasspath,
+    )
+
+    mainClass = 'cn.tesseract.soviet.desktop.DesktopLauncher'
+
+    jvmArgs = [
+        '-Djava.net.preferIPv4Stack=true',
+        '-Xmx1000M',
+        '-Dfile.encoding=UTF-8',
+        "-Djava.library.path=$gamePath",
+    ]
+
+    // Forward any extra args to the game (e.g. -width 800 -height 600)
+    if (project.hasProperty('gameArgs')) {
+        args project.gameArgs.split(' ')
+    }
+}
+
+// ---- Distribution ----
+// Builds a ZIP containing only the mod + dependencies (no game files).
+// User extracts into their Rusted Warfare game directory.
+// Usage: ./gradlew :desktop:distZip
+
+def distDir = layout.buildDirectory.dir('dist')
+
+tasks.register('distZip', Zip) {
+    group = 'soviet'
+    description = 'Package mod for distribution (no game files included)'
+
+    dependsOn jar, ':core:jar'
+
+    archiveFileName = 'soviet-desktop.zip'
+    destinationDirectory = distDir
+
+    // Our mod JAR
+    from(jar.archiveFile) { into 'mods' }
+    from(project(':core').jar.archiveFile) { into 'mods' }
+
+    // Dependencies
+    from(configurations.runtimeClasspath) {
+        into 'mods/lib'
+        // Exclude core.jar (already placed directly)
+        exclude 'core*.jar'
+    }
+
+    // Launch scripts
+    from(layout.projectDirectory.file('scripts/start-with-mod.bat')) { into '.' }
+    from(layout.projectDirectory.file('scripts/start-with-mod.sh')) { into '.' }
+
+    doLast {
+        println "Distribution built: ${archiveFile.get().asFile.absolutePath}"
+        println "To install: extract the ZIP into your Rusted Warfare game directory."
+    }
+}

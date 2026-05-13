@@ -24,7 +24,7 @@ tasks.register('patchJar', JavaExec) {
     workingDir = rootDir
     doFirst {
         patchedJar.get().asFile.parentFile.mkdirs()
-        def srcR = file("$rootDir/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt")
+        def srcR = file("$rootDir/android/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt")
         def dstR = file(rFile)
         if (srcR.exists() && (!dstR.exists() || srcR.lastModified() > dstR.lastModified())) {
             dstR.bytes = srcR.bytes

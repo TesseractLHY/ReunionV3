@@ -3,7 +3,7 @@
 
     <application>
         <activity
-            android:name=".LauncherActivity"
+            android:name="cn.tesseract.soviet.android.LauncherActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
