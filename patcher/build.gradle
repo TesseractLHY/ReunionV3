@@ -16,7 +16,6 @@ dependencies { implementation libs.asm }
 def rootDir = project.rootDir.absolutePath
 def androidPatchedJar = layout.buildDirectory.file('tmp/android/base-patched.jar')
 def desktopPatchedJar = layout.buildDirectory.file('tmp/desktop/base-patched.jar')
-def desktopRuntimeDir = layout.buildDirectory.dir('runtime/desktop')
 def androidAarFile = layout.buildDirectory.file('aar/android/base-patched.aar')
 
 tasks.register('patchAndroidJar', JavaExec) {
@@ -48,13 +47,6 @@ tasks.register('patchDesktopJar', JavaExec) {
     }
 }
 
-tasks.register('prepareDesktopRuntime', Copy) {
-    group = 'patcher'
-    dependsOn jar
-    into desktopRuntimeDir
-    from(jar.archiveFile)
-    from({ configurations.runtimeClasspath.findAll { it.isFile() && it.name.endsWith('.jar') } })
-}
 
 tasks.register('buildAndroidAar', Zip) {
     group = 'patcher'

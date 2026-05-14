@@ -7,6 +7,3 @@ java {
     targetCompatibility = JavaVersion.VERSION_11
 }
 
-dependencies {
-    compileOnly 'cn.tesseract.crosshook:crosshook-core:1.0.0'
-}

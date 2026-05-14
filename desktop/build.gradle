@@ -29,7 +29,10 @@ tasks.register('patchRunGameLib', JavaExec) {
     description = 'Patch the local game-lib.jar before launching the desktop build'
 
     dependsOn ':patcher:classes'
-    classpath = project(':patcher').sourceSets.main.runtimeClasspath
+    classpath = files(
+        project(':patcher').sourceSets.main.output,
+        project(':patcher').configurations.compileClasspath,
+    )
     mainClass = 'cn.tesseract.patcher.Patcher'
     workingDir = file(gameDir)
 
@@ -40,12 +43,6 @@ tasks.register('patchRunGameLib', JavaExec) {
     ]
 }
 
-// ---- Dev: copy mod JAR into game dir ----
-tasks.register('copyToRun', Copy) {
-    dependsOn jar
-    from jar
-    into file("$gameDir/mods")
-}
 
 // ---- One-click run (dev) ----
 // Usage: ./gradlew :desktop:runDesktop
@@ -54,7 +51,7 @@ tasks.register('runDesktop', JavaExec) {
     group = 'soviet'
     description = 'Launch Rusted Warfare with Soviet mod (one-click dev run)'
 
-    dependsOn jar, ':core:jar', copyToRun, patchRunGameLib, ':patcher:publishDesktopPublicationToMavenLocal'
+    dependsOn jar, ':core:jar', patchRunGameLib, ':patcher:publishDesktopPublicationToMavenLocal'
 
     def gamePath = file(gameDir).absolutePath
     workingDir = file(gameDir)

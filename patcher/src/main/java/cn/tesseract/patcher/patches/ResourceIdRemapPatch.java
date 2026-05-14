@@ -1,12 +1,23 @@
 package cn.tesseract.patcher.patches;
 
-import java.io.*;
-import java.nio.file.*;
-import java.util.*;
-import java.util.jar.*;
-import java.util.regex.*;
+import org.objectweb.asm.ClassReader;
+import org.objectweb.asm.ClassVisitor;
+import org.objectweb.asm.ClassWriter;
+import org.objectweb.asm.FieldVisitor;
+import org.objectweb.asm.MethodVisitor;
+import org.objectweb.asm.Opcodes;
 
-import org.objectweb.asm.*;
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.jar.JarEntry;
+import java.util.jar.JarInputStream;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import cn.tesseract.patcher.Patch;
 
@@ -15,22 +26,16 @@ import cn.tesseract.patcher.Patch;
  * Rewrites ConstantValue on fields and ldc constants in &lt;clinit&gt; for int[] arrays.
  */
 public class ResourceIdRemapPatch implements Patch {
+    private final Map<Integer, Integer> idMap;
 
-    private Map<Integer, Integer> idMap = Collections.emptyMap();
-
-    @Override public String name() { return "ResourceIdRemap"; }
-
-    @Override @SuppressWarnings("unchecked")
-    public void init(Map<String, Object> context) {
-        Map<Integer, Integer> m = (Map<Integer, Integer>) context.get("resourceIdMap");
-        if (m != null) idMap = m;
-        System.out.println("[ResourceIdRemap] " + idMap.size() + " ID mappings");
+    public ResourceIdRemapPatch(Map<Integer, Integer> idMap) {
+        this.idMap = idMap == null ? Collections.emptyMap() : idMap;
     }
 
     @Override
     public byte[] transform(String className, byte[] classBytes) {
-        if (!className.startsWith("com/corrodinggames/rts/R$")
-                && !className.equals("com/corrodinggames/rts/R")) return null; // slashes from Patcher
+        if (!className.startsWith("com/corrodinggames/rts/R$") && !className.equals("com/corrodinggames/rts/R"))
+            return null;
 
         ClassReader cr = new ClassReader(classBytes);
         ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_MAXS);
@@ -74,12 +79,10 @@ public class ResourceIdRemapPatch implements Patch {
         @Override
         public void visitEnd() {
             super.visitEnd();
-            if (fChanges + iChanges > 0)
-                System.out.println("  R: " + fChanges + " fields, " + iChanges + " ldks");
+            if (fChanges + iChanges > 0) System.out.println("  R: " + fChanges + " fields, " + iChanges + " ldks");
         }
     }
 
-    /** Build oldID→newID by matching R class field names from JAR against R.txt from build */
     public static Map<Integer, Integer> buildIdMapFromJar(Path rFile, Path jarFile) throws IOException {
         Map<String, Integer> nameToNew = parseRFile(rFile);
         Map<String, Integer> nameToOld = scanJarRClasses(jarFile);

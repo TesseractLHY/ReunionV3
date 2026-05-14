@@ -12,8 +12,6 @@ public class LauncherActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        new AndroidMod().registerHooks();
-
         startActivity(new Intent(this, IntroScreen.class));
         finish();
     }

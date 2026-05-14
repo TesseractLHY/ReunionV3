@@ -1,8 +1,14 @@
 package cn.tesseract.patcher.patches;
 
-import java.util.*;
+import org.objectweb.asm.ClassReader;
+import org.objectweb.asm.ClassVisitor;
+import org.objectweb.asm.ClassWriter;
+import org.objectweb.asm.Label;
+import org.objectweb.asm.MethodVisitor;
+import org.objectweb.asm.Opcodes;
 
-import org.objectweb.asm.*;
+import java.util.HashMap;
+import java.util.Map;
 
 import cn.tesseract.patcher.Patch;
 
@@ -25,8 +31,6 @@ public class FixDex2JMethodsPatch implements Patch {
     private final Map<String, Map<String, FixEntry>> fixes = new HashMap<>();
 
     public FixDex2JMethodsPatch() {
-        // ix.a() — changelog init that dex2jar couldn't translate
-        // Original decoded Base64 changelog + started a thread. Stub sets safe defaults.
         fix("com/corrodinggames/rts/appFramework/ix", "a", "(Landroid/content/Context;)V", false,
                 mv -> {
                     mv.visitInsn(Opcodes.ICONST_1);
@@ -41,8 +45,6 @@ public class FixDex2JMethodsPatch implements Patch {
                     mv.visitEnd();
                 });
 
-        // ec.a(Canvas,fe) — orphaned restore() without matching save()
-        // dex2jar mis-translated a try-finally block
         fix("com/corrodinggames/rts/gameFramework/m/ec",
                 "a", "(Landroid/graphics/Canvas;Lcom/corrodinggames/rts/gameFramework/m/fe;)V", true,
                 mv -> {
@@ -64,14 +66,6 @@ public class FixDex2JMethodsPatch implements Patch {
     private void fix(String cls, String mtd, String desc, boolean always, MethodWriter w) {
         fixes.computeIfAbsent(cls, k -> new HashMap<>()).put(mtd + desc, new FixEntry(w, always));
     }
-
-    @Override public String name() { return "FixDex2JMethods"; }
-
-    @Override
-    public void init(Map<String, Object> c) {
-        System.out.println("[FixDex2JMethods] " + fixes.size() + " targets");
-    }
-
     @Override
     public byte[] transform(String className, byte[] classBytes) {
         Map<String, FixEntry> methods = fixes.get(className);

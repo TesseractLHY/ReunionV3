@@ -12,7 +12,6 @@ public class DesktopLauncher {
     public static void main(String[] args) throws Exception {
         SovietLogger.i("DesktopLauncher", "Starting Soviet Desktop Mod...");
 
-
         SovietLogger.i("DesktopLauncher", "Delegating to game main...");
         Class<?> gameMain = Class.forName("com.corrodinggames.rts.java.Main");
         gameMain.getMethod("main", String[].class).invoke(null, (Object) args);

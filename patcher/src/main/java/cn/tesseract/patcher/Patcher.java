@@ -9,10 +9,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
-import java.util.Map;
 import java.util.jar.JarEntry;
 import java.util.jar.JarInputStream;
 import java.util.jar.JarOutputStream;
@@ -50,24 +48,11 @@ public class Patcher {
         System.out.println("Platform: " + platform.name().toLowerCase(Locale.ROOT));
 
         List<Patch> patches = new ArrayList<>();
-        Map<String, Object> context = new HashMap<>();
         if (platform == Platform.ANDROID) {
-            FixDex2JMethodsPatch f = new FixDex2JMethodsPatch();
-            f.init(context);
-
-            patches.add(f);
+            patches.add(new FixDex2JMethodsPatch());
             if (rFile != null) {
-                Map<Integer, Integer> idMap = ResourceIdRemapPatch.buildIdMapFromJar(rFile, inputJar);
-                if (!idMap.isEmpty()) {
-                    context.put("resourceIdMap", idMap);
-                    ResourceIdRemapPatch r = new ResourceIdRemapPatch();
-                    r.init(context);
-                    patches.add(r);
-                }
+                patches.add(new ResourceIdRemapPatch(ResourceIdRemapPatch.buildIdMapFromJar(rFile, inputJar)));
             }
-        } else if (platform == Platform.DESKTOP) {
-            //TODO: desktop-specific patches
-
         }
 
         int total = 0, patched = 0;
