@@ -1,7 +1,6 @@
 # Generated
 build/build-r.txt
 build/apk/
-libs/base-error.zip
 desktop/run
 
 .gradle
@@ -44,4 +43,3 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-/.idea

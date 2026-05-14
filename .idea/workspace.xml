@@ -20,19 +20,8 @@
     <list default="true" id="9ef3e43c-0444-4f0f-94fd-3547b0c6d08e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/cn/tesseract/soviet/android/AndroidMod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/cn/tesseract/soviet/android/LauncherActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/cn/tesseract/soviet/android/LauncherActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/tesseract/soviet/SovietMod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/src/main/java/cn/tesseract/soviet/desktop/DesktopLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/main/java/cn/tesseract/soviet/desktop/DesktopLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/src/main/java/cn/tesseract/soviet/desktop/DesktopMod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/src/main/java/cn/tesseract/soviet/desktop/hook/MenuHook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patcher/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/patcher/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patcher/src/main/java/cn/tesseract/patcher/Patch.java" beforeDir="false" afterPath="$PROJECT_DIR$/patcher/src/main/java/cn/tesseract/patcher/Patch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patcher/src/main/java/cn/tesseract/patcher/Patcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/patcher/src/main/java/cn/tesseract/patcher/Patcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patcher/src/main/java/cn/tesseract/patcher/patches/FixDex2JMethodsPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/patcher/src/main/java/cn/tesseract/patcher/patches/FixDex2JMethodsPatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patcher/src/main/java/cn/tesseract/patcher/patches/ResourceIdRemapPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/patcher/src/main/java/cn/tesseract/patcher/patches/ResourceIdRemapPatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patcher/src/main/java/cn/tesseract/patcher/patches/FixDex2JMethodsPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/patcher/src/main/java/cn/tesseract/patcher/patches/Dex2JarFixPatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +34,7 @@
   <component name="CopilotChats">
     <option name="panelChat">
       <chat>
-        <option name="activeSessionId" value="2c088607-332c-4d11-9f7a-335fa8236b0e" />
+        <option name="activeSessionId" value="a0239f04-77a6-4988-b8ab-ad00df23b1b9" />
         <option name="sessions">
           <session>
             <option name="chatType" value="PANEL" />
@@ -96,6 +85,14 @@
             <option name="modelType" value="builtin_family" />
             <option name="modelValue" value="gpt-5.4-mini" />
             <option name="status" value="Completed" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="a0239f04-77a6-4988-b8ab-ad00df23b1b9" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="gpt-5.4-mini" />
             <option name="targetType" value="LOCAL" />
           </session>
         </option>

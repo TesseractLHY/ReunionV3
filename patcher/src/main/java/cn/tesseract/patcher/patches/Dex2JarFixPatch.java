@@ -20,7 +20,7 @@ import cn.tesseract.patcher.Patch;
  *
  * This patch replaces those stubs (or known-broken methods) with working code.
  */
-public class FixDex2JMethodsPatch implements Patch {
+public class Dex2JarFixPatch implements Patch {
 
     static class FixEntry {
         final MethodWriter writer;
@@ -30,7 +30,7 @@ public class FixDex2JMethodsPatch implements Patch {
 
     private final Map<String, Map<String, FixEntry>> fixes = new HashMap<>();
 
-    public FixDex2JMethodsPatch() {
+    public Dex2JarFixPatch() {
         fix("com/corrodinggames/rts/appFramework/ix", "a", "(Landroid/content/Context;)V", false,
                 mv -> {
                     mv.visitInsn(Opcodes.ICONST_1);

@@ -15,7 +15,7 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarInputStream;
 import java.util.jar.JarOutputStream;
 
-import cn.tesseract.patcher.patches.FixDex2JMethodsPatch;
+import cn.tesseract.patcher.patches.Dex2JarFixPatch;
 import cn.tesseract.patcher.patches.ResourceIdRemapPatch;
 
 /**
@@ -49,7 +49,7 @@ public class Patcher {
 
         List<Patch> patches = new ArrayList<>();
         if (platform == Platform.ANDROID) {
-            patches.add(new FixDex2JMethodsPatch());
+            patches.add(new Dex2JarFixPatch());
             if (rFile != null) {
                 patches.add(new ResourceIdRemapPatch(ResourceIdRemapPatch.buildIdMapFromJar(rFile, inputJar)));
             }
