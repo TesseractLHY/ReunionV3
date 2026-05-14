@@ -14,6 +14,16 @@ else
     exit 1
 fi
 
+mkdir -p "mods/cache"
+PATCHED_JAR="mods/cache/game-lib.patched.jar"
+
+echo "Patching game-lib.jar..."
+"$JAVA" \
+  -Dfile.encoding=UTF-8 \
+  -cp "mods/lib/*" \
+  cn.tesseract.patcher.Patcher \
+  game-lib.jar "$PATCHED_JAR" --platform desktop
+
 echo "=== Soviet Desktop Mod ==="
 echo "Game dir: $(pwd)"
 echo "JVM: $JAVA"
@@ -24,5 +34,5 @@ echo
   -Xmx1000M \
   -Dfile.encoding=UTF-8 \
   -Djava.library.path=. \
-  -cp "game-lib.jar:libs/*:mods/*:mods/lib/*" \
+  -cp "$PATCHED_JAR:mods/lib/*:mods/*:libs/*" \
   cn.tesseract.soviet.desktop.DesktopLauncher

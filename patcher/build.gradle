@@ -3,27 +3,31 @@ plugins {
     id 'maven-publish'
 }
 
+group = 'cn.tesseract.soviet'
+version = '1.0'
+
 java {
     sourceCompatibility = JavaVersion.VERSION_11
     targetCompatibility = JavaVersion.VERSION_11
 }
 
-dependencies { implementation 'org.ow2.asm:asm:9.9.1' }
+dependencies { implementation libs.asm }
 
 def rootDir = project.rootDir.absolutePath
+def androidPatchedJar = layout.buildDirectory.file('tmp/android/base-patched.jar')
+def desktopPatchedJar = layout.buildDirectory.file('tmp/desktop/base-patched.jar')
+def desktopRuntimeDir = layout.buildDirectory.dir('runtime/desktop')
+def androidAarFile = layout.buildDirectory.file('aar/android/base-patched.aar')
 
-def patchedJar = layout.buildDirectory.file('tmp/base-patched.jar')
-def aarFile = layout.buildDirectory.file('aar/base-patched.aar')
-
-tasks.register('patchJar', JavaExec) {
+tasks.register('patchAndroidJar', JavaExec) {
     group = 'patcher'
     classpath = sourceSets.main.runtimeClasspath
-    mainClass = 'cn.tesseract.patcher.JarPatcher'
+    mainClass = 'cn.tesseract.patcher.Patcher'
     def rFile = "$rootDir/build/build-r.txt"
-    args = ["$rootDir/libs/base.jar", patchedJar.get().asFile.absolutePath, '--remap-ids', rFile]
+    args = ["$rootDir/libs/base.jar", androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--remap-ids', rFile]
     workingDir = rootDir
     doFirst {
-        patchedJar.get().asFile.parentFile.mkdirs()
+        androidPatchedJar.get().asFile.parentFile.mkdirs()
         def srcR = file("$rootDir/android/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt")
         def dstR = file(rFile)
         if (srcR.exists() && (!dstR.exists() || srcR.lastModified() > dstR.lastModified())) {
@@ -33,26 +37,53 @@ tasks.register('patchJar', JavaExec) {
     }
 }
 
-tasks.register('buildAar', Zip) {
+tasks.register('patchDesktopJar', JavaExec) {
+    group = 'patcher'
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'cn.tesseract.patcher.Patcher'
+    args = ["$rootDir/libs/game-lib.jar", desktopPatchedJar.get().asFile.absolutePath, '--platform', 'desktop']
+    workingDir = rootDir
+    doFirst {
+        desktopPatchedJar.get().asFile.parentFile.mkdirs()
+    }
+}
+
+tasks.register('prepareDesktopRuntime', Copy) {
+    group = 'patcher'
+    dependsOn jar
+    into desktopRuntimeDir
+    from(jar.archiveFile)
+    from({ configurations.runtimeClasspath.findAll { it.isFile() && it.name.endsWith('.jar') } })
+}
+
+tasks.register('buildAndroidAar', Zip) {
     group = 'patcher'
     def baseApkDir = "$rootDir/build/apk"
-    archiveFileName = aarFile.get().asFile.name
-    destinationDirectory = aarFile.get().asFile.parentFile
-    from(patchedJar) { rename { 'classes.jar' } }
+    archiveFileName = androidAarFile.get().asFile.name
+    destinationDirectory = androidAarFile.get().asFile.parentFile
+    from(androidPatchedJar) { rename { 'classes.jar' } }
     from("$baseApkDir/res") { into 'res'; exclude 'values/public.xml' }
     from("$baseApkDir/assets") { into 'assets' }
     from("$rootDir/libs/aar") { include 'AndroidManifest.xml' }
-    dependsOn 'patchJar'
+    dependsOn 'patchAndroidJar'
 }
 
 publishing {
     publications {
-        maven(MavenPublication) {
+        android(MavenPublication) {
             groupId = 'cn.tesseract.soviet'
-            artifactId = 'base-patched'
+            artifactId = 'base-patched-android'
             version = '1.0'
-            artifact(aarFile) { builtBy buildAar }
+            artifact(androidAarFile) { builtBy buildAndroidAar }
             pom { packaging = 'aar' }
+        }
+
+        desktop(MavenPublication) {
+            groupId = 'cn.tesseract.soviet'
+            artifactId = 'base-patched-desktop'
+            version = '1.0'
+            artifact(desktopPatchedJar) { builtBy patchDesktopJar }
+            pom { packaging = 'jar' }
         }
     }
     repositories { mavenLocal() }

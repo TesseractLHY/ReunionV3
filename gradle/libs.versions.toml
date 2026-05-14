@@ -1,10 +1,14 @@
 [versions]
 agp = "9.1.1"
 asm = "9.9.1"
+crosshook = "1.0.0"
 
 [libraries]
 asm = { module = "org.ow2.asm:asm", version.ref = "asm" }
-asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "asm" }
+base-patched-android = { module = "cn.tesseract.soviet:base-patched-android", version = "1.0" }
+base-patched-desktop = { module = "cn.tesseract.soviet:base-patched-desktop", version = "1.0" }
+crosshook-android = { module = "cn.tesseract.crosshook:crosshook-android", version.ref = "crosshook" }
+crosshook-desktop = { module = "cn.tesseract.crosshook:crosshook-desktop", version.ref = "crosshook" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

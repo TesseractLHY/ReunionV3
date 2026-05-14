@@ -4,11 +4,12 @@ import cn.tesseract.soviet.SovietMod;
 
 /**
  * Android platform mod definition.
- * Lists all hook classes that should be registered on Android.
+ * Android now relies on resource overrides (scheme b) instead of runtime hooks.
  */
 public class AndroidMod extends SovietMod {
+
     @Override
     protected Class<?>[] getHookClasses() {
-        return new Class<?>[]{};
+        return new Class<?>[0];
     }
 }

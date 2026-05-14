@@ -1,18 +1,12 @@
 package cn.tesseract.soviet.desktop;
 
-import cn.tesseract.soviet.SovietMod;
-import cn.tesseract.soviet.desktop.hook.MenuHook;
-
 /**
- * Desktop platform mod definition.
- * Lists all hook classes that should be registered on the desktop JVM build.
+ * Desktop compatibility shell kept for symmetry with the Android module.
+ * The desktop production flow now patches the real game jar directly,
+ * so there are no runtime hook registrations here.
  */
-public class DesktopMod extends SovietMod {
+@SuppressWarnings("unused")
+public final class DesktopMod {
 
-    @Override
-    protected Class<?>[] getHookClasses() {
-        return new Class<?>[] {
-                MenuHook.class,
-        };
-    }
+    private DesktopMod() {}
 }

@@ -26,8 +26,19 @@ android {
     useLibrary 'org.apache.http.legacy'
 }
 
+configurations.configureEach {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
 dependencies {
     implementation project(':core')
-    implementation 'cn.tesseract.soviet:base-patched:1.0'
-    implementation 'cn.tesseract.crosshook:crosshook-android:1.0.0'
+    implementation(libs.base.patched.android) {
+        changing = true
+    }
+    implementation libs.crosshook.android
 }
+
+tasks.named('preBuild').configure {
+    dependsOn ':patcher:publishAndroidPublicationToMavenLocal'
+}
+

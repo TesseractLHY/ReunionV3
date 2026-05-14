@@ -1,8 +1,10 @@
-package cn.tesseract.patcher;
+package cn.tesseract.patcher.patches;
 
 import java.util.*;
 
 import org.objectweb.asm.*;
+
+import cn.tesseract.patcher.Patch;
 
 /**
  * Fixes methods that dex2jar failed to translate.

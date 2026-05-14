@@ -1,4 +1,4 @@
-package cn.tesseract.patcher;
+package cn.tesseract.patcher.patches;
 
 import java.io.*;
 import java.nio.file.*;
@@ -7,6 +7,8 @@ import java.util.jar.*;
 import java.util.regex.*;
 
 import org.objectweb.asm.*;
+
+import cn.tesseract.patcher.Patch;
 
 /**
  * Remaps resource IDs in R classes from old (APK) values to new (build) values.
@@ -28,7 +30,7 @@ public class ResourceIdRemapPatch implements Patch {
     @Override
     public byte[] transform(String className, byte[] classBytes) {
         if (!className.startsWith("com/corrodinggames/rts/R$")
-                && !className.equals("com/corrodinggames/rts/R")) return null; // slashes from JarPatcher
+                && !className.equals("com/corrodinggames/rts/R")) return null; // slashes from Patcher
 
         ClassReader cr = new ClassReader(classBytes);
         ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_MAXS);

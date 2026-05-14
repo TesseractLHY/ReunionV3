@@ -7,16 +7,38 @@ java {
     targetCompatibility = JavaVersion.VERSION_11
 }
 
+configurations.configureEach {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
 dependencies {
     implementation project(':core')
-    implementation 'cn.tesseract.crosshook:crosshook-desktop:1.0.0'
-    implementation libs.asm
-    implementation libs.asm.commons
+    runtimeOnly(libs.base.patched.desktop) {
+        changing = true
+    }
+    runtimeOnly libs.crosshook.desktop
 }
 
 // ---- Game directory ----
 // Default: run/ subdirectory (dev setup). Override via -PgameDir=... or in gradle.properties.
 ext.gameDir = project.findProperty('gameDir') ?: layout.projectDirectory.dir('run').asFile.absolutePath
+def patchedGameLib = file("$gameDir/game-lib.patched.jar")
+
+tasks.register('patchRunGameLib', JavaExec) {
+    group = 'soviet'
+    description = 'Patch the local game-lib.jar before launching the desktop build'
+
+    dependsOn ':patcher:classes'
+    classpath = project(':patcher').sourceSets.main.runtimeClasspath
+    mainClass = 'cn.tesseract.patcher.Patcher'
+    workingDir = file(gameDir)
+
+    args = [
+        file("$gameDir/game-lib.jar").absolutePath,
+        patchedGameLib.absolutePath,
+        '--platform', 'desktop',
+    ]
+}
 
 // ---- Dev: copy mod JAR into game dir ----
 tasks.register('copyToRun', Copy) {
@@ -32,17 +54,17 @@ tasks.register('runDesktop', JavaExec) {
     group = 'soviet'
     description = 'Launch Rusted Warfare with Soviet mod (one-click dev run)'
 
-    dependsOn jar, ':core:jar', copyToRun
+    dependsOn jar, ':core:jar', copyToRun, patchRunGameLib, ':patcher:publishDesktopPublicationToMavenLocal'
 
     def gamePath = file(gameDir).absolutePath
     workingDir = file(gameDir)
 
     classpath = files(
-        file("$gameDir/game-lib.jar"),
-        fileTree("$gameDir/libs") { include '*.jar' },
         jar.archiveFile,
         project(':core').jar.archiveFile,
         configurations.runtimeClasspath,
+        patchedGameLib,
+        fileTree("$gameDir/libs") { include '*.jar' },
     )
 
     mainClass = 'cn.tesseract.soviet.desktop.DesktopLauncher'
@@ -65,13 +87,13 @@ tasks.register('runDesktop', JavaExec) {
 // User extracts into their Rusted Warfare game directory.
 // Usage: ./gradlew :desktop:distZip
 
-def distDir = layout.buildDirectory.dir('dist')
+def distDir = layout.buildDirectory.dir('production-dist')
 
 tasks.register('distZip', Zip) {
     group = 'soviet'
     description = 'Package mod for distribution (no game files included)'
 
-    dependsOn jar, ':core:jar'
+    dependsOn jar, ':core:jar', ':patcher:publishDesktopPublicationToMavenLocal'
 
     archiveFileName = 'soviet-desktop.zip'
     destinationDirectory = distDir

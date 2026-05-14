@@ -47,7 +47,7 @@
                 </RelativeLayout>
 
                 <LinearLayout
-                    android:layout_width="440dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:gravity="center"
@@ -57,43 +57,47 @@
 
                     <Button
                         android:id="@id/buyButton"
-                        style="@style/MenuButton"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4.0dip"
                         android:paddingTop="10dp"
                         android:paddingBottom="10dp"
-                        android:textStyle="bold" />
+                        android:text="Buy now!"
+                        android:textStyle="bold"
+                        style="@style/MenuButton" />
 
                     <Button
                         android:id="@id/startgameButton"
-                        style="@style/MenuButton"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4.0dip"
                         android:paddingTop="14dp"
                         android:paddingBottom="14dp"
-                        android:textStyle="bold" />
+                        android:text="Continue"
+                        android:textStyle="bold"
+                        style="@style/MenuButton" />
 
                     <Button
                         android:id="@id/menuCustomButton"
-                        style="@style/MenuButton"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4.0dip"
                         android:paddingTop="14dp"
                         android:paddingBottom="14dp"
-                        android:textStyle="bold" />
+                        android:text="Single Player"
+                        android:textStyle="bold"
+                        style="@style/MenuButton" />
 
                     <Button
                         android:id="@id/multiplayerButton"
-                        style="@style/MenuButton"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4.0dip"
                         android:paddingTop="14dp"
                         android:paddingBottom="14dp"
-                        android:textStyle="bold" />
+                        android:text="Multiplayer"
+                        android:textStyle="bold"
+                        style="@style/MenuButton" />
 
                     <LinearLayout
                         android:layout_width="fill_parent"
@@ -104,21 +108,23 @@
 
                         <Button
                             android:id="@id/settingsButton"
-                            style="@style/MenuButton"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:singleLine="true" />
+                            android:singleLine="true"
+                            android:text="Settings"
+                            style="@style/MenuButton" />
 
                         <Button
                             android:id="@id/modsButton"
-                            style="@style/MenuButton"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="6.0dip"
                             android:layout_weight="1"
                             android:singleLine="true"
-                            android:textStyle="bold" />
+                            android:text="Mods"
+                            android:textStyle="bold"
+                            style="@style/MenuButton" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -130,21 +136,23 @@
 
                         <Button
                             android:id="@id/helpButton"
-                            style="@style/MenuButton"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:singleLine="true"
-                            android:textStyle="bold" />
+                            android:text="Help"
+                            android:textStyle="bold"
+                            style="@style/MenuButton" />
 
                         <Button
                             android:id="@id/exitgameButton"
-                            style="@style/MenuButton"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="6.0dip"
                             android:layout_weight="1"
-                            android:visibility="visible" />
+                            android:text="更新日志"
+                            android:visibility="visible"
+                            style="@style/MenuButton" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
