@@ -26,19 +26,13 @@ android {
     useLibrary 'org.apache.http.legacy'
 }
 
-configurations.configureEach {
-    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
-}
-
 dependencies {
     implementation project(':core')
-    implementation(libs.base.patched.android) {
-        changing = true
-    }
+    implementation project(path: ':patcher', configuration: 'androidPatchedElements')
     implementation libs.crosshook.android
 }
 
 tasks.named('preBuild').configure {
-    dependsOn ':patcher:publishAndroidPublicationToMavenLocal'
+    dependsOn ':patcher:buildAndroidAar'
 }
 

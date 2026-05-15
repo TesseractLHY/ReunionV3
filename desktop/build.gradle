@@ -7,15 +7,9 @@ java {
     targetCompatibility = JavaVersion.VERSION_1_8
 }
 
-configurations.configureEach {
-    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
-}
-
 dependencies {
     implementation project(':core')
-    implementation(libs.base.patched.desktop) {
-        changing = true
-    }
+    implementation project(path: ':patcher', configuration: 'desktopPatchedElements')
     implementation libs.crosshook.desktop
 }
 
@@ -25,7 +19,7 @@ tasks.register('runDesktop', JavaExec) {
     group = 'soviet'
     description = 'Launch modded desktop Rusted Warfare'
 
-    dependsOn jar, ':core:jar', ':patcher:publishDesktopPublicationToMavenLocal'
+    dependsOn jar, ':core:jar', ':patcher:patchDesktopJar'
 
     def gamePath = file(gameDir).absolutePath
     workingDir = file(gameDir)
@@ -46,7 +40,6 @@ tasks.register('runDesktop', JavaExec) {
         "-Djava.library.path=$gamePath",
     ]
 
-    // Forward any extra args to the game (e.g. -width 800 -height 600)
     if (project.hasProperty('gameArgs')) {
         args project.gameArgs.split(' ')
     }
@@ -58,23 +51,19 @@ tasks.register('distZip', Zip) {
     group = 'soviet'
     description = 'Package mod for distribution (no game files included)'
 
-    dependsOn jar, ':core:jar', ':patcher:publishDesktopPublicationToMavenLocal'
+    dependsOn jar, ':core:jar', ':patcher:patchDesktopJar'
 
     archiveFileName = 'soviet-desktop.zip'
     destinationDirectory = distDir
 
-    // Our mod JAR
     from(jar.archiveFile) { into 'mods' }
     from(project(':core').jar.archiveFile) { into 'mods' }
 
-    // Dependencies
     from(configurations.runtimeClasspath) {
         into 'mods/lib'
-        // Exclude core.jar (already placed directly)
         exclude 'core*.jar'
     }
 
-    // Launch scripts
     from(layout.projectDirectory.file('scripts/start-with-mod.bat')) { into '.' }
     from(layout.projectDirectory.file('scripts/start-with-mod.sh')) { into '.' }
 

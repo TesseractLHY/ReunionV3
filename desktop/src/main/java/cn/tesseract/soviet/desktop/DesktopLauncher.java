@@ -7,7 +7,6 @@ import cn.tesseract.crosshook.HookRegistry;
 
 public class DesktopLauncher {
     public static void main(String[] args) {
-        HookRegistry.instance.register(MainHook.class);
         Main.main(args);
     }
 }

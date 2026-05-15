@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id 'maven-publish'
 }
 
 group = 'cn.tesseract.soviet'
@@ -14,6 +13,18 @@ java {
 dependencies {
     implementation libs.asm
     implementation libs.tiny.remapper
+}
+
+configurations {
+    androidPatchedElements {
+        canBeConsumed = true
+        canBeResolved = false
+    }
+
+    desktopPatchedElements {
+        canBeConsumed = true
+        canBeResolved = false
+    }
 }
 
 def rootDir = project.rootDir.absolutePath
@@ -65,23 +76,7 @@ tasks.register('buildAndroidAar', Zip) {
     dependsOn 'patchAndroidJar'
 }
 
-publishing {
-    publications {
-        android(MavenPublication) {
-            groupId = 'cn.tesseract.soviet'
-            artifactId = 'base-patched-android'
-            version = '1.0'
-            artifact(androidAarFile) { builtBy buildAndroidAar }
-            pom { packaging = 'aar' }
-        }
-
-        desktop(MavenPublication) {
-            groupId = 'cn.tesseract.soviet'
-            artifactId = 'base-patched-desktop'
-            version = '1.0'
-            artifact(desktopPatchedJar) { builtBy patchDesktopJar }
-            pom { packaging = 'jar' }
-        }
-    }
-    repositories { mavenLocal() }
+artifacts {
+    androidPatchedElements(androidAarFile) { builtBy buildAndroidAar }
+    desktopPatchedElements(desktopPatchedJar) { builtBy patchDesktopJar }
 }
