@@ -13,7 +13,7 @@ java {
 
 dependencies {
     implementation libs.asm
-    implementation 'net.fabricmc:tiny-remapper:0.10.4'
+    implementation libs.tiny.remapper
 }
 
 def rootDir = project.rootDir.absolutePath
@@ -44,7 +44,8 @@ tasks.register('patchDesktopJar', JavaExec) {
     group = 'patcher'
     classpath = sourceSets.main.runtimeClasspath
     mainClass = 'cn.tesseract.patcher.Patcher'
-    args = ["$rootDir/libs/game-lib.jar", desktopPatchedJar.get().asFile.absolutePath, '--platform', 'desktop']
+    def tinyMappings = "$rootDir/libs/desktop.tiny"
+    args = ["$rootDir/libs/game-lib.jar", desktopPatchedJar.get().asFile.absolutePath, '--platform', 'desktop', '--tiny-mappings', tinyMappings]
     workingDir = rootDir
     doFirst {
         desktopPatchedJar.get().asFile.parentFile.mkdirs()

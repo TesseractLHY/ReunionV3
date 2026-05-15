@@ -1,15 +1,8 @@
 package cn.tesseract.patcher;
 
-import cn.tesseract.patcher.patches.Dex2JarFixPatch;
-import cn.tesseract.patcher.patches.ResourceIdRemapPatch;
 import net.fabricmc.tinyremapper.OutputConsumerPath;
 import net.fabricmc.tinyremapper.TinyRemapper;
 import net.fabricmc.tinyremapper.TinyUtils;
-import org.objectweb.asm.ClassReader;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.ClassWriter;
-import org.objectweb.asm.MethodVisitor;
-import org.objectweb.asm.Opcodes;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -26,11 +19,9 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarInputStream;
 import java.util.jar.JarOutputStream;
 
-/**
- * Applies a small patch pipeline to game jars.
- * Android path: Dex2Jar fixes -> optional resource ID remap -> optional tiny remap.
- * Desktop path: only the existing desktop launcher name tweak.
- */
+import cn.tesseract.patcher.patches.Dex2JarFixPatch;
+import cn.tesseract.patcher.patches.ResourceIdRemapPatch;
+
 public class Patcher {
 
     public static void main(String[] args) throws Exception {
@@ -67,34 +58,12 @@ public class Patcher {
                 patches.add(new ResourceIdRemapPatch(ResourceIdRemapPatch.buildIdMapFromJar(rFile, inputJar)));
             }
         } else {
-            patches.add((className, classBytes) -> {
-                if (!"com/corrodinggames/rts/java/Main".equals(className)) {
-                    return null;
-                }
-
-                ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_MAXS);
-                new ClassReader(classBytes).accept(new ClassVisitor(Opcodes.ASM9, cw) {
-                    @Override
-                    public MethodVisitor visitMethod(int access, String name, String descriptor, String signature, String[] exceptions) {
-                        MethodVisitor mv = super.visitMethod(access, name, descriptor, signature, exceptions);
-                        if (!"<clinit>".equals(name)) {
-                            return mv;
-                        }
-                        return new MethodVisitor(Opcodes.ASM9, mv) {
-                            @Override
-                            public void visitLdcInsn(Object value) {
-                                super.visitLdcInsn("Rusted Warfare".equals(value) ? "Mindustry" : value);
-                            }
-                        };
-                    }
-                }, 0);
-                return cw.toByteArray();
-            });
+            //TODO: add desktop patches if needed
         }
 
         int total = 0;
         int patched = 0;
-        boolean needsTinyRemap = platform == Platform.ANDROID && tinyMappings != null;
+        boolean needsTinyRemap = tinyMappings != null;
         Path stagedOutputJar = needsTinyRemap
                 ? Files.createTempFile(outputJar.toAbsolutePath().getParent(), outputJar.getFileName().toString(), ".staged.jar")
                 : outputJar;
@@ -132,7 +101,7 @@ public class Patcher {
         }
 
         if (needsTinyRemap) {
-            System.out.println("Remapping Android jar to intermediary names: " + tinyMappings);
+            System.out.println("Remapping " + platform + " jar to intermediary names: " + tinyMappings);
             remapJar(stagedOutputJar, outputJar, tinyMappings);
             Files.deleteIfExists(stagedOutputJar);
         }
@@ -163,9 +132,7 @@ public class Patcher {
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         byte[] buf = new byte[8192];
         int n;
-        while ((n = in.read(buf)) != -1) {
-            bos.write(buf, 0, n);
-        }
+        while ((n = in.read(buf)) != -1) bos.write(buf, 0, n);
         return bos.toByteArray();
     }
 }

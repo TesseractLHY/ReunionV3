@@ -2,6 +2,7 @@
 agp = "9.1.1"
 asm = "9.9.1"
 crosshook = "1.0.0"
+tinyRemapper = "0.12.1"
 
 [libraries]
 asm = { module = "org.ow2.asm:asm", version.ref = "asm" }
@@ -9,6 +10,7 @@ base-patched-android = { module = "cn.tesseract.soviet:base-patched-android", ve
 base-patched-desktop = { module = "cn.tesseract.soviet:base-patched-desktop", version = "1.0" }
 crosshook-android = { module = "cn.tesseract.crosshook:crosshook-android", version.ref = "crosshook" }
 crosshook-desktop = { module = "cn.tesseract.crosshook:crosshook-desktop", version.ref = "crosshook" }
+tiny-remapper = { module = "net.fabricmc:tiny-remapper", version.ref = "tinyRemapper" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

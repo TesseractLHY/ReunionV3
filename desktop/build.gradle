@@ -13,10 +13,10 @@ configurations.configureEach {
 
 dependencies {
     implementation project(':core')
-    runtimeOnly(libs.base.patched.desktop) {
+    implementation(libs.base.patched.desktop) {
         changing = true
     }
-    runtimeOnly libs.crosshook.desktop
+    implementation libs.crosshook.desktop
 }
 
 ext.gameDir = project.findProperty('gameDir') ?: layout.projectDirectory.dir('run').asFile.absolutePath
