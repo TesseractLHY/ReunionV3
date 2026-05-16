@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff000000" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarAlwaysDrawVerticalTrack="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Spawn point:" />
+                <Spinner android:theme="@style/SpinnerTheme" android:entries="@array/team_array" android:id="@id/teamId" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:prompt="@string/spawn_array_prompt" />
+            </LinearLayout>
+            <TextView android:layout_gravity="center_vertical" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="The spawn point controls where on the map this players starts. Most maps use odd/even spawn points" />
+            <LinearLayout android:id="@id/teamAllyGroupWrap" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Team:" />
+                <Spinner android:theme="@style/SpinnerTheme" android:entries="@array/ally_array" android:id="@id/teamAllyGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:prompt="@string/team_array_prompt" />
+            </LinearLayout>
+            <TextView android:layout_gravity="center_vertical" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Players with the same team will be allied together." />
+            <LinearLayout android:orientation="vertical" android:id="@id/playerOverridesSection" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="i:menus.battleroom.gameoptions.playerOverrides" />
+                <TextView android:layout_gravity="center_vertical" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="Optional overrides for this player.." />
+                <LinearLayout android:id="@id/aiDifficultyWrap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="i:menus.battleroom.gameoptions.aiDifficulty" />
+                    <Spinner android:theme="@style/SpinnerTheme" android:entries="@array/aidifficulty_array" android:id="@id/aiDifficulty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:prompt="@string/aidifficulty_prompt" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:id="@id/startingUnitsText" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="i:menus.battleroom.gameoptions.startingUnits" />
+                    <Spinner android:theme="@style/SpinnerTheme" android:entries="@array/startingUnits_array" android:id="@id/startingUnits" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:prompt="@string/startingUnits_prompt" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:id="@id/playerColorText" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="i:menus.battleroom.gameoptions.playerColor" />
+                    <Spinner android:theme="@style/SpinnerTheme" android:id="@id/playerColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@id/battleroom_playerpopup_apply" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="i:menus.battleroom.playerpopup.apply" />
+                <Button android:id="@id/battleroom_playerpopup_kick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="i:menus.battleroom.playerpopup.kick" />
+                <Button android:id="@id/battleroom_playerpopup_give" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="i:menus.battleroom.playerpopup.give" />
+                <Button android:id="@id/battleroom_playerpopup_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="i:menus.battleroom.playerpopup.cancel" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

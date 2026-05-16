@@ -59,6 +59,7 @@ public class Patcher {
             }
         } else {
             //TODO: add desktop patches if needed
+
         }
 
         int total = 0;

@@ -36,7 +36,7 @@ def desktopBaseJar = file("$rootDir/libs/game-lib.jar")
 def desktopTinyMappings = file("$rootDir/libs/desktop.tiny")
 def androidPatchedJar = layout.buildDirectory.file('tmp/android/base-patched.jar')
 def desktopPatchedJar = layout.buildDirectory.file('tmp/desktop/base-patched.jar')
-def androidAarFile = layout.buildDirectory.file('aar/android/base-patched.aar')
+def androidClassesJar = layout.buildDirectory.file('libs/android/classes.jar')
 
 tasks.register('patchAndroidJar', JavaExec) {
     group = 'patcher'
@@ -74,24 +74,17 @@ tasks.register('patchDesktopJar', JavaExec) {
 }
 
 
-tasks.register('buildAndroidAar', Zip) {
+tasks.register('buildAndroidClassesJar', Copy) {
     group = 'patcher'
-    def baseApkDir = file("$rootDir/build/apk")
     inputs.file(androidPatchedJar)
-    inputs.dir(file("$baseApkDir/res"))
-    inputs.dir(file("$baseApkDir/assets"))
-    inputs.file(file("$rootDir/libs/aar/AndroidManifest.xml"))
-    outputs.file(androidAarFile)
-    archiveFileName = androidAarFile.get().asFile.name
-    destinationDirectory = androidAarFile.get().asFile.parentFile
-    from(androidPatchedJar) { rename { 'classes.jar' } }
-    from("$baseApkDir/res") { into 'res'; exclude 'values/public.xml' }
-    from("$baseApkDir/assets") { into 'assets' }
-    from("$rootDir/libs/aar") { include 'AndroidManifest.xml' }
+    outputs.file(androidClassesJar)
+    from(androidPatchedJar)
+    into(androidClassesJar.get().asFile.parentFile)
+    rename { 'classes.jar' }
     dependsOn 'patchAndroidJar'
 }
 
 artifacts {
-    androidPatchedElements(androidAarFile) { builtBy buildAndroidAar }
+    androidPatchedElements(androidClassesJar) { builtBy buildAndroidClassesJar }
     desktopPatchedElements(desktopPatchedJar) { builtBy patchDesktopJar }
 }

@@ -2,6 +2,10 @@ plugins {
     alias(libs.plugins.android.application)
 }
 
+def rootDir = rootProject.rootDir.absolutePath
+def patcherResSourceDir = file("$rootDir/build/apk/res")
+def patcherAssetsSourceDir = file("$rootDir/build/apk/assets")
+
 android {
     namespace 'cn.tesseract.soviet'
     compileSdk {
@@ -28,6 +32,17 @@ android {
     useLibrary 'org.apache.http.legacy'
 }
 
+tasks.register('importPatcherResourcesToSource', Copy) {
+    from(patcherResSourceDir) {
+        into 'res'
+        exclude 'values/public.xml'
+    }
+    from(patcherAssetsSourceDir) {
+        into 'assets'
+    }
+    into("$projectDir/src/main")
+}
+
 dependencies {
     implementation project(':core')
     implementation project(path: ':patcher', configuration: 'androidPatchedElements')
@@ -35,6 +50,6 @@ dependencies {
 }
 
 tasks.named('preBuild').configure {
-    dependsOn ':patcher:buildAndroidAar'
+    dependsOn ':patcher:buildAndroidClassesJar'
 }
 

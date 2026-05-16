@@ -15,6 +15,10 @@ dependencies {
 
 ext.gameDir = project.findProperty('gameDir') ?: layout.projectDirectory.dir('run').asFile.absolutePath
 
+configurations.configureEach {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
 tasks.register('runDesktop', JavaExec) {
     group = 'soviet'
     description = 'Launch modded desktop Rusted Warfare'
