@@ -36,7 +36,6 @@ def desktopBaseJar = file("$rootDir/libs/game-lib.jar")
 def desktopTinyMappings = file("$rootDir/libs/desktop.tiny")
 def androidPatchedJar = layout.buildDirectory.file('tmp/android/base-patched.jar')
 def desktopPatchedJar = layout.buildDirectory.file('tmp/desktop/base-patched.jar')
-def androidClassesJar = layout.buildDirectory.file('libs/android/classes.jar')
 
 tasks.register('patchAndroidJar', JavaExec) {
     group = 'patcher'
@@ -50,7 +49,10 @@ tasks.register('patchAndroidJar', JavaExec) {
     args = [androidBaseJar.absolutePath, androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--remap-ids', androidRTarget.absolutePath, '--tiny-mappings', androidTinyMappings.absolutePath]
     workingDir = rootDir
     doFirst {
-        androidPatchedJar.get().asFile.parentFile.mkdirs()
+        androidPatchedJar.get().asFile.with {
+            parentFile.mkdirs()
+            if (exists()) delete()
+        }
         if (androidRSource.exists() && (!androidRTarget.exists() || androidRSource.lastModified() > androidRTarget.lastModified())) {
             androidRTarget.bytes = androidRSource.bytes
             println "Synced R.txt (${androidRSource.readLines().size()} entries)"
@@ -69,11 +71,14 @@ tasks.register('patchDesktopJar', JavaExec) {
     args = [desktopBaseJar.absolutePath, desktopPatchedJar.get().asFile.absolutePath, '--platform', 'desktop', '--tiny-mappings', desktopTinyMappings.absolutePath]
     workingDir = rootDir
     doFirst {
-        desktopPatchedJar.get().asFile.parentFile.mkdirs()
+        desktopPatchedJar.get().asFile.with {
+            parentFile.mkdirs()
+            if (exists()) delete()
+        }
     }
 }
 
 artifacts {
-    androidPatchedElements(androidClassesJar) { builtBy patchAndroidJar }
+    androidPatchedElements(androidPatchedJar) { builtBy patchAndroidJar }
     desktopPatchedElements(desktopPatchedJar) { builtBy patchDesktopJar }
 }
