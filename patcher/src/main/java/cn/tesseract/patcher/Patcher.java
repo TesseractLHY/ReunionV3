@@ -1,5 +1,7 @@
 package cn.tesseract.patcher;
 
+import net.fabricmc.mappingio.format.enigma.EnigmaDirReader;
+import net.fabricmc.mappingio.tree.MemoryMappingTree;
 import net.fabricmc.tinyremapper.OutputConsumerPath;
 import net.fabricmc.tinyremapper.TinyRemapper;
 import net.fabricmc.tinyremapper.TinyUtils;
@@ -26,7 +28,7 @@ public class Patcher {
 
     public static void main(String[] args) throws Exception {
         if (args.length < 2) {
-            System.out.println("Usage: Patcher <input> <output> [--platform android|desktop] [--remap-ids <rFile>] [--tiny-mappings <tinyFile>]");
+            System.out.println("Usage: Patcher <input> <output> [--platform android|desktop] [--remap-ids <rFile>] [--enigma-dir <enigmaDir>]");
             System.exit(1);
         }
 
@@ -35,14 +37,14 @@ public class Patcher {
 
         Platform platform = Platform.ANDROID;
         Path rFile = null;
-        Path tinyMappings = null;
+        Path enigmaDir = null;
         for (int i = 2; i < args.length; i++) {
             if ("--platform".equals(args[i]) && i + 1 < args.length) {
                 platform = Platform.valueOf(args[++i].trim().toUpperCase(Locale.ROOT));
             } else if ("--remap-ids".equals(args[i]) && i + 1 < args.length) {
                 rFile = Paths.get(args[++i]);
-            } else if ("--tiny-mappings".equals(args[i]) && i + 1 < args.length) {
-                tinyMappings = Paths.get(args[++i]);
+            } else if ("--enigma-dir".equals(args[i]) && i + 1 < args.length) {
+                enigmaDir = Paths.get(args[++i]);
             }
         }
 
@@ -64,8 +66,8 @@ public class Patcher {
 
         int total = 0;
         int patched = 0;
-        boolean needsTinyRemap = tinyMappings != null;
-        Path stagedOutputJar = needsTinyRemap
+        boolean needsRemap = enigmaDir != null;
+        Path stagedOutputJar = needsRemap
                 ? Files.createTempFile(outputJar.toAbsolutePath().getParent(), outputJar.getFileName().toString(), ".staged.jar")
                 : outputJar;
 
@@ -101,18 +103,21 @@ public class Patcher {
             }
         }
 
-        if (needsTinyRemap) {
-            System.out.println("Remapping " + platform + " jar to intermediary names: " + tinyMappings);
-            remapJar(stagedOutputJar, outputJar, tinyMappings);
+        if (needsRemap) {
+            System.out.println("Remapping " + platform + " jar with enigma mappings: " + enigmaDir);
+            remapJar(stagedOutputJar, outputJar, enigmaDir);
             Files.deleteIfExists(stagedOutputJar);
         }
 
         System.out.println("Done. " + patched + " patched, " + total + " total.");
     }
 
-    private static void remapJar(Path inputJar, Path outputJar, Path tinyMappings) throws IOException {
+    private static void remapJar(Path inputJar, Path outputJar, Path enigmaDir) throws IOException {
+        MemoryMappingTree mappingTree = new MemoryMappingTree();
+        EnigmaDirReader.read(enigmaDir, "obf", "named", mappingTree);
+
         TinyRemapper remapper = TinyRemapper.newRemapper()
-                .withMappings(TinyUtils.createTinyMappingProvider(tinyMappings, "official", "intermediary"))
+                .withMappings(TinyUtils.createMappingProvider(mappingTree, "obf", "named"))
                 .build();
 
         try (OutputConsumerPath outputConsumer = new OutputConsumerPath.Builder(outputJar).build()) {

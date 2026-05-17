@@ -13,6 +13,7 @@ java {
 dependencies {
     implementation libs.asm
     implementation libs.tiny.remapper
+    implementation libs.mapping.io
 }
 
 configurations {
@@ -29,25 +30,24 @@ configurations {
 
 def rootDir = project.rootDir.absolutePath
 def androidBaseJar = file("$rootDir/libs/base.jar")
-def androidTinyMappings = file("$rootDir/libs/android.tiny")
+def androidEnigmaDir = file("$rootDir/libs/mappings/android")
 def androidRSource = file("$rootDir/android/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt")
 def androidRTarget = file("$rootDir/build/R.txt")
 def desktopBaseJar = file("$rootDir/libs/game-lib.jar")
-def desktopTinyMappings = file("$rootDir/libs/desktop.tiny")
+def desktopEnigmaDir = file("$rootDir/libs/mappings/desktop")
 def androidPatchedJar = layout.buildDirectory.file('tmp/android/base-patched.jar')
 def desktopPatchedJar = layout.buildDirectory.file('tmp/desktop/base-patched.jar')
 
 tasks.register('patchAndroidJar', JavaExec) {
-    dependsOn 'patchDesktopJar'
     group = 'patcher'
     classpath = sourceSets.main.runtimeClasspath
     mainClass = 'cn.tesseract.patcher.Patcher'
     inputs.files(sourceSets.main.runtimeClasspath)
     inputs.file(androidBaseJar)
-    inputs.file(androidTinyMappings)
+    inputs.dir(androidEnigmaDir)
     outputs.file(androidPatchedJar)
     outputs.file(androidRTarget)
-    args = [androidBaseJar.absolutePath, androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--remap-ids', androidRTarget.absolutePath, '--tiny-mappings', androidTinyMappings.absolutePath]
+    args = [androidBaseJar.absolutePath, androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--remap-ids', androidRTarget.absolutePath, '--enigma-dir', androidEnigmaDir.absolutePath]
     workingDir = rootDir
     doFirst {
         androidPatchedJar.get().asFile.with {
@@ -59,44 +59,6 @@ tasks.register('patchAndroidJar', JavaExec) {
             println "Synced R.txt (${androidRSource.readLines().size()} entries)"
         }
     }
-    /*doLast {
-        def keep = ['com/corrodinggames/rts/game/', 'com/corrodinggames/rts/gameFramework/']
-        def android = androidPatchedJar.get().asFile
-        def desktop = desktopPatchedJar.get().asFile
-        def tmp = file("$rootDir/build/tmp/android-patched.jar")
-        if (android.exists() && desktop.exists()) {
-            tmp.parentFile.mkdirs()
-            tmp.withOutputStream { os ->
-                def zip = new ZipOutputStream(os)
-                def seen = [] as Set
-                def copy = { zin, name ->
-                    zip.putNextEntry(new ZipEntry(name))
-                    byte[] b = new byte[8192]
-                    for (int n = zin.read(b); n != -1; n = zin.read(b)) zip.write(b, 0, n)
-                    zip.closeEntry()
-                }
-                android.withInputStream { ai ->
-                    def zin = new ZipInputStream(ai)
-                    for (def e = zin.nextEntry; e != null; e = zin.nextEntry) {
-                        def n = e.name
-                        if (!(n.endsWith('.class') && keep.any { n.startsWith(it) }) && seen.add(n)) copy(zin, n)
-                    }
-                    zin.close()
-                }
-                desktop.withInputStream { di ->
-                    def zin = new ZipInputStream(di)
-                    for (def e = zin.nextEntry; e != null; e = zin.nextEntry) {
-                        def n = e.name
-                        if (n.endsWith('.class') && keep.any { n.startsWith(it) } && seen.add(n)) copy(zin, n)
-                    }
-                    zin.close()
-                }
-                zip.close()
-            }
-            android.delete()
-            tmp.renameTo(android)
-        }
-    }*/
 }
 
 tasks.register('patchDesktopJar', JavaExec) {
@@ -105,9 +67,9 @@ tasks.register('patchDesktopJar', JavaExec) {
     mainClass = 'cn.tesseract.patcher.Patcher'
     inputs.files(sourceSets.main.runtimeClasspath)
     inputs.file(desktopBaseJar)
-    inputs.file(desktopTinyMappings)
+    inputs.dir(desktopEnigmaDir)
     outputs.file(desktopPatchedJar)
-    args = [desktopBaseJar.absolutePath, desktopPatchedJar.get().asFile.absolutePath, '--platform', 'desktop', '--tiny-mappings', desktopTinyMappings.absolutePath]
+    args = [desktopBaseJar.absolutePath, desktopPatchedJar.get().asFile.absolutePath, '--platform', 'desktop', '--enigma-dir', desktopEnigmaDir.absolutePath]
     workingDir = rootDir
     doFirst {
         desktopPatchedJar.get().asFile.with {

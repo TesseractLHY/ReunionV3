@@ -2,12 +2,14 @@
 agp = "9.1.1"
 asm = "9.9.1"
 crosshook = "1.0.0"
+mappingIo = "0.7.1"
 tinyRemapper = "0.12.1"
 
 [libraries]
 asm = { module = "org.ow2.asm:asm", version.ref = "asm" }
 crosshook-android = { module = "cn.tesseract.crosshook:crosshook-android", version.ref = "crosshook" }
 crosshook-desktop = { module = "cn.tesseract.crosshook:crosshook-desktop", version.ref = "crosshook" }
+mapping-io = { module = "net.fabricmc:mapping-io", version.ref = "mappingIo" }
 tiny-remapper = { module = "net.fabricmc:tiny-remapper", version.ref = "tinyRemapper" }
 
 [plugins]
