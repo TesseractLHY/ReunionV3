@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/appFramework/ac com/corrodinggames/rts/appFramework/class_6
+	FIELD a field_138 Z
+	FIELD b field_139 Lcom/corrodinggames/rts/gameFramework/m/ff;
+	FIELD c field_140 Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD d field_141 I
+	FIELD e field_142 Lcom/corrodinggames/rts/appFramework/GameViewNonSurface;

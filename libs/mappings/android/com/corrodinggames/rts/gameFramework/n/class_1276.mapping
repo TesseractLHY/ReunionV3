@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/n/s com/corrodinggames/rts/gameFramework/n/class_1276
+	FIELD a field_7132 Z
+	FIELD b field_7133 Lcom/corrodinggames/rts/gameFramework/utility/p;
+	FIELD c field_7134 Lcom/corrodinggames/rts/gameFramework/n/p;
+	METHOD a method_3460 (FF)V
+	METHOD a method_3461 (Lcom/corrodinggames/rts/game/units/el;I)V
+	METHOD b method_3462 (Lcom/corrodinggames/rts/game/units/el;I)V
+	METHOD toString toString ()Ljava/lang/String;

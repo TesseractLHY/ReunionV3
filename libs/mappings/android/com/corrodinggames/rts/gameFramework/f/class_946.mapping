@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/gameFramework/f/aw com/corrodinggames/rts/gameFramework/f/class_946
+	FIELD a field_5394 Lcom/corrodinggames/rts/gameFramework/utility/p;
+	FIELD b field_5395 Lcom/corrodinggames/rts/gameFramework/f/aa;
+	METHOD a method_2451 ()V
+	METHOD a method_2452 (J)Lcom/corrodinggames/rts/gameFramework/f/ax;
+	METHOD a method_2453 (Lcom/corrodinggames/rts/game/units/bp;)V
+	METHOD a method_2454 (Lcom/corrodinggames/rts/game/units/ce;)Lcom/corrodinggames/rts/gameFramework/f/ax;
+	METHOD a method_2455 (Lcom/corrodinggames/rts/game/units/ce;Lcom/corrodinggames/rts/game/units/custom/d/b;)V
+	METHOD a method_2456 (Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;Lcom/corrodinggames/rts/game/units/bp;)Z
+	METHOD b method_2457 (Lcom/corrodinggames/rts/game/units/ce;Lcom/corrodinggames/rts/game/units/custom/d/b;)V
+	METHOD c method_2458 (Lcom/corrodinggames/rts/game/units/ce;Lcom/corrodinggames/rts/game/units/custom/d/b;)Z

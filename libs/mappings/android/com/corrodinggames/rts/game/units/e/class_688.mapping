@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/e/m com/corrodinggames/rts/game/units/e/class_688
+	FIELD a field_3892 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b field_3893 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c field_3894 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD d field_3895 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD e field_3896 [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD f field_3897 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD g field_3898 Landroid/graphics/Rect;
+	METHOD b method_1641 ()V

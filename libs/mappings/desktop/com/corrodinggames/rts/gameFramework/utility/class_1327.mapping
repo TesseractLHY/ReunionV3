@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/q com/corrodinggames/rts/gameFramework/utility/class_1327
+	FIELD a field_7324 Lcom/corrodinggames/rts/gameFramework/utility/q;
+	FIELD b field_7325 Lcom/corrodinggames/rts/gameFramework/utility/q;
+	FIELD c field_7326 [Lcom/corrodinggames/rts/gameFramework/utility/q;

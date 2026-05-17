@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/ak com/corrodinggames/rts/gameFramework/utility/class_1303
+	FIELD a field_7265 Ljava/lang/String;
+	FIELD b field_7266 Lcom/corrodinggames/rts/gameFramework/utility/al;
+	METHOD run run ()V

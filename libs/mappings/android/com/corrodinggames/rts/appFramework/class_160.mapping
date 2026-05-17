@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/appFramework/fv com/corrodinggames/rts/appFramework/class_160
+	FIELD a field_456 Landroid/widget/Spinner;
+	FIELD b field_457 Landroid/widget/Spinner;
+	FIELD c field_458 Landroid/widget/Spinner;
+	FIELD d field_459 Landroid/widget/Spinner;
+	FIELD e field_460 Landroid/widget/CheckBox;
+	FIELD f field_461 Landroid/widget/CheckBox;
+	FIELD g field_462 Landroid/widget/Spinner;
+	FIELD h field_463 Landroid/widget/Spinner;
+	FIELD i field_464 Landroid/app/Dialog;
+	FIELD j field_465 Lcom/corrodinggames/rts/appFramework/ft;
+	METHOD onClick onClick (Landroid/view/View;)V

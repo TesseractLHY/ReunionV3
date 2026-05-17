@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/units/bu com/corrodinggames/rts/game/units/class_414
+	FIELD a field_1827 F
+	FIELD b field_1828 F
+	FIELD c field_1829 Lcom/corrodinggames/rts/game/units/custom/h;
+	FIELD d field_1830 F
+	FIELD e field_1831 Lcom/corrodinggames/rts/game/units/ce;
+	FIELD f field_1832 Z
+	FIELD g field_1833 Z

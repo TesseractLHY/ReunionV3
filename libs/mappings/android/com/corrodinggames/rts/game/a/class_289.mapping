@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/a/s com/corrodinggames/rts/game/a/class_289
+	METHOD a method_247 (Lcom/corrodinggames/rts/game/units/bp;)Z
+	METHOD a method_248 (Lcom/corrodinggames/rts/game/units/bp;Lcom/corrodinggames/rts/game/units/custom/a/e;)Lcom/corrodinggames/rts/game/units/a/s;
+	METHOD a method_249 (Ljava/util/AbstractList;)Ljava/lang/Object;

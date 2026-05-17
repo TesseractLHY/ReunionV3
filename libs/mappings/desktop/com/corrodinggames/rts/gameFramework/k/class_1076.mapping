@@ -1,0 +1,17 @@
+CLASS com/corrodinggames/rts/gameFramework/k/p com/corrodinggames/rts/gameFramework/k/class_1076
+	FIELD a field_6642 S
+	FIELD b field_6643 S
+	METHOD a method_3172 (Lcom/corrodinggames/rts/gameFramework/k/n;)Lcom/corrodinggames/rts/gameFramework/k/p;
+	METHOD a method_3173 (Lcom/corrodinggames/rts/gameFramework/k/o;)I
+	METHOD a method_3174 (Lcom/corrodinggames/rts/gameFramework/k/o;B)I
+	METHOD a method_3175 (Lcom/corrodinggames/rts/gameFramework/k/o;BB)V
+	METHOD a method_3176 (Lcom/corrodinggames/rts/gameFramework/k/o;BI)V
+	METHOD a method_3177 (Lcom/corrodinggames/rts/gameFramework/k/o;BLcom/corrodinggames/rts/gameFramework/k/p;)Z
+	METHOD a method_3178 (Lcom/corrodinggames/rts/gameFramework/k/o;BZ)V
+	METHOD a method_3179 (Lcom/corrodinggames/rts/gameFramework/k/p;)Lcom/corrodinggames/rts/gameFramework/k/p;
+	METHOD a method_3180 (SS)Lcom/corrodinggames/rts/gameFramework/k/p;
+	METHOD b method_3181 (Lcom/corrodinggames/rts/gameFramework/k/o;B)Z
+	METHOD c method_3182 (Lcom/corrodinggames/rts/gameFramework/k/o;B)B
+	METHOD d method_3183 (Lcom/corrodinggames/rts/gameFramework/k/o;B)Z
+	METHOD e method_3185 (Lcom/corrodinggames/rts/gameFramework/k/o;B)Z
+	METHOD f method_3186 (Lcom/corrodinggames/rts/gameFramework/k/o;B)Lcom/corrodinggames/rts/gameFramework/k/p;

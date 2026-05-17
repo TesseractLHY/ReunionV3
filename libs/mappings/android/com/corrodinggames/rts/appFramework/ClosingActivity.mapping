@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/ClosingActivity
+	METHOD onCreate onCreate (Landroid/os/Bundle;)V
+	METHOD onResume onResume ()V

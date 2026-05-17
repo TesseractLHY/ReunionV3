@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/j/f
+	METHOD a method_2855 (F)V
+	METHOD a method_2883 (I)V
+	METHOD a method_2878 (Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD a method_2888 (Ljava/lang/String;)V
+	METHOD a method_2872 (Ljava/lang/String;Z)V
+	METHOD a method_2873 (S)V
+	METHOD a method_2874 (Z)V

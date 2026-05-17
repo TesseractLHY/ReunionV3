@@ -1,0 +1,16 @@
+CLASS com/corrodinggames/rts/appFramework/GenericFileProvider
+	FIELD a field_130 [Ljava/lang/String;
+	FIELD b field_131 Ljava/io/File;
+	FIELD c field_132 Ljava/util/HashMap;
+	FIELD d field_133 Lcom/corrodinggames/rts/appFramework/ai;
+	METHOD a method_97 (Landroid/content/Context;Ljava/lang/String;)Lcom/corrodinggames/rts/appFramework/ai;
+	METHOD a method_98 (Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;
+	METHOD a method_99 (Ljava/io/File;[Ljava/lang/String;)Ljava/io/File;
+	METHOD attachInfo attachInfo (Landroid/content/Context;Landroid/content/pm/ProviderInfo;)V
+	METHOD delete delete (Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I
+	METHOD getType getType (Landroid/net/Uri;)Ljava/lang/String;
+	METHOD insert insert (Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
+	METHOD onCreate onCreate ()Z
+	METHOD openFile openFile (Landroid/net/Uri;Ljava/lang/String;)Landroid/os/ParcelFileDescriptor;
+	METHOD query query (Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+	METHOD update update (Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I

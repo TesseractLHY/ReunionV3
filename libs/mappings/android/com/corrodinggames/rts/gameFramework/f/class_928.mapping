@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/f/ae com/corrodinggames/rts/gameFramework/f/class_928
+	FIELD a field_5338 Lcom/corrodinggames/rts/gameFramework/by;
+	FIELD b field_5339 I
+	FIELD c field_5340 I
+	FIELD d field_5341 I
+	FIELD e field_5342 Ljava/util/ArrayList;
+	METHOD a method_2427 (Ljava/util/ArrayList;)V

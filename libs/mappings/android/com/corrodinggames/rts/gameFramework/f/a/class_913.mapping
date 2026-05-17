@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/gameFramework/f/a/e com/corrodinggames/rts/gameFramework/f/a/class_913
+	FIELD a field_5243 I
+	FIELD b field_5244 I
+	FIELD c field_5245 F
+	FIELD d field_5246 F
+	FIELD e field_5247 Z
+	FIELD f field_5248 Z
+	FIELD g field_5249 F
+	FIELD h field_5250 Landroid/graphics/Rect;
+	FIELD i field_5251 Landroid/graphics/Rect;
+	METHOD a method_2389 ()Lcom/corrodinggames/rts/gameFramework/f/a/e;
+	METHOD a method_2390 (Lcom/corrodinggames/rts/gameFramework/m/fi;Lcom/corrodinggames/rts/gameFramework/m/e;Landroid/graphics/Paint;IIIIFFFF)V
+	METHOD a method_2391 (Lcom/corrodinggames/rts/gameFramework/m/fi;Lcom/corrodinggames/rts/gameFramework/m/e;Landroid/graphics/Paint;IIIIFFFFZ)V
+	METHOD clone clone ()Ljava/lang/Object;

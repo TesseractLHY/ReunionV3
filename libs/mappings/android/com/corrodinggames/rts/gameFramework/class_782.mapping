@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/gameFramework/aq com/corrodinggames/rts/gameFramework/class_782
+	FIELD a field_4319 I
+	FIELD b field_4320 I
+	FIELD c field_4321 Z
+	FIELD d field_4322 Z
+	METHOD a method_1815 ()Z
+	METHOD b method_1816 ()Z
+	METHOD c method_1817 ()Ljava/lang/String;
+	METHOD d method_1818 ()Z

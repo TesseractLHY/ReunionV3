@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/gameFramework/ab com/corrodinggames/rts/gameFramework/class_778
+	FIELD a field_4240 Lcom/corrodinggames/rts/gameFramework/utility/m;
+	FIELD c field_4242 F
+	FIELD d field_4243 F
+	FIELD e field_4244 I
+	FIELD f field_4245 Z
+	FIELD g field_4246 Lcom/corrodinggames/rts/gameFramework/utility/m;
+	FIELD h field_4247 Lcom/corrodinggames/rts/gameFramework/aa;
+	METHOD a method_1799 ()V
+	METHOD a method_1794 (Lcom/corrodinggames/rts/game/units/y;)V
+	METHOD a method_1795 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/au;)V
+	METHOD a method_1796 (Lcom/corrodinggames/rts/gameFramework/utility/m;FFZ)Lcom/corrodinggames/rts/game/units/y;
+	METHOD a method_1797 (Lcom/corrodinggames/rts/gameFramework/utility/m;Lcom/corrodinggames/rts/game/units/y;ZZ)Lcom/corrodinggames/rts/gameFramework/utility/m;
+	METHOD b method_1793 ()V
+	METHOD c method_1798 ()V

@@ -1,0 +1,19 @@
+CLASS com/corrodinggames/rts/appFramework/android/AndroidSAF
+	FIELD globalLock globalLock Ljava/lang/Object;
+	FIELD instance instance Lcom/corrodinggames/rts/appFramework/android/AndroidSAF;
+	FIELD TAG TAG Ljava/lang/String;
+	FIELD useGlobalLocking useGlobalLocking Z
+	METHOD closeQuietly closeQuietly (Ljava/lang/AutoCloseable;)V
+	METHOD createDirectory createDirectory (Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
+	METHOD createFile createFile (Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
+	METHOD createTextFile createTextFile (Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
+	METHOD getFileSize getFileSize (Landroid/content/Context;Landroid/net/Uri;)J
+	METHOD getInstance getInstance ()Lcom/corrodinggames/rts/appFramework/android/AndroidSAF;
+	METHOD getLockObject getLockObject ()Ljava/lang/Object;
+	METHOD getParcelFileDescriptor getParcelFileDescriptor (Landroid/content/Context;Landroid/net/Uri;)Landroid/os/ParcelFileDescriptor;
+	METHOD getRawType getRawType (Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
+	METHOD log log (Ljava/lang/String;)V
+	METHOD queryForLong queryForLong (Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;J)J
+	METHOD queryForString queryForString (Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD setGlobalLocking setGlobalLocking (Z)V
+	METHOD writeStdOut writeStdOut (Ljava/lang/String;)V

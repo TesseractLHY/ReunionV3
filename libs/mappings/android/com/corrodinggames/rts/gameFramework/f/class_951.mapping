@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/f/ba com/corrodinggames/rts/gameFramework/f/class_951
+	FIELD a field_5405 Lcom/corrodinggames/rts/game/units/el;
+	FIELD b field_5406 I

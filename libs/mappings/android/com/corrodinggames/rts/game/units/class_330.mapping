@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/game/units/a com/corrodinggames/rts/game/units/class_330
+	FIELD a field_1510 Lcom/corrodinggames/rts/game/units/a;
+	FIELD b field_1511 Lcom/corrodinggames/rts/game/units/a;
+	FIELD c field_1512 Lcom/corrodinggames/rts/game/units/a;
+	FIELD d field_1513 Lcom/corrodinggames/rts/game/units/a;
+	FIELD e field_1514 Lcom/corrodinggames/rts/game/units/a;
+	FIELD f field_1515 Lcom/corrodinggames/rts/game/units/a;
+	FIELD g field_1516 Lcom/corrodinggames/rts/game/units/a;
+	FIELD h field_1517 [Lcom/corrodinggames/rts/game/units/a;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/a;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/a;

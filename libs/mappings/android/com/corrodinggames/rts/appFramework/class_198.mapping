@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/hf com/corrodinggames/rts/appFramework/class_198
+	FIELD a field_525 Lcom/corrodinggames/rts/appFramework/ReplaySelectActivity;
+	METHOD run run ()V

@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/ia com/corrodinggames/rts/appFramework/class_220
+	FIELD a field_555 Lcom/corrodinggames/rts/appFramework/hz;
+	METHOD onClick onClick (Landroid/content/DialogInterface;I)V

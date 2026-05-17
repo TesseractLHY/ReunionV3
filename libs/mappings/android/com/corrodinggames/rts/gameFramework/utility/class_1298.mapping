@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/af com/corrodinggames/rts/gameFramework/utility/class_1298
+	FIELD a field_7256 Ljava/lang/String;
+	FIELD b field_7257 Ljava/lang/String;
+	METHOD a method_3587 ()Ljava/lang/String;
+	METHOD b method_3588 ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/gameFramework/g/f com/corrodinggames/rts/gameFramework/g/class_986
+	FIELD a field_5761 Lcom/corrodinggames/rts/gameFramework/g/f;
+	FIELD b field_5762 Lcom/corrodinggames/rts/gameFramework/g/f;
+	FIELD c field_5763 Lcom/corrodinggames/rts/gameFramework/g/f;
+	FIELD d field_5764 Lcom/corrodinggames/rts/gameFramework/g/f;
+	FIELD e field_5765 Lcom/corrodinggames/rts/gameFramework/g/f;
+	FIELD f field_5766 Lcom/corrodinggames/rts/gameFramework/g/f;
+	FIELD g field_5767 [Lcom/corrodinggames/rts/gameFramework/g/f;
+	METHOD a method_2630 (Lcom/corrodinggames/rts/game/n;)I

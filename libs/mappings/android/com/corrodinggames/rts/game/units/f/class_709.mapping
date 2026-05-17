@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/units/f/a com/corrodinggames/rts/game/units/f/class_709
+	FIELD a field_3977 Lcom/corrodinggames/rts/game/units/f/b;
+	FIELD b field_3978 [Lcom/corrodinggames/rts/game/units/f/b;
+	FIELD c field_3979 Lcom/corrodinggames/rts/game/units/f/b;
+	FIELD d field_3980 Lcom/corrodinggames/rts/game/units/f/b;
+	FIELD e field_3981 F
+	METHOD a method_1698 (Lcom/corrodinggames/rts/game/units/ce;)V
+	METHOD b method_1699 (Lcom/corrodinggames/rts/game/units/ce;)V

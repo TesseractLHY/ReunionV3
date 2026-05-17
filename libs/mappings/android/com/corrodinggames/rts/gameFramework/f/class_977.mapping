@@ -1,0 +1,26 @@
+CLASS com/corrodinggames/rts/gameFramework/f/y com/corrodinggames/rts/gameFramework/f/class_977
+	FIELD a field_5744 Ljava/util/ArrayList;
+	METHOD add add (I)Landroid/view/MenuItem;
+	METHOD add add (IIII)Landroid/view/MenuItem;
+	METHOD add add (IIILjava/lang/CharSequence;)Landroid/view/MenuItem;
+	METHOD add add (Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+	METHOD addIntentOptions addIntentOptions (IIILandroid/content/ComponentName;[Landroid/content/Intent;Landroid/content/Intent;I[Landroid/view/MenuItem;)I
+	METHOD addSubMenu addSubMenu (I)Landroid/view/SubMenu;
+	METHOD addSubMenu addSubMenu (IIII)Landroid/view/SubMenu;
+	METHOD addSubMenu addSubMenu (IIILjava/lang/CharSequence;)Landroid/view/SubMenu;
+	METHOD addSubMenu addSubMenu (Ljava/lang/CharSequence;)Landroid/view/SubMenu;
+	METHOD clear clear ()V
+	METHOD close close ()V
+	METHOD findItem findItem (I)Landroid/view/MenuItem;
+	METHOD getItem getItem (I)Landroid/view/MenuItem;
+	METHOD hasVisibleItems hasVisibleItems ()Z
+	METHOD isShortcutKey isShortcutKey (ILandroid/view/KeyEvent;)Z
+	METHOD performIdentifierAction performIdentifierAction (II)Z
+	METHOD performShortcut performShortcut (ILandroid/view/KeyEvent;I)Z
+	METHOD removeGroup removeGroup (I)V
+	METHOD removeItem removeItem (I)V
+	METHOD setGroupCheckable setGroupCheckable (IZZ)V
+	METHOD setGroupEnabled setGroupEnabled (IZ)V
+	METHOD setGroupVisible setGroupVisible (IZ)V
+	METHOD setQwertyMode setQwertyMode (Z)V
+	METHOD size size ()I

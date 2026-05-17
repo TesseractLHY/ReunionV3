@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/d/d com/corrodinggames/rts/game/units/custom/d/class_554
+	FIELD a field_2951 Lcom/corrodinggames/rts/game/units/custom/e/a;
+	FIELD b field_2952 D
+	FIELD c field_2953 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;

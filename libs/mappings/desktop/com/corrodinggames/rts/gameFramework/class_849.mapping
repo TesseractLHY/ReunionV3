@@ -1,0 +1,16 @@
+CLASS com/corrodinggames/rts/gameFramework/ap com/corrodinggames/rts/gameFramework/class_849
+	FIELD a field_4684 Landroid/media/MediaPlayer;
+	FIELD b field_4685 Lcom/corrodinggames/rts/gameFramework/ao;
+	FIELD c field_4686 Lcom/corrodinggames/rts/gameFramework/an;
+	METHOD a method_2000 ()V
+	METHOD a method_2001 (F)V
+	METHOD a method_2002 (Lcom/corrodinggames/rts/gameFramework/ar;)V
+	METHOD a method_2003 (Z)V
+	METHOD b method_2004 ()V
+	METHOD c method_2005 ()Z
+	METHOD d method_2006 ()V
+	METHOD e method_2007 ()V
+	CLASS 1 class_850
+		FIELD a field_4687 Lcom/corrodinggames/rts/gameFramework/ap;
+	CLASS 2 class_851
+		FIELD a field_4688 Lcom/corrodinggames/rts/gameFramework/ap;

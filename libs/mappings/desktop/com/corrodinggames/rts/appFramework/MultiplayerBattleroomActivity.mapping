@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/appFramework/n com/corrodinggames/rts/appFramework/MultiplayerBattleroomActivity
+	FIELD c lastLoaded Lcom/corrodinggames/rts/appFramework/n;
+	METHOD a askPasswordInternal (Lcom/corrodinggames/rts/gameFramework/j/ae;)V
+	METHOD d addMessageToChatLog (Ljava/lang/String;)V
+	METHOD n refreshChatLogDirect ()V
+	METHOD o updateUI ()V
+	METHOD p startGame ()V
+	METHOD q warnIfTeamsUneven ()V
+	METHOD r startGameCommon ()V

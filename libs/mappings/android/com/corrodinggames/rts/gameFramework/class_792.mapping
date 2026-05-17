@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/b com/corrodinggames/rts/gameFramework/class_792
+	FIELD a field_4372 B
+	FIELD b field_4373 Ljava/util/HashMap;
+	METHOD a method_1833 (Lcom/corrodinggames/rts/gameFramework/b;)V

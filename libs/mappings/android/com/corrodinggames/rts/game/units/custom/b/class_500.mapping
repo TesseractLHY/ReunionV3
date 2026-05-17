@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/custom/b/h com/corrodinggames/rts/game/units/custom/b/class_500
+	FIELD a field_2576 Lcom/corrodinggames/rts/game/units/custom/b/a;
+	FIELD b field_2577 Landroid/graphics/Rect;
+	FIELD c field_2578 Landroid/graphics/RectF;
+	FIELD d field_2579 Landroid/graphics/Paint;
+	METHOD a method_1196 (Lcom/corrodinggames/rts/game/units/custom/j;ZZ)V

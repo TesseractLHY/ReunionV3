@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/gameFramework/f/ai com/corrodinggames/rts/gameFramework/f/class_932
+	METHOD a method_2440 (Landroid/graphics/Paint;)I

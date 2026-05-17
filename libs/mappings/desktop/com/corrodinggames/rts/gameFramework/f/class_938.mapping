@@ -1,0 +1,22 @@
+CLASS com/corrodinggames/rts/gameFramework/f/al com/corrodinggames/rts/gameFramework/f/class_938
+	FIELD a field_5379 Lcom/corrodinggames/rts/gameFramework/f/al;
+	FIELD b field_5380 Lcom/corrodinggames/rts/gameFramework/f/al;
+	FIELD c field_5381 Lcom/corrodinggames/rts/gameFramework/f/al;
+	FIELD d field_5382 Lcom/corrodinggames/rts/gameFramework/f/al;
+	FIELD e field_5383 Lcom/corrodinggames/rts/gameFramework/f/al;
+	FIELD f field_5384 Lcom/corrodinggames/rts/gameFramework/f/al;
+	METHOD a method_2445 (Lcom/corrodinggames/rts/game/units/y;)Z
+	METHOD a method_2446 (Ljava/util/ArrayList;Lcom/corrodinggames/rts/gameFramework/f/al;)Lcom/corrodinggames/rts/game/units/y;
+	METHOD a method_2447 (Ljava/util/ArrayList;Lcom/corrodinggames/rts/gameFramework/f/al;Lcom/corrodinggames/rts/gameFramework/f/al;)V
+	CLASS 1 class_939
+		METHOD a method_2445 (Lcom/corrodinggames/rts/game/units/y;)Z
+	CLASS 2 class_940
+		METHOD a method_2445 (Lcom/corrodinggames/rts/game/units/y;)Z
+	CLASS 3 class_941
+		METHOD a method_2445 (Lcom/corrodinggames/rts/game/units/y;)Z
+	CLASS 4 class_942
+		METHOD a method_2445 (Lcom/corrodinggames/rts/game/units/y;)Z
+	CLASS 5 class_943
+		METHOD a method_2445 (Lcom/corrodinggames/rts/game/units/y;)Z
+	CLASS 6 class_944
+		METHOD a method_2445 (Lcom/corrodinggames/rts/game/units/y;)Z

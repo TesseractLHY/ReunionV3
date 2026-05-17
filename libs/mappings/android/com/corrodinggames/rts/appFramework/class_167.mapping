@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/appFramework/gb com/corrodinggames/rts/appFramework/class_167
+	FIELD a field_472 Ljava/lang/String;
+	FIELD b field_473 Ljava/lang/String;
+	FIELD c field_474 Ljava/lang/Integer;
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/ab com/corrodinggames/rts/game/units/class_358
+	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/k/m com/corrodinggames/rts/gameFramework/k/class_1074
+	FIELD a field_6609 S
+	FIELD b field_6610 S
+	FIELD c field_6611 I
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD toString toString ()Ljava/lang/String;

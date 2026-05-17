@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/f/w com/corrodinggames/rts/gameFramework/f/class_978
+	FIELD a field_5745 Ljava/lang/CharSequence;
+	FIELD b field_5746 Landroid/graphics/drawable/Drawable;

@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/i com/corrodinggames/rts/game/units/custom/a/a/class_453
+	FIELD a field_2192 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$MemoryWriter;
+	FIELD b field_2193 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD c field_2194 Lcom/corrodinggames/rts/game/units/custom/h;
+	METHOD a method_1101 (Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ae;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/a/d;)V

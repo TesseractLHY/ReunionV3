@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/gameFramework/e/g com/corrodinggames/rts/gameFramework/e/class_905
+	FIELD a field_5129 Z
+	METHOD a method_2224 ()Ljava/lang/String;
+	METHOD a method_2225 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a method_2226 (Ljava/lang/String;C)Ljava/lang/String;
+	METHOD a method_2227 (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a method_2228 (Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;)Z
+	METHOD a method_2229 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD a method_2230 (Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
+	METHOD b method_2231 ()Ljava/lang/String;
+	METHOD b method_2232 (Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+	METHOD b method_2233 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/e/h;
+	METHOD c method_2234 (Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD d method_2235 (Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD e method_2236 (Ljava/lang/String;Ljava/lang/String;)Ljava/io/FileInputStream;

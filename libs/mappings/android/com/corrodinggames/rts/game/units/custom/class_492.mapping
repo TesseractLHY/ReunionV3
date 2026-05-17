@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/custom/b com/corrodinggames/rts/game/units/custom/class_492
+	FIELD e field_2483 Lcom/corrodinggames/rts/game/units/custom/z;
+	FIELD f field_2484 F
+	FIELD g field_2485 F
+	FIELD h field_2486 Z
+	METHOD finalize finalize ()V

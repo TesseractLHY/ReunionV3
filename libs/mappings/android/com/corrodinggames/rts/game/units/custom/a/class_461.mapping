@@ -1,0 +1,16 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/c com/corrodinggames/rts/game/units/custom/a/class_461
+	FIELD b field_2255 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD c field_2256 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD d field_2257 Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD e field_2258 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD f field_2259 Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD g field_2260 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD h field_2261 Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD i field_2262 Z
+	FIELD j field_2263 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD k field_2264 Lcom/corrodinggames/rts/game/units/custom/d/b;
+	FIELD l field_2265 Lcom/corrodinggames/rts/game/units/custom/d/b;
+	FIELD m field_2266 Lcom/corrodinggames/rts/game/units/custom/d/b;
+	METHOD a method_1106 (Lcom/corrodinggames/rts/game/units/ce;I)Z
+	METHOD a method_1107 (Lcom/corrodinggames/rts/game/units/custom/a/d;)Lcom/corrodinggames/rts/game/units/a/a;
+	METHOD a method_1108 (Lcom/corrodinggames/rts/game/units/custom/p;)Lcom/corrodinggames/rts/game/units/a/a;

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/f/e com/corrodinggames/rts/game/units/custom/f/class_574
+	FIELD a field_3070 Ljava/util/HashMap;
+	METHOD a method_1395 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a method_1396 (Ljava/lang/String;Ljava/lang/String;)V

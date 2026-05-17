@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/j/ap com/corrodinggames/rts/gameFramework/j/class_1012
+	FIELD a field_6007 Z
+	FIELD b field_6008 Ljava/net/DatagramSocket;
+	FIELD c field_6009 Ljava/util/Timer;
+	FIELD d field_6010 Lcom/corrodinggames/rts/gameFramework/j/ae;
+	METHOD run run ()V

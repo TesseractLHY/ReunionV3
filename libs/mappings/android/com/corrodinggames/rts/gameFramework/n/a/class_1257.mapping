@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/n/a/b com/corrodinggames/rts/gameFramework/n/a/class_1257
+	FIELD a field_7043 Lcom/corrodinggames/rts/game/p;
+	FIELD b field_7044 Lcom/corrodinggames/rts/game/units/custom/g;
+	METHOD b method_3432 (Lcom/corrodinggames/rts/gameFramework/n/a;)Lcom/corrodinggames/rts/gameFramework/n/a/b;

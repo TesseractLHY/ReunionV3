@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/b/b com/corrodinggames/rts/game/units/b/class_385
+	FIELD h field_1623 F
+	FIELD i field_1624 Z
+	FIELD j field_1625 F
+	FIELD k field_1626 Ljava/lang/Boolean;
+	FIELD l field_1627 Ljava/lang/Boolean;
+	FIELD m field_1628 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD n field_1629 [Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD L method_652 ()V

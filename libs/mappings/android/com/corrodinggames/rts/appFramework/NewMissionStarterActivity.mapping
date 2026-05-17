@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/appFramework/NewMissionStarterActivity
+	METHOD onCreate onCreate (Landroid/os/Bundle;)V
+	METHOD onResume onResume ()V
+	METHOD onStop onStop ()V
+	METHOD setup setup ()V

@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/appFramework/hi com/corrodinggames/rts/appFramework/class_201
+	FIELD a field_528 Landroid/widget/EditText;
+	FIELD b field_529 Ljava/lang/String;
+	FIELD c field_530 Lcom/corrodinggames/rts/appFramework/ReplaySelectActivity;
+	METHOD onClick onClick (Landroid/content/DialogInterface;I)V

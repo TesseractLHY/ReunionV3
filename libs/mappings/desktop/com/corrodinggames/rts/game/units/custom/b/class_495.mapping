@@ -1,0 +1,21 @@
+CLASS com/corrodinggames/rts/game/units/custom/b/c com/corrodinggames/rts/game/units/custom/b/class_495
+	FIELD a field_2488 Landroid/graphics/Paint;
+	FIELD b field_2489 Lcom/corrodinggames/rts/gameFramework/m/ag;
+	FIELD c field_2490 Lcom/corrodinggames/rts/gameFramework/utility/m;
+	FIELD d field_2491 Lcom/corrodinggames/rts/gameFramework/utility/m;
+	FIELD e field_2492 Lcom/corrodinggames/rts/gameFramework/utility/m;
+	FIELD f field_2493 Lcom/corrodinggames/rts/gameFramework/utility/m;
+	FIELD g field_2494 Lcom/corrodinggames/rts/gameFramework/utility/m;
+	FIELD h field_2495 Z
+	FIELD j field_2497 Lcom/corrodinggames/rts/game/units/custom/b/g;
+	FIELD k field_2498 Landroid/graphics/Rect;
+	FIELD l field_2499 Landroid/graphics/RectF;
+	METHOD a method_1179 (Lcom/corrodinggames/rts/game/units/custom/j;)V
+	METHOD a method_1191 (Lcom/corrodinggames/rts/game/units/custom/j;FLcom/corrodinggames/rts/game/units/custom/b/f;Lcom/corrodinggames/rts/gameFramework/utility/m;Landroid/graphics/PointF;)V
+	METHOD a method_1192 (Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ab;)V
+	METHOD a method_1193 (Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/b/g;
+	METHOD b method_1182 (Lcom/corrodinggames/rts/game/units/custom/j;F)V
+	METHOD c method_1185 (Lcom/corrodinggames/rts/game/units/custom/j;F)V
+	METHOD d method_1186 (Lcom/corrodinggames/rts/game/units/custom/j;F)V
+	METHOD e method_1187 (Lcom/corrodinggames/rts/game/units/custom/j;F)V
+	METHOD f method_1188 (Lcom/corrodinggames/rts/game/units/custom/j;F)V

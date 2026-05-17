@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/f com/corrodinggames/rts/game/units/custom/a/class_464
+	FIELD a field_2367 Lcom/corrodinggames/rts/game/units/custom/a/f;
+	FIELD b field_2368 Lcom/corrodinggames/rts/game/units/custom/a/f;
+	FIELD c field_2369 Lcom/corrodinggames/rts/game/units/custom/a/f;
+	FIELD d field_2370 [Lcom/corrodinggames/rts/game/units/custom/a/f;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/a/f;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/custom/a/f;

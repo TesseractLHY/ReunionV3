@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/gameFramework/f/n com/corrodinggames/rts/gameFramework/f/class_966
+	FIELD a field_5633 Landroid/graphics/Paint;
+	FIELD b field_5634 Ljava/lang/String;
+	FIELD c field_5635 I
+	FIELD d field_5636 F
+	FIELD e field_5637 Landroid/graphics/Paint;
+	FIELD f field_5638 Ljava/lang/String;
+	FIELD g field_5639 I
+	FIELD h field_5640 F

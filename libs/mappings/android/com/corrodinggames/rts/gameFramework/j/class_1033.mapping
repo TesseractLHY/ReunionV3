@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/j/bj com/corrodinggames/rts/gameFramework/j/class_1033
+	FIELD a field_6128 Z
+	FIELD b field_6129 J
+	FIELD c field_6130 Lcom/corrodinggames/rts/gameFramework/j/ae;
+	METHOD run run ()V

@@ -1,0 +1,16 @@
+CLASS com/corrodinggames/rts/gameFramework/at com/corrodinggames/rts/gameFramework/class_855
+	FIELD a field_4691 Lcom/corrodinggames/rts/gameFramework/at;
+	FIELD b field_4692 Lcom/corrodinggames/rts/gameFramework/at;
+	FIELD c field_4693 Lcom/corrodinggames/rts/gameFramework/at;
+	FIELD d field_4694 [Ljava/lang/String;
+	FIELD e field_4695 [Lcom/corrodinggames/rts/gameFramework/at;
+	METHOD a method_2011 ()V
+	METHOD a method_2009 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c method_2008 ()V
+	METHOD d method_2010 ()Ljava/lang/String;
+	CLASS 1 class_856
+		METHOD d method_2010 ()Ljava/lang/String;
+	CLASS 2 class_857
+		METHOD d method_2010 ()Ljava/lang/String;
+	CLASS 3 class_858
+		METHOD d method_2010 ()Ljava/lang/String;

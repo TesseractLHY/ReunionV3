@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/cu com/corrodinggames/rts/appFramework/class_78
+	FIELD a field_260 Lcom/corrodinggames/rts/appFramework/MainMenuActivity;
+	METHOD onClick onClick (Landroid/content/DialogInterface;I)V

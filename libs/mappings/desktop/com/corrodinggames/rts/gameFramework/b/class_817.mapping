@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/gameFramework/b/ah com/corrodinggames/rts/gameFramework/b/class_817
+	FIELD l field_4517 Ljava/util/HashMap;
+	FIELD m field_4518 Landroid/graphics/Bitmap;
+	FIELD n field_4519 I
+	FIELD o field_4520 Lcom/corrodinggames/rts/gameFramework/b/ai;
+	FIELD p field_4521 Z
+	METHOD b method_1895 ()I
+	METHOD b method_1890 (I)V
+	METHOD b method_1897 (Lcom/corrodinggames/rts/gameFramework/b/k;)V
+	METHOD c method_1898 ()I
+	METHOD c method_1899 (Lcom/corrodinggames/rts/gameFramework/b/k;)Z
+	METHOD g method_1902 ()I
+	METHOD h method_1903 ()I
+	METHOD k method_1875 ()Landroid/graphics/Bitmap;
+	METHOD n method_1877 ()Landroid/graphics/Bitmap;

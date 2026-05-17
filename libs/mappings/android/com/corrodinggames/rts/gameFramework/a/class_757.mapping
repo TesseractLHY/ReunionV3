@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/a/a com/corrodinggames/rts/gameFramework/a/class_757
+	FIELD a field_4141 Ljava/util/concurrent/LinkedBlockingQueue;
+	FIELD b field_4142 I
+	FIELD c field_4143 Lcom/corrodinggames/rts/gameFramework/utility/ag;
+	FIELD d field_4144 Lcom/corrodinggames/rts/gameFramework/a/d;
+	FIELD e field_4145 I
+	FIELD f field_4146 Landroid/content/Context;
+	FIELD g field_4147 Landroid/media/SoundPool;

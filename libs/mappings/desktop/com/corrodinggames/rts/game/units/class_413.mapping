@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/game/units/ab com/corrodinggames/rts/game/units/class_413
+	FIELD a field_1818 Lcom/corrodinggames/rts/game/units/ab;
+	FIELD b field_1819 Lcom/corrodinggames/rts/game/units/ab;
+	FIELD c field_1820 Lcom/corrodinggames/rts/game/units/ab;
+	FIELD d field_1821 Lcom/corrodinggames/rts/game/units/ab;
+	FIELD e field_1822 Lcom/corrodinggames/rts/game/units/ab;
+	FIELD f field_1823 Lcom/corrodinggames/rts/game/units/ab;
+	FIELD g field_1824 Lcom/corrodinggames/rts/game/units/ab;
+	FIELD h field_1825 Lcom/corrodinggames/rts/game/units/ab;
+	FIELD i field_1826 [Lcom/corrodinggames/rts/game/units/ab;

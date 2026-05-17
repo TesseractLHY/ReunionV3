@@ -1,0 +1,18 @@
+CLASS com/corrodinggames/rts/gameFramework/m/o com/corrodinggames/rts/gameFramework/m/class_1242
+	FIELD a field_6927 Lcom/corrodinggames/rts/gameFramework/m/l;
+	FIELD b field_6928 Lcom/corrodinggames/rts/gameFramework/m/l;
+	FIELD c field_6929 Lcom/corrodinggames/rts/gameFramework/m/fi;
+	FIELD d field_6930 I
+	FIELD e field_6931 Lcom/corrodinggames/rts/gameFramework/utility/p;
+	FIELD f field_6932 Lcom/corrodinggames/rts/gameFramework/m/ck;
+	FIELD g field_6933 Lcom/corrodinggames/rts/gameFramework/m/ck;
+	FIELD h field_6934 Lcom/corrodinggames/rts/gameFramework/m/ck;
+	FIELD i field_6935 Lcom/corrodinggames/rts/gameFramework/m/ck;
+	FIELD j field_6936 Lcom/corrodinggames/rts/gameFramework/m/ck;
+	FIELD k field_6937 Lcom/corrodinggames/rts/gameFramework/m/cn;
+	FIELD l field_6938 I
+	FIELD m field_6939 Z
+	METHOD a method_3406 (Lcom/corrodinggames/rts/gameFramework/m/p;)Lcom/corrodinggames/rts/gameFramework/m/cm;
+	METHOD a method_3407 (Lcom/corrodinggames/rts/gameFramework/m/p;Ljava/lang/Object;Ljava/lang/Object;)V
+	METHOD a method_3408 (Lcom/corrodinggames/rts/gameFramework/m/p;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+	METHOD a method_3409 (Lcom/corrodinggames/rts/gameFramework/m/p;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/corrodinggames/rts/gameFramework/m/cm;

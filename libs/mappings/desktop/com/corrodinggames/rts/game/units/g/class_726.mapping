@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/game/units/g/e com/corrodinggames/rts/game/units/g/class_726
+	FIELD b field_4033 I
+	FIELD c field_4034 Lcom/corrodinggames/rts/game/units/a/c;
+	METHOD a method_1722 (Lcom/corrodinggames/rts/game/units/a/c;)Z
+	METHOD a method_1723 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/a/c;I)V
+	METHOD a method_1718 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/gameFramework/j/as;)V
+	METHOD a method_1719 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/gameFramework/j/k;)V
+	METHOD b method_1717 ()Lcom/corrodinggames/rts/game/units/g/b;
+	METHOD b method_1724 (Lcom/corrodinggames/rts/game/units/am;Lcom/corrodinggames/rts/game/units/a/c;)Lcom/corrodinggames/rts/game/units/g/e;
+	METHOD d method_1725 ()I

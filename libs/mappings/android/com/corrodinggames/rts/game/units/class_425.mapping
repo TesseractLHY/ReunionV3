@@ -1,0 +1,17 @@
+CLASS com/corrodinggames/rts/game/units/cd com/corrodinggames/rts/game/units/class_425
+	FIELD a field_1888 [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b field_1889 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c field_1890 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD d field_1891 I
+	FIELD e field_1892 I
+	FIELD f field_1893 I
+	FIELD g field_1894 F
+	FIELD h field_1895 Z
+	FIELD i field_1896 F
+	FIELD j field_1897 I
+	FIELD k field_1898 I
+	FIELD l field_1899 F
+	FIELD m field_1900 Z
+	METHOD b method_887 ()V
+	METHOD c method_888 (II)V
+	METHOD j method_889 ()V

@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/ac com/corrodinggames/rts/gameFramework/utility/class_1298
+	FIELD a field_7256 Ljava/lang/String;
+	FIELD b field_7257 Ljava/lang/String;
+	METHOD a method_3587 ()Ljava/lang/String;
+	METHOD b method_3588 ()Ljava/lang/String;

@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/dn com/corrodinggames/rts/appFramework/class_98
+	FIELD b field_283 Lcom/corrodinggames/rts/appFramework/MainMenuActivity;
+	METHOD a method_141 ()V

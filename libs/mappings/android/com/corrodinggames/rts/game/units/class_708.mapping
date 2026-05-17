@@ -1,0 +1,21 @@
+CLASS com/corrodinggames/rts/game/units/f com/corrodinggames/rts/game/units/class_708
+	FIELD a field_3959 F
+	FIELD b field_3960 F
+	FIELD c field_3961 F
+	FIELD d field_3962 F
+	FIELD e field_3963 F
+	FIELD f field_3964 F
+	FIELD g field_3965 Z
+	FIELD h field_3966 F
+	FIELD i field_3967 Z
+	FIELD j field_3968 F
+	FIELD k field_3969 Landroid/graphics/Paint;
+	FIELD l field_3970 Landroid/graphics/Paint;
+	FIELD m field_3971 Landroid/graphics/Paint;
+	FIELD n field_3972 Landroid/graphics/Paint;
+	FIELD o field_3973 Landroid/graphics/Paint;
+	FIELD p field_3974 Landroid/graphics/Paint;
+	FIELD q field_3975 Z
+	FIELD r field_3976 Landroid/graphics/PointF;
+	METHOD b method_1697 ()V
+	METHOD L method_1696 ()Lcom/corrodinggames/rts/game/units/f;

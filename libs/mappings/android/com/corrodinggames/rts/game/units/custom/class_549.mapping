@@ -1,0 +1,24 @@
+CLASS com/corrodinggames/rts/game/units/custom/cj com/corrodinggames/rts/game/units/custom/class_549
+	FIELD a field_2898 Lcom/corrodinggames/rts/game/units/custom/v;
+	FIELD b field_2899 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD c field_2900 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD d field_2901 I
+	FIELD e field_2902 Z
+	FIELD f field_2903 Z
+	FIELD g field_2904 Z
+	FIELD h field_2905 F
+	FIELD i field_2906 I
+	FIELD j field_2907 Z
+	FIELD k field_2908 Z
+	FIELD l field_2909 Z
+	FIELD m field_2910 I
+	FIELD n field_2911 Z
+	FIELD o field_2912 F
+	FIELD p field_2913 F
+	FIELD q field_2914 F
+	FIELD r field_2915 F
+	FIELD s field_2916 F
+	FIELD t field_2917 F
+	FIELD u field_2918 F
+	FIELD v field_2919 Lcom/corrodinggames/rts/game/units/custom/d/b;
+	FIELD w field_2920 S

@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/gameFramework/j/e com/corrodinggames/rts/gameFramework/j/class_1039
+	FIELD a field_6193 Ljava/lang/Boolean;
+	FIELD b field_6194 Ljava/io/OutputStream;
+	FIELD c field_6195 Ljava/io/BufferedOutputStream;
+	FIELD d field_6196 Ljava/io/DataOutputStream;
+	FIELD e field_6197 Lcom/corrodinggames/rts/gameFramework/utility/z;
+	FIELD f field_6198 Lcom/corrodinggames/rts/gameFramework/j/c;
+	METHOD a method_2910 ()V
+	METHOD a method_2911 (Lcom/corrodinggames/rts/gameFramework/j/bi;)V
+	METHOD b method_2912 ()V
+	METHOD run run ()V

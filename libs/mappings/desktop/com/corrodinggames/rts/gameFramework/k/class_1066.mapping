@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/gameFramework/k/f com/corrodinggames/rts/gameFramework/k/class_1066
+	FIELD a field_6511 Lcom/corrodinggames/rts/gameFramework/k/c;
+	FIELD b field_6512 Lcom/corrodinggames/rts/gameFramework/k/g;
+	FIELD c field_6513 Landroid/graphics/Paint;
+	METHOD a method_3120 ()Ljava/util/LinkedList;
+	METHOD a method_3096 (BLandroid/graphics/Point;)V
+	METHOD a method_3117 (Lcom/corrodinggames/rts/gameFramework/k/k;)Z
+	METHOD b method_3121 ()Z
+	METHOD c method_3122 ()Z

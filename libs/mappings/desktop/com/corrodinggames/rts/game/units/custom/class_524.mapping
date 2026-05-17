@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/ay com/corrodinggames/rts/game/units/custom/class_524
+	METHOD a method_1214 (F)F
+	METHOD a method_1215 (FF)F
+	METHOD a method_1216 (FFFFLcom/corrodinggames/rts/gameFramework/w;IS)Lcom/corrodinggames/rts/gameFramework/d/e;
+	METHOD a method_1217 (Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ab;Ljava/lang/String;)V

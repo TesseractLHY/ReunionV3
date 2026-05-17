@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/j/v com/corrodinggames/rts/gameFramework/j/class_1056
+	FIELD a field_6273 I
+	FIELD b field_6274 Ljava/util/List;
+	FIELD c field_6275 Lcom/corrodinggames/rts/gameFramework/j/t;
+	FIELD d field_6276 Ljava/lang/String;
+	FIELD e field_6277 Z
+	METHOD run run ()V

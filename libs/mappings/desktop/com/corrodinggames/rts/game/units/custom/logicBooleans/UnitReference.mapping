@@ -1,0 +1,26 @@
+CLASS com/corrodinggames/rts/game/units/custom/logicBooleans/UnitReference
+	CLASS ActiveWaypointTargetReference
+	CLASS AttachmentUnitReference
+	CLASS AttackingReference
+	CLASS ChainedUnitReference
+	CLASS EventSourceReference
+	CLASS FirstUnitReference
+	CLASS GetAsMarker
+	CLASS GetOffsetAbsolute
+	CLASS GetOffsetRelative
+	CLASS GetOffsetRelativeStatic
+	CLASS LastDamagedByUnitReference
+	CLASS LockedUnitReference
+	CLASS Memory1UnitReference
+	CLASS Memory2UnitReference
+	CLASS NearestUnitReference
+		CLASS HandleCallbackNearest
+	CLASS NullUnitReference
+	CLASS ParentUnitReference
+	CLASS PlaceholderUnitReference
+	CLASS SelfUnitReference
+	CLASS ThisActionTargetReference
+	CLASS TransportingUnitReference
+	CLASS UnitContextChangingBooleanByLogic
+	CLASS UnitContextChangingContext
+	CLASS UnitReferenceOrUnitType

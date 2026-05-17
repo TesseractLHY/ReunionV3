@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/ah com/corrodinggames/rts/gameFramework/utility/class_1300
+	FIELD a field_7261 Ljava/lang/Object;
+	FIELD b field_7262 Lcom/corrodinggames/rts/gameFramework/utility/aj;
+	FIELD c field_7263 Lcom/corrodinggames/rts/gameFramework/utility/ai;
+	METHOD a method_3590 ()V
+	METHOD a method_3591 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/ai;
+	METHOD b method_3592 ()Z
+	METHOD b method_3593 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/ai;
+	METHOD c method_3594 (Ljava/lang/String;)V

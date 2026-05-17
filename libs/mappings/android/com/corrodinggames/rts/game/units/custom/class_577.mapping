@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/h com/corrodinggames/rts/game/units/custom/class_577
+	FIELD a field_3075 [Lcom/corrodinggames/rts/game/units/custom/g;
+	METHOD a method_1407 ()Z
+	METHOD a method_1408 (Lcom/corrodinggames/rts/game/units/custom/h;)Z
+	METHOD toString toString ()Ljava/lang/String;

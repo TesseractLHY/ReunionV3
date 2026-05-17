@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/gameFramework/bh com/corrodinggames/rts/gameFramework/class_854
+	METHOD a method_2000 ()V
+	METHOD a method_2001 (F)V
+	METHOD a method_2002 (Lcom/corrodinggames/rts/gameFramework/bg;)V
+	METHOD a method_2003 (Z)V
+	METHOD b method_2004 ()V
+	METHOD c method_2005 ()Z
+	METHOD d method_2006 ()V
+	METHOD e method_2007 ()V

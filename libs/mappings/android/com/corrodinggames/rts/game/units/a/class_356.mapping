@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/a/z com/corrodinggames/rts/game/units/a/class_356
+	FIELD a field_1584 Lcom/corrodinggames/rts/game/units/el;
+	FIELD b field_1585 Ljava/util/ArrayList;
+	FIELD c field_1586 I
+	FIELD d field_1587 Z
+	FIELD e field_1588 Lcom/corrodinggames/rts/game/units/bp;
+	FIELD f field_1589 I

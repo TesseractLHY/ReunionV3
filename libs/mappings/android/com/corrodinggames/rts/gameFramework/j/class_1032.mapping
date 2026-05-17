@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/j/bi com/corrodinggames/rts/gameFramework/j/class_1032
+	FIELD a field_6123 Lcom/corrodinggames/rts/gameFramework/j/c;
+	FIELD b field_6124 I
+	FIELD c field_6125 [B
+	FIELD d field_6126 I
+	FIELD e field_6127 Z

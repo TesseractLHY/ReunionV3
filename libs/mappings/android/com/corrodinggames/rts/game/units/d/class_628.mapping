@@ -1,0 +1,18 @@
+CLASS com/corrodinggames/rts/game/units/d/f com/corrodinggames/rts/game/units/d/class_628
+	FIELD m field_3704 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD n field_3705 Landroid/graphics/Rect;
+	FIELD o field_3706 Landroid/graphics/Rect;
+	FIELD p field_3707 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD q field_3708 [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD r field_3709 I
+	FIELD s field_3710 I
+	METHOD a method_1565 (Lcom/corrodinggames/rts/game/units/bp;Lcom/corrodinggames/rts/game/units/el;Lcom/corrodinggames/rts/game/units/cg;II)Z
+	METHOD a method_1566 (Lcom/corrodinggames/rts/game/units/bp;Lcom/corrodinggames/rts/game/units/el;Lcom/corrodinggames/rts/game/units/cg;IIZLcom/corrodinggames/rts/game/p;)Ljava/lang/String;
+	METHOD a method_1567 (Lcom/corrodinggames/rts/game/units/el;FFLcom/corrodinggames/rts/game/p;)Z
+	METHOD c method_1568 (II)Lcom/corrodinggames/rts/game/units/ce;
+	METHOD cT method_1569 ()V
+	METHOD e method_1570 ()Landroid/graphics/Paint;
+	METHOD h method_1571 (I)V
+	METHOD h method_1572 (Lcom/corrodinggames/rts/game/units/el;)Lcom/corrodinggames/rts/game/units/ce;
+	METHOD L method_1563 ()Z
+	METHOD M method_1564 ()Z

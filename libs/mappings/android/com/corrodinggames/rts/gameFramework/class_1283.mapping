@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/p com/corrodinggames/rts/gameFramework/class_1283
+	FIELD a field_7152 Lcom/corrodinggames/rts/gameFramework/n;
+	METHOD onCancel onCancel (Landroid/content/DialogInterface;)V

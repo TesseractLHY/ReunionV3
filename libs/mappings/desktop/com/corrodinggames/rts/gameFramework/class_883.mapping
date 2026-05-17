@@ -1,0 +1,36 @@
+CLASS com/corrodinggames/rts/gameFramework/bs com/corrodinggames/rts/gameFramework/class_883
+	FIELD a field_4849 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD A field_4844 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD b field_4850 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD B field_4845 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD c field_4851 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD C field_4846 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD d field_4852 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD D field_4847 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD e field_4853 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD E field_4848 [Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD f field_4854 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD g field_4855 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD h field_4856 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD i field_4857 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD j field_4858 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD k field_4859 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD l field_4860 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD m field_4861 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD n field_4862 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD o field_4863 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD p field_4864 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD q field_4865 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD r field_4866 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD s field_4867 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD t field_4868 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD u field_4869 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD v field_4870 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD w field_4871 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD x field_4872 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD y field_4873 Lcom/corrodinggames/rts/gameFramework/bs;
+	FIELD z field_4874 Lcom/corrodinggames/rts/gameFramework/bs;
+	CLASS 1 class_884
+	CLASS 2 class_885
+	CLASS 3 class_886
+	CLASS 4 class_887

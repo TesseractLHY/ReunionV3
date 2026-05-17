@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/g/b com/corrodinggames/rts/game/units/g/class_721
+	FIELD a field_4029 Lcom/corrodinggames/rts/game/units/g/b;
+	FIELD b field_4030 Lcom/corrodinggames/rts/game/units/g/b;
+	FIELD c field_4031 [Lcom/corrodinggames/rts/game/units/g/b;
+	METHOD a method_1720 ()Lcom/corrodinggames/rts/game/units/g/a;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/g/b;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/g/b;

@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/appFramework/dp com/corrodinggames/rts/appFramework/class_100
+	FIELD a field_285 Landroid/app/Activity;
+	FIELD b field_286 Ljava/util/ArrayList;
+	FIELD c field_287 Ljava/lang/Runnable;
+	METHOD run run ()V

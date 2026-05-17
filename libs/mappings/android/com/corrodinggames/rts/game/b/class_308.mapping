@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/b/k com/corrodinggames/rts/game/b/class_308
+	FIELD a field_1036 I
+	FIELD b field_1037 Ljava/lang/String;
+	FIELD c field_1038 Ljava/util/ArrayList;
+	FIELD d field_1039 I
+	FIELD e field_1040 I
+	FIELD f field_1041 Ljava/util/Properties;
+	METHOD a method_386 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/b/a;

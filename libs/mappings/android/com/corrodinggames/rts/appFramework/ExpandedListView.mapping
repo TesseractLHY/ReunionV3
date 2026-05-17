@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/appFramework/ExpandedListView
+	FIELD old_count old_count I
+	FIELD params params Landroid/view/ViewGroup$LayoutParams;
+	METHOD calculateListHeight calculateListHeight ()V
+	METHOD onDraw onDraw (Landroid/graphics/Canvas;)V

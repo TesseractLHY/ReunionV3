@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/gameFramework/b/as com/corrodinggames/rts/gameFramework/b/class_821
+	FIELD a field_4559 Ljava/nio/FloatBuffer;
+	FIELD b field_4560 Ljava/nio/ShortBuffer;
+	FIELD c field_4561 I
+	FIELD d field_4562 I
+	FIELD e field_4563 [I
+	FIELD f field_4564 I
+	FIELD g field_4565 Lcom/corrodinggames/rts/gameFramework/b/aq;
+	METHOD a method_1885 ()V
+	METHOD a method_1887 ([FI)V
+	METHOD a method_1886 (II)V
+	METHOD b method_1888 ()V

@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/gameFramework/ai com/corrodinggames/rts/gameFramework/class_774
+	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

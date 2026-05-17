@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/j/t com/corrodinggames/rts/gameFramework/j/class_1054
+	FIELD d field_6267 Ljava/lang/String;
+	FIELD e field_6268 Z
+	FIELD f field_6269 I
+	METHOD a method_2955 ()V
+	METHOD a method_2956 (Ljava/io/BufferedReader;I)V

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/appFramework/ev com/corrodinggames/rts/appFramework/class_133
+	FIELD a field_408 Lcom/corrodinggames/rts/appFramework/MultiplayerBattleroomActivity;
+	FIELD b field_409 Ljava/lang/String;
+	METHOD run run ()V

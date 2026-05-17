@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/f/x com/corrodinggames/rts/gameFramework/f/class_924
+	FIELD a field_5306 Lcom/corrodinggames/rts/game/units/custom/e/f;
+	METHOD a method_1764 (F)V
+	METHOD df method_987 ()Lcom/corrodinggames/rts/game/units/custom/e/f;
+	METHOD r method_1059 ()Lcom/corrodinggames/rts/game/units/as;
+	METHOD t method_1061 ()Z
+	METHOD u method_1063 ()Z

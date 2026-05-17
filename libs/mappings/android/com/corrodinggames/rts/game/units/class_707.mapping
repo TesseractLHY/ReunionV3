@@ -1,0 +1,21 @@
+CLASS com/corrodinggames/rts/game/units/eo com/corrodinggames/rts/game/units/class_707
+	FIELD a field_3941 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD b field_3942 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD c field_3943 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD d field_3944 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD e field_3945 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD f field_3946 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD g field_3947 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD h field_3948 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD i field_3949 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD j field_3950 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD k field_3951 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD l field_3952 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD m field_3953 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD n field_3954 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD o field_3955 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD p field_3956 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD q field_3957 Lcom/corrodinggames/rts/game/units/eo;
+	FIELD r field_3958 [Lcom/corrodinggames/rts/game/units/eo;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/eo;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/eo;

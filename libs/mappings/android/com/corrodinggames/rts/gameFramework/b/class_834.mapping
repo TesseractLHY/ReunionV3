@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/b/n com/corrodinggames/rts/gameFramework/b/class_834
+	FIELD a field_4596 Ljava/util/List;
+	FIELD b field_4597 Ljava/util/List;
+	FIELD c field_4598 Lcom/corrodinggames/rts/gameFramework/b/c;
+	FIELD d field_4599 Lcom/corrodinggames/rts/gameFramework/b/c;
+	METHOD a method_1927 (Lcom/corrodinggames/rts/gameFramework/b/c;Lcom/corrodinggames/rts/gameFramework/b/p;Lcom/corrodinggames/rts/gameFramework/b/o;)Lcom/corrodinggames/rts/gameFramework/b/c;

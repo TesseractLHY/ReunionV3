@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/appFramework/y com/corrodinggames/rts/appFramework/class_260
+	FIELD a field_640 Ljava/lang/StringBuilder;
+	METHOD a method_184 ()V
+	METHOD close close ()V
+	METHOD flush flush ()V
+	METHOD write write ([CII)V

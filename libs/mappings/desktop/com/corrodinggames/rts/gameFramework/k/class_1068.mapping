@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/k/h com/corrodinggames/rts/gameFramework/k/class_1068
+	FIELD a field_6521 Lcom/corrodinggames/rts/gameFramework/k/f;
+	FIELD b field_6522 Lcom/corrodinggames/rts/game/units/af;
+	FIELD c field_6523 Landroid/graphics/Point;
+	METHOD a method_3103 (FF)Lcom/corrodinggames/rts/game/units/af;
+	METHOD a method_3092 (Lcom/corrodinggames/rts/game/units/am;)Lcom/corrodinggames/rts/game/units/af;
+	METHOD b method_3093 (Lcom/corrodinggames/rts/game/units/am;)Lcom/corrodinggames/rts/game/units/af;
+	METHOD d method_3094 (Lcom/corrodinggames/rts/game/units/am;)V

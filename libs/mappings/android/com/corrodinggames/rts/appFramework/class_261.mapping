@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/appFramework/z com/corrodinggames/rts/appFramework/class_261
+	METHOD onDrawFrame onDrawFrame (Ljavax/microedition/khronos/opengles/GL10;)V
+	METHOD onSurfaceChanged onSurfaceChanged (Ljavax/microedition/khronos/opengles/GL10;II)V
+	METHOD onSurfaceCreated onSurfaceCreated (Ljavax/microedition/khronos/opengles/GL10;Ljavax/microedition/khronos/egl/EGLConfig;)V

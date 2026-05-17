@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/co com/corrodinggames/rts/appFramework/class_72
+	FIELD a field_250 Lcom/corrodinggames/rts/appFramework/LoadLevelActivity;
+	METHOD run run ()V

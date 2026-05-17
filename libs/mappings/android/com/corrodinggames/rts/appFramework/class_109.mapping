@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/dy com/corrodinggames/rts/appFramework/class_109
+	FIELD a field_305 Lcom/corrodinggames/rts/appFramework/ModsActivity;
+	METHOD onClick onClick (Landroid/view/View;)V

@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/aa com/corrodinggames/rts/gameFramework/class_766
+	FIELD c field_4195 I
+	FIELD d field_4196 Landroid/view/KeyEvent;
+	FIELD e field_4197 Z
+	FIELD f field_4198 Lcom/corrodinggames/rts/gameFramework/k;

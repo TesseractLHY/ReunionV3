@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/j/i com/corrodinggames/rts/gameFramework/j/class_1042
+	FIELD a field_6231 Ljava/util/concurrent/LinkedBlockingDeque;
+	FIELD b field_6232 Z
+	FIELD c field_6233 [B
+	FIELD d field_6234 Lcom/corrodinggames/rts/gameFramework/j/h;
+	METHOD a method_2915 ([B)V

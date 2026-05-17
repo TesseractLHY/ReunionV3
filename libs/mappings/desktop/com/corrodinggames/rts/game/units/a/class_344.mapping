@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/game/units/a/n com/corrodinggames/rts/game/units/a/class_344
+	METHOD a method_588 ()Ljava/lang/String;
+	METHOD b method_600 ()Ljava/lang/String;
+	METHOD b method_603 (Lcom/corrodinggames/rts/game/units/am;Z)I
+	METHOD c method_604 ()I
+	METHOD e method_608 ()Lcom/corrodinggames/rts/game/units/a/u;
+	METHOD f method_610 ()Lcom/corrodinggames/rts/game/units/a/t;
+	METHOD g method_612 ()Z
+	METHOD h method_614 ()Z
+	METHOD h_ method_622 ()Z
+	METHOD i method_616 ()Lcom/corrodinggames/rts/game/units/as;

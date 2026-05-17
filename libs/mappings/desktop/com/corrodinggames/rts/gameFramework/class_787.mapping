@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/ak com/corrodinggames/rts/gameFramework/class_787
+	METHOD a method_1815 ()Z
+	METHOD b method_1816 ()Z
+	METHOD c method_1817 ()Ljava/lang/String;
+	METHOD d method_1818 ()Z

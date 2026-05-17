@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/gameFramework/aj com/corrodinggames/rts/gameFramework/class_775
+	FIELD a field_4231 Z
+	FIELD b field_4232 Z
+	FIELD c field_4233 I
+	FIELD d field_4234 I
+	METHOD a method_1778 ()Z
+	METHOD a method_1779 (Lcom/corrodinggames/rts/gameFramework/j/bg;)V
+	METHOD a method_1780 (Lcom/corrodinggames/rts/gameFramework/j/j;ZZ)Z
+	METHOD a method_1781 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a method_1782 (Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
+	METHOD a method_1783 (Ljava/lang/String;Z)Ljava/io/File;
+	METHOD a method_1784 (Z)V
+	METHOD b method_1785 (Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD b method_1786 (Ljava/lang/String;Z)V
+	METHOD c method_1787 (Ljava/lang/String;Z)Z

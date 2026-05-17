@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/units/f/f com/corrodinggames/rts/game/units/f/class_714
+	FIELD a field_4006 I
+	FIELD b field_4007 [Lcom/corrodinggames/rts/game/units/ce;
+	METHOD a method_1714 (Lcom/corrodinggames/rts/gameFramework/utility/x;)V
+	METHOD hasNext hasNext ()Z
+	METHOD iterator iterator ()Ljava/util/Iterator;
+	METHOD next next ()Ljava/lang/Object;
+	METHOD remove remove ()V

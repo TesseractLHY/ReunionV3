@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/appFramework/ad com/corrodinggames/rts/appFramework/class_7
+	FIELD a field_143 Landroid/graphics/Paint;
+	FIELD b field_144 Landroid/graphics/Paint;
+	FIELD c field_145 Landroid/graphics/Rect;
+	FIELD d field_146 I
+	FIELD e field_147 Ljava/lang/String;
+	FIELD f field_148 Lcom/corrodinggames/rts/appFramework/GameViewNonSurface;
+	METHOD a method_100 (Ljava/lang/String;)V

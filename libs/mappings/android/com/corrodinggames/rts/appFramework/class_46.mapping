@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/appFramework/bp com/corrodinggames/rts/appFramework/class_46
+	FIELD a field_208 Ljava/lang/String;
+	FIELD b field_209 Ljava/lang/String;
+	FIELD c field_210 Lcom/corrodinggames/rts/appFramework/LevelSelectActivity;
+	METHOD onClick onClick (Landroid/content/DialogInterface;I)V

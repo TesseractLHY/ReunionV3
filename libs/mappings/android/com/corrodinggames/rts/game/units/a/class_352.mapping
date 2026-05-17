@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/a/v com/corrodinggames/rts/game/units/a/class_352
+	FIELD a field_1581 Lcom/corrodinggames/rts/game/units/el;
+	FIELD b field_1582 I

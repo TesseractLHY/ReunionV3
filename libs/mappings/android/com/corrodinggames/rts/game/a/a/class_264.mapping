@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/a/a/a com/corrodinggames/rts/game/a/a/class_264
+	METHOD a method_223 ()Lcom/corrodinggames/rts/game/a/a/b;
+	METHOD a method_224 (Lcom/corrodinggames/rts/game/a/a;)V
+	METHOD a method_225 (Lcom/corrodinggames/rts/game/units/bp;)V
+	METHOD a method_226 (Lcom/corrodinggames/rts/gameFramework/j/bg;)V
+	METHOD a method_227 (Lcom/corrodinggames/rts/gameFramework/j/j;)V

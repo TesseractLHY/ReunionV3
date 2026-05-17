@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/custom/b/b com/corrodinggames/rts/game/units/custom/b/class_494
+	FIELD a field_2487 Lcom/corrodinggames/rts/game/units/custom/b/a;
+	METHOD b method_1182 (Lcom/corrodinggames/rts/game/units/custom/j;F)V

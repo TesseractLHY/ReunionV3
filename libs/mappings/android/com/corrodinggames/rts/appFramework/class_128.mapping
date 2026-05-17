@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/appFramework/eq com/corrodinggames/rts/appFramework/class_128
+	FIELD a field_395 F
+	FIELD b field_396 F
+	FIELD c field_397 F
+	FIELD d field_398 F
+	FIELD e field_399 F
+	FIELD f field_400 F
+	FIELD g field_401 Z
+	FIELD h field_402 Z
+	FIELD i field_403 Z
+	METHOD a method_151 (FFFFFF)V

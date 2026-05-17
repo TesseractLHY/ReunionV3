@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/appFramework/gv com/corrodinggames/rts/appFramework/class_187
+	FIELD a field_506 Landroid/widget/EditText;
+	FIELD b field_507 Landroid/widget/CheckBox;
+	FIELD c field_508 Landroid/widget/Button;
+	FIELD d field_509 Landroid/app/Dialog;
+	FIELD e field_510 Lcom/corrodinggames/rts/appFramework/gt;
+	METHOD onClick onClick (Landroid/view/View;)V

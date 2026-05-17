@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/R
+	CLASS anim
+	CLASS array
+	CLASS attr
+	CLASS color
+	CLASS drawable
+	CLASS id
+	CLASS layout
+	CLASS raw
+	CLASS string
+	CLASS style
+	CLASS styleable
+	CLASS xml

@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/appFramework/MainMenuActivity
+	FIELD gameView gameView Lcom/corrodinggames/rts/appFramework/ab;
+	METHOD checkIfHelpShouldBeShown checkIfHelpShouldBeShown (Lcom/corrodinggames/rts/appFramework/dn;)V
+	METHOD finish finish ()V
+	METHOD onCreate onCreate (Landroid/os/Bundle;)V
+	METHOD onPause onPause ()V
+	METHOD onStart onStart ()V
+	METHOD onStop onStop ()V
+	METHOD resumeMultiplayer resumeMultiplayer ()V
+	METHOD setButtonText setButtonText ()V
+	METHOD setup setup ()V
+	METHOD showUpdateMessagePopup showUpdateMessagePopup (Landroid/content/Context;Z)Z
+	METHOD warnAboutBugs warnAboutBugs ()V

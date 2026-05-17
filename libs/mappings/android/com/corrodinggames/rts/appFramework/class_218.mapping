@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/appFramework/hz com/corrodinggames/rts/appFramework/class_218
+	FIELD a field_552 Landroid/widget/EditText;
+	FIELD b field_553 Lcom/corrodinggames/rts/appFramework/hy;
+	METHOD onClick onClick (Landroid/content/DialogInterface;I)V

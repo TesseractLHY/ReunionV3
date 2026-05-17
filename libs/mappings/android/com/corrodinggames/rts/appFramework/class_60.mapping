@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/appFramework/cc com/corrodinggames/rts/appFramework/class_60
+	FIELD a field_231 Ljava/lang/String;
+	FIELD b field_232 Landroid/content/Context;
+	FIELD c field_233 Lcom/corrodinggames/rts/appFramework/LevelSelectActivity;
+	METHOD run run ()V

@@ -1,0 +1,92 @@
+CLASS com/corrodinggames/rts/game/units/custom/as com/corrodinggames/rts/game/units/custom/class_484
+	FIELD a field_2463 Z
+	FIELD b field_2464 F
+	FIELD c field_2465 I
+	FIELD d field_2466 F
+	FIELD e field_2467 F
+	FIELD f field_2468 F
+	FIELD g field_2469 I
+	FIELD h field_2470 F
+	FIELD i field_2471 F
+	FIELD j field_2472 F
+	FIELD k field_2473 F
+	FIELD l field_2474 F
+	FIELD m field_2475 Z
+	FIELD n field_2476 I
+	FIELD o field_2477 I
+	FIELD p field_2478 F
+	FIELD q field_2479 F
+	FIELD r field_2480 F
+	FIELD s field_2481 Ljava/util/LinkedHashMap;
+	FIELD t field_2482 Ljava/util/LinkedHashMap;
+	METHOD a method_1171 ()Lcom/corrodinggames/rts/game/units/custom/as;
+	METHOD a method_1172 (Lcom/corrodinggames/rts/game/units/custom/as;Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/gameFramework/j/as;)V
+	METHOD a method_1174 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/game/units/custom/as;[Lcom/corrodinggames/rts/game/units/custom/at;)V
+	METHOD a method_1173 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/game/units/custom/as;Lcom/corrodinggames/rts/game/units/custom/l;)V
+	METHOD a method_1177 (Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$CachedWriter;
+	METHOD a method_1178 (Ljava/util/LinkedHashMap;Lcom/corrodinggames/rts/game/units/custom/at;)V
+	CLASS 1 class_485
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V
+	CLASS 2 class_486
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V
+	CLASS 3 class_487
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V
+		METHOD a method_1208 (Lcom/corrodinggames/rts/game/units/custom/j;D)V
+	CLASS 4 class_488
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V
+	CLASS 5 class_489
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V
+	CLASS 6 class_490
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V
+	CLASS 7 class_491
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V
+		METHOD a method_1208 (Lcom/corrodinggames/rts/game/units/custom/j;D)V
+	CLASS 8 class_507
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V
+	CLASS 9 class_508
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V
+	CLASS 10 class_509
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V
+	CLASS 11 class_510
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V
+	CLASS 12 class_511
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V
+	CLASS 13 class_512
+		METHOD a method_1212 (Lcom/corrodinggames/rts/game/units/custom/j;)D
+		METHOD a method_1208 (Lcom/corrodinggames/rts/game/units/custom/j;D)V
+		METHOD b method_1213 (Lcom/corrodinggames/rts/game/units/custom/j;D)V
+	CLASS 14 class_513
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V
+		METHOD a method_1208 (Lcom/corrodinggames/rts/game/units/custom/j;D)V
+	CLASS 15 class_514
+		METHOD a method_1212 (Lcom/corrodinggames/rts/game/units/custom/j;)D
+		METHOD a method_1208 (Lcom/corrodinggames/rts/game/units/custom/j;D)V
+		METHOD b method_1213 (Lcom/corrodinggames/rts/game/units/custom/j;D)V
+	CLASS 16 class_515
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V
+		METHOD a method_1208 (Lcom/corrodinggames/rts/game/units/custom/j;D)V
+	CLASS 17 class_516
+		METHOD a method_1212 (Lcom/corrodinggames/rts/game/units/custom/j;)D
+		METHOD a method_1208 (Lcom/corrodinggames/rts/game/units/custom/j;D)V
+		METHOD b method_1213 (Lcom/corrodinggames/rts/game/units/custom/j;D)V
+	CLASS 18 class_517
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V
+		METHOD a method_1208 (Lcom/corrodinggames/rts/game/units/custom/j;D)V
+	CLASS 19 class_518
+		METHOD a method_1210 (Lcom/corrodinggames/rts/game/units/custom/as;)D
+		METHOD a method_1211 (Lcom/corrodinggames/rts/game/units/custom/as;D)V

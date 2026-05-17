@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/a/w com/corrodinggames/rts/game/units/a/class_353
+	METHOD b method_603 (Lcom/corrodinggames/rts/game/units/am;Z)I
+	METHOD e method_608 ()Lcom/corrodinggames/rts/game/units/a/u;
+	METHOD K method_644 ()F
+	METHOD p method_629 (Lcom/corrodinggames/rts/game/units/am;)F
+	METHOD u method_639 ()Z

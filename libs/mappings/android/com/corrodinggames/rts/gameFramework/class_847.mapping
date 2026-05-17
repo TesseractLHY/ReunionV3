@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/ba com/corrodinggames/rts/gameFramework/class_847
+	FIELD a field_4679 Ljava/util/ArrayList;
+	FIELD b field_4680 Ljava/util/ArrayList;
+	FIELD c field_4681 Ljava/util/ArrayList;
+	FIELD d field_4682 Z

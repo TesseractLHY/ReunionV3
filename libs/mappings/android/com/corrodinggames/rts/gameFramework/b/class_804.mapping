@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/b/ab com/corrodinggames/rts/gameFramework/b/class_804
+	METHOD a method_1850 ()I
+	METHOD a method_1852 ([I)V
+	METHOD a method_1851 (I[I)V
+	METHOD b method_1853 (I[I)V

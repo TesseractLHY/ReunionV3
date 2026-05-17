@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/custom/w com/corrodinggames/rts/game/units/custom/class_592
+	METHOD a method_1509 ()V
+	METHOD c method_1511 ()Lcom/corrodinggames/rts/game/units/as;

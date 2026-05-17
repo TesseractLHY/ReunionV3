@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/game/units/custom/bu com/corrodinggames/rts/game/units/custom/class_527
+	FIELD a field_2714 Lcom/corrodinggames/rts/game/units/custom/bu;
+	FIELD b field_2715 [Lcom/corrodinggames/rts/game/units/custom/bv;
+	FIELD c field_2716 Ljava/lang/String;
+	FIELD d field_2717 I
+	FIELD e field_2718 Ljava/lang/String;
+	METHOD a method_1220 ()Z
+	METHOD a method_1221 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/bu;
+	METHOD a method_1222 (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD b method_1223 ()Ljava/lang/String;
+	METHOD b method_1224 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/bu;

@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/custom/d/a com/corrodinggames/rts/game/units/custom/d/class_551
+	METHOD a method_1261 (Lcom/corrodinggames/rts/game/units/ce;)V
+	METHOD a method_1262 (Lcom/corrodinggames/rts/game/units/ce;D)V
+	METHOD b method_1263 (Lcom/corrodinggames/rts/game/units/ce;)Z
+	METHOD b method_1264 (Lcom/corrodinggames/rts/game/units/ce;D)Z
+	METHOD c method_1265 (Lcom/corrodinggames/rts/game/units/ce;)Z
+	METHOD c method_1266 (Lcom/corrodinggames/rts/game/units/ce;D)Z

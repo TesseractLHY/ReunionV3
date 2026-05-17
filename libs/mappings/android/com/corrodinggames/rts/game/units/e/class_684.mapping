@@ -1,0 +1,17 @@
+CLASS com/corrodinggames/rts/game/units/e/i com/corrodinggames/rts/game/units/e/class_684
+	FIELD a field_3876 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b field_3877 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c field_3878 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD d field_3879 [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD e field_3880 F
+	FIELD f field_3881 F
+	FIELD g field_3882 Z
+	FIELD h field_3883 Lcom/corrodinggames/rts/gameFramework/utility/p;
+	FIELD i field_3884 Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD j field_3885 Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD k field_3886 Ljava/util/ArrayList;
+	METHOD a method_1636 (Lcom/corrodinggames/rts/game/units/ce;Lcom/corrodinggames/rts/game/units/ce;ZFFFFF)Z
+	METHOD a method_1637 (Lcom/corrodinggames/rts/gameFramework/utility/p;)I
+	METHOD a method_1638 (Lcom/corrodinggames/rts/gameFramework/utility/p;Lcom/corrodinggames/rts/game/units/ce;)Z
+	METHOD b method_1639 ()V
+	METHOD M method_1635 ()V

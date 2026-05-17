@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/gameFramework/bi com/corrodinggames/rts/gameFramework/class_855
+	FIELD a field_4691 Lcom/corrodinggames/rts/gameFramework/bi;
+	FIELD b field_4692 Lcom/corrodinggames/rts/gameFramework/bi;
+	FIELD c field_4693 Lcom/corrodinggames/rts/gameFramework/bi;
+	FIELD d field_4694 [Ljava/lang/String;
+	FIELD e field_4695 [Lcom/corrodinggames/rts/gameFramework/bi;
+	METHOD a method_2008 ()V
+	METHOD a method_2009 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD b method_2010 ()Ljava/lang/String;
+	METHOD c method_2011 ()V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/bi;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/bi;

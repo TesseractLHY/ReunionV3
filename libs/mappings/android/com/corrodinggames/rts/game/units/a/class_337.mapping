@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/game/units/a/g com/corrodinggames/rts/game/units/a/class_337
+	FIELD a field_1524 Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD b field_1525 Lcom/corrodinggames/rts/game/units/bp;
+	FIELD c field_1526 Lcom/corrodinggames/rts/game/units/a/b;
+	FIELD d field_1527 Lcom/corrodinggames/rts/gameFramework/utility/x;
+	FIELD e field_1528 Lcom/corrodinggames/rts/gameFramework/utility/x;
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD V method_562 ()V
+	METHOD W method_563 ()V

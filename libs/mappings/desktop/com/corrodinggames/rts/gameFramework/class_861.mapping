@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/az com/corrodinggames/rts/gameFramework/class_861
+	FIELD ex field_4702 I
+	METHOD a method_2069 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
+	METHOD a method_1768 (Lcom/corrodinggames/rts/gameFramework/j/k;)V

@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/gameFramework/bt com/corrodinggames/rts/gameFramework/class_866
+	FIELD a field_4770 Z
+	FIELD b field_4771 Ljava/lang/String;
+	FIELD c field_4772 Ljava/lang/String;
+	FIELD d field_4773 Z
+	FIELD e field_4774 Lcom/corrodinggames/rts/gameFramework/bt;
+	FIELD f field_4775 Ljava/util/HashMap;
+	METHOD a method_2044 (Landroid/content/Context;)V
+	METHOD a method_2045 (Ljava/io/DataInputStream;)Z
+	METHOD a method_2046 (Ljava/io/DataOutputStream;)Z
+	METHOD a method_2047 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/bu;
+	METHOD b method_2048 (Landroid/content/Context;)Lcom/corrodinggames/rts/gameFramework/bt;
+	METHOD b method_2049 (Ljava/lang/String;)Ljava/lang/String;

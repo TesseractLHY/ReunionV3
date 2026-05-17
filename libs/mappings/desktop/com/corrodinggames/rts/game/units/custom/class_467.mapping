@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/units/custom/ab com/corrodinggames/rts/game/units/custom/class_467
+	FIELD a field_2376 Ljava/lang/String;
+	FIELD b field_2377 Ljava/lang/String;
+	FIELD c field_2378 I
+	FIELD d field_2379 I
+	FIELD e field_2380 Ljava/lang/String;
+	FIELD f field_2381 Lcom/corrodinggames/rts/game/units/custom/l;
+	METHOD a method_1111 ()Ljava/lang/String;

@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/appFramework/o com/corrodinggames/rts/appFramework/class_250
+	FIELD c field_601 I
+	FIELD d field_602 I
+	FIELD e field_603 I
+	FIELD f field_604 I
+	FIELD g field_605 I
+	FIELD h field_606 I
+	FIELD i field_607 Lcom/corrodinggames/rts/appFramework/GLSurfaceViewShared;
+	FIELD j field_608 [I
+	METHOD a method_164 (Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;I)I

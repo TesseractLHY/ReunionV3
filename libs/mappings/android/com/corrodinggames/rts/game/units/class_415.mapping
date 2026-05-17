@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/bv com/corrodinggames/rts/game/units/class_415
+	FIELD a field_1834 Z
+	FIELD b field_1835 Z
+	FIELD c field_1836 Z
+	FIELD d field_1837 Z
+	FIELD e field_1838 F
+	FIELD f field_1839 F

@@ -1,0 +1,25 @@
+CLASS com/corrodinggames/rts/game/units/f/c com/corrodinggames/rts/game/units/f/class_711
+	FIELD a field_3985 I
+	FIELD b field_3986 I
+	FIELD c field_3987 F
+	FIELD d field_3988 F
+	FIELD e field_3989 [[Lcom/corrodinggames/rts/game/units/f/a;
+	FIELD f field_3990 Lcom/corrodinggames/rts/game/units/f/d;
+	FIELD g field_3991 Lcom/corrodinggames/rts/game/units/f/g;
+	FIELD h field_3992 Lcom/corrodinggames/rts/game/units/f/h;
+	FIELD i field_3993 Lcom/corrodinggames/rts/gameFramework/utility/x;
+	FIELD j field_3994 Lcom/corrodinggames/rts/game/units/f/f;
+	FIELD k field_3995 Landroid/graphics/Rect;
+	FIELD l field_3996 I
+	FIELD m field_3997 I
+	METHOD a method_1702 ()V
+	METHOD a method_1703 (F)I
+	METHOD a method_1704 (FFF)Lcom/corrodinggames/rts/game/units/f/f;
+	METHOD a method_1705 (FFFLcom/corrodinggames/rts/game/units/bp;FLcom/corrodinggames/rts/game/units/f/i;)V
+	METHOD a method_1706 (FFFLcom/corrodinggames/rts/gameFramework/utility/x;)V
+	METHOD a method_1707 (Landroid/graphics/RectF;Lcom/corrodinggames/rts/game/units/f/e;Lcom/corrodinggames/rts/game/units/bp;FLcom/corrodinggames/rts/game/units/f/i;)V
+	METHOD a method_1708 (Lcom/corrodinggames/rts/game/b/b;)V
+	METHOD a method_1709 (Lcom/corrodinggames/rts/game/units/ce;)V
+	METHOD b method_1710 (F)I
+	METHOD b method_1711 (FFF)Lcom/corrodinggames/rts/game/units/f/f;
+	METHOD b method_1712 (FFFLcom/corrodinggames/rts/gameFramework/utility/x;)V

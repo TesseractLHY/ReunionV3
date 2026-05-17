@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/gameFramework/b/ae com/corrodinggames/rts/gameFramework/b/class_815
+	FIELD l field_4512 Lcom/corrodinggames/rts/gameFramework/b/ad;
+	FIELD m field_4513 F
+	FIELD n field_4514 F
+	FIELD o field_4515 I
+	FIELD p field_4516 I
+	METHOD a method_1893 (Landroid/graphics/RectF;Landroid/graphics/RectF;)V
+	METHOD b method_1890 (I)V
+	METHOD b method_1897 (Lcom/corrodinggames/rts/gameFramework/b/k;)V
+	METHOD c method_1899 (Lcom/corrodinggames/rts/gameFramework/b/k;)Z
+	METHOD g method_1902 ()I
+	METHOD h method_1903 ()I

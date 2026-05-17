@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/u com/corrodinggames/rts/gameFramework/utility/class_1331
+	FIELD a field_7337 [Lcom/corrodinggames/rts/game/units/am;
+	FIELD b field_7338 I
+	FIELD c field_7339 [Lcom/corrodinggames/rts/game/units/am;
+	METHOD a method_3678 (I)Lcom/corrodinggames/rts/game/units/am;
+	METHOD a method_3679 (II)Ljava/lang/IndexOutOfBoundsException;
+	METHOD a method_3680 (Lcom/corrodinggames/rts/game/units/am;)Z
+	METHOD a method_3681 (Lcom/corrodinggames/rts/gameFramework/utility/u;)I
+	METHOD b method_3683 (Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD b method_3684 (Lcom/corrodinggames/rts/gameFramework/utility/u;)I
+	METHOD c method_3682 (I)I
+	METHOD c method_3685 (Lcom/corrodinggames/rts/gameFramework/utility/u;)I
+	METHOD d method_3686 (Lcom/corrodinggames/rts/gameFramework/utility/u;)I

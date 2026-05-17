@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/gameFramework/b/a/e com/corrodinggames/rts/gameFramework/b/a/class_800
+	FIELD a field_4433 I
+	FIELD b field_4434 I
+	FIELD c field_4435 Landroid/graphics/Canvas;
+	FIELD d field_4436 Landroid/graphics/Bitmap;
+	FIELD e field_4437 I
+	FIELD f field_4438 I
+	FIELD g field_4439 I
+	FIELD h field_4440 I
+	FIELD i field_4441 I
+	FIELD j field_4442 I
+	FIELD k field_4443 I
+	FIELD l field_4444 I
+	FIELD m field_4445 I
+	FIELD n field_4446 I

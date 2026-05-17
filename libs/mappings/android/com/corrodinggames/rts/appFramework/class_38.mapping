@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/bh com/corrodinggames/rts/appFramework/class_38
+	FIELD a field_199 Lcom/corrodinggames/rts/appFramework/IntroScreen;
+	METHOD run run ()V

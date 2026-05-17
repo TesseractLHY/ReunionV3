@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/a/j com/corrodinggames/rts/game/units/a/class_340
+	FIELD a field_1535 Lcom/corrodinggames/rts/game/units/a/k;
+	FIELD b field_1536 Ljava/util/ArrayList;
+	FIELD c field_1537 Landroid/graphics/Rect;
+	METHOD a method_564 (Lcom/corrodinggames/rts/game/units/a/c;)Lcom/corrodinggames/rts/game/units/a/j;

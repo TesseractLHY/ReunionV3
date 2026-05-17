@@ -1,0 +1,25 @@
+CLASS com/corrodinggames/rts/game/b/a com/corrodinggames/rts/game/b/class_298
+	FIELD a field_858 I
+	FIELD b field_859 Ljava/lang/String;
+	FIELD c field_860 Ljava/lang/String;
+	FIELD d field_861 Ljava/lang/String;
+	FIELD e field_862 F
+	FIELD f field_863 F
+	FIELD g field_864 F
+	FIELD h field_865 F
+	FIELD i field_866 F
+	FIELD j field_867 Landroid/graphics/RectF;
+	FIELD k field_868 I
+	FIELD l field_869 Lcom/corrodinggames/rts/game/b/l;
+	FIELD m field_870 I
+	FIELD n field_871 Ljava/util/Properties;
+	FIELD o field_872 Lcom/corrodinggames/rts/gameFramework/utility/p;
+	FIELD p field_873 Ljava/lang/String;
+	METHOD a method_286 ()[Ljava/lang/String;
+	METHOD a method_287 (Lcom/corrodinggames/rts/game/units/ce;)Z
+	METHOD a method_288 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a method_289 (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD a method_290 (Lorg/w3c/dom/Element;Ljava/lang/String;)F
+	METHOD b method_291 (Ljava/lang/String;)Ljava/lang/Integer;
+	METHOD c method_292 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/bu;
+	METHOD d method_293 (Ljava/lang/String;)V

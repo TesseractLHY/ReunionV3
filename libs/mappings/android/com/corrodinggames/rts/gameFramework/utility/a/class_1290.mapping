@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/a/a com/corrodinggames/rts/gameFramework/utility/a/class_1290
+	FIELD a field_7200 Lcom/corrodinggames/rts/appFramework/android/AndroidSAF;
+	FIELD b field_7201 Ljava/util/HashMap;
+	FIELD c field_7202 I
+	METHOD a method_3476 (Landroid/net/Uri;)Ljava/lang/String;
+	METHOD a method_3477 (Landroid/net/Uri;Z)Ljava/lang/String;
+	METHOD a method_3478 (Landroid/net/Uri;ZLjava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/a/b;
+	METHOD b method_3479 ()V
+	METHOD k method_3480 (Ljava/lang/String;)V
+	METHOD l method_3481 (Ljava/lang/String;)V
+	METHOD m method_3482 (Ljava/lang/String;)Z
+	METHOD n method_3483 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD o method_3484 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/a/b;
+	METHOD p method_3485 (Ljava/lang/String;)Ljava/lang/String;

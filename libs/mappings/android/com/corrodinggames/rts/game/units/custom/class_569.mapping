@@ -1,0 +1,23 @@
+CLASS com/corrodinggames/rts/game/units/custom/f com/corrodinggames/rts/game/units/custom/class_569
+	FIELD a field_3042 Ljava/lang/String;
+	FIELD b field_3043 I
+	FIELD c field_3044 I
+	FIELD d field_3045 F
+	FIELD e field_3046 F
+	FIELD f field_3047 F
+	FIELD g field_3048 Z
+	FIELD h field_3049 F
+	FIELD i field_3050 F
+	FIELD j field_3051 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD k field_3052 Lcom/corrodinggames/rts/game/units/custom/m;
+	FIELD l field_3053 Lcom/corrodinggames/rts/gameFramework/utility/p;
+	FIELD m field_3054 Z
+	FIELD n field_3055 F
+	FIELD o field_3056 Z
+	FIELD p field_3057 Ljava/util/ArrayList;
+	FIELD q field_3058 F
+	METHOD a method_1382 (Lcom/corrodinggames/rts/game/units/custom/l;)V
+	METHOD a method_1383 (Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ae;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a method_1384 (Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ae;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a method_1385 (Lcom/corrodinggames/rts/game/units/custom/n;)Z
+	METHOD a method_1386 (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/c;

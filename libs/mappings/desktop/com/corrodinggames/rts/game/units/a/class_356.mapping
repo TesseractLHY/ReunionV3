@@ -1,0 +1,22 @@
+CLASS com/corrodinggames/rts/game/units/a/z com/corrodinggames/rts/game/units/a/class_356
+	FIELD a field_1584 Lcom/corrodinggames/rts/game/units/as;
+	FIELD b field_1585 Ljava/util/ArrayList;
+	FIELD e field_1588 Lcom/corrodinggames/rts/game/units/y;
+	METHOD a method_588 ()Ljava/lang/String;
+	METHOD b method_600 ()Ljava/lang/String;
+	METHOD b method_603 (Lcom/corrodinggames/rts/game/units/am;Z)I
+	METHOD c method_604 ()I
+	METHOD c method_607 (Lcom/corrodinggames/rts/game/units/am;Z)Z
+	METHOD C method_571 ()Z
+	METHOD d method_618 ()Ljava/lang/String;
+	METHOD e method_608 ()Lcom/corrodinggames/rts/game/units/a/u;
+	METHOD f method_610 ()Lcom/corrodinggames/rts/game/units/a/t;
+	METHOD g method_612 ()Z
+	METHOD G method_575 ()Z
+	METHOD h_ method_622 ()Z
+	METHOD i method_616 ()Lcom/corrodinggames/rts/game/units/as;
+	METHOD m_ method_636 ()F
+	METHOD o_ method_635 ()Z
+	METHOD s method_634 ()Z
+	METHOD u method_639 ()Z
+	METHOD w method_633 (Lcom/corrodinggames/rts/game/units/am;)Ljava/lang/String;

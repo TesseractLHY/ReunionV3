@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/ah com/corrodinggames/rts/gameFramework/utility/class_1304
+	FIELD a field_7267 Ljava/lang/String;
+	FIELD b field_7268 Ljava/lang/String;
+	FIELD c field_7269 Ljava/util/zip/ZipFile;
+	FIELD d field_7270 [Ljava/lang/String;
+	METHOD a method_3615 (Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/zip/ZipFile;
+	METHOD a method_3617 (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/util/zip/ZipFile;
+	METHOD b method_3614 ()V
+	METHOD b method_3622 (Ljava/lang/String;)Z
+	METHOD d method_3618 (Ljava/lang/String;)Z
+	METHOD e method_3619 (Ljava/lang/String;)[Ljava/lang/String;
+	METHOD f method_3620 (Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+	METHOD i method_3621 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/j;

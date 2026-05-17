@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/j/n com/corrodinggames/rts/gameFramework/j/class_1048
+	FIELD a field_6257 Ljava/lang/String;
+	FIELD b field_6258 Ljava/util/List;
+	FIELD c field_6259 Z
+	FIELD d field_6260 Z
+	METHOD a method_2953 ()Lcom/corrodinggames/rts/gameFramework/j/u;
+	METHOD call call ()Ljava/lang/Object;

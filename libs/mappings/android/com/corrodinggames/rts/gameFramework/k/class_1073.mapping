@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/gameFramework/k/l com/corrodinggames/rts/gameFramework/k/class_1073
+	FIELD a field_6604 I
+	FIELD b field_6605 I
+	FIELD c field_6606 I
+	FIELD d field_6607 Lcom/corrodinggames/rts/gameFramework/k/a;
+	FIELD e field_6608 Lcom/corrodinggames/rts/gameFramework/k/d;
+	METHOD a method_3153 ()Lcom/corrodinggames/rts/gameFramework/k/m;
+	METHOD a method_3154 (II)V
+	METHOD a method_3155 (ISS)V
+	METHOD a method_3156 (Lcom/corrodinggames/rts/gameFramework/k/m;)V

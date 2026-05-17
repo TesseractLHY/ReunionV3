@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/gameFramework/bu com/corrodinggames/rts/gameFramework/class_867
+	FIELD a field_4776 I
+	FIELD b field_4777 Ljava/lang/String;
+	FIELD c field_4778 I
+	FIELD d field_4779 Z
+	FIELD e field_4780 Z
+	FIELD f field_4781 Z
+	FIELD g field_4782 J
+	FIELD h field_4783 I
+	FIELD i field_4784 Lcom/corrodinggames/rts/gameFramework/bt;

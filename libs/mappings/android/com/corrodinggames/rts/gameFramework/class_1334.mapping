@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/v com/corrodinggames/rts/gameFramework/class_1334
+	FIELD a field_7346 F
+	FIELD b field_7347 Landroid/graphics/Paint;
+	FIELD c field_7348 Lcom/corrodinggames/rts/gameFramework/k;
+	METHOD a method_3690 ()V

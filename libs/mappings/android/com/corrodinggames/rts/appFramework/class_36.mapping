@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/appFramework/bf com/corrodinggames/rts/appFramework/class_36
+	FIELD a field_196 Ljava/lang/String;
+	FIELD b field_197 Lcom/corrodinggames/rts/appFramework/InGameActivity;
+	METHOD run run ()V

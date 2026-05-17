@@ -1,0 +1,51 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/SlickToAndroidKeycodes
+	FIELD b field_7157 Ljava/util/HashMap;
+	FIELD c field_7158 Ljava/util/HashMap;
+	FIELD d field_7159 Ljava/util/HashMap;
+	FIELD e field_7160 Ljava/util/HashMap;
+	FIELD f field_7161 Ljava/util/HashMap;
+	METHOD a method_3469 (Ljava/lang/Class;)Ljava/util/HashMap;
+	METHOD a method_3470 (Ljava/lang/String;)I
+	METHOD a method_3471 (Ljava/lang/String;Ljava/util/HashMap;Ljava/util/HashMap;)Ljava/util/HashMap;
+	METHOD b method_3468 ()V
+	METHOD c method_3472 ()V
+	CLASS AndroidCodes
+	CLASS GdxCodes
+		FIELD A field_7163 I
+		FIELD AT field_7164 I
+		FIELD B field_7165 I
+		FIELD C field_7166 I
+		FIELD E field_7168 I
+		FIELD F field_7178 I
+		FIELD F1 field_7169 I
+		FIELD F2 field_7170 I
+		FIELD F3 field_7171 I
+		FIELD F4 field_7172 I
+		FIELD F5 field_7173 I
+		FIELD F6 field_7174 I
+		FIELD F7 field_7175 I
+		FIELD F8 field_7176 I
+		FIELD F9 field_7177 I
+		FIELD G field_7179 I
+		FIELD H field_7180 I
+		FIELD I field_7181 I
+		FIELD J field_7182 I
+		FIELD K field_7183 I
+		FIELD L field_7184 I
+		FIELD M field_7185 I
+		FIELD N field_7186 I
+		FIELD O field_7187 I
+		FIELD P field_7188 I
+		FIELD Q field_7189 I
+		FIELD R field_7190 I
+		FIELD S field_7191 I
+		FIELD T field_7192 I
+		FIELD U field_7193 I
+		FIELD V field_7195 I
+		FIELD W field_7196 I
+		FIELD X field_7197 I
+		FIELD Y field_7198 I
+		FIELD Z field_7199 I
+	CLASS LibrocketKeys
+	CLASS MissingKey
+	CLASS SlickCodes

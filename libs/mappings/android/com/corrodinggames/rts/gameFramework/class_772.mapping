@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/ag com/corrodinggames/rts/gameFramework/class_772
+	FIELD a field_4213 Ljava/lang/String;
+	FIELD b field_4214 Ljava/lang/String;
+	FIELD c field_4215 Lcom/corrodinggames/rts/gameFramework/s;
+	FIELD d field_4216 Lcom/corrodinggames/rts/gameFramework/s;
+	FIELD e field_4217 Lcom/corrodinggames/rts/gameFramework/s;
+	FIELD f field_4218 Lcom/corrodinggames/rts/gameFramework/k;
+	METHOD run run ()V

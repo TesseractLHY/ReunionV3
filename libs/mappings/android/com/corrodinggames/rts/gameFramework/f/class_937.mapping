@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/f/an com/corrodinggames/rts/gameFramework/f/class_937
+	FIELD a field_5377 Lcom/corrodinggames/rts/gameFramework/utility/p;
+	FIELD b field_5378 I
+	METHOD a method_2444 (Lcom/corrodinggames/rts/gameFramework/f/ai;)V

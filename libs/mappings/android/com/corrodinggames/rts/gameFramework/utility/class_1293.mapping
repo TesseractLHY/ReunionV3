@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/aa com/corrodinggames/rts/gameFramework/utility/class_1293
+	FIELD a field_7218 [Z
+	FIELD b field_7219 [B
+	FIELD c field_7220 [C
+	FIELD d field_7221 [D
+	FIELD e field_7222 [I
+	FIELD f field_7223 [Ljava/lang/Class;
+	FIELD g field_7224 [Ljava/lang/Object;
+	FIELD h field_7225 [Ljava/lang/String;
+	FIELD i field_7226 [Ljava/lang/Throwable;
+	FIELD j field_7227 [Ljava/lang/StackTraceElement;

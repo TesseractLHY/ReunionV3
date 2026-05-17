@@ -1,0 +1,20 @@
+CLASS com/corrodinggames/rts/gameFramework/h/a com/corrodinggames/rts/gameFramework/h/class_988
+	FIELD a field_5769 Ljava/util/ResourceBundle;
+	FIELD b field_5770 Z
+	FIELD c field_5771 I
+	FIELD d field_5772 Ljava/lang/String;
+	FIELD e field_5773 Ljava/util/regex/Pattern;
+	FIELD f field_5774 Ljava/util/regex/Pattern;
+	METHOD a method_2631 ()V
+	METHOD a method_2632 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a method_2636 (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a method_2633 (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a method_2634 (Ljava/lang/String;Ljava/util/Locale;)Ljava/util/ResourceBundle;
+	METHOD a method_2635 (Ljava/lang/String;Ljava/util/Locale;ZZ)Ljava/lang/String;
+	METHOD b method_2637 ()Ljava/lang/String;
+	METHOD b method_2638 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c method_2639 ()V
+	METHOD c method_2640 (Ljava/lang/String;)Ljava/util/PropertyResourceBundle;
+	METHOD d method_2641 ()Ljava/util/ResourceBundle;
+	METHOD d method_2642 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD e method_2643 (Ljava/lang/String;)Z

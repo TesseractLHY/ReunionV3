@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/custom/ak com/corrodinggames/rts/game/units/custom/class_476
+	METHOD a method_1170 (Lcom/corrodinggames/rts/game/units/bp;)Ljava/lang/String;

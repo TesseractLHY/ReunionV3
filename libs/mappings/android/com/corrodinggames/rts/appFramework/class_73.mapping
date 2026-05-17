@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/appFramework/cp com/corrodinggames/rts/appFramework/class_73
+	FIELD a field_251 Ljava/lang/String;
+	FIELD b field_252 Landroid/content/Context;
+	FIELD c field_253 Lcom/corrodinggames/rts/appFramework/LoadLevelActivity;
+	METHOD run run ()V

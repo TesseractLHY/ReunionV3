@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/gameFramework/k/f com/corrodinggames/rts/gameFramework/k/class_1067
+	FIELD a field_6515 I
+	FIELD b field_6516 I
+	FIELD c field_6517 I
+	FIELD d field_6518 I
+	FIELD e field_6519 [B
+	FIELD f field_6520 [B
+	METHOD a method_3098 (Lcom/corrodinggames/rts/gameFramework/k/o;)B
+	METHOD a method_3099 (Lcom/corrodinggames/rts/gameFramework/k/o;B)V
+	METHOD a method_3100 (Lcom/corrodinggames/rts/gameFramework/k/o;Z)V
+	METHOD b method_3101 (Lcom/corrodinggames/rts/gameFramework/k/o;)Z
+	METHOD c method_3102 (Lcom/corrodinggames/rts/gameFramework/k/o;)Z

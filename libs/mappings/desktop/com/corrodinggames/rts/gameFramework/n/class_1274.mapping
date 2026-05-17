@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/gameFramework/n/g com/corrodinggames/rts/gameFramework/n/class_1274
+	FIELD a field_7121 Ljava/util/ArrayList;
+	FIELD d field_7124 F
+	FIELD e field_7125 I
+	FIELD f field_7126 Ljava/lang/String;
+	FIELD g field_7127 Z
+	FIELD h field_7128 Z
+	FIELD i field_7129 Lcom/corrodinggames/rts/gameFramework/n/f;
+	METHOD a method_3459 (Ljava/lang/String;)Z

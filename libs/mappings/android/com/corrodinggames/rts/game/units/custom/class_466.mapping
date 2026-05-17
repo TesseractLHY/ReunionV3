@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/aa com/corrodinggames/rts/game/units/custom/class_466
+	FIELD a field_2374 J
+	FIELD b field_2375 Ljava/lang/String;
+	METHOD a method_1110 (Z)J

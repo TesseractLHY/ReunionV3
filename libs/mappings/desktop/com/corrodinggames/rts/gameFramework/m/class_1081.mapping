@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/gameFramework/m/a com/corrodinggames/rts/gameFramework/m/class_1081
+	FIELD a field_6648 Z
+	FIELD b field_6649 Ljavax/microedition/khronos/opengles/GL10;
+	FIELD d field_6651 F
+	FIELD e field_6652 I
+	FIELD g field_6654 [Lcom/corrodinggames/rts/gameFramework/m/c;
+	FIELD o field_6662 Ljava/lang/String;
+	FIELD p field_6663 J
+	FIELD q field_6664 Landroid/graphics/BitmapFactory$Options;

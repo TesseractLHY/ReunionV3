@@ -1,0 +1,17 @@
+CLASS com/corrodinggames/rts/game/units/custom/logicBooleans/LogicNumberFunction
+	CLASS CreateMarker
+	CLASS FunctionCos
+	CLASS FunctionDirection
+	CLASS FunctionDirectionBetween
+	CLASS FunctionDistance
+	CLASS FunctionDistanceBetween
+	CLASS FunctionDistanceBetweenSquared
+	CLASS FunctionDistanceSquared
+	CLASS FunctionInt
+	CLASS FunctionLength
+	CLASS FunctionMax
+	CLASS FunctionMin
+	CLASS FunctionRnd
+	CLASS FunctionSin
+	CLASS FunctionSquareRoot
+	CLASS LogicNumberFunctionRawArgs

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/b/al com/corrodinggames/rts/gameFramework/b/class_814
+	FIELD m field_4511 I
+	METHOD a method_1872 (Lcom/corrodinggames/rts/gameFramework/b/p;Landroid/graphics/Bitmap;II)V
+	METHOD d method_1873 (Lcom/corrodinggames/rts/gameFramework/b/p;)V

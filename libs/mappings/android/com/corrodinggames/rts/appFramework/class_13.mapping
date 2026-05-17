@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/aj com/corrodinggames/rts/appFramework/class_13
+	FIELD a field_161 Ljava/util/HashMap;
+	FIELD b field_162 Ljava/lang/String;

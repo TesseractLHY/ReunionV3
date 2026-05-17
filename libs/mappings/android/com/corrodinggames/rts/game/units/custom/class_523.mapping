@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/custom/bq com/corrodinggames/rts/game/units/custom/class_523
+	METHOD a method_1212 (Lcom/corrodinggames/rts/game/units/custom/j;)D
+	METHOD b method_1213 (Lcom/corrodinggames/rts/game/units/custom/j;D)V

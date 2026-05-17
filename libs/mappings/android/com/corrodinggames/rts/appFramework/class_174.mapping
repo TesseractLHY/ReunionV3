@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/gi com/corrodinggames/rts/appFramework/class_174
+	FIELD a field_491 Lcom/corrodinggames/rts/appFramework/MultiplayerLobbyActivity;
+	METHOD run run ()V

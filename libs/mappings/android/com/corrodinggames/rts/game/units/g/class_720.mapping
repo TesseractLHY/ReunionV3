@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/g/a com/corrodinggames/rts/game/units/g/class_720
+	FIELD a field_4028 I
+	METHOD a method_1717 ()Lcom/corrodinggames/rts/game/units/g/b;
+	METHOD a method_1718 (Lcom/corrodinggames/rts/game/units/bp;Lcom/corrodinggames/rts/gameFramework/j/bg;)V
+	METHOD a method_1719 (Lcom/corrodinggames/rts/game/units/bp;Lcom/corrodinggames/rts/gameFramework/j/j;)V

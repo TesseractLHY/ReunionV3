@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/game/units/custom/b/m com/corrodinggames/rts/game/units/custom/b/class_505
+	FIELD a field_2610 Lcom/corrodinggames/rts/game/units/custom/b/m;
+	METHOD a method_1179 (Lcom/corrodinggames/rts/game/units/custom/j;)V
+	METHOD a method_1180 (Lcom/corrodinggames/rts/game/units/custom/j;F)V
+	METHOD a method_1201 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/game/units/custom/b/n;)Lcom/corrodinggames/rts/game/units/y;
+	METHOD a method_1202 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/game/units/custom/b/n;Lcom/corrodinggames/rts/game/units/y;)Z
+	METHOD a method_1181 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/game/units/custom/l;)V
+	METHOD a method_1203 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/gameFramework/utility/m;Z)V
+	METHOD a method_1204 (Lcom/corrodinggames/rts/game/units/custom/j;S)Lcom/corrodinggames/rts/game/units/custom/b/n;
+	METHOD b method_1183 (Lcom/corrodinggames/rts/game/units/custom/j;)V
+	METHOD b method_1182 (Lcom/corrodinggames/rts/game/units/custom/j;F)V
+	METHOD c method_1184 (Lcom/corrodinggames/rts/game/units/custom/j;)V

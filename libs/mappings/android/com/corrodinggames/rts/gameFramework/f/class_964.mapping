@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/f/l com/corrodinggames/rts/gameFramework/f/class_964
+	FIELD a field_5627 Landroid/graphics/Point;
+	METHOD a method_2592 (II)Landroid/graphics/Point;

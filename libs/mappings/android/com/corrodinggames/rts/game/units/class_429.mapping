@@ -1,0 +1,17 @@
+CLASS com/corrodinggames/rts/game/units/ch com/corrodinggames/rts/game/units/class_429
+	FIELD a field_2037 F
+	FIELD b field_2038 F
+	FIELD c field_2039 F
+	FIELD d field_2040 F
+	FIELD e field_2041 F
+	FIELD f field_2042 F
+	FIELD g field_2043 Z
+	FIELD h field_2044 F
+	FIELD i field_2045 F
+	FIELD j field_2046 Lcom/corrodinggames/rts/game/units/ce;
+	FIELD k field_2047 F
+	FIELD l field_2048 F
+	FIELD m field_2049 Z
+	METHOD a method_1070 ()Z
+	METHOD a method_1071 (F)V
+	METHOD a method_1072 (I)V

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/a/o com/corrodinggames/rts/game/a/class_285
+	FIELD a field_761 I
+	FIELD b field_762 I
+	FIELD c field_763 [I

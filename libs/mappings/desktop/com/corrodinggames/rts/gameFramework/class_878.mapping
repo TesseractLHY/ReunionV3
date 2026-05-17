@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/bn com/corrodinggames/rts/gameFramework/class_878
+	METHOD a method_2065 ()V
+	METHOD c method_2068 ()Z

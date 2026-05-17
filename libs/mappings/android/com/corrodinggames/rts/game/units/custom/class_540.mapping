@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/custom/ca com/corrodinggames/rts/game/units/custom/class_540
+	FIELD bh field_2777 Ljava/lang/String;
+	FIELD bi field_2778 I
+	FIELD bj field_2779 Lcom/corrodinggames/rts/game/units/custom/l;
+	METHOD a method_1240 (Lcom/corrodinggames/rts/game/units/ce;Lcom/corrodinggames/rts/game/f;Lcom/corrodinggames/rts/game/units/ce;FFF)V
+	METHOD a method_1241 (Lcom/corrodinggames/rts/game/units/custom/ca;Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ae;Ljava/lang/String;)V

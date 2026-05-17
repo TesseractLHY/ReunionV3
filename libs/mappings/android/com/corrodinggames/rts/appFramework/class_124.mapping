@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/appFramework/em com/corrodinggames/rts/appFramework/class_124
+	FIELD a field_331 Z
+	FIELD b field_332 Ljava/lang/String;
+	FIELD c field_333 Lcom/corrodinggames/rts/appFramework/ModsActivity;
+	METHOD run run ()V

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/aq com/corrodinggames/rts/gameFramework/class_852
+	METHOD a method_1997 ()Lcom/corrodinggames/rts/gameFramework/as;
+	METHOD a method_1998 (Lcom/corrodinggames/rts/gameFramework/am;)V
+	METHOD a method_1999 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/ar;

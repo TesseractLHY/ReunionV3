@@ -1,0 +1,16 @@
+CLASS com/corrodinggames/rts/game/units/d/q com/corrodinggames/rts/game/units/d/class_639
+	FIELD a field_3764 I
+	FIELD b field_3765 F
+	FIELD c field_3766 Lcom/corrodinggames/rts/game/units/custom/d/b;
+	FIELD d field_3767 Lcom/corrodinggames/rts/game/units/custom/d/b;
+	FIELD e field_3768 Lcom/corrodinggames/rts/game/units/custom/h;
+	FIELD f field_3769 Z
+	FIELD g field_3770 Lcom/corrodinggames/rts/game/units/el;
+	FIELD h field_3771 Landroid/graphics/PointF;
+	FIELD i field_3772 Lcom/corrodinggames/rts/game/units/ce;
+	FIELD j field_3773 Lcom/corrodinggames/rts/game/units/a/c;
+	FIELD k field_3774 Z
+	FIELD l field_3775 Z
+	FIELD m field_3776 F
+	FIELD n field_3777 D
+	METHOD a method_1582 (Lcom/corrodinggames/rts/gameFramework/j/j;)V

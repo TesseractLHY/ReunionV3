@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/z com/corrodinggames/rts/gameFramework/utility/class_1333
+	FIELD a field_7344 [B
+	FIELD b field_7345 I
+	METHOD a method_3687 ()V
+	METHOD a method_3688 (I)V
+	METHOD b method_3689 ()I
+	METHOD close close ()V
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD write write ([BII)V
+	METHOD write write (I)V

@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/by com/corrodinggames/rts/appFramework/class_55
+	FIELD a field_226 Lcom/corrodinggames/rts/appFramework/LevelSelectActivity;
+	METHOD run run ()V

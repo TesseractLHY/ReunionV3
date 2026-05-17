@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/a com/corrodinggames/rts/gameFramework/utility/class_1289
+	METHOD a method_3473 ()Lcom/corrodinggames/rts/gameFramework/utility/a;
+	METHOD a method_3474 (Ljava/lang/String;Z)Lcom/corrodinggames/rts/gameFramework/utility/a;
+	METHOD a method_3475 (Ljava/lang/Thread;)Ljava/lang/String;
+	METHOD fillInStackTrace fillInStackTrace ()Ljava/lang/Throwable;

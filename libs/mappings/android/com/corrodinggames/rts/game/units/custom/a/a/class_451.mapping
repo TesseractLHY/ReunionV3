@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/g com/corrodinggames/rts/game/units/custom/a/a/class_451
+	FIELD a field_2182 Lcom/corrodinggames/rts/game/units/custom/e/a;
+	FIELD b field_2183 Lcom/corrodinggames/rts/game/units/custom/e/a;
+	FIELD c field_2184 D
+	FIELD d field_2185 D
+	FIELD e field_2186 F
+	METHOD a method_1099 (Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ae;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/a/d;)V

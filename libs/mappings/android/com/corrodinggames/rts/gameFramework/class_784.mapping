@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/as com/corrodinggames/rts/gameFramework/class_784
+	FIELD e field_4324 I
+	FIELD f field_4325 I
+	FIELD g field_4326 Z
+	FIELD h field_4327 I
+	FIELD i field_4328 F
+	FIELD j field_4329 Z
+	METHOD a method_1819 (Z)F

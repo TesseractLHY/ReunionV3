@@ -1,0 +1,16 @@
+CLASS com/corrodinggames/rts/gameFramework/bq com/corrodinggames/rts/gameFramework/class_863
+	FIELD a field_4745 Z
+	FIELD b field_4746 I
+	FIELD c field_4747 I
+	FIELD d field_4748 I
+	FIELD e field_4749 I
+	FIELD f field_4750 I
+	FIELD g field_4751 I
+	FIELD h field_4752 Z
+	FIELD i field_4753 Ljava/util/concurrent/ConcurrentLinkedQueue;
+	FIELD j field_4754 J
+	FIELD k field_4755 Lcom/corrodinggames/rts/gameFramework/bp;
+	METHOD a method_2041 ()V
+	METHOD a method_2042 (Lcom/corrodinggames/rts/gameFramework/bs;)V
+	METHOD b method_2043 ()V
+	METHOD run run ()V

@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/f/al com/corrodinggames/rts/gameFramework/f/class_935
+	FIELD d field_5371 Ljava/lang/String;
+	FIELD e field_5372 Lcom/corrodinggames/rts/gameFramework/f/ah;
+	METHOD a method_2441 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/f/al;
+	METHOD b method_2442 (Landroid/graphics/Paint;)Landroid/graphics/Paint;

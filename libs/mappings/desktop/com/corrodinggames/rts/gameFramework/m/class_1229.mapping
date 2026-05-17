@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/m/ac com/corrodinggames/rts/gameFramework/m/class_1229
+	FIELD a field_6865 Z
+	FIELD c field_6867 Ljava/nio/FloatBuffer;
+	FIELD f field_6869 Ljava/nio/IntBuffer;
+	FIELD m field_6870 I
+	METHOD a method_3310 (IIFF)V

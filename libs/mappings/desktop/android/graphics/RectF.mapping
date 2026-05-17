@@ -1,0 +1,54 @@
+CLASS android/graphics/RectF
+	FIELD a left F
+	FIELD b top F
+	FIELD c right F
+	FIELD d bottom F
+	FIELD e CREATOR Landroid/os/Parcelable$Creator;
+	METHOD <init> <init> (FFFF)V
+		ARG 1 left
+		ARG 2 top
+		ARG 3 right
+		ARG 4 bottom
+	METHOD <init> <init> (Landroid/graphics/Rect;)V
+		ARG 1 r
+	METHOD <init> <init> (Landroid/graphics/RectF;)V
+		ARG 1 r
+	METHOD a isEmpty ()Z
+	METHOD a offset (FF)V
+		ARG 1 dx
+		ARG 2 dy
+	METHOD a set (FFFF)V
+		ARG 1 left
+		ARG 2 top
+		ARG 3 right
+		ARG 4 bottom
+	METHOD a set (Landroid/graphics/Rect;)V
+		ARG 1 r
+	METHOD a set (Landroid/graphics/RectF;)V
+		ARG 1 r
+	METHOD a intersects (Landroid/graphics/RectF;Landroid/graphics/RectF;)Z
+		ARG 0 a
+		ARG 1 b
+	METHOD b width ()F
+	METHOD b contains (FF)Z
+		ARG 1 x
+		ARG 2 y
+	METHOD b contains (FFFF)Z
+		ARG 1 left
+		ARG 2 top
+		ARG 3 right
+		ARG 4 bottom
+	METHOD b contains (Landroid/graphics/RectF;)Z
+		ARG 1 r
+	METHOD c height ()F
+	METHOD c union (FF)V
+		ARG 1 x
+		ARG 2 y
+	METHOD d centerX ()F
+	METHOD describeContents describeContents ()I
+	METHOD e centerY ()F
+	METHOD f setEmpty ()V
+	METHOD g sort ()V
+	METHOD writeToParcel writeToParcel (Landroid/os/Parcel;I)V
+		ARG 1 out
+		ARG 2 flags

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/b/ac com/corrodinggames/rts/gameFramework/b/class_805
+	FIELD a field_4458 F
+	FIELD b field_4459 I
+	FIELD c field_4460 Landroid/graphics/Paint$Style;

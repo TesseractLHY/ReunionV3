@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/custom/k com/corrodinggames/rts/game/units/custom/class_580
+	FIELD a field_3137 Lcom/corrodinggames/rts/game/units/custom/ae;
+	FIELD b field_3138 Lcom/corrodinggames/rts/game/units/custom/j;
+	FIELD c field_3139 Lcom/corrodinggames/rts/game/units/ce;
+	FIELD d field_3140 Lcom/corrodinggames/rts/game/units/custom/h;
+	FIELD e field_3141 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope;
+	METHOD a method_1452 ()V

@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/gameFramework/f/bd com/corrodinggames/rts/gameFramework/f/class_954
+	FIELD c field_5408 J
+	FIELD d field_5409 J
+	FIELD e field_5410 F
+	FIELD f field_5411 F
+	FIELD g field_5412 Ljava/lang/String;
+	FIELD h field_5413 Z
+	FIELD i field_5414 Z
+	METHOD a method_2470 ()Ljava/lang/String;
+	METHOD a method_2471 (Lcom/corrodinggames/rts/gameFramework/f/bd;)Z
+	METHOD b method_2472 ()J
+	METHOD b method_2473 (Lcom/corrodinggames/rts/gameFramework/f/bd;)V
+	METHOD compareTo compareTo (Ljava/lang/Object;)I

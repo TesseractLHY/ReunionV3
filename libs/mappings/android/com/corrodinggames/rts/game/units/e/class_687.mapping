@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/e/l com/corrodinggames/rts/game/units/e/class_687
+	FIELD dM field_3887 F
+	FIELD dN field_3888 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD dO field_3889 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD dP field_3890 [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD dQ field_3891 [Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD cT method_1640 ()V

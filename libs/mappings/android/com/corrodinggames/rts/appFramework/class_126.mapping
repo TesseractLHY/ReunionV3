@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/appFramework/eo com/corrodinggames/rts/appFramework/class_126
+	METHOD getDraggableObjectAtPoint getDraggableObjectAtPoint (Lcom/corrodinggames/rts/appFramework/ep;)Ljava/lang/Object;
+	METHOD getPositionAndScale getPositionAndScale (Ljava/lang/Object;Lcom/corrodinggames/rts/appFramework/eq;)V
+	METHOD selectObject selectObject (Ljava/lang/Object;Lcom/corrodinggames/rts/appFramework/ep;)V
+	METHOD setPositionAndScale setPositionAndScale (Ljava/lang/Object;Lcom/corrodinggames/rts/appFramework/eq;Lcom/corrodinggames/rts/appFramework/ep;)Z

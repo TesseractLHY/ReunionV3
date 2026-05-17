@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/n/a/c com/corrodinggames/rts/gameFramework/n/a/class_1258
+	FIELD a field_7045 Ljava/lang/Integer;
+	METHOD b method_3431 (Lcom/corrodinggames/rts/gameFramework/n/a;)Z
+	METHOD d method_3433 (Lcom/corrodinggames/rts/gameFramework/n/a;)Lcom/corrodinggames/rts/gameFramework/n/a/c;

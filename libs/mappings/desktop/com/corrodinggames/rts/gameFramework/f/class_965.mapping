@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/f/k com/corrodinggames/rts/gameFramework/f/class_965
+	FIELD a field_5628 Lcom/corrodinggames/rts/gameFramework/f/g;
+	FIELD e field_5632 Landroid/graphics/RectF;

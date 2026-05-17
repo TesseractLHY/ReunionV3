@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/gameFramework/ao com/corrodinggames/rts/gameFramework/class_780
+	FIELD a field_4315 Ljava/lang/String;
+	FIELD b field_4316 Z
+	FIELD c field_4317 Ljava/util/ArrayList;
+	FIELD d field_4318 Ljava/util/ArrayList;
+	METHOD a method_1807 ()Z
+	METHOD a method_1808 (II)Lcom/corrodinggames/rts/gameFramework/ao;
+	METHOD a method_1809 (ILjava/lang/String;I)Lcom/corrodinggames/rts/gameFramework/ao;
+	METHOD a method_1810 (IZ)Lcom/corrodinggames/rts/gameFramework/ao;
+	METHOD a method_1811 (Ljava/lang/String;I)Lcom/corrodinggames/rts/gameFramework/ao;
+	METHOD b method_1812 ()Z
+	METHOD c method_1813 ()Z
+	METHOD d method_1814 ()Ljava/lang/String;

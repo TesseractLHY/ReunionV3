@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/a/q com/corrodinggames/rts/game/a/class_287
+	FIELD b field_767 Ljava/lang/String;
+	FIELD c field_768 Ljava/util/ArrayList;
+	FIELD d field_769 Ljava/util/ArrayList;
+	FIELD e field_770 Lcom/corrodinggames/rts/game/a/a;
+	METHOD a method_244 (Lcom/corrodinggames/rts/game/units/cg;)Lcom/corrodinggames/rts/game/units/el;
+	METHOD a method_245 (Lcom/corrodinggames/rts/game/units/el;)Z
+	METHOD a method_246 (Lcom/corrodinggames/rts/game/units/el;Lcom/corrodinggames/rts/game/units/cg;)Z

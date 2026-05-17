@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/gameFramework/k/a com/corrodinggames/rts/gameFramework/k/class_1062
+	FIELD a field_6500 [Lcom/corrodinggames/rts/gameFramework/k/n;
+	FIELD b field_6501 I
+	FIELD c field_6502 [Lcom/corrodinggames/rts/gameFramework/k/n;
+	METHOD a method_3085 (II)Ljava/lang/IndexOutOfBoundsException;
+	METHOD a method_3086 (Lcom/corrodinggames/rts/gameFramework/k/a;)I
+	METHOD a method_3087 (Lcom/corrodinggames/rts/gameFramework/k/n;)Z
+	METHOD b method_3083 ()Lcom/corrodinggames/rts/gameFramework/k/n;
+	METHOD b method_3088 (Lcom/corrodinggames/rts/gameFramework/k/a;)I
+	METHOD b method_3089 (Lcom/corrodinggames/rts/gameFramework/k/n;)V
+	METHOD c method_3084 (I)I
+	METHOD c method_3090 (Lcom/corrodinggames/rts/gameFramework/k/a;)I
+	METHOD d method_3091 (Lcom/corrodinggames/rts/gameFramework/k/a;)I

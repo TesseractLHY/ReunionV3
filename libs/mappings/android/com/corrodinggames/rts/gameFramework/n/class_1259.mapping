@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/n/b com/corrodinggames/rts/gameFramework/n/class_1259
+	FIELD a field_7061 Lcom/corrodinggames/rts/gameFramework/utility/p;
+	FIELD b field_7062 Z
+	METHOD a method_3434 ()Z
+	METHOD a method_3435 (Lcom/corrodinggames/rts/gameFramework/n/a;)V

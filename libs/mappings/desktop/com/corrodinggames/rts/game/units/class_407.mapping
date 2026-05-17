@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/w com/corrodinggames/rts/game/units/class_407
+	METHOD i method_1043 ()Z
+	METHOD I method_688 ()Z
+	METHOD Q method_898 ()Z

@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/game/units/custom/logicBooleans/LogicString
+	CLASS Debug
+	CLASS DebugPassthrough
+	CLASS LowerString
+	CLASS Playername
+	CLASS Select
+	CLASS StaticString
+	CLASS StringCast
+		CLASS NumberToStringCast
+	CLASS Substring
+	CLASS TeamName
+	CLASS UpperString
+	CLASS WrappingLogicString

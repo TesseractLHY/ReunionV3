@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/e/f com/corrodinggames/rts/gameFramework/e/class_904
+	METHOD b method_2203 ()Ljava/lang/String;
+	METHOD b method_2205 (Ljava/lang/String;Z)[Ljava/lang/String;
+	METHOD d method_2206 ()Ljava/lang/String;
+	METHOD e method_2209 ()Z

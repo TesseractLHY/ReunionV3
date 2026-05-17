@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/appFramework/af com/corrodinggames/rts/appFramework/class_9
+	METHOD run run ()V

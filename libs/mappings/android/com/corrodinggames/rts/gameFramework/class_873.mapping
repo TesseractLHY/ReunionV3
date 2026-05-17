@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/gameFramework/c com/corrodinggames/rts/gameFramework/class_873
+	FIELD a field_4800 Z
+	FIELD b field_4801 Ljava/util/ArrayList;
+	FIELD c field_4802 Ljava/util/ArrayList;
+	FIELD d field_4803 Ljava/util/ArrayList;
+	FIELD e field_4804 I
+	METHOD a method_2057 ()V
+	METHOD a method_2058 (Lcom/corrodinggames/rts/game/p;)Lcom/corrodinggames/rts/gameFramework/e;
+	METHOD a method_2059 (Ljava/lang/String;)V
+	METHOD b method_2060 ()Lcom/corrodinggames/rts/gameFramework/e;
+	METHOD c method_2061 ()V
+	METHOD d method_2062 ()V

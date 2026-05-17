@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/appFramework/SettingsKeysActivity
+	FIELD buttons buttons Ljava/util/ArrayList;
+	FIELD mKeyLabels mKeyLabels [Ljava/lang/String;
+	FIELD saveChanges saveChanges Z
+	FIELD settings settings Lcom/corrodinggames/rts/gameFramework/SettingsEngine;
+	METHOD getKeyLabel getKeyLabel (I)Ljava/lang/String;
+	METHOD onCreate onCreate (Landroid/os/Bundle;)V
+	METHOD onPause onPause ()V
+	METHOD saveSettings saveSettings ()V

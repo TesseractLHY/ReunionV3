@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/units/custom/u com/corrodinggames/rts/game/units/custom/class_590
+	FIELD a field_3586 Lcom/corrodinggames/rts/gameFramework/utility/p;
+	FIELD b field_3587 Lcom/corrodinggames/rts/gameFramework/utility/p;
+	FIELD c field_3588 Ljava/lang/String;
+	FIELD d field_3589 Ljava/lang/String;
+	METHOD a method_1506 (Lcom/corrodinggames/rts/game/units/custom/j;Landroid/graphics/PointF;Lcom/corrodinggames/rts/game/units/ce;)V
+	METHOD a method_1507 (Lcom/corrodinggames/rts/game/units/custom/j;Landroid/graphics/PointF;Lcom/corrodinggames/rts/game/units/ce;II)V
+	METHOD a method_1508 (Lcom/corrodinggames/rts/game/units/custom/l;)V

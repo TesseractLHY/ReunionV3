@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/f/b com/corrodinggames/rts/gameFramework/f/class_950
+	FIELD a field_5404 Ljava/lang/String;
+	METHOD a method_2469 ()V

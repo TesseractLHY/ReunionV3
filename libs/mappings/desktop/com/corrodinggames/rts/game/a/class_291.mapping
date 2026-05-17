@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/game/a/h com/corrodinggames/rts/game/a/class_291
+	FIELD F field_805 Ljava/util/ArrayList;
+	FIELD G field_806 Ljava/util/ArrayList;
+	METHOD a method_257 ()Z
+	METHOD a method_259 (Lcom/corrodinggames/rts/game/units/y;)V
+	METHOD b method_260 ()Z
+	METHOD b method_258 (F)V
+	METHOD b method_262 (Lcom/corrodinggames/rts/game/units/y;)V
+	METHOD c method_261 (F)V
+	METHOD m method_263 ()Z
+	METHOD n method_264 ()V
+	METHOD p method_240 ()V
+	METHOD q method_265 ()V

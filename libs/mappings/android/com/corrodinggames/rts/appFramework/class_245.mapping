@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/appFramework/j com/corrodinggames/rts/appFramework/class_245
+	METHOD onClick onClick (Landroid/content/DialogInterface;I)V

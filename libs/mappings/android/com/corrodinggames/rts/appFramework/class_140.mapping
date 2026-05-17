@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/appFramework/fb com/corrodinggames/rts/appFramework/class_140
+	FIELD a field_422 Landroid/widget/Spinner;
+	FIELD b field_423 Lcom/corrodinggames/rts/game/p;
+	FIELD c field_424 Landroid/widget/Spinner;
+	FIELD d field_425 Landroid/widget/Spinner;
+	FIELD e field_426 Landroid/widget/Spinner;
+	FIELD f field_427 Landroid/widget/Spinner;
+	FIELD g field_428 Landroid/app/Dialog;
+	FIELD h field_429 Lcom/corrodinggames/rts/appFramework/MultiplayerBattleroomActivity;
+	METHOD onClick onClick (Landroid/view/View;)V

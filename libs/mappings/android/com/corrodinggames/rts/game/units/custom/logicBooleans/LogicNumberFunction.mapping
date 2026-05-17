@@ -1,0 +1,51 @@
+CLASS com/corrodinggames/rts/game/units/custom/logicBooleans/LogicNumberFunction
+	CLASS CreateMarker
+		FIELD dir dir Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD height height Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD teamId teamId Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD x x Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD y y Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	CLASS FunctionCos
+	CLASS FunctionDirection
+		FIELD x1 x1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD x2 x2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD y1 y1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD y2 y2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	CLASS FunctionDirectionBetween
+		FIELD unit1 unit1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD unit2 unit2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	CLASS FunctionDistance
+		FIELD x1 x1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD x2 x2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD y1 y1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD y2 y2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	CLASS FunctionDistanceBetween
+		FIELD unit1 unit1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD unit2 unit2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	CLASS FunctionDistanceBetweenSquared
+		FIELD unit1 unit1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD unit2 unit2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	CLASS FunctionDistanceSquared
+		FIELD x1 x1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD x2 x2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD y1 y1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD y2 y2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	CLASS FunctionInt
+	CLASS FunctionLength
+		FIELD a a Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	CLASS FunctionMax
+		FIELD a a Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD b b Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	CLASS FunctionMin
+		FIELD a a Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD b b Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	CLASS FunctionRnd
+		FIELD max max Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD min min Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD randomIndex randomIndex I
+	CLASS FunctionSin
+	CLASS FunctionSquareRoot
+	CLASS LogicNumberFunctionRawArgs
+		FIELD value value Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		METHOD doFunction doFunction (F)F
+		METHOD validateNumberOfArguments validateNumberOfArguments (I)V

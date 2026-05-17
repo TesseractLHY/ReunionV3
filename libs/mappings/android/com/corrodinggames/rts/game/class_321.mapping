@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/m com/corrodinggames/rts/game/class_321
+	FIELD a field_1378 Landroid/graphics/Bitmap;
+	FIELD b field_1379 I
+	FIELD c field_1380 Lcom/corrodinggames/rts/game/i;
+	METHOD run run ()V

@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/game/units/custom/logicBooleans/LogicBooleanLoader
+	CLASS ArrayContextReader
+		CLASS ArrayContains
+		CLASS ArrayFunction
+		CLASS ArrayGet
+		CLASS ArrayGetUnit
+		CLASS ArraySize
+	CLASS DefaultContextReader
+	CLASS LogicBooleanContext
+	CLASS LogicBooleanContextWithDefault
+	CLASS LogicBooleanScopeOnly
+	CLASS ParameterMapping
+		CLASS FieldOrMethod
+	CLASS VoidContextReader

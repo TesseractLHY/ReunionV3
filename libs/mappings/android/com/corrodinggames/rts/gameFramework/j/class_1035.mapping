@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/j/bl com/corrodinggames/rts/gameFramework/j/class_1035
+	FIELD a field_6135 Ljava/io/BufferedOutputStream;
+	FIELD b field_6136 Ljava/lang/String;
+	FIELD c field_6137 Ljava/io/ByteArrayOutputStream;
+	FIELD d field_6138 Ljava/io/PrintStream;
+	FIELD e field_6139 Z
+	METHOD a method_2892 ()V

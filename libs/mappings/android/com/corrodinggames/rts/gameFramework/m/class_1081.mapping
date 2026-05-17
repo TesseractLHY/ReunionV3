@@ -1,0 +1,21 @@
+CLASS com/corrodinggames/rts/gameFramework/m/a com/corrodinggames/rts/gameFramework/m/class_1081
+	FIELD a field_6648 Z
+	FIELD b field_6649 Ljavax/microedition/khronos/opengles/GL10;
+	FIELD c field_6650 F
+	FIELD d field_6651 F
+	FIELD e field_6652 I
+	FIELD f field_6653 I
+	FIELD g field_6654 [Lcom/corrodinggames/rts/gameFramework/m/c;
+	FIELD h field_6655 Lcom/corrodinggames/rts/gameFramework/m/fm;
+	FIELD i field_6656 I
+	FIELD j field_6657 I
+	FIELD k field_6658 I
+	FIELD l field_6659 I
+	FIELD m field_6660 I
+	FIELD n field_6661 I
+	FIELD o field_6662 Ljava/lang/String;
+	FIELD p field_6663 J
+	FIELD q field_6664 Landroid/graphics/BitmapFactory$Options;
+	METHOD onDrawFrame onDrawFrame (Ljavax/microedition/khronos/opengles/GL10;)V
+	METHOD onSurfaceChanged onSurfaceChanged (Ljavax/microedition/khronos/opengles/GL10;II)V
+	METHOD onSurfaceCreated onSurfaceCreated (Ljavax/microedition/khronos/opengles/GL10;Ljavax/microedition/khronos/egl/EGLConfig;)V

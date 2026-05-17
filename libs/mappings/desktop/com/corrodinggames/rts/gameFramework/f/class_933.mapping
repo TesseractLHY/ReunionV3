@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/f/ag com/corrodinggames/rts/gameFramework/f/class_933
+	FIELD a field_5363 Landroid/graphics/Paint;
+	FIELD b field_5364 I
+	METHOD b method_2442 (Landroid/graphics/Paint;)Landroid/graphics/Paint;
+	METHOD b method_2441 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/f/ai;

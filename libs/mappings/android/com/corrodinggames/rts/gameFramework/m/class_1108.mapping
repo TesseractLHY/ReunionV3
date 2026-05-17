@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/m/b com/corrodinggames/rts/gameFramework/m/class_1108
+	FIELD a field_6665 I
+	FIELD b field_6666 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c field_6667 F
+	FIELD d field_6668 F
+	FIELD e field_6669 Landroid/graphics/Rect;
+	FIELD f field_6670 Landroid/graphics/RectF;
+	FIELD g field_6671 Lcom/corrodinggames/rts/gameFramework/m/a;

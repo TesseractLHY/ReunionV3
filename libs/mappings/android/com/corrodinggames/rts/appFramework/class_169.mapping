@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/appFramework/gd com/corrodinggames/rts/appFramework/class_169
+	FIELD a field_482 I
+	FIELD b field_483 Landroid/widget/TextView;
+	FIELD c field_484 Landroid/view/ViewGroup;
+	FIELD d field_485 Lcom/corrodinggames/rts/appFramework/MultiplayerBattleroomActivity;

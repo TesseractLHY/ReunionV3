@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/appFramework/p com/corrodinggames/rts/appFramework/MultiplayerLobbyActivity
+	METHOD m getSortedDiscoveredServers ()Ljava/util/ArrayList;

@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/appFramework/cr com/corrodinggames/rts/appFramework/class_75
+	FIELD a field_255 Landroid/content/Context;
+	FIELD b field_256 Ljava/lang/String;
+	FIELD c field_257 Lcom/corrodinggames/rts/appFramework/LoadLevelActivity;
+	METHOD onClick onClick (Landroid/content/DialogInterface;I)V

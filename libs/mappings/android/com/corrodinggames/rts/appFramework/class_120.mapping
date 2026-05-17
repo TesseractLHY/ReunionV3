@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/appFramework/ei com/corrodinggames/rts/appFramework/class_120
+	FIELD a field_324 Landroid/widget/CheckBox;
+	FIELD b field_325 Lcom/corrodinggames/rts/gameFramework/i/b;
+	FIELD c field_326 Lcom/corrodinggames/rts/appFramework/ModsActivity;

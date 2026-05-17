@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/d/ah com/corrodinggames/rts/game/units/d/class_623
+	FIELD a field_3689 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b field_3690 [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c field_3691 Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD b method_1561 ()V

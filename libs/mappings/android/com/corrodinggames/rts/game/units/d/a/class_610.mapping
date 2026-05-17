@@ -1,0 +1,18 @@
+CLASS com/corrodinggames/rts/game/units/d/a/h com/corrodinggames/rts/game/units/d/a/class_610
+	FIELD a field_3647 Lcom/corrodinggames/rts/game/units/d/a/c;
+	METHOD a method_1540 ()F
+	METHOD a method_1541 (F)V
+	METHOD a method_1542 (I)Landroid/graphics/PointF;
+	METHOD a method_1543 (Lcom/corrodinggames/rts/game/units/ce;I)V
+	METHOD a method_1544 (Lcom/corrodinggames/rts/game/units/d/a/h;)V
+	METHOD a method_1545 (Ljava/lang/String;)Z
+	METHOD b method_1546 ()F
+	METHOD c method_1547 ()F
+	METHOD d method_1548 ()Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD e method_1549 ()I
+	METHOD f method_1550 ()Ljava/lang/String;
+	METHOD g method_1551 ()F
+	METHOD h method_1552 ()F
+	METHOD i method_1553 ()F
+	METHOD j method_1554 ()F
+	METHOD k method_1555 ()I

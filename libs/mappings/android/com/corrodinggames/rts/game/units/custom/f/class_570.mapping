@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/f/a com/corrodinggames/rts/game/units/custom/f/class_570
+	FIELD a field_3059 Ljava/util/regex/Pattern;
+	FIELD b field_3060 Ljava/util/regex/Pattern;
+	FIELD c field_3061 Lcom/corrodinggames/rts/game/units/custom/f/b;
+	METHOD a method_1387 (Lcom/corrodinggames/rts/gameFramework/utility/ae;)V

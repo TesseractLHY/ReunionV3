@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/appFramework/fq com/corrodinggames/rts/appFramework/class_155
+	FIELD a field_449 I
+	FIELD b field_450 Lcom/corrodinggames/rts/appFramework/MultiplayerBattleroomActivity;
+	METHOD run run ()V

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/bl com/corrodinggames/rts/game/units/class_405
+	FIELD a field_1693 I
+	FIELD b field_1694 F
+	METHOD b method_673 ()V

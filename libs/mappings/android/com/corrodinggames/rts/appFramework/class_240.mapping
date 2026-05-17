@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/appFramework/iu com/corrodinggames/rts/appFramework/class_240
+	FIELD a field_583 Lcom/corrodinggames/rts/appFramework/it;
+	FIELD b field_584 Lcom/corrodinggames/rts/appFramework/SettingsKeysActivity;
+	METHOD onClick onClick (Landroid/view/View;)V

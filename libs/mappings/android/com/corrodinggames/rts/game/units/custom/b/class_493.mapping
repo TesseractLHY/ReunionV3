@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/game/units/custom/b/a com/corrodinggames/rts/game/units/custom/b/class_493
+	METHOD a method_1179 (Lcom/corrodinggames/rts/game/units/custom/j;)V
+	METHOD a method_1180 (Lcom/corrodinggames/rts/game/units/custom/j;F)V
+	METHOD b method_1181 (Lcom/corrodinggames/rts/game/units/custom/j;)V
+	METHOD b method_1182 (Lcom/corrodinggames/rts/game/units/custom/j;F)V
+	METHOD c method_1183 (Lcom/corrodinggames/rts/game/units/custom/j;)V
+	METHOD d method_1184 (Lcom/corrodinggames/rts/game/units/custom/j;)V
+	METHOD e method_1185 (Lcom/corrodinggames/rts/game/units/custom/j;)V
+	METHOD f method_1186 (Lcom/corrodinggames/rts/game/units/custom/j;)V
+	METHOD g method_1187 (Lcom/corrodinggames/rts/game/units/custom/j;)V
+	METHOD h method_1188 (Lcom/corrodinggames/rts/game/units/custom/j;)V

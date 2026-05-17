@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/f/am com/corrodinggames/rts/gameFramework/f/class_936
+	FIELD a field_5373 Lcom/corrodinggames/rts/gameFramework/utility/p;
+	FIELD b field_5374 Landroid/graphics/Rect;
+	FIELD c field_5375 Landroid/graphics/Paint;
+	FIELD d field_5376 Landroid/graphics/Paint;
+	METHOD a method_2443 (FF)V

@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/gameFramework/b/a/b com/corrodinggames/rts/gameFramework/b/a/class_797
+	FIELD a field_4391 Landroid/content/res/AssetManager;
+	FIELD b field_4392 Lcom/corrodinggames/rts/gameFramework/b/a/d;
+	FIELD f field_4396 F
+	FIELD q field_4407 Z
+	FIELD r field_4411 Landroid/graphics/Paint;
+	FIELD s field_4412 Ljava/util/ArrayList;
+	FIELD t field_4413 [[Lcom/corrodinggames/rts/gameFramework/b/a/c;
+	FIELD w field_4416 Z
+	METHOD b method_1843 ()V
+	METHOD b method_1837 (C)Lcom/corrodinggames/rts/gameFramework/b/a/c;

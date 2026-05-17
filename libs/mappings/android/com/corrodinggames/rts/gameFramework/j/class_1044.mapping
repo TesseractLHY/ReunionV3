@@ -1,0 +1,24 @@
+CLASS com/corrodinggames/rts/gameFramework/j/j com/corrodinggames/rts/gameFramework/j/class_1044
+	FIELD a field_6237 Ljava/io/ByteArrayInputStream;
+	FIELD b field_6238 Ljava/io/DataInputStream;
+	FIELD c field_6239 I
+	FIELD d field_6240 I
+	FIELD e field_6241 I
+	FIELD f field_6242 Ljava/io/DataInputStream;
+	FIELD g field_6243 Ljava/util/LinkedList;
+	METHOD a method_2916 ()Ljava/lang/String;
+	METHOD a method_2917 (I)Lcom/corrodinggames/rts/game/units/ce;
+	METHOD a method_2918 (Ljava/lang/Class;)Lcom/corrodinggames/rts/gameFramework/ah;
+	METHOD a method_2919 (Ljava/lang/String;)V
+	METHOD a method_2920 (Ljava/lang/String;Z)V
+	METHOD a method_2921 (Z)Ljava/lang/String;
+	METHOD b method_2922 ()Ljava/lang/Integer;
+	METHOD b method_2923 (Ljava/lang/Class;)Ljava/lang/Enum;
+	METHOD b method_2924 (Ljava/lang/String;)[B
+	METHOD c method_2925 ()Lcom/corrodinggames/rts/game/units/bp;
+	METHOD c method_2926 (Ljava/lang/String;)V
+	METHOD d method_2927 ()Lcom/corrodinggames/rts/game/units/el;
+	METHOD e method_2928 ()Lcom/corrodinggames/rts/game/p;
+	METHOD f method_2929 ()[B
+	METHOD g method_2930 ()Lcom/corrodinggames/rts/gameFramework/j/j;
+	METHOD h method_2931 ()V

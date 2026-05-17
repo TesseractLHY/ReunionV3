@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/bj com/corrodinggames/rts/gameFramework/class_871
+	FIELD a field_4793 Lcom/corrodinggames/rts/gameFramework/bj;
+	FIELD b field_4794 Lcom/corrodinggames/rts/gameFramework/bj;
+	FIELD c field_4795 Lcom/corrodinggames/rts/gameFramework/bj;
+	FIELD d field_4796 Lcom/corrodinggames/rts/gameFramework/bj;
+	FIELD e field_4797 Lcom/corrodinggames/rts/gameFramework/g/f;
+	FIELD f field_4798 [Lcom/corrodinggames/rts/gameFramework/bj;

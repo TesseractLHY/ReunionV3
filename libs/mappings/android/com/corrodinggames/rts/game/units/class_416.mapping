@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/bw com/corrodinggames/rts/game/units/class_416
+	FIELD a field_1840 I
+	FIELD b field_1841 F
+	FIELD c field_1842 Z
+	FIELD d field_1843 Z
+	METHOD a method_878 (F)V

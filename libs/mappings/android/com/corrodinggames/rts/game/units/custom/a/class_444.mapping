@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a com/corrodinggames/rts/game/units/custom/a/class_444
+	METHOD a method_1093 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/game/units/a/s;Landroid/graphics/PointF;Lcom/corrodinggames/rts/game/units/ce;I)Z

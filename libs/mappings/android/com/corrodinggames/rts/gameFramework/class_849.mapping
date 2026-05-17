@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/bc com/corrodinggames/rts/gameFramework/class_849
+	FIELD a field_4684 Landroid/media/MediaPlayer;
+	FIELD b field_4685 Lcom/corrodinggames/rts/gameFramework/bb;
+	FIELD c field_4686 Lcom/corrodinggames/rts/gameFramework/ba;

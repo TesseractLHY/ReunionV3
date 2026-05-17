@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/h/b com/corrodinggames/rts/gameFramework/h/class_989
+	FIELD a field_5775 Ljava/util/ResourceBundle;
+	FIELD b field_5776 Ljava/util/ResourceBundle;
+	METHOD getKeys getKeys ()Ljava/util/Enumeration;
+	METHOD handleGetObject handleGetObject (Ljava/lang/String;)Ljava/lang/Object;

@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/aw com/corrodinggames/rts/appFramework/class_26
+	FIELD a field_183 Lcom/corrodinggames/rts/appFramework/InGameActivity;
+	METHOD run run ()V

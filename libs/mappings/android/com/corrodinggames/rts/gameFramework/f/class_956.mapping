@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/gameFramework/f/d com/corrodinggames/rts/gameFramework/f/class_956
+	FIELD a field_5421 Landroid/graphics/Rect;
+	FIELD b field_5422 Ljava/util/ArrayList;
+	FIELD c field_5423 Landroid/graphics/RectF;
+	FIELD d field_5424 Landroid/graphics/RectF;
+	METHOD a method_2478 (Landroid/graphics/Paint;)I
+	METHOD a method_2479 (Lcom/corrodinggames/rts/gameFramework/m/e;FF)F
+	METHOD a method_2480 (Ljava/lang/String;FFLandroid/graphics/Paint;Landroid/graphics/Paint;FFF)V
+	METHOD a method_2481 (Ljava/lang/String;Landroid/graphics/Rect;Landroid/graphics/Paint;Landroid/graphics/Paint;)Ljava/util/ArrayList;
+	METHOD b method_2482 (Landroid/graphics/Paint;)I

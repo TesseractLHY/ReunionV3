@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/gameFramework/m/fq com/corrodinggames/rts/gameFramework/m/class_1233
+	FIELD a field_6894 Lcom/corrodinggames/rts/gameFramework/m/fq;
+	FIELD b field_6895 Z
+	FIELD c field_6896 Lcom/corrodinggames/rts/gameFramework/m/fo;
+	FIELD d field_6897 Z
+	METHOD a method_3331 (F)V
+	METHOD a method_3332 (Landroid/graphics/Paint;)V
+	METHOD setAntiAlias setAntiAlias (Z)V
+	METHOD setTextSize setTextSize (F)V
+	METHOD setTypeface setTypeface (Landroid/graphics/Typeface;)Landroid/graphics/Typeface;

@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/ae com/corrodinggames/rts/appFramework/class_8
+	FIELD a field_149 Lcom/corrodinggames/rts/appFramework/GameViewOpenGL;
+	FIELD b field_150 I

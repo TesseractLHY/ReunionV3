@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/appFramework/k com/corrodinggames/rts/appFramework/class_74
+	FIELD a field_254 Ljava/util/regex/Pattern;

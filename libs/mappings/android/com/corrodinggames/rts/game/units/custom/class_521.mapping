@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/bo com/corrodinggames/rts/game/units/custom/class_521
+	FIELD a field_2655 Lcom/corrodinggames/rts/game/units/custom/bm;
+	FIELD b field_2656 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD c field_2657 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$CachedWriter$Operator;

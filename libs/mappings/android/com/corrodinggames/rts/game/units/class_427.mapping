@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/cf com/corrodinggames/rts/game/units/class_427
+	FIELD a field_2025 Z
+	FIELD b field_2026 I
+	FIELD c field_2027 Lcom/corrodinggames/rts/gameFramework/d/a;

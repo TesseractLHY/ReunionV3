@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/gameFramework/m/fp com/corrodinggames/rts/gameFramework/m/class_1232
+	FIELD a field_6887 Ljava/lang/String;
+	FIELD b field_6888 I
+	FIELD c field_6889 Z
+	FIELD d field_6890 Z
+	FIELD e field_6891 [F
+	FIELD f field_6892 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD g field_6893 Z
+	METHOD a method_3326 (F)V
+	METHOD a method_3327 (FF)V
+	METHOD a method_3328 (FFFF)V
+	METHOD a method_3329 (Lcom/corrodinggames/rts/gameFramework/m/e;)V
+	METHOD b method_3330 (Lcom/corrodinggames/rts/gameFramework/m/e;)V

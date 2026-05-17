@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/java/d
+	METHOD a onParentResume ()V
+	METHOD a onParentWindowFocusChanged (Z)V
+	METHOD f isFullscreen ()Z
+	METHOD g a/getGameThreadSync ()Ljava/lang/Object;
+	METHOD j onReplacedByAnotherView ()V
+	METHOD l flushCanvas ()V
+	METHOD m updateResolution ()V

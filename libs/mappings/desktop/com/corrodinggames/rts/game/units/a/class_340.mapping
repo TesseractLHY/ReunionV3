@@ -1,0 +1,17 @@
+CLASS com/corrodinggames/rts/game/units/a/j com/corrodinggames/rts/game/units/a/class_340
+	FIELD a field_1535 Lcom/corrodinggames/rts/game/units/a/k;
+	FIELD b field_1536 Ljava/util/ArrayList;
+	FIELD c field_1537 Landroid/graphics/Rect;
+	METHOD a method_588 ()Ljava/lang/String;
+	METHOD a method_564 (Lcom/corrodinggames/rts/game/units/a/c;)Lcom/corrodinggames/rts/game/units/a/j;
+	METHOD b method_600 ()Ljava/lang/String;
+	METHOD b method_603 (Lcom/corrodinggames/rts/game/units/am;Z)I
+	METHOD c method_604 ()I
+	METHOD e method_608 ()Lcom/corrodinggames/rts/game/units/a/u;
+	METHOD f method_610 ()Lcom/corrodinggames/rts/game/units/a/t;
+	METHOD g method_612 ()Z
+	METHOD h_ method_622 ()Z
+	METHOD i method_616 ()Lcom/corrodinggames/rts/game/units/as;
+	METHOD j method_620 ()Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD s method_634 ()Z
+	METHOD v method_640 ()Landroid/graphics/Rect;

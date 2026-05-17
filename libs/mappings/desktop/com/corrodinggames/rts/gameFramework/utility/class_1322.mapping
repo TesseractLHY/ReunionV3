@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/j com/corrodinggames/rts/gameFramework/utility/class_1322
+	FIELD a field_7305 Ljava/io/InputStream;
+	FIELD b field_7306 Ljava/lang/String;
+	FIELD d field_7308 Z
+	FIELD e field_7309 Ljava/lang/String;
+	METHOD d method_3650 ()Ljava/lang/String;

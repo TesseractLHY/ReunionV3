@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/custom/e/g com/corrodinggames/rts/game/units/custom/e/class_568
+	FIELD a field_3041 Lcom/corrodinggames/rts/game/units/custom/e/f;
+	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

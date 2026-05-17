@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/b/d com/corrodinggames/rts/game/b/class_301
+	FIELD a field_946 Lcom/corrodinggames/rts/game/b/b;
+	METHOD resolveEntity resolveEntity (Ljava/lang/String;Ljava/lang/String;)Lorg/xml/sax/InputSource;

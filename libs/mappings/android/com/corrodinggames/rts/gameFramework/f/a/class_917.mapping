@@ -1,0 +1,24 @@
+CLASS com/corrodinggames/rts/gameFramework/f/a/i com/corrodinggames/rts/gameFramework/f/a/class_917
+	FIELD j field_5254 Lcom/corrodinggames/rts/gameFramework/f/a/i;
+	FIELD k field_5255 Lcom/corrodinggames/rts/gameFramework/f/a/i;
+	FIELD l field_5256 Lcom/corrodinggames/rts/gameFramework/f/a/i;
+	FIELD m field_5257 Lcom/corrodinggames/rts/gameFramework/f/a/i;
+	FIELD n field_5258 Lcom/corrodinggames/rts/gameFramework/f/a/i;
+	FIELD o field_5259 Landroid/graphics/Paint;
+	FIELD p field_5260 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD q field_5261 Landroid/graphics/Paint;
+	FIELD r field_5262 Lcom/corrodinggames/rts/gameFramework/f/a/i;
+	FIELD s field_5263 I
+	FIELD t field_5264 I
+	FIELD u field_5265 I
+	FIELD v field_5266 Lcom/corrodinggames/rts/gameFramework/f/a/i;
+	FIELD w field_5267 Landroid/graphics/Rect;
+	FIELD x field_5268 Landroid/graphics/Rect;
+	FIELD y field_5269 Landroid/graphics/Rect;
+	METHOD a method_2396 (Lcom/corrodinggames/rts/gameFramework/f/a/i;)V
+	METHOD a method_2397 (Lcom/corrodinggames/rts/gameFramework/m/e;)V
+	METHOD a method_2398 (Lcom/corrodinggames/rts/gameFramework/m/fi;Landroid/graphics/Rect;)V
+	METHOD a method_2399 (Lcom/corrodinggames/rts/gameFramework/m/fi;Landroid/graphics/Rect;I)V
+	METHOD a method_2400 (Lcom/corrodinggames/rts/gameFramework/m/fi;Landroid/graphics/RectF;)V
+	METHOD b method_2401 ()V
+	METHOD b method_2402 (Lcom/corrodinggames/rts/gameFramework/m/fi;Landroid/graphics/Rect;)V

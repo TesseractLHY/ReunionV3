@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/gameFramework/cc com/corrodinggames/rts/gameFramework/class_879
+	FIELD a field_4820 I
+	FIELD b field_4821 I
+	FIELD c field_4822 I
+	FIELD d field_4823 I
+	FIELD e field_4824 I
+	FIELD f field_4825 I
+	FIELD g field_4826 I
+	FIELD h field_4827 I
+	FIELD i field_4828 I
+	FIELD j field_4829 I
+	FIELD k field_4830 J
+	FIELD l field_4831 Lcom/corrodinggames/rts/gameFramework/cb;
+	FIELD m field_4832 B

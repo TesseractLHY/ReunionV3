@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/appFramework/hp com/corrodinggames/rts/appFramework/class_208
+	FIELD a field_538 Ljava/lang/String;
+	FIELD b field_539 Landroid/content/Context;
+	FIELD c field_540 Lcom/corrodinggames/rts/appFramework/ReplaySelectActivity;
+	METHOD run run ()V

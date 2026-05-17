@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/d/ac com/corrodinggames/rts/game/units/d/class_618
+	FIELD a field_3663 F
+	FIELD b field_3664 Z
+	FIELD c field_3665 Z
+	FIELD d field_3666 Lcom/corrodinggames/rts/game/p;
+	FIELD e field_3667 Lcom/corrodinggames/rts/game/units/ce;
+	FIELD f field_3668 F
+	FIELD g field_3669 F
+	FIELD h field_3670 Z

@@ -1,0 +1,24 @@
+CLASS com/corrodinggames/rts/appFramework/ab com/corrodinggames/rts/appFramework/class_5
+	METHOD drawCompleted drawCompleted (FI)V
+	METHOD drawStarting drawStarting (FI)V
+	METHOD flushCanvas flushCanvas ()V
+	METHOD forceSurfaceUnlockWorkaround forceSurfaceUnlockWorkaround ()V
+	METHOD getCurrTouchPoint getCurrTouchPoint ()Lcom/corrodinggames/rts/appFramework/ep;
+	METHOD getDirectSurfaceRendering getDirectSurfaceRendering ()Z
+	METHOD getGameThreadSync getGameThreadSync ()Ljava/lang/Object;
+	METHOD getInGameActivity getInGameActivity ()Lcom/corrodinggames/rts/appFramework/InGameActivity;
+	METHOD getNewCanvasLock getNewCanvasLock (Z)Lcom/corrodinggames/rts/gameFramework/m/l;
+	METHOD getRenderer getRenderer ()Lcom/corrodinggames/rts/gameFramework/m/a;
+	METHOD getSurfaceExists getSurfaceExists ()Z
+	METHOD isFullscreen isFullscreen ()Z
+	METHOD isPaused isPaused ()Z
+	METHOD onParentPause onParentPause ()V
+	METHOD onParentResume onParentResume ()V
+	METHOD onParentStart onParentStart ()V
+	METHOD onParentStop onParentStop ()V
+	METHOD onParentWindowFocusChanged onParentWindowFocusChanged (Z)V
+	METHOD onReplacedByAnotherView onReplacedByAnotherView ()V
+	METHOD setInGameActivity setInGameActivity (Lcom/corrodinggames/rts/appFramework/InGameActivity;)V
+	METHOD unlockAndReturnCanvas unlockAndReturnCanvas (Lcom/corrodinggames/rts/gameFramework/m/l;Z)V
+	METHOD updateResolution updateResolution ()V
+	METHOD usingBasicDraw usingBasicDraw ()Z

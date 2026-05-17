@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/appFramework/IntroScreenView
+	FIELD loadingPaint loadingPaint Landroid/graphics/Paint;
+	FIELD loadingTimerCount loadingTimerCount I
+	FIELD logo logo Landroid/graphics/Bitmap;
+	FIELD surfaceHolder surfaceHolder Landroid/view/SurfaceHolder;
+	FIELD tempPaint tempPaint Landroid/graphics/Paint;
+	METHOD init init (Landroid/content/Context;)V
+	METHOD onDraw onDraw (Landroid/graphics/Canvas;)V
+	METHOD surfaceChanged surfaceChanged (Landroid/view/SurfaceHolder;III)V
+	METHOD surfaceCreated surfaceCreated (Landroid/view/SurfaceHolder;)V
+	METHOD surfaceDestroyed surfaceDestroyed (Landroid/view/SurfaceHolder;)V

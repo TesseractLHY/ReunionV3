@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/z com/corrodinggames/rts/gameFramework/class_776
+	FIELD a field_4235 I
+	FIELD b field_4236 Z
+	METHOD a method_1788 (Z)V

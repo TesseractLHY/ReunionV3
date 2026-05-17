@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/gameFramework/c/a com/corrodinggames/rts/gameFramework/c/class_874
+	FIELD a field_4805 Z
+	FIELD b field_4806 Z
+	FIELD c field_4807 Z
+	FIELD d field_4808 Z
+	FIELD e field_4809 F
+	FIELD f field_4810 Z
+	FIELD g field_4811 Z
+	FIELD h field_4812 Ljava/net/ServerSocket;
+	FIELD i field_4813 Z
+	FIELD j field_4814 Ljava/util/ArrayList;
+	METHOD a method_2063 ()V
+	METHOD a method_2064 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD run run ()V

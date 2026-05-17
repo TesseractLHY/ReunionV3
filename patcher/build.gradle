@@ -59,6 +59,44 @@ tasks.register('patchAndroidJar', JavaExec) {
             println "Synced R.txt (${androidRSource.readLines().size()} entries)"
         }
     }
+    /*doLast {
+        def keep = ['com/corrodinggames/rts/game/', 'com/corrodinggames/rts/gameFramework/']
+        def android = androidPatchedJar.get().asFile
+        def desktop = desktopPatchedJar.get().asFile
+        def tmp = file("$rootDir/build/tmp/android-patched.jar")
+        if (android.exists() && desktop.exists()) {
+            tmp.parentFile.mkdirs()
+            tmp.withOutputStream { os ->
+                def zip = new ZipOutputStream(os)
+                def seen = [] as Set
+                def copy = { zin, name ->
+                    zip.putNextEntry(new ZipEntry(name))
+                    byte[] b = new byte[8192]
+                    for (int n = zin.read(b); n != -1; n = zin.read(b)) zip.write(b, 0, n)
+                    zip.closeEntry()
+                }
+                android.withInputStream { ai ->
+                    def zin = new ZipInputStream(ai)
+                    for (def e = zin.nextEntry; e != null; e = zin.nextEntry) {
+                        def n = e.name
+                        if (!(n.endsWith('.class') && keep.any { n.startsWith(it) }) && seen.add(n)) copy(zin, n)
+                    }
+                    zin.close()
+                }
+                desktop.withInputStream { di ->
+                    def zin = new ZipInputStream(di)
+                    for (def e = zin.nextEntry; e != null; e = zin.nextEntry) {
+                        def n = e.name
+                        if (n.endsWith('.class') && keep.any { n.startsWith(it) } && seen.add(n)) copy(zin, n)
+                    }
+                    zin.close()
+                }
+                zip.close()
+            }
+            android.delete()
+            tmp.renameTo(android)
+        }
+    }*/
 }
 
 tasks.register('patchDesktopJar', JavaExec) {

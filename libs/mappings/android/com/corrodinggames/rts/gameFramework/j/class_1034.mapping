@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/j/bk com/corrodinggames/rts/gameFramework/j/class_1034
+	FIELD e field_6131 Ljava/io/ByteArrayOutputStream;
+	FIELD f field_6132 Ljava/io/PrintStream;
+	FIELD g field_6133 Ljava/io/PrintStream;
+	FIELD h field_6134 Ljava/util/LinkedList;

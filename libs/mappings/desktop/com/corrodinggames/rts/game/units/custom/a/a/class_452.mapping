@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/h com/corrodinggames/rts/game/units/custom/a/a/class_452
+	FIELD a field_2187 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$CachedWriter;
+	FIELD b field_2188 Z
+	FIELD c field_2189 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD d field_2190 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD e field_2191 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$MemoryNames;
+	METHOD a method_1093 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/game/units/a/s;Landroid/graphics/PointF;Lcom/corrodinggames/rts/game/units/am;I)Z
+	METHOD a method_1100 (Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ab;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/a/d;Ljava/lang/String;Z)V

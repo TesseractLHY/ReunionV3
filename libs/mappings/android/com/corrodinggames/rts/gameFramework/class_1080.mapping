@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/m com/corrodinggames/rts/gameFramework/class_1080
+	FIELD a field_6646 Landroid/content/Context;
+	FIELD b field_6647 Lcom/corrodinggames/rts/gameFramework/ab;
+	METHOD run run ()V

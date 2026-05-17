@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/gameFramework/ae com/corrodinggames/rts/gameFramework/class_770
+	FIELD a field_4205 Lcom/corrodinggames/rts/gameFramework/ae;
+	FIELD b field_4206 Lcom/corrodinggames/rts/gameFramework/ae;
+	FIELD c field_4207 Lcom/corrodinggames/rts/gameFramework/ae;
+	FIELD d field_4208 Lcom/corrodinggames/rts/gameFramework/ae;
+	FIELD e field_4209 Lcom/corrodinggames/rts/gameFramework/ae;
+	FIELD f field_4210 Lcom/corrodinggames/rts/gameFramework/ae;
+	FIELD g field_4211 Lcom/corrodinggames/rts/gameFramework/ae;
+	FIELD h field_4212 [Lcom/corrodinggames/rts/gameFramework/ae;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/ae;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/ae;

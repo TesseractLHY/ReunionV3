@@ -1,0 +1,18 @@
+CLASS com/corrodinggames/rts/gameFramework/j/bf com/corrodinggames/rts/gameFramework/j/class_1029
+	FIELD a field_6100 Lcom/corrodinggames/rts/gameFramework/j/bf;
+	FIELD b field_6101 I
+	FIELD c field_6102 I
+	FIELD d field_6103 I
+	FIELD e field_6104 I
+	FIELD f field_6105 I
+	FIELD g field_6106 Ljava/lang/String;
+	FIELD h field_6107 Ljava/lang/String;
+	FIELD i field_6108 I
+	FIELD j field_6109 I
+	FIELD k field_6110 I
+	FIELD l field_6111 Z
+	METHOD a method_2848 ()F
+	METHOD a method_2849 (Lcom/corrodinggames/rts/gameFramework/j/c;)V
+	METHOD a method_2850 (Ljava/lang/String;Ljava/util/List;)V
+	METHOD b method_2851 (Ljava/lang/String;Ljava/util/List;)V
+	METHOD c method_2852 (Ljava/lang/String;Ljava/util/List;)V

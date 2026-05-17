@@ -1,0 +1,19 @@
+CLASS com/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean
+	CLASS AbstractNumberBoolean
+	CLASS AndBoolean
+	CLASS CallContext
+	CLASS CallContext_self
+	CLASS CallContext_selfAndTarget
+	CLASS JoinerBoolean
+	CLASS LogicBooleanCommon
+	CLASS LogicBooleanCommonLocking
+	CLASS LogicNumberOnly
+	CLASS NotBoolean
+	CLASS OrBoolean
+	CLASS Parameter
+	CLASS ReturnType
+	CLASS StaticBoolean
+	CLASS StaticBooleanFalse
+	CLASS StaticBooleanTrue
+	CLASS StaticValueBoolean
+	CLASS TimeBoolean

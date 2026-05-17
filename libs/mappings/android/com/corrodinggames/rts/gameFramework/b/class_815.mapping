@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/b/am com/corrodinggames/rts/gameFramework/b/class_815
+	FIELD m field_4512 Lcom/corrodinggames/rts/gameFramework/b/al;
+	FIELD n field_4513 F
+	FIELD o field_4514 F
+	FIELD p field_4515 I
+	FIELD q field_4516 I

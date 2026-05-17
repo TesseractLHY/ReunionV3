@@ -1,0 +1,37 @@
+CLASS com/corrodinggames/rts/gameFramework/n/e com/corrodinggames/rts/gameFramework/n/class_1261
+	FIELD a field_7063 Lcom/corrodinggames/rts/gameFramework/n/e;
+	FIELD b field_7064 Lcom/corrodinggames/rts/gameFramework/n/e;
+	FIELD c field_7065 Lcom/corrodinggames/rts/gameFramework/n/e;
+	FIELD d field_7066 Lcom/corrodinggames/rts/gameFramework/n/e;
+	FIELD e field_7067 Lcom/corrodinggames/rts/gameFramework/n/e;
+	FIELD f field_7068 Lcom/corrodinggames/rts/gameFramework/n/e;
+	FIELD g field_7069 Lcom/corrodinggames/rts/gameFramework/n/e;
+	FIELD h field_7070 Lcom/corrodinggames/rts/gameFramework/n/e;
+	FIELD i field_7071 Lcom/corrodinggames/rts/gameFramework/n/e;
+	FIELD j field_7072 Lcom/corrodinggames/rts/gameFramework/n/e;
+	FIELD k field_7073 Lcom/corrodinggames/rts/gameFramework/n/e;
+	FIELD l field_7074 [Lcom/corrodinggames/rts/gameFramework/n/e;
+	METHOD a method_3437 ()Ljava/lang/String;
+	METHOD a method_3438 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/n/e;
+	CLASS 1 class_1262
+		METHOD a method_3437 ()Ljava/lang/String;
+	CLASS 2 class_1263
+		METHOD a method_3437 ()Ljava/lang/String;
+	CLASS 3 class_1264
+		METHOD a method_3437 ()Ljava/lang/String;
+	CLASS 4 class_1265
+		METHOD a method_3437 ()Ljava/lang/String;
+	CLASS 5 class_1266
+		METHOD a method_3437 ()Ljava/lang/String;
+	CLASS 6 class_1267
+		METHOD a method_3437 ()Ljava/lang/String;
+	CLASS 7 class_1268
+		METHOD a method_3437 ()Ljava/lang/String;
+	CLASS 8 class_1269
+		METHOD a method_3437 ()Ljava/lang/String;
+	CLASS 9 class_1270
+		METHOD a method_3437 ()Ljava/lang/String;
+	CLASS 10 class_1271
+		METHOD a method_3437 ()Ljava/lang/String;
+	CLASS 11 class_1272
+		METHOD a method_3437 ()Ljava/lang/String;

@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/g com/corrodinggames/rts/appFramework/class_165
+	FIELD a field_470 Lcom/corrodinggames/rts/appFramework/f;
+	METHOD run run ()V

@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/appFramework/r com/corrodinggames/rts/appFramework/class_253
+	METHOD a method_165 (Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;)Ljavax/microedition/khronos/egl/EGLConfig;

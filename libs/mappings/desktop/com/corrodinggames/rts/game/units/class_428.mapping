@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/game/units/ao com/corrodinggames/rts/game/units/class_428
+	FIELD a field_2028 Lcom/corrodinggames/rts/game/units/ao;
+	FIELD b field_2029 Lcom/corrodinggames/rts/game/units/ao;
+	FIELD c field_2030 Lcom/corrodinggames/rts/game/units/ao;
+	FIELD d field_2031 Lcom/corrodinggames/rts/game/units/ao;
+	FIELD e field_2032 Lcom/corrodinggames/rts/game/units/ao;
+	FIELD f field_2033 Lcom/corrodinggames/rts/game/units/ao;
+	FIELD g field_2034 Lcom/corrodinggames/rts/game/units/ao;
+	FIELD h field_2035 Lcom/corrodinggames/rts/game/units/ao;
+	FIELD i field_2036 [Lcom/corrodinggames/rts/game/units/ao;
+	METHOD a method_1069 (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/ao;

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/a/a/d com/corrodinggames/rts/game/a/a/class_269
+	FIELD b field_720 Z
+	METHOD a method_223 ()Lcom/corrodinggames/rts/game/a/a/b;
+	METHOD c method_229 (Lcom/corrodinggames/rts/game/a/a;Lcom/corrodinggames/rts/game/units/y;)Z

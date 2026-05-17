@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/c/d com/corrodinggames/rts/game/units/custom/c/class_537
+	FIELD a field_2767 Lcom/corrodinggames/rts/game/units/ce;
+	FIELD b field_2768 Z
+	FIELD c field_2769 Z
+	FIELD d field_2770 F

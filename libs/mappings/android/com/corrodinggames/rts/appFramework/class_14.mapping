@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/appFramework/ak com/corrodinggames/rts/appFramework/class_14
+	FIELD a field_163 I
+	FIELD b field_164 Lcom/corrodinggames/rts/appFramework/InGameActivity;
+	METHOD run run ()V

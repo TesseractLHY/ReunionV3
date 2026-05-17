@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/fj com/corrodinggames/rts/appFramework/class_148
+	FIELD a field_441 Lcom/corrodinggames/rts/appFramework/MultiplayerBattleroomActivity;
+	METHOD onClick onClick (Landroid/content/DialogInterface;I)V

@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/i com/corrodinggames/rts/gameFramework/class_990
+	FIELD a field_5777 Ljava/util/concurrent/ConcurrentHashMap;
+	FIELD b field_5778 Lcom/corrodinggames/rts/gameFramework/j;
+	METHOD a method_2644 ()V
+	METHOD a method_2645 (Ljava/lang/String;)J
+	METHOD a method_2646 (Ljava/lang/String;Z)J
+	METHOD a method_2647 (Z)V
+	METHOD b method_2648 ()V

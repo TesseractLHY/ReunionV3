@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/hc com/corrodinggames/rts/appFramework/class_195
+	FIELD a field_520 Lcom/corrodinggames/rts/appFramework/QuickHelpActivity;
+	METHOD onItemClick onItemClick (Landroid/widget/AdapterView;Landroid/view/View;IJ)V

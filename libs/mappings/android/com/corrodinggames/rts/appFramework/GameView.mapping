@@ -1,0 +1,20 @@
+CLASS com/corrodinggames/rts/appFramework/GameView
+	FIELD currTouchPoint currTouchPoint Lcom/corrodinggames/rts/appFramework/ep;
+	FIELD fullHeight fullHeight I
+	FIELD fullWidth fullWidth I
+	FIELD gameThreadSync gameThreadSync Ljava/lang/Object;
+	FIELD inGameActivity inGameActivity Lcom/corrodinggames/rts/appFramework/InGameActivity;
+	FIELD lockHardwareCanvasMethod lockHardwareCanvasMethod Ljava/lang/reflect/Method;
+	FIELD multiTouchController multiTouchController Lcom/corrodinggames/rts/appFramework/en;
+	FIELD paused paused Z
+	FIELD surfaceExists surfaceExists Z
+	FIELD surfaceHolderOnLock surfaceHolderOnLock Landroid/view/SurfaceHolder;
+	METHOD finalize finalize ()V
+	METHOD getStats getStats ()Ljava/lang/String;
+	METHOD init init (Landroid/content/Context;)V
+	METHOD onNewWindow onNewWindow ()V
+	METHOD onSizeChanged onSizeChanged (IIII)V
+	METHOD onTouchEvent onTouchEvent (Landroid/view/MotionEvent;)Z
+	METHOD surfaceChanged surfaceChanged (Landroid/view/SurfaceHolder;III)V
+	METHOD surfaceCreated surfaceCreated (Landroid/view/SurfaceHolder;)V
+	METHOD surfaceDestroyed surfaceDestroyed (Landroid/view/SurfaceHolder;)V

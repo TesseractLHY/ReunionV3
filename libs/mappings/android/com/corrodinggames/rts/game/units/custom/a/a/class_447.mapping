@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/c com/corrodinggames/rts/game/units/custom/a/a/class_447
+	FIELD a field_2154 Z
+	FIELD b field_2155 Lcom/corrodinggames/rts/game/units/custom/h;
+	FIELD c field_2156 F
+	FIELD d field_2157 Z
+	FIELD e field_2158 Lcom/corrodinggames/rts/game/s;
+	FIELD f field_2159 Z
+	FIELD g field_2160 Lcom/corrodinggames/rts/gameFramework/utility/p;
+	FIELD h field_2161 Lcom/corrodinggames/rts/game/units/ce;

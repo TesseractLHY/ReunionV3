@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/game/units/d/l com/corrodinggames/rts/game/units/d/class_641
+	METHOD a method_1605 (Landroid/graphics/PointF;)V
+	METHOD a method_1606 (Lcom/corrodinggames/rts/game/units/a/c;Z)I
+	METHOD a method_1607 (Lcom/corrodinggames/rts/game/units/d/j;)V
+	METHOD b method_1608 (Lcom/corrodinggames/rts/game/units/d/j;)V
+	METHOD dA method_1614 ()Z
+	METHOD dw method_1610 ()Lcom/corrodinggames/rts/game/units/d/j;
+	METHOD dx method_1611 ()Lcom/corrodinggames/rts/gameFramework/utility/m;
+	METHOD dy method_1612 ()Z
+	METHOD dz method_1613 ()V
+	METHOD h method_1615 (Lcom/corrodinggames/rts/game/units/as;)I

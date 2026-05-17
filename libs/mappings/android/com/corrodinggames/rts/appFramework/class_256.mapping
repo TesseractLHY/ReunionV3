@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/appFramework/u com/corrodinggames/rts/appFramework/class_256
+	FIELD a field_611 Ljava/lang/ref/WeakReference;
+	FIELD b field_612 Ljavax/microedition/khronos/egl/EGL10;
+	FIELD c field_613 Ljavax/microedition/khronos/egl/EGLDisplay;
+	FIELD d field_614 Ljavax/microedition/khronos/egl/EGLSurface;
+	FIELD e field_615 Ljavax/microedition/khronos/egl/EGLConfig;
+	FIELD f field_616 Ljavax/microedition/khronos/egl/EGLContext;
+	METHOD a method_170 ()V
+	METHOD a method_171 (Ljava/lang/String;I)V
+	METHOD a method_172 (Ljava/lang/String;Ljava/lang/String;I)V
+	METHOD b method_173 (Ljava/lang/String;I)Ljava/lang/String;

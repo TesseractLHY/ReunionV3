@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/game/units/custom/az com/corrodinggames/rts/game/units/custom/class_525
+	FIELD a field_2658 Lcom/corrodinggames/rts/game/units/custom/az;
+	FIELD b field_2659 Lcom/corrodinggames/rts/game/units/custom/az;
+	FIELD c field_2660 Lcom/corrodinggames/rts/game/units/custom/az;
+	FIELD d field_2661 Lcom/corrodinggames/rts/game/units/custom/az;
+	FIELD e field_2662 Lcom/corrodinggames/rts/game/units/custom/az;
+	FIELD f field_2663 Lcom/corrodinggames/rts/game/units/custom/az;
+	FIELD g field_2664 Lcom/corrodinggames/rts/game/units/custom/az;
+	FIELD h field_2665 Lcom/corrodinggames/rts/game/units/custom/az;
+	FIELD i field_2666 Lcom/corrodinggames/rts/game/units/custom/az;
+	FIELD j field_2667 [Lcom/corrodinggames/rts/game/units/custom/az;

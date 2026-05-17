@@ -1,0 +1,25 @@
+CLASS com/corrodinggames/rts/game/units/e com/corrodinggames/rts/game/units/class_675
+	FIELD a field_3814 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b field_3815 F
+	FIELD c field_3816 Landroid/graphics/PorterDuffColorFilter;
+	METHOD a method_1764 (F)V
+	METHOD a method_713 (I)V
+	METHOD a method_728 (Lcom/corrodinggames/rts/game/units/am;I)V
+	METHOD a_ method_1622 ()V
+	METHOD b method_794 (I)F
+	METHOD c method_813 (I)F
+	METHOD d method_810 ()Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD e method_1026 ()Z
+	METHOD f method_1570 ()Landroid/graphics/Paint;
+	METHOD g method_1035 ()F
+	METHOD h method_1039 ()Lcom/corrodinggames/rts/game/units/ao;
+	METHOD i method_1043 ()Z
+	METHOD k method_846 ()Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD l method_1046 ()Z
+	METHOD m method_853 ()F
+	METHOD n method_1049 ()V
+	METHOD o method_1051 ()Z
+	METHOD p method_1053 ()Z
+	METHOD q method_1056 ()Z
+	METHOD r method_1059 ()Lcom/corrodinggames/rts/game/units/as;
+	METHOD s_ method_1045 ()Z

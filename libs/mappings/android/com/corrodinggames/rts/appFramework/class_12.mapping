@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/ai com/corrodinggames/rts/appFramework/class_12
+	METHOD a method_101 (Landroid/net/Uri;)Ljava/io/File;
+	METHOD a method_102 (Ljava/io/File;)Landroid/net/Uri;

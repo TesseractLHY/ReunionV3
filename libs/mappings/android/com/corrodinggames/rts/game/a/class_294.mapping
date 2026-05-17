@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/a/x com/corrodinggames/rts/game/a/class_294
+	FIELD a field_853 Lcom/corrodinggames/rts/game/a/x;
+	FIELD b field_854 Lcom/corrodinggames/rts/game/a/x;
+	FIELD c field_855 Lcom/corrodinggames/rts/game/a/x;
+	FIELD d field_856 [Lcom/corrodinggames/rts/game/a/x;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/a/x;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/a/x;

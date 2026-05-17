@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/gameFramework/g com/corrodinggames/rts/gameFramework/class_979
+	METHOD accept accept (Ljava/io/File;)Z

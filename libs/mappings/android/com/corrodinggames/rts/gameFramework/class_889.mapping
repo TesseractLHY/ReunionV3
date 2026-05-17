@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/gameFramework/d com/corrodinggames/rts/gameFramework/class_889
+	FIELD a field_4881 Lcom/corrodinggames/rts/gameFramework/k/j;
+	FIELD b field_4882 J
+	FIELD c field_4883 F
+	FIELD d field_4884 F
+	FIELD e field_4885 F
+	FIELD f field_4886 F
+	FIELD g field_4887 I
+	FIELD h field_4888 Lcom/corrodinggames/rts/game/units/cg;
+	METHOD a method_2076 (Lcom/corrodinggames/rts/gameFramework/j/j;)V

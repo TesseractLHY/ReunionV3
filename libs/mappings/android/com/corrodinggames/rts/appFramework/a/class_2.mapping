@@ -1,0 +1,18 @@
+CLASS com/corrodinggames/rts/appFramework/a/a com/corrodinggames/rts/appFramework/a/class_2
+	METHOD buildDocumentUriUsingTree buildDocumentUriUsingTree (Landroid/net/Uri;)Landroid/net/Uri;
+	METHOD deleteFile deleteFile (Landroid/content/Context;Landroid/net/Uri;)Z
+	METHOD exists exists (Landroid/content/Context;Landroid/net/Uri;)Z
+	METHOD getChildUri getChildUri (Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
+	METHOD getLastModified getLastModified (Landroid/content/Context;Landroid/net/Uri;)J
+	METHOD getName getName (Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
+	METHOD getReadablePath getReadablePath (Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
+	METHOD getTreeDocumentId getTreeDocumentId (Landroid/net/Uri;)Ljava/lang/String;
+	METHOD isDirectory isDirectory (Landroid/content/Context;Landroid/net/Uri;)Z
+	METHOD listByName listByName (Landroid/content/Context;Landroid/net/Uri;)Ljava/util/ArrayList;
+	METHOD listRaw listRaw (Landroid/content/Context;Landroid/net/Uri;)Ljava/util/ArrayList;
+	METHOD listWithDetails listWithDetails (Landroid/content/Context;Landroid/net/Uri;)Ljava/util/ArrayList;
+	METHOD read read (Landroid/content/Context;Landroid/net/Uri;)Ljava/io/InputStream;
+	METHOD renameFile renameFile (Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
+	METHOD takePersistableUriPermissionRead takePersistableUriPermissionRead (Landroid/content/Context;Landroid/net/Uri;)V
+	METHOD takePersistableUriPermissionReadAndWrite takePersistableUriPermissionReadAndWrite (Landroid/content/Context;Landroid/net/Uri;)V
+	METHOD write write (Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;)Ljava/io/OutputStream;

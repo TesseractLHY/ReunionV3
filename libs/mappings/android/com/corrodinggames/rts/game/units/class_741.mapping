@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/n com/corrodinggames/rts/game/units/class_741
+	FIELD a field_4118 Lcom/corrodinggames/rts/gameFramework/f/a/f;
+	FIELD b field_4119 Lcom/corrodinggames/rts/gameFramework/k;
+	FIELD c field_4120 Ljava/lang/Runnable;
+	FIELD d field_4121 Lcom/corrodinggames/rts/game/units/l;

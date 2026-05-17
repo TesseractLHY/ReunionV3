@@ -1,0 +1,22 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/k com/corrodinggames/rts/gameFramework/utility/class_1318
+	FIELD a field_7293 [Ljava/lang/Object;
+	FIELD b field_7294 I
+	FIELD c field_7295 Z
+	FIELD d field_7296 I
+	METHOD a method_3639 ()Lcom/corrodinggames/rts/gameFramework/utility/k;
+	METHOD a method_3643 ([Ljava/lang/Object;)[Ljava/lang/Object;
+	METHOD a method_3640 (I)Z
+	METHOD a method_3641 (Lcom/corrodinggames/rts/gameFramework/utility/k;)I
+	METHOD a method_3642 (Lcom/corrodinggames/rts/gameFramework/utility/k;I)Z
+	METHOD add add (Ljava/lang/Object;)Z
+	METHOD b method_3644 (Lcom/corrodinggames/rts/gameFramework/utility/k;)I
+	METHOD c method_3645 (Lcom/corrodinggames/rts/gameFramework/utility/k;)[Ljava/lang/Object;
+	METHOD clear clear ()V
+	METHOD clone clone ()Ljava/lang/Object;
+	METHOD contains contains (Ljava/lang/Object;)Z
+	METHOD isEmpty isEmpty ()Z
+	METHOD iterator iterator ()Ljava/util/Iterator;
+	METHOD remove remove (Ljava/lang/Object;)Z
+	METHOD size size ()I
+	METHOD toArray toArray ()[Ljava/lang/Object;
+	METHOD toArray toArray ([Ljava/lang/Object;)[Ljava/lang/Object;

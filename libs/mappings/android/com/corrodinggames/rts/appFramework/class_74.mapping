@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/appFramework/cq com/corrodinggames/rts/appFramework/class_74
+	FIELD a field_254 Ljava/util/regex/Pattern;
+	METHOD a method_103 (Ljava/lang/String;)Ljava/util/Date;
+	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

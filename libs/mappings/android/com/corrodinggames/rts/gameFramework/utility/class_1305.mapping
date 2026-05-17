@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/am com/corrodinggames/rts/gameFramework/utility/class_1305
+	FIELD a field_7272 F
+	FIELD b field_7273 F
+	FIELD c field_7274 F
+	METHOD a method_3623 (Landroid/graphics/PointF;)V

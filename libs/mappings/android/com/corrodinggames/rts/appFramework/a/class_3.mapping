@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/appFramework/a/b com/corrodinggames/rts/appFramework/a/class_3
+	FIELD a field_134 Ljava/lang/String;
+	FIELD b field_135 Ljava/lang/String;
+	FIELD c field_136 Z

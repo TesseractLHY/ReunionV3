@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/appFramework/hd com/corrodinggames/rts/appFramework/class_196
+	FIELD a field_521 I
+	FIELD b field_522 Lcom/corrodinggames/rts/appFramework/QuickHelpActivity;
+	FIELD c field_523 Landroid/content/Context;
+	METHOD getCount getCount ()I
+	METHOD getItem getItem (I)Ljava/lang/Object;
+	METHOD getItemId getItemId (I)J
+	METHOD getView getView (ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;

@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/ak com/corrodinggames/rts/game/units/class_424
+	METHOD bA method_807 ()Z
+	METHOD bB method_808 ()I
+	METHOD e method_885 (Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD f method_886 ()Z

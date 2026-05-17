@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/f/h com/corrodinggames/rts/game/units/f/class_716
+	FIELD a field_4013 Landroid/graphics/RectF;
+	FIELD b field_4014 F
+	FIELD c field_4015 F
+	FIELD d field_4016 F
+	FIELD e field_4017 F

@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/cb com/corrodinggames/rts/gameFramework/class_878
+	FIELD a field_4818 I
+	FIELD b field_4819 [Lcom/corrodinggames/rts/gameFramework/bx;
+	METHOD a method_2065 ()V
+	METHOD a method_2066 (Lcom/corrodinggames/rts/gameFramework/by;)Lcom/corrodinggames/rts/gameFramework/bx;
+	METHOD a method_2067 (Lcom/corrodinggames/rts/gameFramework/by;I)I
+	METHOD b method_2068 ()Z

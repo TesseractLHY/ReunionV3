@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/game/units/g com/corrodinggames/rts/game/units/class_719
+	FIELD a field_4018 Z
+	FIELD b field_4019 [Landroid/graphics/PointF;
+	FIELD c field_4020 [Landroid/graphics/PointF;
+	FIELD d field_4021 Landroid/graphics/Paint;
+	FIELD e field_4022 Landroid/graphics/Paint;
+	FIELD f field_4023 Landroid/graphics/Paint;
+	FIELD g field_4024 I
+	FIELD h field_4025 F
+	FIELD i field_4026 F
+	FIELD j field_4027 I
+	METHOD L method_1716 ()V

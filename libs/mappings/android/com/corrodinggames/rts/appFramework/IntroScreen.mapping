@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/appFramework/IntroScreen
+	FIELD alreadyLoaded alreadyLoaded Z
+	FIELD loadingComplete loadingComplete Z
+	FIELD timer timer Ljava/util/Timer;
+	FIELD timerComplete timerComplete Z
+	METHOD doLoadingComplete doLoadingComplete ()V
+	METHOD doTimerComplete doTimerComplete ()V
+	METHOD finish finish ()V
+	METHOD onCreate onCreate (Landroid/os/Bundle;)V
+	METHOD onPause onPause ()V
+	METHOD onResume onResume ()V
+	METHOD showMenuIfReady showMenuIfReady ()V
+	METHOD startTimer startTimer ()V

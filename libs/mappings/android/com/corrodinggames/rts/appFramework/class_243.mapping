@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/appFramework/ix com/corrodinggames/rts/appFramework/class_243
+	FIELD a field_587 Z
+	FIELD b field_588 I
+	FIELD c field_589 Ljava/lang/String;
+	METHOD a method_161 (Landroid/content/Context;)V

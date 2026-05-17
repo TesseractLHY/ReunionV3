@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/r com/corrodinggames/rts/game/units/custom/class_587
+	FIELD a field_3578 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD b field_3579 Ljava/lang/String;
+	FIELD c field_3580 Lcom/corrodinggames/rts/game/units/custom/s;
+	FIELD d field_3581 Lcom/corrodinggames/rts/game/units/custom/a/g;

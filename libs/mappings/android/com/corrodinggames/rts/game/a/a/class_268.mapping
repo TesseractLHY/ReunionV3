@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/a/a/e com/corrodinggames/rts/game/a/a/class_268
+	FIELD a field_719 Lcom/corrodinggames/rts/gameFramework/utility/x;
+	METHOD b method_229 (Lcom/corrodinggames/rts/game/units/bp;)Z

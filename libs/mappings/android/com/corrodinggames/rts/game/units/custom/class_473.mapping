@@ -1,0 +1,19 @@
+CLASS com/corrodinggames/rts/game/units/custom/ah com/corrodinggames/rts/game/units/custom/class_473
+	FIELD a field_2435 Lcom/corrodinggames/rts/game/units/custom/ah;
+	FIELD b field_2436 Lcom/corrodinggames/rts/game/units/custom/ah;
+	FIELD c field_2437 Lcom/corrodinggames/rts/game/units/custom/ah;
+	FIELD d field_2438 Lcom/corrodinggames/rts/game/units/custom/ah;
+	FIELD e field_2439 Lcom/corrodinggames/rts/game/units/custom/ah;
+	FIELD f field_2440 Lcom/corrodinggames/rts/game/units/custom/ah;
+	FIELD g field_2441 Lcom/corrodinggames/rts/game/units/custom/ah;
+	FIELD h field_2442 Lcom/corrodinggames/rts/game/units/custom/ah;
+	FIELD i field_2443 Lcom/corrodinggames/rts/game/units/custom/ah;
+	FIELD j field_2444 Lcom/corrodinggames/rts/game/units/custom/ah;
+	FIELD k field_2445 Lcom/corrodinggames/rts/game/units/custom/ah;
+	FIELD l field_2446 Lcom/corrodinggames/rts/game/units/custom/ah;
+	FIELD m field_2447 Lcom/corrodinggames/rts/game/units/custom/ah;
+	FIELD n field_2448 Lcom/corrodinggames/rts/game/units/custom/ah;
+	FIELD o field_2449 D
+	FIELD p field_2450 [Lcom/corrodinggames/rts/game/units/custom/ah;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/ah;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/custom/ah;

@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/g/d com/corrodinggames/rts/gameFramework/g/class_984
+	METHOD a method_2624 ()Z
+	METHOD a method_2626 (Lcom/corrodinggames/rts/gameFramework/g/f;)I
+	METHOD b method_2627 ()Ljava/lang/String;
+	METHOD b method_2625 (Lcom/corrodinggames/rts/gameFramework/g/d;)I
+	METHOD c method_2628 ()I
+	METHOD d method_2629 ()I

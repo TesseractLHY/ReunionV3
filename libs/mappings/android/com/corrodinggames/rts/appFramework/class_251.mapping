@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/p com/corrodinggames/rts/appFramework/class_251
+	FIELD a field_609 Lcom/corrodinggames/rts/appFramework/GLSurfaceViewShared;
+	FIELD b field_610 I

@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/gameFramework/f/ap com/corrodinggames/rts/gameFramework/f/class_948
+	FIELD a field_5401 Lcom/corrodinggames/rts/gameFramework/l;
+	FIELD c field_5403 Ljava/util/ArrayList;
+	METHOD a method_2460 (Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD a method_2461 (Lcom/corrodinggames/rts/gameFramework/f/au;)V
+	METHOD a method_2462 (Ljava/lang/String;)V
+	METHOD a method_2463 (Ljava/lang/String;I)V
+	METHOD b method_2459 ()V
+	METHOD b method_2465 (Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD c method_2468 ()V
+	METHOD c method_2467 (Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD d method_2466 ()V

@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/bf com/corrodinggames/rts/gameFramework/class_852
+	FIELD e field_4689 Lcom/corrodinggames/rts/gameFramework/ax;
+	METHOD a method_1997 ()Lcom/corrodinggames/rts/gameFramework/bh;
+	METHOD a method_1998 (Lcom/corrodinggames/rts/gameFramework/ax;)V
+	METHOD a method_1999 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/bg;

@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/f/i com/corrodinggames/rts/game/units/f/class_717
+	METHOD excludeTeam excludeTeam (Lcom/corrodinggames/rts/game/units/bp;)I
+	METHOD getResult getResult ()Lcom/corrodinggames/rts/game/units/ce;
+	METHOD onlyEnemiesOfTeam onlyEnemiesOfTeam (Lcom/corrodinggames/rts/game/units/bp;)Lcom/corrodinggames/rts/game/p;
+	METHOD onlyTeam onlyTeam (Lcom/corrodinggames/rts/game/units/bp;)Lcom/corrodinggames/rts/game/p;
+	METHOD setup setup (Lcom/corrodinggames/rts/game/units/bp;F)V

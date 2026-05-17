@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/c/b com/corrodinggames/rts/gameFramework/c/class_875
+	FIELD a field_4815 Ljava/net/Socket;
+	FIELD b field_4816 Lcom/corrodinggames/rts/gameFramework/c/a;
+	METHOD run run ()V

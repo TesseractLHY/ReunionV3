@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/appFramework/gf com/corrodinggames/rts/appFramework/class_171
+	FIELD a field_487 Lcom/corrodinggames/rts/gameFramework/k;
+	FIELD b field_488 Lcom/corrodinggames/rts/appFramework/MultiplayerLobbyActivity;
+	METHOD onScrollChanged onScrollChanged ()V

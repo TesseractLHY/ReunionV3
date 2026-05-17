@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/a/h com/corrodinggames/rts/game/units/a/class_338
+	FIELD a field_1529 Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD b field_1530 Lcom/corrodinggames/rts/game/units/a/b;
+	FIELD c field_1531 Z
+	FIELD d field_1532 I
+	FIELD e field_1533 Z
+	FIELD f field_1534 I
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

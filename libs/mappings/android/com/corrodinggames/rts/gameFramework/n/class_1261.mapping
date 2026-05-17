@@ -1,0 +1,17 @@
+CLASS com/corrodinggames/rts/gameFramework/n/d com/corrodinggames/rts/gameFramework/n/class_1261
+	FIELD a field_7063 Lcom/corrodinggames/rts/gameFramework/n/d;
+	FIELD b field_7064 Lcom/corrodinggames/rts/gameFramework/n/d;
+	FIELD c field_7065 Lcom/corrodinggames/rts/gameFramework/n/d;
+	FIELD d field_7066 Lcom/corrodinggames/rts/gameFramework/n/d;
+	FIELD e field_7067 Lcom/corrodinggames/rts/gameFramework/n/d;
+	FIELD f field_7068 Lcom/corrodinggames/rts/gameFramework/n/d;
+	FIELD g field_7069 Lcom/corrodinggames/rts/gameFramework/n/d;
+	FIELD h field_7070 Lcom/corrodinggames/rts/gameFramework/n/d;
+	FIELD i field_7071 Lcom/corrodinggames/rts/gameFramework/n/d;
+	FIELD j field_7072 Lcom/corrodinggames/rts/gameFramework/n/d;
+	FIELD k field_7073 Lcom/corrodinggames/rts/gameFramework/n/d;
+	FIELD l field_7074 [Lcom/corrodinggames/rts/gameFramework/n/d;
+	METHOD a method_3437 ()Ljava/lang/String;
+	METHOD a method_3438 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/n/d;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/n/d;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/n/d;

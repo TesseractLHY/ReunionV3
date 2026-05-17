@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/d com/corrodinggames/rts/gameFramework/utility/class_1311
+	FIELD a field_7280 Ljava/lang/Thread;
+	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

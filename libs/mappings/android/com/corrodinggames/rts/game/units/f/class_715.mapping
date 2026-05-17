@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/f/g com/corrodinggames/rts/game/units/f/class_715
+	FIELD a field_4008 Landroid/graphics/RectF;
+	FIELD b field_4009 F
+	FIELD c field_4010 F
+	FIELD d field_4011 F
+	FIELD e field_4012 F
+	METHOD a method_1715 (FFFF)V

@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/f com/corrodinggames/rts/game/units/custom/a/a/class_450
+	FIELD a field_2175 Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD b field_2176 Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD c field_2177 Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD d field_2178 Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD e field_2179 Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD f field_2180 Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD g field_2181 Ljava/util/regex/Pattern;
+	METHOD a method_1098 (Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ae;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/a/d;)V

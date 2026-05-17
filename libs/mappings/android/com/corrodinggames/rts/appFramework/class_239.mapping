@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/appFramework/it com/corrodinggames/rts/appFramework/class_239
+	FIELD a field_579 Landroid/widget/Button;
+	FIELD b field_580 Ljava/lang/String;
+	FIELD c field_581 I
+	FIELD d field_582 Lcom/corrodinggames/rts/appFramework/SettingsKeysActivity;
+	METHOD a method_160 ()V

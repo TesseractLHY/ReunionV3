@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/appFramework/az com/corrodinggames/rts/appFramework/class_29
+	FIELD a field_186 Landroid/app/Activity;
+	FIELD b field_187 Lcom/corrodinggames/rts/appFramework/InGameActivity;
+	METHOD run run ()V

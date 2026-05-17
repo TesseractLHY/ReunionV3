@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/game/units/bc com/corrodinggames/rts/game/units/class_396
+	FIELD a field_1681 [Lcom/corrodinggames/rts/game/units/bj;
+	FIELD b field_1682 I
+	FIELD c field_1683 I
+	FIELD d field_1684 Lcom/corrodinggames/rts/game/b/i;
+	METHOD a method_668 ([ILcom/corrodinggames/rts/game/units/bj;)V
+	METHOD a method_662 (I[I)[I
+	METHOD a method_663 (Lcom/corrodinggames/rts/game/b/i;)Lcom/corrodinggames/rts/game/units/be;
+	METHOD a method_664 (Lcom/corrodinggames/rts/game/b/i;II)Z
+	METHOD a method_665 (Lcom/corrodinggames/rts/game/units/be;Landroid/graphics/PointF;)V
+	METHOD a method_666 (Lcom/corrodinggames/rts/game/units/be;Lcom/corrodinggames/rts/game/b/i;IILjava/lang/String;)Z
+	METHOD a method_667 (Lcom/corrodinggames/rts/game/units/be;Lcom/corrodinggames/rts/game/b/i;IILjava/util/ArrayList;)V

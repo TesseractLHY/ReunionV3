@@ -1,0 +1,24 @@
+CLASS com/corrodinggames/rts/game/a/aa com/corrodinggames/rts/game/a/class_270
+	FIELD a field_722 Z
+	FIELD b field_723 I
+	FIELD c field_724 I
+	FIELD d field_725 Lcom/corrodinggames/rts/game/a/v;
+	FIELD e field_726 F
+	FIELD f field_727 F
+	FIELD g field_728 F
+	FIELD h field_729 F
+	FIELD i field_730 F
+	FIELD j field_731 F
+	FIELD k field_732 F
+	FIELD l field_733 I
+	FIELD m field_734 Lcom/corrodinggames/rts/game/a/u;
+	FIELD n field_735 Lcom/corrodinggames/rts/game/units/bp;
+	FIELD o field_736 F
+	FIELD p field_737 Z
+	FIELD q field_738 Z
+	FIELD r field_739 F
+	FIELD s field_740 F
+	METHOD a method_230 (Z)V
+	METHOD b method_231 (Z)Lcom/corrodinggames/rts/game/a/v;
+	METHOD c method_232 ()V
+	METHOD d method_233 ()Z

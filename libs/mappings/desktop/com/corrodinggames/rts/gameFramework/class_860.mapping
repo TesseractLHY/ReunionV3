@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/gameFramework/ay com/corrodinggames/rts/gameFramework/class_860
+	FIELD es field_4697 I
+	FIELD et field_4698 I
+	FIELD eu field_4699 F
+	FIELD ev field_4700 F
+	FIELD ew field_4701 Z
+	METHOD a method_1763 ()V
+	METHOD a method_2016 (Lcom/corrodinggames/rts/gameFramework/m/e;I)V
+	METHOD b method_2017 (Lcom/corrodinggames/rts/gameFramework/m/e;)V
+	METHOD T method_2012 (I)V
+	METHOD U method_2013 (I)V
+	METHOD V method_2014 (I)V
+	METHOD W method_2015 (I)V

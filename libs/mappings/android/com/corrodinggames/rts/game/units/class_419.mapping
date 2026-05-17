@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/bz com/corrodinggames/rts/game/units/class_419
+	FIELD a field_1850 I
+	FIELD b field_1851 [F
+	FIELD c field_1852 [Z
+	FIELD d field_1853 I
+	FIELD e field_1854 Z
+	FIELD f field_1855 Z

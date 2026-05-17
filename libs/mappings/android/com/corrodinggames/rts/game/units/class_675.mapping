@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/e com/corrodinggames/rts/game/units/class_675
+	FIELD a field_3814 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b field_3815 F
+	FIELD c field_3816 Landroid/graphics/PorterDuffColorFilter;
+	METHOD b method_1622 ()V

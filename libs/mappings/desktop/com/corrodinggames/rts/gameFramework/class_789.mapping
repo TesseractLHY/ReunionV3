@@ -1,0 +1,37 @@
+CLASS com/corrodinggames/rts/gameFramework/am com/corrodinggames/rts/gameFramework/class_789
+	FIELD a field_4344 Lcom/corrodinggames/rts/gameFramework/aq;
+	FIELD b field_4345 Ljava/lang/Object;
+	FIELD c field_4346 Ljava/lang/Object;
+	FIELD C field_4332 Z
+	FIELD d field_4347 F
+	FIELD f field_4349 Z
+	FIELD F field_4335 Z
+	FIELD g field_4350 Z
+	FIELD h field_4351 F
+	FIELD i field_4352 I
+	FIELD I field_4338 Ljava/util/ArrayList;
+	FIELD j field_4353 Z
+	FIELD J field_4339 Ljava/util/HashMap;
+	FIELD K field_4340 I
+	FIELD L field_4341 Z
+	FIELD m field_4356 Ljava/lang/String;
+	FIELD M field_4342 Z
+	FIELD N field_4343 J
+	FIELD p field_4359 F
+	FIELD t field_4363 Ljava/lang/String;
+	FIELD u field_4364 Z
+	FIELD v field_4365 Ljava/lang/String;
+	FIELD z field_4369 I
+	METHOD a method_1821 ()F
+	METHOD a method_1822 (F)V
+	METHOD a method_1824 (Ljava/lang/String;)V
+	METHOD a method_1825 (Ljava/lang/String;Z)Lcom/corrodinggames/rts/gameFramework/ar;
+	METHOD b method_1828 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c method_1826 ()V
+	METHOD e method_1829 ()V
+	METHOD f method_1830 ()V
+	METHOD g method_1831 ()V
+	CLASS 1 class_790
+		FIELD a field_4370 Lcom/corrodinggames/rts/gameFramework/am;
+	CLASS 2 class_791
+		FIELD a field_4371 Lcom/corrodinggames/rts/gameFramework/am;

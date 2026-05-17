@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/j/k com/corrodinggames/rts/gameFramework/j/class_1045
+	FIELD a field_6244 Ljava/lang/String;
+	FIELD b field_6245 Ljava/io/ByteArrayInputStream;
+	FIELD c field_6246 Ljava/io/DataInputStream;

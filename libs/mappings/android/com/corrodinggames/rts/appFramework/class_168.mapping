@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/appFramework/gc com/corrodinggames/rts/appFramework/class_168
+	FIELD a field_475 Ljava/lang/String;
+	FIELD b field_476 I
+	FIELD c field_477 I
+	FIELD d field_478 Lcom/corrodinggames/rts/game/p;
+	FIELD e field_479 Lcom/corrodinggames/rts/game/p;
+	FIELD f field_480 I
+	FIELD g field_481 I
+	METHOD a method_156 ()Z
+	METHOD a method_157 (Lcom/corrodinggames/rts/game/p;I)V

@@ -1,0 +1,35 @@
+CLASS com/corrodinggames/rts/game/units/custom/e/f com/corrodinggames/rts/game/units/custom/e/class_567
+	FIELD a field_3038 Lcom/corrodinggames/rts/game/units/custom/e/f;
+	FIELD b field_3039 Lcom/corrodinggames/rts/gameFramework/utility/m;
+	METHOD a method_1343 (D)V
+	METHOD a method_1345 (Lcom/corrodinggames/rts/game/units/am;Ljava/lang/String;IZ)Ljava/lang/String;
+	METHOD a method_1346 (Lcom/corrodinggames/rts/game/units/custom/d/b;)V
+	METHOD a method_1347 (Lcom/corrodinggames/rts/game/units/custom/d/b;DD)V
+	METHOD a method_1349 (Lcom/corrodinggames/rts/game/units/custom/e/a;D)V
+	METHOD a method_1352 (Lcom/corrodinggames/rts/game/units/custom/e/f;DD)V
+	METHOD a method_1354 (Lcom/corrodinggames/rts/game/units/custom/e/f;Lcom/corrodinggames/rts/game/units/am;D)Z
+	METHOD a method_1356 (Lcom/corrodinggames/rts/game/units/custom/e/f;Lcom/corrodinggames/rts/game/units/custom/e/f;)Lcom/corrodinggames/rts/game/units/custom/e/f;
+	METHOD a method_1357 (Lcom/corrodinggames/rts/gameFramework/f/ae;ZZIZZLcom/corrodinggames/rts/game/units/am;I)V
+	METHOD a method_1358 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
+	METHOD a method_1359 (Lcom/corrodinggames/rts/gameFramework/j/k;)V
+	METHOD a method_1360 (ZZIZZ)Ljava/lang/String;
+	METHOD b method_1362 (Lcom/corrodinggames/rts/game/units/custom/d/b;DD)V
+	METHOD b method_1364 (Lcom/corrodinggames/rts/game/units/custom/e/a;D)V
+	METHOD b method_1365 (Lcom/corrodinggames/rts/game/units/custom/e/f;)V
+	METHOD b method_1366 (Lcom/corrodinggames/rts/game/units/custom/e/f;DD)V
+	METHOD b method_1367 (Lcom/corrodinggames/rts/game/units/custom/e/f;Lcom/corrodinggames/rts/game/units/am;)Z
+	METHOD b method_1368 (Lcom/corrodinggames/rts/game/units/custom/e/f;Lcom/corrodinggames/rts/game/units/am;D)V
+	METHOD b method_1369 (Lcom/corrodinggames/rts/game/units/custom/e/f;Lcom/corrodinggames/rts/game/units/custom/e/f;)Lcom/corrodinggames/rts/game/units/custom/e/f;
+	METHOD c method_1363 (Lcom/corrodinggames/rts/game/units/custom/e/a;)V
+	METHOD c method_1372 (Lcom/corrodinggames/rts/game/units/custom/e/a;D)V
+	METHOD c method_1373 (Lcom/corrodinggames/rts/game/units/custom/e/f;)V
+	METHOD c method_1374 (Lcom/corrodinggames/rts/game/units/custom/e/f;Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD c method_1375 (Lcom/corrodinggames/rts/game/units/custom/e/f;Lcom/corrodinggames/rts/game/units/am;D)V
+	METHOD d method_1376 (Lcom/corrodinggames/rts/game/units/custom/e/a;D)V
+	METHOD d method_1377 (Lcom/corrodinggames/rts/game/units/custom/e/f;)Lcom/corrodinggames/rts/game/units/custom/e/f;
+	METHOD d method_1378 (Lcom/corrodinggames/rts/game/units/custom/e/f;Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD e method_1361 ()V
+	METHOD e method_1379 (Lcom/corrodinggames/rts/game/units/custom/e/f;)Z
+	METHOD f method_1380 (Lcom/corrodinggames/rts/game/units/custom/e/f;)Z
+	CLASS 1 class_568
+		FIELD a field_3041 Lcom/corrodinggames/rts/game/units/custom/e/f;

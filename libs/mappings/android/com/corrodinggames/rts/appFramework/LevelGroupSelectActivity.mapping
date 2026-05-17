@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/appFramework/LevelGroupSelectActivity
+	FIELD customLevelsDir customLevelsDir Ljava/lang/String;
+	FIELD customLevelsDir2 customLevelsDir2 Ljava/lang/String;
+	FIELD gameView gameView Lcom/corrodinggames/rts/appFramework/ab;
+	FIELD skirmishLevelsDir skirmishLevelsDir Ljava/lang/String;
+	METHOD finish finish ()V
+	METHOD onCreate onCreate (Landroid/os/Bundle;)V
+	METHOD onCreateMode onCreateMode (Landroid/widget/LinearLayout;Ljava/lang/String;Landroid/view/View$OnClickListener;Z)V
+	METHOD onCreateMode onCreateMode (Landroid/widget/LinearLayout;Ljava/lang/String;Ljava/lang/String;Z)V
+	METHOD onPause onPause ()V
+	METHOD onStart onStart ()V
+	METHOD onStop onStop ()V
+	METHOD setup setup ()V
+	METHOD startSandbox startSandbox ()V

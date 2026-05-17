@@ -1,0 +1,21 @@
+CLASS com/corrodinggames/rts/gameFramework/j/as com/corrodinggames/rts/gameFramework/j/class_1015
+	FIELD a field_6012 Lcom/corrodinggames/rts/gameFramework/j/at;
+	FIELD b field_6013 Ljava/lang/String;
+	FIELD c field_6014 I
+	FIELD d field_6015 I
+	FIELD e field_6016 Z
+	FIELD f field_6017 I
+	FIELD g field_6018 I
+	FIELD h field_6019 F
+	FIELD i field_6020 Z
+	FIELD j field_6021 Z
+	FIELD k field_6022 Z
+	FIELD l field_6023 Z
+	FIELD m field_6024 Z
+	FIELD n field_6025 Z
+	FIELD o field_6026 Z
+	FIELD p field_6027 Z
+	FIELD q field_6028 I
+	METHOD a method_2837 ()V
+	METHOD b method_2838 ()Lcom/corrodinggames/rts/gameFramework/j/as;
+	METHOD clone clone ()Ljava/lang/Object;

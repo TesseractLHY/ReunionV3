@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/b/a/f com/corrodinggames/rts/gameFramework/b/a/class_801
+	METHOD a method_1845 (II[Lcom/corrodinggames/rts/gameFramework/b/a/a;)I
+	METHOD a method_1846 (ILjava/lang/String;)I

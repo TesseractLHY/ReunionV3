@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/gameFramework/m/f com/corrodinggames/rts/gameFramework/m/class_1216
+	FIELD A field_6790 Z
+	FIELD B field_6791 Z
+	FIELD C field_6792 Z
+	FIELD D field_6793 I
+	FIELD E field_6794 I
+	FIELD F field_6795 Lcom/corrodinggames/rts/game/q;
+	FIELD G field_6796 F
+	FIELD H field_6797 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD I field_6798 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD x field_6799 Lcom/corrodinggames/rts/gameFramework/m/fo;
+	FIELD y field_6800 Lcom/corrodinggames/rts/gameFramework/m/fo;
+	FIELD z field_6801 Lcom/corrodinggames/rts/gameFramework/m/fo;
+	METHOD b method_3223 (Z)V
+	METHOD o method_3224 ()V

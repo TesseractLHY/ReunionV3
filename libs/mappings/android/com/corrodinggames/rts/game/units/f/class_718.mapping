@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/f/j com/corrodinggames/rts/game/units/f/class_718
+	METHOD callback callback (Lcom/corrodinggames/rts/game/units/bp;FLcom/corrodinggames/rts/game/units/ce;)V

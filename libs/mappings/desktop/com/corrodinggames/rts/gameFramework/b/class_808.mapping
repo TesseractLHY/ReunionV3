@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/gameFramework/b/x com/corrodinggames/rts/gameFramework/b/class_808
+	FIELD l field_4463 Z
+	FIELD m field_4464 Z
+	FIELD n field_4465 I
+	METHOD b method_1890 (I)V
+	METHOD b method_1897 (Lcom/corrodinggames/rts/gameFramework/b/k;)V
+	METHOD c method_1899 (Lcom/corrodinggames/rts/gameFramework/b/k;)Z
+	METHOD g method_1902 ()I
+	METHOD h method_1903 ()I
+	METHOD k method_1855 ()Z

@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/d/p com/corrodinggames/rts/game/units/d/class_638
+	FIELD A field_3760 Landroid/graphics/Rect;
+	FIELD B field_3761 Landroid/graphics/Rect;
+	FIELD y field_3762 Landroid/graphics/Paint;
+	FIELD z field_3763 Lcom/corrodinggames/rts/game/units/d/r;
+	METHOD cU method_1580 ()Lcom/corrodinggames/rts/game/units/d/r;
+	METHOD cV method_1581 ()I

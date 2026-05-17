@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/appFramework/dw com/corrodinggames/rts/appFramework/class_107
+	FIELD a field_302 Ljava/util/ArrayList;
+	FIELD b field_303 Lcom/corrodinggames/rts/appFramework/ModsActivity;
+	METHOD onClick onClick (Landroid/view/View;)V

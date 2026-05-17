@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/q com/corrodinggames/rts/gameFramework/utility/class_1324
+	FIELD a field_7312 Lcom/corrodinggames/rts/gameFramework/utility/p;
+	FIELD b field_7313 I
+	FIELD c field_7314 I
+	FIELD d field_7315 I
+	METHOD hasNext hasNext ()Z
+	METHOD next next ()Ljava/lang/Object;
+	METHOD remove remove ()V

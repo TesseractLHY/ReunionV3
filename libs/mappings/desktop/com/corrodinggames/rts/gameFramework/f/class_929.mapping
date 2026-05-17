@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/f/ac com/corrodinggames/rts/gameFramework/f/class_929
+	FIELD a field_5343 Lcom/corrodinggames/rts/gameFramework/f/ac;
+	FIELD b field_5344 Lcom/corrodinggames/rts/gameFramework/f/ac;
+	FIELD c field_5345 Lcom/corrodinggames/rts/gameFramework/f/ac;
+	FIELD d field_5346 Lcom/corrodinggames/rts/gameFramework/f/ac;
+	FIELD e field_5347 Lcom/corrodinggames/rts/gameFramework/f/ac;
+	FIELD f field_5349 Ljava/lang/String;
+	FIELD h field_5350 [Lcom/corrodinggames/rts/gameFramework/f/ac;

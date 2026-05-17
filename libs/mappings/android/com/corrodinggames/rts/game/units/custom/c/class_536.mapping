@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/game/units/custom/c/c com/corrodinggames/rts/game/units/custom/c/class_536
+	FIELD a field_2761 Landroid/graphics/Rect;
+	FIELD b field_2762 Landroid/graphics/RectF;
+	FIELD c field_2763 Landroid/graphics/Paint;
+	FIELD d field_2764 Lcom/corrodinggames/rts/gameFramework/utility/p;
+	FIELD e field_2765 Landroid/graphics/Paint;
+	FIELD f field_2766 Lcom/corrodinggames/rts/game/units/custom/c/f;
+	METHOD a method_1237 (Lcom/corrodinggames/rts/game/units/ce;Lcom/corrodinggames/rts/gameFramework/j/j;)V
+	METHOD a method_1238 (Lcom/corrodinggames/rts/game/units/custom/c/a;)Lcom/corrodinggames/rts/game/units/custom/c/e;
+	METHOD a method_1239 (Lcom/corrodinggames/rts/game/units/custom/l;)V

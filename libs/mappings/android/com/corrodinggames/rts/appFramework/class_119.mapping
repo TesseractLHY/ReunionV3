@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/appFramework/eh com/corrodinggames/rts/appFramework/class_119
+	FIELD a field_319 Ljava/lang/String;
+	FIELD b field_320 J
+	FIELD c field_321 Lcom/corrodinggames/rts/gameFramework/i/d;
+	FIELD d field_322 Landroid/net/Uri;
+	FIELD e field_323 Z

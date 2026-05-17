@@ -1,0 +1,24 @@
+CLASS com/corrodinggames/rts/gameFramework/j/bc com/corrodinggames/rts/gameFramework/j/class_1026
+	FIELD a field_6076 Z
+	FIELD b field_6077 Z
+	FIELD c field_6078 Z
+	FIELD d field_6079 Ljava/net/ServerSocket;
+	FIELD e field_6080 I
+	FIELD f field_6081 Z
+	FIELD g field_6082 J
+	FIELD h field_6083 Z
+	FIELD i field_6084 Z
+	FIELD j field_6085 Ljava/lang/Object;
+	FIELD k field_6086 Ljava/util/ArrayList;
+	FIELD l field_6087 Ljava/lang/Object;
+	FIELD m field_6088 I
+	FIELD n field_6089 I
+	FIELD o field_6090 Z
+	FIELD p field_6091 Z
+	FIELD q field_6092 Z
+	FIELD r field_6093 Lcom/corrodinggames/rts/gameFramework/j/ae;
+	METHOD a method_2844 ()V
+	METHOD a method_2845 (Ljava/net/InetAddress;Z)Z
+	METHOD a method_2846 (Z)V
+	METHOD b method_2847 ()V
+	METHOD run run ()V

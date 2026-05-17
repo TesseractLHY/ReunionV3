@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/custom/f/c com/corrodinggames/rts/game/units/custom/f/class_572
+	FIELD a field_3064 I
+	FIELD b field_3065 I
+	FIELD c field_3066 Ljava/lang/String;
+	METHOD a method_1390 ()V
+	METHOD a method_1391 (I)Z
+	METHOD b method_1392 ()D
+	METHOD c method_1393 ()D
+	METHOD d method_1394 ()D

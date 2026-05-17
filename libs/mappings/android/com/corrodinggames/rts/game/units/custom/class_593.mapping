@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/custom/x com/corrodinggames/rts/game/units/custom/class_593
+	FIELD g field_3596 Ljava/lang/String;
+	FIELD h field_3597 Lcom/corrodinggames/rts/game/units/custom/ca;

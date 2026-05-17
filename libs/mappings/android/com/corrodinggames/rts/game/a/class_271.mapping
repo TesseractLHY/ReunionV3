@@ -1,0 +1,16 @@
+CLASS com/corrodinggames/rts/game/a/ab com/corrodinggames/rts/game/a/class_271
+	FIELD Q field_741 I
+	FIELD R field_742 Lcom/corrodinggames/rts/game/a/a;
+	FIELD S field_743 F
+	FIELD T field_744 F
+	FIELD U field_745 F
+	FIELD V field_746 Z
+	FIELD W field_747 Ljava/util/ArrayList;
+	METHOD a method_234 (FF)F
+	METHOD a method_235 (Lcom/corrodinggames/rts/game/units/ce;)Z
+	METHOD a method_236 (Lcom/corrodinggames/rts/game/units/ce;F)Z
+	METHOD a method_237 (Lcom/corrodinggames/rts/gameFramework/j/j;)V
+	METHOD b method_238 (Lcom/corrodinggames/rts/game/units/ce;)F
+	METHOD b method_239 (Lcom/corrodinggames/rts/game/units/el;)Landroid/graphics/PointF;
+	METHOD g method_240 ()V
+	METHOD i method_241 ()Landroid/graphics/PointF;

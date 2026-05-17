@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/appFramework/an com/corrodinggames/rts/appFramework/class_17
+	FIELD a field_169 Landroid/widget/EditText;
+	FIELD b field_170 Lcom/corrodinggames/rts/gameFramework/k;
+	FIELD c field_171 Lcom/corrodinggames/rts/appFramework/InGameActivity;
+	METHOD onClick onClick (Landroid/content/DialogInterface;I)V

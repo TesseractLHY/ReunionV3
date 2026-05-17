@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/m/h com/corrodinggames/rts/gameFramework/m/class_1235
+	FIELD a field_6900 Landroid/graphics/Canvas;
+	FIELD b field_6901 Z
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/s com/corrodinggames/rts/gameFramework/class_1286
+	FIELD b field_7154 Ljava/lang/String;
+	FIELD c field_7155 Z
+	METHOD a method_3465 ()Lcom/corrodinggames/rts/gameFramework/s;
+	METHOD a method_3466 (Landroid/app/AlertDialog$Builder;)V
+	METHOD b method_3467 ()Lcom/corrodinggames/rts/gameFramework/s;

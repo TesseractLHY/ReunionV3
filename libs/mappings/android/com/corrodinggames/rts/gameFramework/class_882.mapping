@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/gameFramework/cf com/corrodinggames/rts/gameFramework/class_882
+	FIELD a field_4836 Lcom/corrodinggames/rts/gameFramework/k;
+	FIELD b field_4837 I
+	FIELD c field_4838 I
+	FIELD d field_4839 I
+	FIELD e field_4840 Lcom/corrodinggames/rts/gameFramework/cl;
+	FIELD f field_4841 Landroid/graphics/Paint;
+	FIELD g field_4842 Landroid/graphics/Rect;
+	FIELD h field_4843 I
+	METHOD a method_2070 ()J
+	METHOD a method_2071 (D)Ljava/lang/String;
+	METHOD a method_2072 (J)F
+	METHOD a method_2073 (JJ)D
+	METHOD a method_2074 (Ljava/lang/String;J)V
+	METHOD b method_2075 (D)Ljava/lang/String;

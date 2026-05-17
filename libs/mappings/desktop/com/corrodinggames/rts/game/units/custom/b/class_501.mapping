@@ -1,0 +1,20 @@
+CLASS com/corrodinggames/rts/game/units/custom/b/i com/corrodinggames/rts/game/units/custom/b/class_501
+	FIELD a field_2580 I
+	FIELD b field_2581 F
+	FIELD c field_2582 F
+	FIELD d field_2583 F
+	FIELD e field_2584 F
+	FIELD f field_2585 F
+	FIELD g field_2586 F
+	FIELD h field_2587 F
+	FIELD i field_2588 F
+	FIELD j field_2589 Z
+	FIELD k field_2590 Z
+	FIELD l field_2591 Z
+	FIELD m field_2592 Z
+	FIELD n field_2593 Z
+	FIELD o field_2594 Z
+	FIELD p field_2595 F
+	FIELD q field_2596 F
+	FIELD r field_2597 F
+	FIELD s field_2598 F
