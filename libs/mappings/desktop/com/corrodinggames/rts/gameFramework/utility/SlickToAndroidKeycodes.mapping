@@ -1,16 +1,16 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/SlickToAndroidKeycodes
-	FIELD b field_7157 Ljava/util/HashMap;
-	FIELD c field_7158 Ljava/util/HashMap;
-	FIELD d field_7159 Ljava/util/HashMap;
-	FIELD e field_7160 Ljava/util/HashMap;
-	FIELD f field_7161 Ljava/util/HashMap;
-	METHOD a method_3469 (Ljava/lang/Class;)Ljava/util/HashMap;
-	METHOD a method_3470 (Ljava/lang/String;)I
-	METHOD a method_3471 (Ljava/lang/String;Ljava/util/HashMap;Ljava/util/HashMap;)Ljava/util/HashMap;
-	METHOD b method_3468 ()V
-	METHOD c method_3472 ()V
-	CLASS AndroidCodes
-	CLASS GdxCodes
-	CLASS LibrocketKeys
-	CLASS MissingKey
-	CLASS SlickCodes
+	FIELD a slickToAndroid Ljava/util/HashMap;
+	FIELD b androidToSlick Ljava/util/HashMap;
+	FIELD c androidToGdx Ljava/util/HashMap;
+	FIELD d slickNameMap Ljava/util/HashMap;
+	FIELD e androidNameMap Ljava/util/HashMap;
+	FIELD f gdxNameMap Ljava/util/HashMap;
+	FIELD g gdxToAndroid Ljava/util/HashMap;
+	METHOD a getKeyCode ()V
+	METHOD a createKeyNameMap (Ljava/lang/Class;)Ljava/util/HashMap;
+	METHOD a initializeSlickToAndroidMapping (Ljava/lang/String;)I
+	METHOD a getKeyName (Ljava/lang/String;Ljava/util/HashMap;Ljava/util/HashMap;)Ljava/util/HashMap;
+	METHOD b convertAndroidToSlick ()V
+	METHOD b initializeGdxToAndroidMapping (I)I
+	METHOD c convertGdxToAndroid ()V
+	METHOD c initializeAndroidToGdxMapping (I)Ljava/lang/Integer;

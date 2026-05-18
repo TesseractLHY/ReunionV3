@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/units/ac com/corrodinggames/rts/game/units/NearestUnitFinder
+	FIELD a searchPosX F
+	FIELD b searchPosY F
+	FIELD c animationSetFilter Lcom/corrodinggames/rts/game/units/custom/h;
+	FIELD d closestDistanceSq F
+	FIELD e nearestUnit Lcom/corrodinggames/rts/game/units/am;
+	FIELD f checkLineOfSight Z
+	FIELD g includeNonGroundUnits Z

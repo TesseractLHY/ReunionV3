@@ -1,0 +1,20 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/m com/corrodinggames/rts/game/units/custom/logic/actions/TakeResourcesAction
+	FIELD a takeResources Lcom/corrodinggames/rts/game/units/custom/d/b;
+	FIELD b takeResources_includeUnitsInTransport Z
+	FIELD c takeResources_includeParent Z
+	FIELD d takeResources_includeUnitsWithinRange F
+	FIELD e takeResources_includeUnitsWithinRange_team Lcom/corrodinggames/rts/game/q;
+	FIELD f takeResources_includeReference Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD g takeResources_excludeUnitsWithoutTags Lcom/corrodinggames/rts/game/units/custom/h;
+	FIELD h takeResources_excludeUnitsWithoutAllResources Z
+	FIELD i takeResources_excludeUnitsWithTheseResources Lcom/corrodinggames/rts/game/units/custom/d/b;
+	FIELD j takeResources_excludeUnitsWithoutCustomTarget1EqualTo Lcom/corrodinggames/rts/game/units/custom/logicBooleans/UnitReference;
+	FIELD k takeResources_maxUnits I
+	FIELD l takeResources_triggerActionIfAnyCollected Lcom/corrodinggames/rts/game/units/custom/u;
+	FIELD m takeResources_triggerActionIfNoneCollected Lcom/corrodinggames/rts/game/units/custom/u;
+	FIELD n takeResources_triggerActionForEach Lcom/corrodinggames/rts/game/units/custom/u;
+	FIELD o takeResources_saveFirstUnitToCustomTarget1 Z
+	FIELD p takeResources_saveFirstUnitToCustomTarget2 Z
+	FIELD q takeResources_discardCollected Z
+	FIELD r takeResources_keepResourcesOnTarget Z
+	FIELD s takeResources_directTransferStoppingAtZero Z

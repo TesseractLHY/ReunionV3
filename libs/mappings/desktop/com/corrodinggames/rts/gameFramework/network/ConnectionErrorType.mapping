@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/j/x com/corrodinggames/rts/gameFramework/network/ConnectionErrorType
+	FIELD a WRONG_PASSWORD Lcom/corrodinggames/rts/gameFramework/j/x;
+	FIELD b UNKNOWN_ERROR Lcom/corrodinggames/rts/gameFramework/j/x;

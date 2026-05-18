@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/f/t com/corrodinggames/rts/gameFramework/ui/StrategicPoint
+	FIELD a gridX I
+	FIELD b gridY I
+	FIELD c screenX I
+	FIELD d screenY I
+	FIELD e isVisible Z
+	FIELD f minimap Lcom/corrodinggames/rts/gameFramework/f/o;

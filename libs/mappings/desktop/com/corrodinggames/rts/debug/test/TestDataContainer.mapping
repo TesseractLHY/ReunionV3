@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/a/a/h com/corrodinggames/rts/debug/test/TestDataContainer
+	FIELD a intValue1 I
+	FIELD b intValue2 I
+	FIELD c longValue1 J
+	FIELD d booleanValue Z
+	FIELD e longValue2 J
+	FIELD f longValue3 J
+	FIELD g longValue4 J
+	FIELD h longValue5 J
+	FIELD i longValue6 J
+	FIELD j longValue7 J

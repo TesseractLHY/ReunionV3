@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/ad com/corrodinggames/rts/game/units/UnitStateTracker
+	FIELD a stateFlag1 Z
+	FIELD b stateFlag2 Z
+	FIELD c stateFlag3 Z
+	FIELD d isReset Z
+	FIELD e stateValue1 F
+	FIELD f stateValue2 F

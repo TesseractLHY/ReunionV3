@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/b com/corrodinggames/rts/game/units/custom/logic/ActionWithCost
+	FIELD b wrappedAction Lcom/corrodinggames/rts/game/units/a/a;
+	FIELD c buildCost Lcom/corrodinggames/rts/game/units/custom/d/b;
+	FIELD d resourceCost Lcom/corrodinggames/rts/game/units/custom/d/b;

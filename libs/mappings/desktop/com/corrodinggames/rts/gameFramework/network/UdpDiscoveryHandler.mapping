@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/j/af com/corrodinggames/rts/gameFramework/network/UdpDiscoveryHandler
+	FIELD a isRunning Z
+	FIELD b datagramSocket Ljava/net/DatagramSocket;
+	FIELD c timer Ljava/util/Timer;
+	FIELD d networkEngine Lcom/corrodinggames/rts/gameFramework/j/ad;
+	CLASS 1 AnonymousClass1

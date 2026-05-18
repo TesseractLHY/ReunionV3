@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/d/g com/corrodinggames/rts/gameFramework/effect/SpriteSheet
+	METHOD a createOutline ()V
+	METHOD a drawSprite (IFFLandroid/graphics/Paint;)V

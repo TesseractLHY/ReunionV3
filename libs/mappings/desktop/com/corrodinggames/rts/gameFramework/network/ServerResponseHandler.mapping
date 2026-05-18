@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/j/s com/corrodinggames/rts/gameFramework/network/ServerResponseHandler
+	FIELD d errorOrResponseText Ljava/lang/String;
+	FIELD e parsedSuccessfully Z
+	FIELD f pendingRequests I
+	METHOD a onComplete ()V
+	METHOD a handleServerListResponse (Ljava/io/BufferedReader;ILjava/lang/String;)V

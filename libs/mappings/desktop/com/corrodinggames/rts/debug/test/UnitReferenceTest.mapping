@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/a/a/m com/corrodinggames/rts/debug/test/UnitReferenceTest
+	METHOD a runUnitReferenceTests ()V
+	METHOD a getUnitFromReference (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/UnitReference;)V
+	METHOD a assertReferenceResolvesTo (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/UnitReference;Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD a createReference (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/UnitReference;
+	METHOD a assertCreateError (Ljava/lang/String;Z)V

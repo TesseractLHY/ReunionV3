@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/a/a/b com/corrodinggames/rts/game/ai/behaviors/AIBehaviorType
+	FIELD a isUnknown Lcom/corrodinggames/rts/game/a/a/b;
+	FIELD b isNukingNew Lcom/corrodinggames/rts/game/a/a/b;
+	FIELD c someField [Lcom/corrodinggames/rts/game/a/a/b;
+	METHOD a getA ()Lcom/corrodinggames/rts/game/a/a/a;
+	CLASS 1 AnonymousClass1
+	CLASS 2 AnonymousClass2

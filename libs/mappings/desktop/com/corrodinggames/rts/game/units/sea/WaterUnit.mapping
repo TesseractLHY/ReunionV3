@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/h/f com/corrodinggames/rts/game/units/sea/WaterUnit
+	FIELD m smokeEffectTimer F
+	FIELD n sinkVelocity F
+	FIELD o hasSunk Z
+	FIELD p waterUnitIconTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD q waterUnitIconTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD K shouldCreateSmokeEffect ()Z
+	METHOD M loadTextures ()V
+	METHOD s adjustZPosition (F)V

@@ -1,0 +1,27 @@
+CLASS com/corrodinggames/rts/appFramework/m com/corrodinggames/rts/appFramework/MultiTouchPointerState
+	FIELD a numPointers I
+	FIELD b x [F
+	FIELD c y [F
+	FIELD d pressure [F
+	FIELD e pointerIds [I
+	FIELD f startX F
+	FIELD g startY F
+	FIELD h startPressure F
+	FIELD i distX F
+	FIELD j distY F
+	FIELD k isDown Z
+	FIELD l isMultiTouch Z
+	FIELD m wasDown Z
+	FIELD n lastNumPointers I
+	FIELD o isDragging Z
+	FIELD p isPinching Z
+	FIELD q isRotating Z
+	FIELD r historyCount I
+	METHOD a getLastNumPointers ()I
+	METHOD a setStart (FF)V
+	METHOD a processEvent (FFZI)V
+	METHOD b wasDown ()Z
+	METHOD c updateState ()V
+	METHOD d getX ()[F
+	METHOD e getPointerIndices ()[I
+	METHOD f getY ()[F

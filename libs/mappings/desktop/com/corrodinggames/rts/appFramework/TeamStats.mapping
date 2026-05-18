@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/appFramework/o com/corrodinggames/rts/appFramework/TeamStats
+	FIELD a statName Ljava/lang/String;
+	FIELD b minValue I
+	FIELD c maxValue I
+	FIELD d minTeam Lcom/corrodinggames/rts/game/n;
+	FIELD e maxTeam Lcom/corrodinggames/rts/game/n;
+	FIELD f minTeamCount I
+	FIELD g maxTeamCount I
+	METHOD a checkForImbalance ()Z
+	METHOD a addValue (Lcom/corrodinggames/rts/game/n;I)V

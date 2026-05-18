@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/gameFramework/f/d com/corrodinggames/rts/gameFramework/ui/TextUtils
+	FIELD a tempRect Landroid/graphics/Rect;
+	FIELD b lines Ljava/util/ArrayList;
+	FIELD c backgroundRect Landroid/graphics/RectF;
+	FIELD d textBounds Landroid/graphics/RectF;
+	METHOD a getLineHeight (Landroid/graphics/Paint;)I
+	METHOD a getScale (Lcom/corrodinggames/rts/gameFramework/m/e;FF)F
+	METHOD a getScaleWithBounds (Lcom/corrodinggames/rts/gameFramework/m/e;FFFF)F
+	METHOD a drawTextWithBackground (Ljava/lang/String;FFLandroid/graphics/Paint;Landroid/graphics/Paint;FFFF)V
+	METHOD a wrapText (Ljava/lang/String;Landroid/graphics/Rect;Landroid/graphics/Paint;Landroid/graphics/Paint;Z)Ljava/util/ArrayList;
+	METHOD b getCharWidth (Landroid/graphics/Paint;)I

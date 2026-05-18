@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/a/c com/corrodinggames/rts/game/units/actions/ActionId
+	FIELD a NONE Lcom/corrodinggames/rts/game/units/a/c;
+	FIELD b id Ljava/lang/String;
+	FIELD c internMap Ljava/util/HashMap;
+	METHOD a getId ()Ljava/lang/String;
+	METHOD a fromString (Lcom/corrodinggames/rts/game/units/a/c;)Z
+	METHOD a serialize (Lcom/corrodinggames/rts/gameFramework/j/as;Lcom/corrodinggames/rts/game/units/a/c;)V
+	METHOD a deserialize (Lcom/corrodinggames/rts/gameFramework/j/k;)Lcom/corrodinggames/rts/game/units/a/c;
+	METHOD a isSameInstance (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/a/c;

@@ -1,0 +1,21 @@
+CLASS a/a/a/g net/rudp/impl/SYNSegment
+	FIELD a rudpVersion I
+	FIELD b gameVersion I
+	FIELD c optionFlags I
+	FIELD d maxSegmentSize I
+	FIELD e retransmissionTimeoutMs I
+	FIELD f cumulativeAckTimeoutMs I
+	FIELD g nullSegmentTimeoutMs I
+	FIELD h maxRetransmissions I
+	FIELD i maxCumulativeAcks I
+	FIELD j maxOutOfOrderSegments I
+	FIELD k maxAutoResets I
+	METHOD c getGameVersion ()I
+	METHOD e getMaxSegmentSize ()I
+	METHOD f getRetransmissionTimeoutMs ()I
+	METHOD g getCumulativeAckTimeoutMs ()I
+	METHOD h getNullPacketTimeoutMs ()I
+	METHOD i getMaxRetransmissions ()I
+	METHOD j getMaxCumulativeAcks ()I
+	METHOD k getMaxOutOfOrderPackets ()I
+	METHOD l getMaxAutoResets ()I

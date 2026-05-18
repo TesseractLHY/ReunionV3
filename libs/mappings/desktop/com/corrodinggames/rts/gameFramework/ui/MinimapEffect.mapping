@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/f/p com/corrodinggames/rts/gameFramework/ui/MinimapEffect
+	FIELD a x I
+	FIELD b y I
+	FIELD c intensity F
+	FIELD d duration F
+	FIELD e type Lcom/corrodinggames/rts/gameFramework/f/r;
+	FIELD f minimap Lcom/corrodinggames/rts/gameFramework/f/o;

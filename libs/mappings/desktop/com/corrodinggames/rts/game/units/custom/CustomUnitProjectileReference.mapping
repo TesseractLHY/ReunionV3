@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/custom/x com/corrodinggames/rts/game/units/custom/CustomUnitProjectileReference
+	FIELD g projectileName Ljava/lang/String;
+	FIELD h projectile Lcom/corrodinggames/rts/game/units/custom/bh;

@@ -1,0 +1,31 @@
+CLASS com/corrodinggames/rts/gameFramework/j/n com/corrodinggames/rts/gameFramework/network/MasterServerClient
+	FIELD a ENABLE_STATUS_LOGGING Z
+	FIELD b ENABLE_CONSOLE_LOGGING Z
+	FIELD c MASTER_SERVER_URLS [Ljava/lang/String;
+	FIELD d httpClientManager Lcom/corrodinggames/rts/gameFramework/j/r;
+	FIELD e serverListSequence I
+	FIELD f serverListLock Ljava/lang/Object;
+	FIELD g lastMasterServerResponseLog Ljava/lang/String;
+	METHOD a getOwnInfoFromMasterServerAsync ()V
+	METHOD a extractFirstLine ([B)Ljava/lang/String;
+	METHOD a formatServerCode (I)Ljava/lang/String;
+	METHOD a removeStaleServers (II)V
+	METHOD a getGameServerInfoFromMasterServerAsync (Lcom/corrodinggames/rts/gameFramework/j/w;Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a loadServerListAsync (Ljava/lang/Runnable;)V
+	METHOD a logInfo (Ljava/lang/String;)V
+	METHOD a sendErrorReportAsync (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a requestMasterServerResponse (Ljava/util/List;)Ljava/io/BufferedReader;
+	METHOD a requestMasterServerResponseWithTimeout (Ljava/util/List;I)Ljava/io/BufferedReader;
+	METHOD a getParam (Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+	METHOD a addParam (Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a doSingleRequest (Ljava/util/List;Ljava/lang/String;Z)Lcom/corrodinggames/rts/gameFramework/j/t;
+	METHOD a requestFromMasterServers (Ljava/util/List;Z[Ljava/lang/String;IZ)Ljava/io/BufferedReader;
+	METHOD a startParallelRequests (Ljava/util/List;ZLcom/corrodinggames/rts/gameFramework/j/s;)V
+	METHOD a startParallelRequestsAcrossUrls (Ljava/util/List;ZLcom/corrodinggames/rts/gameFramework/j/s;[Ljava/lang/String;)V
+	METHOD b createServerAsync ()V
+	METHOD b findServerById (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/j/g;
+	METHOD b addServerStatusParams (Ljava/util/List;)V
+	METHOD c updateServerAsync ()V
+	METHOD c findOrCreateServerById (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/j/g;
+	METHOD d removeServerAsync ()V
+	CLASS 1 AnonymousClass1

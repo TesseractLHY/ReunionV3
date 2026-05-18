@@ -1,0 +1,6 @@
+CLASS a/a/s net/rudp/ReliableSocketListener
+	METHOD a onConnected (La/a/h;)V
+	METHOD b onConnectFailed (La/a/h;)V
+	METHOD c onClosed (La/a/h;)V
+	METHOD d onConnectionLost (La/a/h;)V
+	METHOD e onRemoteReset (La/a/h;)V

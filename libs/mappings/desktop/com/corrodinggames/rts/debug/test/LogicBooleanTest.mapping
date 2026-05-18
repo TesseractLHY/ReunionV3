@@ -1,0 +1,16 @@
+CLASS com/corrodinggames/rts/a/a/c com/corrodinggames/rts/debug/test/LogicBooleanTest
+	METHOD a runTests ()V
+	METHOD a setMemory (Lcom/corrodinggames/rts/game/units/am;Ljava/lang/String;)V
+	METHOD a defineMemory (Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;)V
+	METHOD a assertLogicBooleanValue (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)V
+	METHOD a assertLogicBooleanText (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;F)V
+	METHOD a assertLogicBooleanHolder (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD a assertLogicBooleanUnit (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;Ljava/lang/String;)V
+	METHOD a assertInvalid (Ljava/lang/String;)V
+	METHOD a defineMemoryWithUnknown (Ljava/lang/String;Z)V
+	METHOD b setMemoryWithLogicBoolean (Lcom/corrodinggames/rts/game/units/am;Ljava/lang/String;)V
+	METHOD b parseLogicBooleanWithUnknown (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)V
+	METHOD b parseLogicBoolean (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	METHOD b assertTrue (Ljava/lang/String;Z)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	METHOD c assertFalse (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)V
+	METHOD d getLogicBooleanValue (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)Ljava/lang/String;

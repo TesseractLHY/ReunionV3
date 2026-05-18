@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/a/a/g com/corrodinggames/rts/debug/test/TestData
+	FIELD a valueA I
+	FIELD b valueB I
+	FIELD c useValueB Z
+	METHOD a getValue ()I

@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/d/a/e com/corrodinggames/rts/game/units/buildings/turrets/FlamethrowerTurret
+	FIELD b turretFactory Lcom/corrodinggames/rts/game/units/d/a/b;

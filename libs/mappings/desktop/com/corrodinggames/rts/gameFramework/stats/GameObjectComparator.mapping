@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/g/d com/corrodinggames/rts/gameFramework/stats/GameObjectComparator
+	FIELD a cachedStat I
+	METHOD b updateCachedStat (Lcom/corrodinggames/rts/gameFramework/g/d;)I
+	METHOD b getName (Lcom/corrodinggames/rts/gameFramework/g/f;)V

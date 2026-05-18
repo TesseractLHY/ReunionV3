@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/b/i com/corrodinggames/rts/game/map/MapObjectLayer
+	FIELD a layerIndex I
+	FIELD b name Ljava/lang/String;
+	FIELD c mapObjects Ljava/util/ArrayList;
+	FIELD d widthTiles I
+	FIELD e heightTiles I
+	FIELD f properties Ljava/util/Properties;
+	METHOD a findObjectByName (Ljava/lang/String;)Lcom/corrodinggames/rts/game/b/a;

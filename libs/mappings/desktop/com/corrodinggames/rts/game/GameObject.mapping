@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/a com/corrodinggames/rts/game/GameObject
+	FIELD a gameObjectId I
+	FIELD b active Z
+	FIELD c removed Z
+	FIELD d destroyed Z

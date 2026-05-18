@@ -1,0 +1,19 @@
+CLASS com/corrodinggames/rts/game/units/h com/corrodinggames/rts/game/units/EditorOrBuilder
+	FIELD a controlPoints [Landroid/graphics/PointF;
+	FIELD b targetPoints [Landroid/graphics/PointF;
+	FIELD c controlPointPaints Z
+	FIELD d targetPointPaints Landroid/graphics/Paint;
+	FIELD e editorSelectionPaint Landroid/graphics/Paint;
+	FIELD f editorSelectionTexture Landroid/graphics/Paint;
+	FIELD g editorSelectionTexture2 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD h editorSelectionTexture3 Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD i editorIconTexture Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD j editorIconTexture2 Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD k editorIconTexture3 Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD l editorIconTexture4 Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD m editorIconTexture5 Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD n editorIconTexture6 Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD o editorIconTexture7 Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD p editorIconTexture8 Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD q editorIconTexture9 Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD r editorIconTexture10 Ljava/lang/String;

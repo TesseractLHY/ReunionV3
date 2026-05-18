@@ -1,0 +1,29 @@
+CLASS com/corrodinggames/rts/gameFramework/f/f com/corrodinggames/rts/gameFramework/ui/EndGameScreen
+	FIELD a textPaint Landroid/graphics/Paint;
+	FIELD b field_b Z
+	FIELD c timer F
+	FIELD d fireworkTimer F
+	FIELD e textBounds Landroid/graphics/Rect;
+	FIELD f tempRect Landroid/graphics/Rect;
+	FIELD g rateGamePopupRect Landroid/graphics/Rect;
+	FIELD h statsView Lcom/corrodinggames/rts/gameFramework/f/y;
+	FIELD i backgroundTasks Ljava/util/ArrayList;
+	FIELD j buttonHeight I
+	FIELD k buttonWidth I
+	FIELD l buttonSpacing I
+	FIELD m screenBounds Landroid/graphics/Rect;
+	FIELD n field_n Z
+	FIELD o field_o Z
+	FIELD p rateGameText Ljava/lang/String;
+	FIELD q rateGameYesText Ljava/lang/String;
+	FIELD r rateGameNoText Ljava/lang/String;
+	FIELD s showRateGamePopup Z
+	FIELD t field_t F
+	METHOD a setupButtonActions ()V
+	METHOD a update (F)V
+	METHOD b isGameOver ()Z
+	METHOD b draw (F)V
+	METHOD c loadStats ()V
+	METHOD c drawRateGamePopup (F)V
+	CLASS 1 AnonymousClass1
+	CLASS 2 AnonymousClass2

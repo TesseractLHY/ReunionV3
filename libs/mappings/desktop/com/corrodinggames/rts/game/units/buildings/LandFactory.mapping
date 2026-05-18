@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/game/units/d/m com/corrodinggames/rts/game/units/buildings/LandFactory
+	FIELD a level1Texture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b level2Texture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c backgroundTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD d level1TeamTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD e level2TeamTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD f deadTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD g isUpgraded Z
+	FIELD h upgradeActionId Lcom/corrodinggames/rts/game/units/a/c;
+	METHOD a addAvailableActions (Ljava/util/ArrayList;I)V
+	METHOD b loadTextures ()V

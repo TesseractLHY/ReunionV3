@@ -1,0 +1,3 @@
+CLASS android/graphics/Point
+	FIELD a worldX I
+	FIELD b worldY I

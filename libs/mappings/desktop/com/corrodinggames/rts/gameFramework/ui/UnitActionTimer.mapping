@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/gameFramework/f/c com/corrodinggames/rts/gameFramework/ui/UnitActionTimer
+	FIELD a unit Lcom/corrodinggames/rts/game/units/am;
+	FIELD b action Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD c timer F
+	FIELD d isNegative Z
+	FIELD e field_e Z
+	FIELD f timers Lcom/corrodinggames/rts/gameFramework/utility/m;
+	METHOD a updateTimers (F)V
+	METHOD a findTimer (Lcom/corrodinggames/rts/game/units/am;Lcom/corrodinggames/rts/game/units/a/s;Z)Lcom/corrodinggames/rts/gameFramework/f/c;
+	METHOD a startTimer (Lcom/corrodinggames/rts/game/units/am;Lcom/corrodinggames/rts/game/units/a/s;ZZ)V
+	METHOD b getTimerValue (Lcom/corrodinggames/rts/game/units/am;Lcom/corrodinggames/rts/game/units/a/s;Z)F

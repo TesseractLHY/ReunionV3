@@ -1,0 +1,6 @@
+CLASS android/util/a android/util/ArrayUtils
+	FIELD a EMPTY_BOOLEAN_ARRAY [Z
+	FIELD b EMPTY_INT_ARRAY [I
+	FIELD c EMPTY_LONG_ARRAY [J
+	FIELD d EMPTY_OBJECT_ARRAY [Ljava/lang/Object;
+	METHOD a binarySearch ([III)I

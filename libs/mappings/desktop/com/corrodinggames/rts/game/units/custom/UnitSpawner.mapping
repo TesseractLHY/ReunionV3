@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/custom/bp com/corrodinggames/rts/game/units/custom/UnitSpawner
+	FIELD a spawnQueue Lcom/corrodinggames/rts/gameFramework/utility/m;

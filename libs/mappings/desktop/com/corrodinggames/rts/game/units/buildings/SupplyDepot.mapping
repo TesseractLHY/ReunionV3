@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/game/units/d/v com/corrodinggames/rts/game/units/buildings/SupplyDepot
+	FIELD a baseTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b tier2Texture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c baseTeamTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD d tier2TeamTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD e deadTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD f depotLevel I
+	FIELD g animationTimer F
+	FIELD h supplyCount I
+	FIELD j upgradeAction Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD k availableActions Ljava/util/ArrayList;
+	METHOD M upgradeToTier2 ()V
+	CLASS 1 AnonymousClass1

@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/j/ay com/corrodinggames/rts/gameFramework/network/SplitPacketData
+	FIELD f originalPacket Lcom/corrodinggames/rts/gameFramework/j/au;
+	FIELD g steamChannelId I

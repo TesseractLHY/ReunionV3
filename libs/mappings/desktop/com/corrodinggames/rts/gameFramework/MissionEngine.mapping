@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/n com/corrodinggames/rts/gameFramework/MissionEngine
+	METHOD a log (Ljava/lang/String;I)V
+	METHOD a log (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a log (Ljava/lang/String;Z)V
+	METHOD a log (Ljava/lang/Throwable;)V

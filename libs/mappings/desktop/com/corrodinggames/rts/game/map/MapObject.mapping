@@ -1,0 +1,27 @@
+CLASS com/corrodinggames/rts/game/b/a com/corrodinggames/rts/game/map/MapObject
+	FIELD a objectIndex I
+	FIELD b name Ljava/lang/String;
+	FIELD c normalizedName Ljava/lang/String;
+	FIELD d type Ljava/lang/String;
+	FIELD e x F
+	FIELD f y F
+	FIELD g width F
+	FIELD h height F
+	FIELD i rotation F
+	FIELD j tileRect Landroid/graphics/RectF;
+	FIELD k globalTileId I
+	FIELD l tileset Lcom/corrodinggames/rts/game/b/j;
+	FIELD m tileIndex I
+	FIELD n properties Ljava/util/Properties;
+	FIELD o visitedProperties Lcom/corrodinggames/rts/gameFramework/utility/m;
+	FIELD p imageSource Ljava/lang/String;
+	METHOD a getUnvisitedPropertyNames ()[Ljava/lang/String;
+	METHOD a containsUnitPosition (Lcom/corrodinggames/rts/game/units/am;)Z
+	METHOD a markPropertyVisited (Ljava/lang/String;)V
+	METHOD a createLocaleStringFromProperty (Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/bb;)Lcom/corrodinggames/rts/game/units/custom/bb;
+	METHOD a getPropertyOrDefault (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD a getFloatAttribute (Lorg/w3c/dom/Element;Ljava/lang/String;)F
+	METHOD b getTriggerTag ()Ljava/lang/String;
+	METHOD b getDescription (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c getIntegerProperty (Ljava/lang/String;)Ljava/lang/Integer;
+	METHOD d logTriggerMessage (Ljava/lang/String;)V

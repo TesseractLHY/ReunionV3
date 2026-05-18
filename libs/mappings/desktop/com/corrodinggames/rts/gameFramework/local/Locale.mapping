@@ -1,0 +1,21 @@
+CLASS com/corrodinggames/rts/gameFramework/h/a com/corrodinggames/rts/gameFramework/local/Locale
+	FIELD a resourceBundle Ljava/util/ResourceBundle;
+	FIELD b forceEnglish Z
+	FIELD c reloadCount I
+	FIELD d overrideLanguageCode Ljava/lang/String;
+	FIELD e mapNamePattern Ljava/util/regex/Pattern;
+	FIELD f inlineBlockPattern Ljava/util/regex/Pattern;
+	METHOD a initialize ()V
+	METHOD a loadBundleFromPath (Ljava/lang/String;)Ljava/util/PropertyResourceBundle;
+	METHOD a get (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a getFormattedString (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a loadBundle (Ljava/lang/String;Ljava/util/Locale;)Ljava/util/ResourceBundle;
+	METHOD a buildLocaleString (Ljava/lang/String;Ljava/util/Locale;ZZ)Ljava/lang/String;
+	METHOD b getResourceBundle ()Ljava/util/ResourceBundle;
+	METHOD b translateMapName (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c getLanguage ()Ljava/lang/String;
+	METHOD c convertInlineBlocks (Ljava/lang/String;)Ljava/lang/String;
+	METHOD d getDefaultLocale ()Ljava/util/Locale;
+	METHOD d getRawString (Ljava/lang/String;)Ljava/lang/String;
+	METHOD e reload ()V
+	METHOD e hasString (Ljava/lang/String;)Z

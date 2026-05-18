@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/g com/corrodinggames/rts/gameFramework/PlatformInfo
+	FIELD a platform Lcom/corrodinggames/rts/gameFramework/h;
+	METHOD a getPlatform ()Lcom/corrodinggames/rts/gameFramework/h;

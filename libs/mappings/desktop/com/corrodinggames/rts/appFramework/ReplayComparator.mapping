@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/k com/corrodinggames/rts/appFramework/ReplayComparator
+	FIELD a datePattern Ljava/util/regex/Pattern;
+	METHOD a parseDate (Ljava/lang/String;)Ljava/util/Date;

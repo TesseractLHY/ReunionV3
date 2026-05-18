@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/librocket/d com/corrodinggames/librocket/DialogData
+	FIELD a document Lcom/ElementDocument;
+	FIELD b title Ljava/lang/String;
+	FIELD c message Ljava/lang/String;
+	FIELD d textInputValue Ljava/lang/String;
+	FIELD e button1 Ljava/lang/Object;
+	FIELD f button2 Ljava/lang/Object;
+	FIELD g isAlert Z
+	FIELD h showBackButton Z
+	FIELD i onClose Ljava/lang/Runnable;

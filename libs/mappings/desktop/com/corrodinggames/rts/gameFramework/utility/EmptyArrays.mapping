@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/x com/corrodinggames/rts/gameFramework/utility/EmptyArrays
+	FIELD a EMPTY_BOOLEAN [Z
+	FIELD b EMPTY_BYTE [B
+	FIELD c EMPTY_CHAR [C
+	FIELD d EMPTY_DOUBLE [D
+	FIELD e EMPTY_INT [I
+	FIELD f EMPTY_CLASS [Ljava/lang/Class;
+	FIELD g EMPTY_OBJECT [Ljava/lang/Object;
+	FIELD h EMPTY_STRING [Ljava/lang/String;
+	FIELD i EMPTY_THROWABLE [Ljava/lang/Throwable;
+	FIELD j EMPTY_STACK_TRACE [Ljava/lang/StackTraceElement;

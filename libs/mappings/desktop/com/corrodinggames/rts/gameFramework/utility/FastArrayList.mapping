@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/m com/corrodinggames/rts/gameFramework/utility/FastArrayList
+	FIELD a size I
+	FIELD b elements [Ljava/lang/Object;

@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/f com/corrodinggames/rts/game/units/custom/logic/actions/MessageAction
+	FIELD a showMessageToPlayer Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD b showMessageToAllPlayers Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD c showMessageToAllEnemyPlayers Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD d showQuickWarLogToPlayer Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD e showQuickWarLogToAllPlayers Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD f debugMessage Lcom/corrodinggames/rts/game/units/custom/aj;

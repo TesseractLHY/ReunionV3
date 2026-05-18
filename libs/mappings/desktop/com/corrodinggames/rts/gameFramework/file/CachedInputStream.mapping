@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/e/h com/corrodinggames/rts/gameFramework/file/CachedInputStream
+	FIELD a inputStream Ljava/io/InputStream;
+	METHOD a close ()V

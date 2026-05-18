@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/j/ab com/corrodinggames/rts/gameFramework/network/GetServerInfoRunnable
+	FIELD a result Lcom/corrodinggames/rts/gameFramework/j/w;
+	FIELD b gameId Ljava/lang/String;
+	FIELD c serverCode I
+	FIELD d password Ljava/lang/String;

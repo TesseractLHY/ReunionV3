@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/gameFramework/g/f com/corrodinggames/rts/gameFramework/stats/StatType
+	METHOD a calculate (Lcom/corrodinggames/rts/game/n;)I

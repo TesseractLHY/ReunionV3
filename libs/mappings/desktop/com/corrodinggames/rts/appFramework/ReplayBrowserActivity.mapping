@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/q com/corrodinggames/rts/appFramework/ReplayBrowserActivity
+	FIELD c replayFiles [Ljava/lang/String;
+	METHOD l getReplayFiles ()[Ljava/lang/String;

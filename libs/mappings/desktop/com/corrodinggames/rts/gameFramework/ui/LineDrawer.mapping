@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/f/s com/corrodinggames/rts/gameFramework/ui/LineDrawer
+	FIELD a vertices [F
+	FIELD b vertexIndex I
+	FIELD c paint Landroid/graphics/Paint;
+	FIELD d capacity I
+	FIELD e drawAsPoints Z
+	FIELD f pointRect Landroid/graphics/RectF;
+	METHOD a addPoint (FF)V

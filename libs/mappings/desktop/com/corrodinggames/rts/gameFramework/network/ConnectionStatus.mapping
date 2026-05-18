@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/j/m com/corrodinggames/rts/gameFramework/network/ConnectionStatus
+	FIELD a EXPECTED Lcom/corrodinggames/rts/gameFramework/j/m;
+	FIELD b WARN Lcom/corrodinggames/rts/gameFramework/j/m;

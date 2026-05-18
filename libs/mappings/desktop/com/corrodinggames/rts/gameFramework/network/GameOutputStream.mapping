@@ -1,0 +1,52 @@
+CLASS com/corrodinggames/rts/gameFramework/j/as com/corrodinggames/rts/gameFramework/network/GameOutputStream
+	FIELD a currentDataOutput Ljava/io/DataOutputStream;
+	FIELD b rootByteBuffer Ljava/io/ByteArrayOutputStream;
+	FIELD c rootDataOutput Ljava/io/DataOutputStream;
+	FIELD d maxBufferSize I
+	FIELD e outputBlockStack Ljava/util/LinkedList;
+	METHOD a flushAllBuffers ()V
+	METHOD a writeBytesWithLength ([B)V
+	METHOD a writeDouble (D)V
+	METHOD a writeFloat (F)V
+	METHOD a writeInt (I)V
+	METHOD a buildPacketData (II)Lcom/corrodinggames/rts/gameFramework/j/au;
+		ARG 1 packetType
+		ARG 2 delayMills
+	METHOD a writeLong (J)V
+	METHOD a writePointFNullable (Landroid/graphics/PointF;)V
+	METHOD a writeTeamIdByte (Lcom/corrodinggames/rts/game/n;)V
+	METHOD a writeUnitIdOrNullBaseUnit (Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD a writeUnitTypeId (Lcom/corrodinggames/rts/game/units/as;)V
+	METHOD a writeAnimationTag (Lcom/corrodinggames/rts/game/units/custom/g;)V
+	METHOD a writeUnitIdOrNullUnitEntity (Lcom/corrodinggames/rts/game/units/y;)V
+	METHOD a writeConnectionIdInt (Lcom/corrodinggames/rts/gameFramework/j/c;)V
+	METHOD a writeGameInputStreamWithLength (Lcom/corrodinggames/rts/gameFramework/j/k;)V
+	METHOD a startBlockInternal (Lcom/corrodinggames/rts/gameFramework/utility/m;)V
+	METHOD a writeObjectId (Lcom/corrodinggames/rts/gameFramework/w;)V
+	METHOD a writeByteArrayWithLength (Ljava/io/ByteArrayOutputStream;)V
+	METHOD a writeStreamWithLength (Ljava/io/File;)V
+	METHOD a writeInputStreamWithLength (Ljava/io/InputStream;I)V
+	METHOD a writeEnumOrdinal (Ljava/lang/Enum;)V
+	METHOD a writeIntNullable (Ljava/lang/Integer;)V
+	METHOD a endBlock (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD a beginBlockInternal (Ljava/lang/String;Z)V
+	METHOD a writeShort (S)V
+	METHOD a writeBoolean (Z)V
+	METHOD b useMainStream ()V
+	METHOD b writeBytesRaw ([B)V
+	METHOD b buildPacketData (I)Lcom/corrodinggames/rts/gameFramework/j/au;
+		ARG 1 packetType
+	METHOD b writeUnitIdIfAlive (Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD b writeExistingObjectId (Lcom/corrodinggames/rts/gameFramework/w;)V
+	METHOD b writeStringNullable (Ljava/lang/String;)V
+	METHOD c getBufferAsString ()Ljava/lang/String;
+	METHOD c writeByte (I)V
+	METHOD c writeStringUTF (Ljava/lang/String;)V
+	METHOD d toByteArray ()[B
+	METHOD d debugPlaceholder (Ljava/lang/String;)V
+	METHOD e writeMagicShort ()V
+	METHOD e startBlock (Ljava/lang/String;)V
+	METHOD f isCompressionEnabled ()Z
+	METHOD g getMaxSize ()I
+	METHOD h close ()V

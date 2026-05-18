@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/a/a/e com/corrodinggames/rts/debug/test/UtilityTests
+	FIELD a dummyValue I
+	METHOD a runAllTests ()V
+	METHOD a assertStringArrayEquals ([Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a assertStringArrayEquals ([Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a assertKeyValueEquals (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a assertVersionComparison (Ljava/lang/String;Ljava/lang/String;Z)V

@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/a/a/a com/corrodinggames/rts/debug/test/GameLogicTest
+	METHOD a testTiming ()V

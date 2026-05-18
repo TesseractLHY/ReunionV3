@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/custom/m com/corrodinggames/rts/game/units/custom/CustomUnitDirectionConfig
+	FIELD a useMainTurret Z
+	FIELD b directionUnits F
+	FIELD c strideX I
+	FIELD d strideY I
+	FIELD e startingDirection F

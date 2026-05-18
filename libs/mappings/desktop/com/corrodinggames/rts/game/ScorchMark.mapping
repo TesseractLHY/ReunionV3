@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/l com/corrodinggames/rts/game/ScorchMark
+	FIELD a type I
+	FIELD b variant I
+	FIELD c width I
+	FIELD d height I
+	FIELD e markType Lcom/corrodinggames/rts/game/m;
+	FIELD f frame I
+	FIELD g status I

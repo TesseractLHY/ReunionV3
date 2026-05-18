@@ -1,0 +1,24 @@
+CLASS com/corrodinggames/rts/gameFramework/j/ah com/corrodinggames/rts/gameFramework/network/GameRoomSettings
+	FIELD a gameModeType Lcom/corrodinggames/rts/gameFramework/j/ai;
+	FIELD b mapPath Ljava/lang/String;
+	FIELD c startingCredits I
+	FIELD d fodMode I
+	FIELD e revealedMap Z
+	FIELD f aiDifficulty I
+	FIELD g startingUnits I
+	FIELD h incomeMultiplier F
+	FIELD i noNukes Z
+	FIELD j unknown Z
+	FIELD k useDisplayedCostAsResourceCost Z
+	FIELD l sharedControl Z
+	FIELD m teamLock Z
+	FIELD n fixedAllyTeams Z
+	FIELD o allowSpectators Z
+	FIELD p roomLock Z
+	FIELD q randomSeed I
+	METHOD a resetToDefaults ()V
+	METHOD a writeToStream (Lcom/corrodinggames/rts/gameFramework/j/as;)V
+		ARG 1 gos
+	METHOD a readFromStream (Lcom/corrodinggames/rts/gameFramework/j/k;)V
+		ARG 1 gis
+	METHOD b getSettingsSummary ()Ljava/lang/String;

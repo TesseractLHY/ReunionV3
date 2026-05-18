@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/a/a/a com/corrodinggames/rts/game/ai/behaviors/AIBehavior
+	METHOD a onUnitAdded (Lcom/corrodinggames/rts/game/a/a;Lcom/corrodinggames/rts/game/units/y;)V
+	METHOD b onUnitRemoved (Lcom/corrodinggames/rts/game/a/a;Lcom/corrodinggames/rts/game/units/y;)V
+	CLASS 1 AnonymousClass1

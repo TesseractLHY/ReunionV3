@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/z com/corrodinggames/rts/game/units/TriggerDebugAction
+	FIELD a sourceUnit Lcom/corrodinggames/rts/game/units/am;
+	FIELD b targetUnit Lcom/corrodinggames/rts/game/units/am;
+	FIELD c isActive Z
+	FIELD d action Lcom/corrodinggames/rts/game/units/a/s;

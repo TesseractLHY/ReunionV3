@@ -1,0 +1,41 @@
+CLASS com/corrodinggames/rts/gameFramework/j/k com/corrodinggames/rts/gameFramework/network/GameInputStream
+	FIELD a byteArrayInput Ljava/io/ByteArrayInputStream;
+	FIELD b protocolVersion I
+	FIELD c maxBlockSize I
+	FIELD d bytesRead I
+	FIELD e rootDataInput Ljava/io/DataInputStream;
+	FIELD f currentDataInput Ljava/io/DataInputStream;
+	FIELD g inputBlockStack Ljava/util/LinkedList;
+	METHOD <init> (Lcom/corrodinggames/rts/gameFramework/j/au;)V
+		ARG 1 packet
+	METHOD a useMainStream ()V
+	METHOD a setProtocolVersion (I)V
+	METHOD a startBlockNamed (Lcom/corrodinggames/rts/gameFramework/j/m;)Lcom/corrodinggames/rts/game/units/am;
+	METHOD a assertMagicShort (Lcom/corrodinggames/rts/gameFramework/utility/m;Ljava/lang/Class;)V
+	METHOD a readBaseUnitWithStatus (Ljava/lang/Class;)Lcom/corrodinggames/rts/gameFramework/w;
+		ARG 1 clazz
+	METHOD b getProtocolVersion ()I
+	METHOD b setMaxBlockSize (I)V
+	METHOD b readEnumOrdinalOrNull (Ljava/lang/Class;)Ljava/lang/Enum;
+	METHOD b startBlockNamed (Ljava/lang/String;)V
+	METHOD c getMaxBlockSize ()I
+	METHOD d readByte ()B
+	METHOD e readBoolean ()Z
+	METHOD f readInt ()I
+	METHOD g readFloat ()F
+	METHOD h readDouble ()D
+	METHOD i readLong ()J
+	METHOD j readNullableString ()Ljava/lang/String;
+	METHOD k readNullableInt ()Ljava/lang/Integer;
+	METHOD l readUTF ()Ljava/lang/String;
+	METHOD m readAnimationTag ()Lcom/corrodinggames/rts/game/units/custom/g;
+	METHOD n readLongOptional ()J
+	METHOD o readBaseUnit ()Lcom/corrodinggames/rts/game/units/am;
+	METHOD p readUnitEntity ()Lcom/corrodinggames/rts/game/units/y;
+	METHOD r readRequiredPlayerTeam ()Lcom/corrodinggames/rts/game/n;
+	METHOD s readOptionalPlayerTeam ()Lcom/corrodinggames/rts/game/n;
+	METHOD t readBytesWithLength ()[B
+	METHOD u readNestedStream ()Lcom/corrodinggames/rts/gameFramework/j/k;
+	METHOD v readShortValue ()S
+	METHOD w getActiveInputStream ()Ljava/io/InputStream;
+	METHOD x startBlockAndGetName ()Ljava/lang/String;

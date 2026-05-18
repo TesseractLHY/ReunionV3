@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/gameFramework/w com/corrodinggames/rts/gameFramework/GameObject
+	FIELD eh objectId J
+	FIELD ej isDestroyed Z
+	FIELD ek isStatic Z
+	FIELD el flag3 Z
+	FIELD em syncType I
+	FIELD en value2 I
+	FIELD eo posX F
+	FIELD ep posY F
+	FIELD eq posZ F
+	FIELD er fastGameObjectList Lcom/corrodinggames/rts/gameFramework/utility/s;
+	METHOD a remove ()V

@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/game/units/custom/e com/corrodinggames/rts/game/units/custom/CustomUnitAnimationController
+	FIELD a currentAnimation Lcom/corrodinggames/rts/game/units/custom/f;
+	FIELD b currentTime F
+	FIELD c previousTime F
+	FIELD d speedMultiplier F
+	FIELD e animationPlaying Z
+	FIELD f forceLoop Z
+	FIELD g forceVisible Z
+	FIELD h forceInvisible Z
+	FIELD i animationActive Z
+	FIELD j animationId I
+	FIELD k fadeMultiplier F
+	FIELD l fadeSpeed F
+	FIELD m unitInstance Lcom/corrodinggames/rts/game/units/custom/j;
+	FIELD n baseBlendValues [F

@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/custom/aj com/corrodinggames/rts/game/units/custom/LocalizedText
+	FIELD a EMPTY_INSTANCE Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD b parsedParts [Lcom/corrodinggames/rts/game/units/custom/ak;
+	FIELD c localizedParts [Lcom/corrodinggames/rts/game/units/custom/bc;
+	FIELD d cachedString Ljava/lang/String;
+	FIELD e cacheState I
+	FIELD f formatString Ljava/lang/String;
+	FIELD g errorMessage Ljava/lang/String;
+	FIELD h customUnitConfig Lcom/corrodinggames/rts/game/units/custom/l;

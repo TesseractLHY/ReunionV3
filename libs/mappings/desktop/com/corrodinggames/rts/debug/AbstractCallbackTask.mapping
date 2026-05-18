@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/a/c com/corrodinggames/rts/debug/AbstractCallbackTask
+	FIELD c result Ljava/lang/Object;

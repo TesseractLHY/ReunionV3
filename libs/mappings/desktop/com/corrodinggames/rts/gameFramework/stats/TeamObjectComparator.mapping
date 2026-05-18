@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/g/b com/corrodinggames/rts/gameFramework/stats/TeamObjectComparator
+	FIELD a name Ljava/lang/String;
+	FIELD b teamColorId I
+	FIELD c teams Ljava/util/ArrayList;

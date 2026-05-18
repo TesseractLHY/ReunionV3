@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/custom/bl com/corrodinggames/rts/game/units/custom/SoundList
+	FIELD a soundList Ljava/util/ArrayList;
+	FIELD b playIndex I

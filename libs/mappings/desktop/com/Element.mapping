@@ -1,0 +1,2 @@
+CLASS com/Element
+	METHOD clone m29clone ()Ljava/lang/Object;

@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/gameFramework/c com/corrodinggames/rts/gameFramework/CommandController
+	FIELD a DEBUG_TRACE_ENABLED Z
+	FIELD b pendingCommands Ljava/util/ArrayList;
+	FIELD c executedCommands Ljava/util/ArrayList;
+	FIELD d queuedCommands Ljava/util/ArrayList;
+	FIELD e logRateLimitCounter I
+	METHOD a clearAllCommands ()V
+	METHOD a newCommandForTeam (Lcom/corrodinggames/rts/game/n;)Lcom/corrodinggames/rts/gameFramework/e;
+	METHOD a logWithRateLimit (Ljava/lang/String;)V
+	METHOD b createCommand ()Lcom/corrodinggames/rts/gameFramework/e;
+	METHOD b createCommandForTeam (Lcom/corrodinggames/rts/game/n;)Lcom/corrodinggames/rts/gameFramework/e;
+	METHOD c executeAllCommands ()V
+	METHOD d executeLocalCommands ()V
+	METHOD e executeNetworkCommands ()V

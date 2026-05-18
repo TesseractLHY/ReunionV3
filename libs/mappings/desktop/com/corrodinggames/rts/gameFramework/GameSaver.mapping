@@ -1,0 +1,18 @@
+CLASS com/corrodinggames/rts/gameFramework/y com/corrodinggames/rts/gameFramework/GameSaver
+	FIELD a debugPlainTextSave Z
+	FIELD b isProfilingEnabled Z
+	FIELD c firstTick I
+	FIELD d lastAutosaveTick I
+	METHOD a resetAutosaveTimers ()Z
+	METHOD a createTempFile (Lcom/corrodinggames/rts/gameFramework/j/as;)V
+	METHOD a writeSaveToStream (Lcom/corrodinggames/rts/gameFramework/j/k;ZZZ)Z
+	METHOD a writeSaveGame (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a convertMapPath (Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/j/as;)V
+	METHOD a getSaveFile (Ljava/lang/String;Ljava/lang/String;Z)Ljava/io/File;
+	METHOD a isAutosaveEnabled (Ljava/lang/String;Z)Ljava/io/File;
+	METHOD a readSaveGame (Z)V
+	METHOD b deleteSave ()V
+	METHOD b saveGame (Ljava/lang/String;)Z
+	METHOD b updateAutosave (Ljava/lang/String;Z)V
+	METHOD c loadSave ()V
+	METHOD c performAutosave (Ljava/lang/String;Z)Z

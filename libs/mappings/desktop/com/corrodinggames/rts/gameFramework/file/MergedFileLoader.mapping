@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/e/e com/corrodinggames/rts/gameFramework/file/MergedFileLoader
+	FIELD g fileLoader1 Lcom/corrodinggames/rts/gameFramework/e/c;
+	FIELD h fileLoader2 Lcom/corrodinggames/rts/gameFramework/e/c;
+	FIELD i tag1 Ljava/lang/String;
+	FIELD j tag2 Ljava/lang/String;
+	METHOD q fixPath (Ljava/lang/String;)Ljava/lang/String;
+	METHOD r getFileLoaderForPath (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/e/c;
+	METHOD s getPrimaryFileLoaderForPath (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/e/c;

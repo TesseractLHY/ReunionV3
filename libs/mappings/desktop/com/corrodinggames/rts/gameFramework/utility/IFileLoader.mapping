@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/af com/corrodinggames/rts/gameFramework/utility/IFileLoader
+	METHOD a isDirect ()V
+	METHOD a exists (Ljava/lang/String;)Z
+	METHOD a getRWFile (Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD a getSize (Ljava/lang/String;Z)J
+	METHOD b listDir (Ljava/lang/String;)[Ljava/lang/String;
+	METHOD b openAssetInputStream (Ljava/lang/String;Z)Lcom/corrodinggames/rts/gameFramework/utility/j;
+	METHOD c delete (Ljava/lang/String;)Z
+	METHOD c openOutputStream (Ljava/lang/String;Z)Ljava/io/OutputStream;
+	METHOD d move (Ljava/lang/String;)Z
+	METHOD e createDirectory (Ljava/lang/String;)Z
+	METHOD f getLastModified (Ljava/lang/String;)Ljava/lang/String;
+	METHOD g getFullPath (Ljava/lang/String;)J

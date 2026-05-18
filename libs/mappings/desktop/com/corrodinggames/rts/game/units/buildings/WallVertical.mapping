@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/d/w com/corrodinggames/rts/game/units/buildings/WallVertical
+	FIELD a baseTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b teamTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c deadTexture Lcom/corrodinggames/rts/gameFramework/m/e;

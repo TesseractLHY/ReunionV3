@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/gameFramework/j/an com/corrodinggames/rts/gameFramework/network/SocketConnector
+	FIELD a serverAddress Ljava/lang/String;
+	FIELD b useUdp Z
+	FIELD c isConnecting Z
+	FIELD d connectorThread Ljava/lang/Thread;
+	FIELD e errorMessage Ljava/lang/String;
+	FIELD f onComplete Ljava/lang/Runnable;
+	FIELD g connectedSocket Ljava/net/Socket;
+	FIELD h cancelRequested Z

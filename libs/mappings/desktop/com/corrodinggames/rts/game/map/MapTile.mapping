@@ -1,0 +1,19 @@
+CLASS com/corrodinggames/rts/game/b/g com/corrodinggames/rts/game/map/MapTile
+	FIELD a tileset Lcom/corrodinggames/rts/game/b/j;
+	FIELD b tilesetLocalIndex I
+	FIELD c atlasSlotIndex I
+	FIELD d uniqueTileId S
+	FIELD e isWater Z
+	FIELD f isWaterBridge Z
+	FIELD g isLava Z
+	FIELD h isCliff Z
+	FIELD i isResourcePool Z
+	FIELD j movementBlockLevel B
+	FIELD k hasLargeObject Z
+	FIELD l blocksBuildingPlacement Z
+	FIELD m randomVariants [Lcom/corrodinggames/rts/game/b/g;
+	FIELD n sharedTempRect Landroid/graphics/Rect;
+	METHOD a createTile (Lcom/corrodinggames/rts/game/b/b;Lcom/corrodinggames/rts/game/b/e;Lcom/corrodinggames/rts/game/b/j;ISSZ)Lcom/corrodinggames/rts/game/b/g;
+	METHOD a compareTiles (Lcom/corrodinggames/rts/game/b/g;Lcom/corrodinggames/rts/game/b/g;)Z
+	METHOD a renderTile (Lcom/corrodinggames/rts/gameFramework/m/y;Landroid/graphics/RectF;FLandroid/graphics/Paint;)V
+	METHOD a reportMissingUnit (Ljava/lang/String;)V

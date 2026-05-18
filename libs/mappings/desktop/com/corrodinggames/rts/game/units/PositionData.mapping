@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/af com/corrodinggames/rts/game/units/PositionData
+	FIELD a posX F
+	FIELD b posY F

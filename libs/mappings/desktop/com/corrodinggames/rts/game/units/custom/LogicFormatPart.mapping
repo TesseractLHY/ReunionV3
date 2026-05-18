@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/custom/aq com/corrodinggames/rts/game/units/custom/LogicFormatPart
+	FIELD a logicBoolean Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;

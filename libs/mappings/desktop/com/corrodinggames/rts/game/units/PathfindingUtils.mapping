@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/aq com/corrodinggames/rts/game/units/PathfindingUtils
+	METHOD a findPathObstacle (Lcom/corrodinggames/rts/game/units/ao;IIIIIII)Landroid/graphics/Point;
+	METHOD b canReachTargetPrepared (Lcom/corrodinggames/rts/game/units/ao;FFFFIII)Z

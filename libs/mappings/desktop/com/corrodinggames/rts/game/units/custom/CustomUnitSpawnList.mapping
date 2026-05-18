@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/z com/corrodinggames/rts/game/units/custom/CustomUnitSpawnList
+	FIELD a rawSpawnListString Ljava/lang/String;
+	FIELD b spawnItems [Lcom/corrodinggames/rts/game/units/custom/ay;
+	FIELD c customUnitConfig Lcom/corrodinggames/rts/game/units/custom/l;

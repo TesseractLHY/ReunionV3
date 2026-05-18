@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/e/j com/corrodinggames/rts/game/units/land/LandUnit
+	FIELD dK fallVelocity F
+	FIELD dL landUnitIconTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD dM landUnitIconTextureExp Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD dN landUnitIconTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD dO landUnitIconTexturesExp [Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD dt loadTextures ()V

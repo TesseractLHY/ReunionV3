@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/j/q com/corrodinggames/rts/gameFramework/network/MasterServerListParser
+	FIELD a completionCallback Ljava/lang/Runnable;
+	CLASS 1 AnonymousClass1

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/bo com/corrodinggames/rts/game/units/custom/ConfigParseException
+	FIELD b messageDetail Ljava/lang/String;
+	FIELD c filePath Ljava/lang/String;
+	FIELD d errorContext Ljava/lang/String;

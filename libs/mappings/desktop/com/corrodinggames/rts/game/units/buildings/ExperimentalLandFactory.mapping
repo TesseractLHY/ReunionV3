@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/d/f com/corrodinggames/rts/game/units/buildings/ExperimentalLandFactory
+	FIELD a baseTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b backgroundTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c teamTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD d upgradedTeamTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD e deadTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD f isUpgraded Z
+	FIELD g upgradeAction Lcom/corrodinggames/rts/game/units/a/s;
+	CLASS 1 AnonymousClass1

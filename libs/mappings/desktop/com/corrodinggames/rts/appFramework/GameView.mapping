@@ -1,0 +1,20 @@
+CLASS com/corrodinggames/rts/appFramework/f com/corrodinggames/rts/appFramework/GameView
+	METHOD a pause ()V
+	METHOD a onDraw (FI)V
+	METHOD a unlockCanvasAndPost (Lcom/corrodinggames/rts/gameFramework/m/l;Z)V
+	METHOD a resume (Z)V
+	METHOD b isPaused ()Z
+	METHOD b onUpdate (FI)V
+	METHOD b lockCanvas (Z)Lcom/corrodinggames/rts/gameFramework/m/l;
+	METHOD c isSurfaceViewReady ()Z
+	METHOD d getAudioRenderer ()Lcom/corrodinggames/rts/gameFramework/m/a;
+	METHOD e isContinuousRendering ()Z
+	METHOD f isRendering ()Z
+	METHOD g getHolder ()Ljava/lang/Object;
+	METHOD h onPause ()V
+	METHOD i getSurfaceHolder ()Lcom/corrodinggames/rts/appFramework/g;
+	METHOD j onResume ()V
+	METHOD k getSettings ()Lcom/corrodinggames/rts/appFramework/m;
+	METHOD l onSizeChanged ()V
+	METHOD m stopRender ()V
+	METHOD n hasBeenStarted ()Z

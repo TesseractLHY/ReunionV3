@@ -1,0 +1,154 @@
+CLASS com/corrodinggames/rts/game/a/a com/corrodinggames/rts/game/ai/AIController
+	FIELD aA landAttackGroupCount I
+	FIELD aB airAttackGroupCount I
+	FIELD aC builderGroupCount I
+	FIELD aD waterBuilderGroupCount I
+	FIELD aE totalBuilderUnits I
+	FIELD aF transporterGroupCount I
+	FIELD aG activeTransporterGroupCount I
+	FIELD aH constructingBaseCount I
+	FIELD aI nextStrategyId I
+	FIELD aJ aiFlags I
+	FIELD aK aiEnabled Z
+	FIELD aL attackTimerEasy F
+	FIELD aM attackTimerNormal F
+	FIELD aN attackTimerHard F
+	FIELD aO attackTimerInsane F
+	FIELD aP resourceMultiplierEasy F
+	FIELD aQ resourceMultiplierNormal F
+	FIELD aR resourceMultiplierHard F
+	FIELD as unitCountsUpdated Z
+	FIELD aS resourceMultiplierInsane F
+	FIELD at PATHFINDING_OVERLOAD_THRESHOLD I
+	FIELD aT globalTimer F
+	FIELD au mapWidth I
+	FIELD aU attackTimersUpdateCounter F
+	FIELD av mapHeight I
+	FIELD aV pathfindingUpdateTimer I
+	FIELD aw mapSeed I
+	FIELD aW attackRangeMultiplier F
+	FIELD ax baseCount I
+	FIELD aX canBuild Z
+	FIELD ay advancedBaseCount I
+	FIELD aY isAggressive Z
+	FIELD az attackGroupCount I
+	FIELD aZ enableScouting Z
+	FIELD ba unitProductionTimer I
+	FIELD bA extractorUnitBuildStrategy Lcom/corrodinggames/rts/game/a/d;
+	FIELD bb unitCount I
+	FIELD bB landFactoryUnitBuildStrategy Lcom/corrodinggames/rts/game/a/d;
+	FIELD bc buildingCount I
+	FIELD bC airFactoryUnitBuildStrategy Lcom/corrodinggames/rts/game/a/d;
+	FIELD bd enableNaval Z
+	FIELD bD seaFactoryUnitBuildStrategy Lcom/corrodinggames/rts/game/a/d;
+	FIELD be enableAirForce Z
+	FIELD bE buildPreferenceCache Lcom/corrodinggames/rts/game/a/c;
+	FIELD bf enableExperimentalUnits Z
+	FIELD bF difficultyLevel I
+	FIELD bg avoidDamageZone Lcom/corrodinggames/rts/game/units/f;
+	FIELD bG aiUnitManagementTimer F
+	FIELD bh isReadyForAttack Z
+	FIELD bH unitsToProcess Ljava/util/ArrayList;
+	FIELD bi hasSufficientUnitsForAttack Z
+	FIELD bj isWaitingForBetterAttackTiming Z
+	FIELD bJ aiBehaviors Lcom/corrodinggames/rts/gameFramework/utility/m;
+	FIELD bk isAttackAllowed Z
+	FIELD bK tempUnitList Ljava/util/ArrayList;
+	FIELD bl attackCooldownTimer I
+	FIELD bm strategyNodes Ljava/util/concurrent/ConcurrentLinkedQueue;
+	FIELD bn activeStrategies Ljava/util/ArrayList;
+	FIELD bo debugPoint Landroid/graphics/PointF;
+	FIELD bp debugPaint Landroid/graphics/Paint;
+	FIELD bq debugMessages Ljava/util/ArrayList;
+	FIELD br builderUnitBuildStrategy Lcom/corrodinggames/rts/game/a/d;
+	FIELD bs landUnitBuildStrategy Lcom/corrodinggames/rts/game/a/d;
+	FIELD bt airUnitBuildStrategy Lcom/corrodinggames/rts/game/a/d;
+	FIELD bu seaUnitBuildStrategy Lcom/corrodinggames/rts/game/a/d;
+	FIELD bv experimentalUnitBuildStrategy Lcom/corrodinggames/rts/game/a/d;
+	FIELD bw antiNukeUnitBuildStrategy Lcom/corrodinggames/rts/game/a/d;
+	FIELD bx baseDefenseUnitBuildStrategy Lcom/corrodinggames/rts/game/a/d;
+	FIELD by scoutUnitBuildStrategy Lcom/corrodinggames/rts/game/a/d;
+	FIELD bz fabricatorUnitBuildStrategy Lcom/corrodinggames/rts/game/a/d;
+	METHOD a getNearestTileToPosition (FF)Landroid/graphics/PointF;
+	METHOD a isPathPossibleBetweenPoints (FFFFLcom/corrodinggames/rts/game/units/ao;)Z
+	METHOD a canUnitReachNode (FFLcom/corrodinggames/rts/game/a/o;Lcom/corrodinggames/rts/game/units/ao;)Z
+	METHOD a assignTaskToUnitType (Landroid/graphics/PointF;)Z
+	METHOD a writeToOutputStream (Lcom/corrodinggames/rts/game/a/a;Lcom/corrodinggames/rts/game/units/as;)Z
+	METHOD a addAIBehavior (Lcom/corrodinggames/rts/game/a/a/a;)V
+	METHOD a addAITask (Lcom/corrodinggames/rts/game/a/d;FFI)I
+	METHOD a shouldWriteForUnitType (Lcom/corrodinggames/rts/game/a/d;Lcom/corrodinggames/rts/game/a/b;)I
+	METHOD a filterUnitAndCommand (Lcom/corrodinggames/rts/game/a/o;)I
+	METHOD a canExecuteCustomUnitAction (Lcom/corrodinggames/rts/game/n;FFF)Lcom/corrodinggames/rts/game/units/am;
+	METHOD a canExecuteCustomUnitActionWithBoolean (Lcom/corrodinggames/rts/game/n;FFFZ)I
+	METHOD a isPathPossibleForUnit (Lcom/corrodinggames/rts/game/units/am;FF)Z
+	METHOD a isPathPossibleForUnit (Lcom/corrodinggames/rts/game/units/am;FFF)Z
+	METHOD a canUnitReachUnit (Lcom/corrodinggames/rts/game/units/am;Lcom/corrodinggames/rts/game/units/am;)Z
+	METHOD a checkUnitVariableCondition (Lcom/corrodinggames/rts/game/units/ao;FFZ)Lcom/corrodinggames/rts/game/a/i;
+	METHOD a shouldIssueActionForUnitType (Lcom/corrodinggames/rts/game/units/as;)Z
+	METHOD a shouldIssueActionForUnitType (Lcom/corrodinggames/rts/game/units/as;FFI)I
+	METHOD a assignTaskToUnitTypeOnCommand (Lcom/corrodinggames/rts/game/units/as;Lcom/corrodinggames/rts/game/a/b;)I
+	METHOD a applyAIBuilder (Lcom/corrodinggames/rts/game/units/as;ZLcom/corrodinggames/rts/game/a/b;)I
+	METHOD a isPathPossibleBetweenPoints (Lcom/corrodinggames/rts/game/units/custom/d/b;Lcom/corrodinggames/rts/game/units/am;)Z
+	METHOD a canUnitReachPoint (Lcom/corrodinggames/rts/game/units/custom/d/b;Lcom/corrodinggames/rts/game/units/am;Z)Z
+	METHOD a getNodeId (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/a/c;)V
+	METHOD a issueUnitAction (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/a/s;)Z
+	METHOD a pathCheck (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/a/s;Landroid/graphics/PointF;Lcom/corrodinggames/rts/game/units/am;)Z
+	METHOD a processAIVariable (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/d/b;Z)V
+	METHOD ac isInsaneDifficulty ()Z
+	METHOD ad isHardOrAboveDifficulty ()Z
+	METHOD ae isAggressiveFlagEnabled ()Z
+	METHOD af isAggressiveMode ()Z
+	METHOD ag getAIDifficulty ()I
+	METHOD ah isPathfindingOverloaded ()Z
+	METHOD ai isAttackBlockedByConditions ()Z
+	METHOD aj shouldLaunchAttack ()Z
+	METHOD ak updateUnitCounts ()V
+	METHOD al initializeBuildStrategies ()V
+	METHOD am getRandomTilePosition ()Landroid/graphics/PointF;
+	METHOD an getRandomUnitTilePosition ()Landroid/graphics/PointF;
+	METHOD ao countUnitsInGroups ()I
+	METHOD ap getReusableList ()Ljava/util/ArrayList;
+	METHOD aq checkZoneIntegrity ()V
+	METHOD ar getRandomIdleUnit ()Lcom/corrodinggames/rts/game/units/am;
+	METHOD as getRandomEnemyUnit ()Lcom/corrodinggames/rts/game/units/am;
+	METHOD at getRandomEligibleUnitPosition ()Landroid/graphics/PointF;
+	METHOD au countAllUnits ()I
+	METHOD av initializeController ()V
+	METHOD b findZoneContainingPoint (FF)Lcom/corrodinggames/rts/game/a/i;
+	METHOD b isSafePointForOutpost (Landroid/graphics/PointF;)Z
+	METHOD b pathCheckOffsets (Lcom/corrodinggames/rts/game/n;FFF)I
+	METHOD b pathCheckOffsets (Lcom/corrodinggames/rts/game/units/am;FF)Z
+	METHOD b canUnitEngageTarget (Lcom/corrodinggames/rts/game/units/am;Lcom/corrodinggames/rts/game/units/am;)Z
+	METHOD c findNearestZone (FF)Lcom/corrodinggames/rts/game/a/i;
+	METHOD c getAttackModeForUnit (Lcom/corrodinggames/rts/game/units/y;)Lcom/corrodinggames/rts/game/units/a;
+	METHOD d onUnitPreUpdate (Lcom/corrodinggames/rts/game/units/y;)V
+	METHOD d setDebugKeyState (Ljava/lang/String;)V
+	METHOD e getAnySelectableUnitForTeam (Lcom/corrodinggames/rts/game/n;)Lcom/corrodinggames/rts/game/units/am;
+	METHOD e findZoneForUnit (Lcom/corrodinggames/rts/game/units/am;)Lcom/corrodinggames/rts/game/a/i;
+	METHOD e onUnitPostUpdate (Lcom/corrodinggames/rts/game/units/y;)V
+	METHOD f findNearestZoneForUnit (Lcom/corrodinggames/rts/game/units/am;)Lcom/corrodinggames/rts/game/a/i;
+	METHOD g isNonCombatCustomUnit (Lcom/corrodinggames/rts/game/units/am;)Z
+	METHOD h isCombatCustomUnit (Lcom/corrodinggames/rts/game/units/am;)Z
+	METHOD i renderDebugOverlay (F)V
+	METHOD i isEligibleUnitForRandomSelection (Lcom/corrodinggames/rts/game/units/am;)Z
+	METHOD j secondsToMilliseconds (F)F
+	METHOD j isUnitAllowedForSelection (Lcom/corrodinggames/rts/game/units/am;)Z
+	METHOD k secondsToMinutes (F)F
+	METHOD l updateSpecialUnits (F)V
+	METHOD l createZoneByTypeId (I)Lcom/corrodinggames/rts/game/a/o;
+	METHOD m updateCoreLogic (F)V
+	METHOD m findNodeById (I)Lcom/corrodinggames/rts/game/a/o;
+	METHOD n updateAILogic (F)V
+	CLASS 1 1
+	CLASS 2 2
+	CLASS 3 3
+	CLASS 4 4
+	CLASS 5 5
+	CLASS 6 6
+	CLASS 7 7
+	CLASS 8 8
+	CLASS 9 9
+	CLASS 10 10
+	CLASS 11 11
+	CLASS 12 12
+	CLASS 13 13

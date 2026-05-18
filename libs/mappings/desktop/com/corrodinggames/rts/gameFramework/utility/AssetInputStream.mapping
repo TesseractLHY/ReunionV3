@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/j com/corrodinggames/rts/gameFramework/utility/AssetInputStream
+	FIELD a inputStream Ljava/io/InputStream;
+	FIELD b path Ljava/lang/String;
+	FIELD c assetPath Ljava/lang/String;
+	FIELD d closed Z
+	FIELD e buildVersion Ljava/lang/String;
+	METHOD a isDirect ()Z
+	METHOD b getFileDescriptor ()Ljava/io/FileDescriptor;
+	METHOD c lastModified ()J
+	METHOD d getPath ()Ljava/lang/String;

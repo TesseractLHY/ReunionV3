@@ -1,0 +1,24 @@
+CLASS a/a/a/h net/rudp/impl/Segment
+	FIELD a controlFlags I
+	FIELD b length I
+	FIELD c sequenceNumber I
+	FIELD d acknowledgmentNumber I
+	FIELD e channel I
+	METHOD a getSegmentName ()Ljava/lang/String;
+	METHOD a deserializeFrom ([BII)V
+		ARG 2 off
+		ARG 3 len
+	METHOD a setAcknowledgmentNumber (I)V
+	METHOD a setHeaderFields (III)V
+		ARG 1 flags
+		ARG 2 seq
+		ARG 3 len
+	METHOD b length ()I
+	METHOD b decodeHeader ([BII)La/a/a/h;
+		ARG 1 off
+		ARG 2 len
+	METHOD b setChannel (I)V
+	METHOD d encodePayload ()[B
+	METHOD m getSequenceNumber ()I
+	METHOD n getAcknowledgmentNumber ()I
+	METHOD o getChannel ()I

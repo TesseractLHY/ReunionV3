@@ -1,0 +1,22 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/b com/corrodinggames/rts/game/units/custom/logic/actions/WaypointAction
+	FIELD a clearAllWaypoints Z
+	FIELD b clearActiveWaypoint Z
+	FIELD c waypointType Lcom/corrodinggames/rts/game/units/av;
+	FIELD d waypointUnitType Lcom/corrodinggames/rts/game/units/custom/v;
+	FIELD e prependWaypoint Z
+	FIELD f nearestUnitTagged Lcom/corrodinggames/rts/game/units/custom/h;
+	FIELD g nearestUnitTeam Lcom/corrodinggames/rts/game/q;
+	FIELD h nearestUnitMaxRange F
+	FIELD i targetRandomUnit Z
+	FIELD j randomUnitTagged Lcom/corrodinggames/rts/game/units/custom/h;
+	FIELD k randomUnitTeam Lcom/corrodinggames/rts/game/q;
+	FIELD l randomUnitMaxRange F
+	FIELD m mapMustBeReachable Z
+	FIELD n positionFromAction Z
+	FIELD o positionOffsetFromSelf Landroid/graphics/PointF;
+	FIELD p positionRelativeOffsetFromSelf Landroid/graphics/PointF;
+	FIELD q positionRandomOffsetFromSelf Landroid/graphics/PointF;
+	FIELD r targetFromReference Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD s waypointMaxTime F
+	FIELD t triggerActionIfFailed Lcom/corrodinggames/rts/game/units/custom/u;
+	FIELD u triggerActionIfMatched Lcom/corrodinggames/rts/game/units/custom/u;

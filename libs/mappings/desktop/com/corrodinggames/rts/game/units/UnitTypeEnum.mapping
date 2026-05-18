@@ -1,0 +1,72 @@
+CLASS com/corrodinggames/rts/game/units/ar com/corrodinggames/rts/game/units/UnitTypeEnum
+	FIELD aa buildAction Lcom/corrodinggames/rts/game/units/a/z;
+	FIELD ab buildPriority I
+	METHOD a canPlaceUnit (Lcom/corrodinggames/rts/game/units/as;FFFFLcom/corrodinggames/rts/game/n;)Z
+	METHOD a drawUnit (Lcom/corrodinggames/rts/game/units/as;FFFFLcom/corrodinggames/rts/game/n;FFZZILcom/corrodinggames/rts/game/units/am;)V
+	METHOD a drawUnitWithBoolean (Lcom/corrodinggames/rts/game/units/as;FFFFLcom/corrodinggames/rts/game/n;FFZZIZLcom/corrodinggames/rts/game/units/am;)V
+	METHOD a getUnitCountByUnit (Lcom/corrodinggames/rts/game/units/y;)I
+	METHOD a getUnitTypeByName (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/as;
+	METHOD a formatStringWithFloat (Ljava/lang/String;F)Ljava/lang/String;
+	METHOD a formatStringWithFloatAndString (Ljava/lang/String;FLjava/lang/String;)Ljava/lang/String;
+	METHOD a formatStringWithThreeStrings (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD a getUnitTypeByNameWithBoolean (Ljava/lang/String;Z)Lcom/corrodinggames/rts/game/units/as;
+	METHOD a addUnitsToList (Ljava/util/ArrayList;I)V
+	METHOD a createUnitInstanceWithBoolean (Z)Lcom/corrodinggames/rts/game/units/am;
+	METHOD A createUnit ()Z
+	METHOD b abstractMethodB ()V
+	METHOD c getUpgradeCost (I)I
+	METHOD r loadAllUnitTypes ()V
+	METHOD s loadUnitTypeImages ()V
+	METHOD t loadUnitTypeSounds ()V
+	CLASS 1 extractor
+	CLASS 2 HoverTankUnitType
+	CLASS 3 ArtilleryUnitType
+	CLASS 4 HelicopterUnitType
+	CLASS 5 AirShipUnitType
+	CLASS 6 GunShipUnitType
+	CLASS 7 MissileShipUnitType
+	CLASS 8 GunBoatUnitType
+	CLASS 9 MegaTankUnitType
+	CLASS 10 LaserTankUnitType
+	CLASS 11 HovercraftUnitType
+	CLASS 12 LandFactoryUnitType
+	CLASS 13 LadybugUnitType
+	CLASS 14 BattleShipUnitType
+	CLASS 15 TankDestroyerUnitType
+	CLASS 16 HeavyTankUnitType
+	CLASS 17 HeavyHoverTankUnitType
+	CLASS 18 LaserDefenceUnitType
+	CLASS 19 DropshipUnitType
+	CLASS 20 TreeUnitType
+	CLASS 21 RepairbayUnitType
+	CLASS 22 NukeLauncherUnitType
+	CLASS 23 AirFactoryUnitType
+	CLASS 24 AntiNukeLauncherUnitType
+	CLASS 25 MammothTankUnitType
+	CLASS 26 ExperimentalTankUnitType
+	CLASS 27 ExperimentalLandFactoryUnitType
+	CLASS 28 CrystalResourceUnitType
+	CLASS 29 WallVUnitType
+	CLASS 30 FabricatorUnitType
+	CLASS 31 AttackSubmarineUnitType
+	CLASS 32 BuilderShipUnitType
+	CLASS 33 AmphibiousJetUnitType
+	CLASS 34 SeaFactoryUnitType
+	CLASS 35 SupplyDepotUnitType
+	CLASS 36 ExperimentalHoverTankUnitType
+	CLASS 37 TurretArtilleryUnitType
+	CLASS 38 TurretFlamethrowerUnitType
+	CLASS 39 FogRevealerUnitType
+	CLASS 40 SpreadingFireUnitType
+	CLASS 41 AntiAirTurretT2UnitType
+	CLASS 42 TurretT2UnitType
+	CLASS 43 TurretT3UnitType
+	CLASS 44 DamagingBorderUnitType
+	CLASS 45 CommandCenterUnitType
+	CLASS 46 ZoneMarkerUnitType
+	CLASS 47 EditorOrBuilderUnitType
+	CLASS 48 DummyNonUnitWithTeamUnitType
+	CLASS 50 TurretUnitType
+	CLASS 51 AntiAirTurretUnitType
+	CLASS 52 BuilderUnitType
+	CLASS 53 TankUnitType

@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/gameFramework/f/n com/corrodinggames/rts/gameFramework/ui/Message
+	FIELD a author Ljava/lang/String;
+	FIELD b text Ljava/lang/String;
+	FIELD c timestamp J
+	FIELD d formattedTimestamp Ljava/lang/String;
+	FIELD e field_e I
+	FIELD f field_f I
+	METHOD a getTimeDifference ()I
+	METHOD b shouldDisplay ()Z

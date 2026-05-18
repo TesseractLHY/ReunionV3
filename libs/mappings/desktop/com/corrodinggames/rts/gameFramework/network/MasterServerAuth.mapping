@@ -1,0 +1,18 @@
+CLASS com/corrodinggames/rts/gameFramework/j/aq com/corrodinggames/rts/gameFramework/network/MasterServerAuth
+	FIELD a instance Lcom/corrodinggames/rts/gameFramework/j/aq;
+	FIELD b saltA I
+	FIELD c saltB I
+	FIELD d saltC I
+	FIELD e saltD I
+	FIELD f authTokenLength I
+	FIELD g secretA Ljava/lang/String;
+	FIELD h secretB Ljava/lang/String;
+	FIELD i minClientVersion I
+	FIELD j minServerVersion I
+	FIELD k handshakeTimeoutSec I
+	FIELD l debugEnabled Z
+	METHOD a lerp (FFF)F
+	METHOD a applyHandshakeTimeoutFlag (Lcom/corrodinggames/rts/gameFramework/j/c;)V
+	METHOD a addAuthParams (Ljava/lang/String;Ljava/util/List;)V
+	METHOD b addTokenHashParam (Ljava/lang/String;Ljava/util/List;)V
+	METHOD c addOptionalTokenHashParam (Ljava/lang/String;Ljava/util/List;)V

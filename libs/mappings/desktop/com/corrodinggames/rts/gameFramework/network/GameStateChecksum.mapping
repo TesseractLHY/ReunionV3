@@ -1,0 +1,20 @@
+CLASS com/corrodinggames/rts/gameFramework/j/ak com/corrodinggames/rts/gameFramework/network/GameStateChecksum
+	FIELD a totalChecksum J
+	FIELD b fields Ljava/util/ArrayList;
+	FIELD c unitPositionChecksum Lcom/corrodinggames/rts/gameFramework/j/al;
+	FIELD d unitDirectionChecksum Lcom/corrodinggames/rts/gameFramework/j/al;
+	FIELD e unitHealthChecksum Lcom/corrodinggames/rts/gameFramework/j/al;
+	FIELD f unitIdChecksum Lcom/corrodinggames/rts/gameFramework/j/al;
+	FIELD g waypointChecksum Lcom/corrodinggames/rts/gameFramework/j/al;
+	FIELD h waypointPositionChecksum Lcom/corrodinggames/rts/gameFramework/j/al;
+	FIELD i teamCreditsChecksum Lcom/corrodinggames/rts/gameFramework/j/al;
+	FIELD j unitPathsChecksum Lcom/corrodinggames/rts/gameFramework/j/al;
+	FIELD k unitCountChecksum Lcom/corrodinggames/rts/gameFramework/j/al;
+	FIELD l teamInfoChecksum Lcom/corrodinggames/rts/gameFramework/j/al;
+	FIELD m team1CreditsChecksum Lcom/corrodinggames/rts/gameFramework/j/al;
+	FIELD n team2CreditsChecksum Lcom/corrodinggames/rts/gameFramework/j/al;
+	FIELD o team3CreditsChecksum Lcom/corrodinggames/rts/gameFramework/j/al;
+	FIELD p commandCenterAnimationTimerChecksum Lcom/corrodinggames/rts/gameFramework/j/al;
+	FIELD q commandCenterAnimationCounterChecksum Lcom/corrodinggames/rts/gameFramework/j/al;
+	METHOD a resetFields ()V
+	METHOD b computeChecksums ()V

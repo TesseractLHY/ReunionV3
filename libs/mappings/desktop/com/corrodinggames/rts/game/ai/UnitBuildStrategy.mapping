@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/game/a/d com/corrodinggames/rts/game/ai/UnitBuildStrategy
+	FIELD a shuffledUnits Ljava/util/ArrayList;
+	FIELD b strategyName Ljava/lang/String;
+	FIELD c unitPriorities Ljava/util/ArrayList;
+	FIELD d aiController Lcom/corrodinggames/rts/game/a/a;
+	METHOD a getShuffledUnits ()Ljava/util/ArrayList;
+	METHOD a getRandomUnitTypeByMovement (Lcom/corrodinggames/rts/game/units/ao;)Lcom/corrodinggames/rts/game/units/as;
+	METHOD a getRandomUnitTypeWithPrice (Lcom/corrodinggames/rts/game/units/ao;I)Lcom/corrodinggames/rts/game/units/as;
+	METHOD a canBuildUnit (Lcom/corrodinggames/rts/game/units/as;)Z
+	METHOD a matchesMovementType (Lcom/corrodinggames/rts/game/units/as;Lcom/corrodinggames/rts/game/units/ao;)Z
+	METHOD b rebuildUnitMix ()V
+	METHOD b hasUnitPriority (Lcom/corrodinggames/rts/game/units/as;)Z
+	METHOD c getRandomUnitType ()Lcom/corrodinggames/rts/game/units/as;
+	METHOD c getUnitPriority (Lcom/corrodinggames/rts/game/units/as;)F

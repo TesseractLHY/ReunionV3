@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/g com/corrodinggames/rts/game/units/custom/logic/actions/ConvertResourceAction
+	FIELD a convertResourceFrom Lcom/corrodinggames/rts/game/units/custom/e/a;
+	FIELD b convertResourceTo Lcom/corrodinggames/rts/game/units/custom/e/a;
+	FIELD c convertResourceMinAmount D
+	FIELD d convertResourceMaxAmount D
+	FIELD e convertResourceMultiplyAmountBy F

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/bm com/corrodinggames/rts/game/units/custom/SoundEntry
+	FIELD a sound Lcom/corrodinggames/rts/gameFramework/a/i;
+	FIELD b volume F
+	FIELD c parent Lcom/corrodinggames/rts/game/units/custom/bl;

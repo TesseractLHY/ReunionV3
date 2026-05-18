@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/j/t com/corrodinggames/rts/gameFramework/network/HttpResponseData
+	FIELD a bufferedReader Ljava/io/BufferedReader;
+	FIELD b isValidResponse Z
+	FIELD c hasErrorMessage Z

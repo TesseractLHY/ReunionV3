@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/d com/corrodinggames/rts/game/units/custom/logic/actions/AnimationAction
+	FIELD a finishPlayingLastAnimation Z
+	FIELD b stopLastAnimation Z
+	FIELD c playAnimation Lcom/corrodinggames/rts/game/units/custom/o;
+	FIELD d playAnimationIfNotPlaying Lcom/corrodinggames/rts/game/units/custom/o;
+	FIELD e playAnimationLowPriority Z
+	FIELD f animationPriority I
+	FIELD g animationDelay I

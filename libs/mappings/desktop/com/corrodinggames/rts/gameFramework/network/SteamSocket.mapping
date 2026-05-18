@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/j/h com/corrodinggames/rts/gameFramework/network/SteamSocket
+	FIELD a networkConnection Lcom/corrodinggames/rts/gameFramework/j/c;
+	FIELD b steamChannelId I
+	FIELD c closed Z
+	FIELD d inputStream Lcom/corrodinggames/rts/gameFramework/j/i;
+	FIELD e outputStream Lcom/corrodinggames/rts/gameFramework/j/j;
+	METHOD a sendPacket (Lcom/corrodinggames/rts/gameFramework/j/au;)V

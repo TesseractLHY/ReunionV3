@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/custom/bc com/corrodinggames/rts/game/units/custom/LanguagePart
+	FIELD a locale Ljava/lang/String;
+	FIELD b text Ljava/lang/String;

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/e/b com/corrodinggames/rts/gameFramework/file/FileAccessFlags
+	FIELD a useOverriddenExternalPath Z
+	FIELD b useSaf Z
+	FIELD c useDirectAccess Z

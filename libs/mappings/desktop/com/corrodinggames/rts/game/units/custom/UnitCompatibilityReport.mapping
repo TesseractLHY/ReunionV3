@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/units/custom/ab com/corrodinggames/rts/game/units/custom/UnitCompatibilityReport
+	FIELD a modIdentifier Ljava/lang/String;
+	FIELD b unitName Ljava/lang/String;
+	FIELD c serverChecksum I
+	FIELD d clientChecksum I
+	FIELD e clientUnitConfig Ljava/lang/String;
+	FIELD f serverUnitConfig Lcom/corrodinggames/rts/game/units/custom/l;
+	METHOD a generateErrorMessage ()Ljava/lang/String;

@@ -1,0 +1,16 @@
+CLASS com/corrodinggames/rts/game/units/d/p com/corrodinggames/rts/game/units/buildings/LaserDefense
+	FIELD a level1Textures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b level2Textures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c deadTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD d isUpgraded Z
+	FIELD e isRecharging Z
+	FIELD f laserEffectTimer F
+	FIELD g iconTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD h shadowTexture [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD i laserOriginPoint Landroid/graphics/PointF;
+	FIELD j drawRect Landroid/graphics/Rect;
+	FIELD k upgradeAction Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD l availableActions Ljava/util/ArrayList;
+	METHOD a attackTarget (Lcom/corrodinggames/rts/game/units/y;FFFFF)Z
+	METHOD b initializeTextures ()V
+	CLASS 1 AnonymousClass1

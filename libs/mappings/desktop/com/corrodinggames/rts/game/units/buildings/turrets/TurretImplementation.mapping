@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/game/units/d/a/c com/corrodinggames/rts/game/units/buildings/turrets/TurretImplementation
+	METHOD a getAttackRange ()F
+	METHOD a update (F)V
+	METHOD a getAttackDelay (I)F
+	METHOD a fireProjectile (Lcom/corrodinggames/rts/game/units/am;I)V
+	METHOD a copyFrom (Lcom/corrodinggames/rts/game/units/d/a/c;)V
+	METHOD a isSameType (Ljava/lang/String;)Z
+	METHOD b getTechLevel ()I
+	METHOD b getAttackDamage (I)F
+	METHOD c getTurretType (I)Landroid/graphics/PointF;
+	METHOD d getTurretTopTexture (I)Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD e getTurretRestingRotationSpeed (I)F
+	METHOD f getTurretTurnSpeed (I)F
+	METHOD g getTurretHeight (I)F
+	METHOD h getTurretOffset (I)F

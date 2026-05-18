@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/f/e com/corrodinggames/rts/gameFramework/ui/GameStatistic
+	FIELD a name Ljava/lang/String;
+	FIELD b stringValue Ljava/lang/String;
+	FIELD c floatValue F
+	FIELD d field_d F
+	METHOD a getGameStatistics ()Ljava/util/ArrayList;

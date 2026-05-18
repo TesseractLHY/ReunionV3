@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/game/units/e/i com/corrodinggames/rts/game/units/land/HovercraftUnit
+	FIELD e animationTimer F
+	FIELD f unloadTimer F
+	FIELD g isUnloading Z
+	FIELD h transportedUnits Lcom/corrodinggames/rts/gameFramework/utility/m;
+	METHOD ds stopUnloading ()V
+	METHOD f releaseAllUnits (Z)V
+	METHOD M startUnloading ()V
+	CLASS 1 AnonymousClass1
+	CLASS 2 AnonymousClass2

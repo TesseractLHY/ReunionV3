@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/ad com/corrodinggames/rts/gameFramework/utility/ObjectPool
+	FIELD a pool [Ljava/lang/Object;
+	FIELD b size I
+	FIELD c strict Z
+	METHOD a get ()Ljava/lang/Object;
+	METHOD a release (Ljava/lang/Object;)Z

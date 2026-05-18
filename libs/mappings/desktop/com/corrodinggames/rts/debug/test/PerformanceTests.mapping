@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/a/a/f com/corrodinggames/rts/debug/test/PerformanceTests
+	FIELD a assertionCounter I
+	FIELD b testCounter I
+	FIELD c testRect Landroid/graphics/Rect;
+	FIELD d testPointF Landroid/graphics/PointF;
+	FIELD e testPoint Landroid/graphics/Point;
+	METHOD a runPerformanceTests ()V

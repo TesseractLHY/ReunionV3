@@ -1,0 +1,24 @@
+CLASS com/corrodinggames/rts/game/b/d com/corrodinggames/rts/game/map/LayerBufferCell
+	FIELD a cellGraphicsCopy Lcom/corrodinggames/rts/gameFramework/m/y;
+	FIELD b gridLinearIndex I
+	FIELD c redrawVersion I
+	FIELD d cellLayerTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD e fadeOutTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD f fadeOutGraphics Lcom/corrodinggames/rts/gameFramework/m/y;
+	FIELD g fadeProgressRatio F
+	FIELD h fadeBlendPaint Landroid/graphics/Paint;
+	FIELD i gridX I
+	FIELD j gridY I
+	FIELD k needsRedraw Z
+	FIELD l enableSmoothFade Z
+	FIELD m fadeFrameCount I
+	FIELD n preRendered Z
+	FIELD o tileSrcRect Landroid/graphics/Rect;
+	FIELD p screenDstRect Landroid/graphics/Rect;
+	FIELD q screenDstRectF Landroid/graphics/RectF;
+	FIELD r worldBoundsRect Landroid/graphics/Rect;
+	FIELD s manager Lcom/corrodinggames/rts/game/b/c;
+	METHOD a initFadeBufferTexture ()V
+	METHOD b getWorldBoundsRect ()Landroid/graphics/Rect;
+	METHOD c getWorldLeft ()I
+	METHOD d getWorldTop ()I

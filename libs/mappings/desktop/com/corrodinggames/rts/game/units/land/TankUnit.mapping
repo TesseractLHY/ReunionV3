@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/game/units/e/n com/corrodinggames/rts/game/units/land/TankUnit
+	FIELD a tankTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b tankTexture_alive Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c tankTurretTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD d tankShadowTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD e tankTextures_teamColors [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD f animationFrame I
+	FIELD g animationTimer F
+	FIELD h dustEffectTimer F
+	FIELD i boundingRect Landroid/graphics/Rect;
+	METHOD f loadTextures ()V
+	METHOD K createDustEffect ()V

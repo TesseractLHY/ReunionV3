@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/gameFramework/ar com/corrodinggames/rts/gameFramework/Music
+	FIELD b path Ljava/lang/String;

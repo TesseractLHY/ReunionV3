@@ -1,0 +1,19 @@
+CLASS com/corrodinggames/rts/appFramework/l com/corrodinggames/rts/appFramework/MultiTouchController
+	FIELD a isSupported Z
+	FIELD b isMouseSupported Z
+	FIELD c getButtonStateMethod Ljava/lang/reflect/Method;
+	FIELD d getPointerCountMethod Ljava/lang/reflect/Method;
+	FIELD e findPointerIndexMethod Ljava/lang/reflect/Method;
+	FIELD f getPressureMethod Ljava/lang/reflect/Method;
+	FIELD g getHistoricalXMethod Ljava/lang/reflect/Method;
+	FIELD h getHistoricalYMethod Ljava/lang/reflect/Method;
+	FIELD i getHistoricalPressureMethod Ljava/lang/reflect/Method;
+	FIELD j getXMethod Ljava/lang/reflect/Method;
+	FIELD k getYMethod Ljava/lang/reflect/Method;
+	FIELD l ACTION_POINTER_UP I
+	FIELD m ACTION_POINTER_INDEX_SHIFT I
+	FIELD n xCoords [F
+	FIELD o yCoords [F
+	FIELD p pressures [F
+	FIELD q pointerIds [I
+	FIELD r pointerIndices [I

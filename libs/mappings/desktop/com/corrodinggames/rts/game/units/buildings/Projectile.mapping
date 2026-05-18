@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/d/j com/corrodinggames/rts/game/units/buildings/Projectile
+	METHOD a readFromStream (Lcom/corrodinggames/rts/gameFramework/j/k;)V

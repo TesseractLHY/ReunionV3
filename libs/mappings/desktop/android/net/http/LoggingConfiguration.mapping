@@ -1,0 +1,5 @@
+CLASS android/net/http/b android/net/http/LoggingConfiguration
+	FIELD a tag Ljava/lang/String;
+	FIELD b level I
+	METHOD a isLoggable ()Z
+	METHOD a println (Ljava/lang/String;)V

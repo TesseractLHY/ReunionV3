@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/ae com/corrodinggames/rts/game/units/PassiveTargetCallback
+	FIELD a callbackCount I
+	FIELD b closestDistanceSq F
+	FIELD c checkLineOfSight Z
+	FIELD d isReady Z

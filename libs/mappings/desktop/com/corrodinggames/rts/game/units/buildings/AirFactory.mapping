@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/game/units/d/a com/corrodinggames/rts/game/units/buildings/AirFactory
+	FIELD a level1Texture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b level2Texture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c level1Textures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD d level2Textures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD e deadTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD f factoryLevel I
+	FIELD g animationTiming F
+	FIELD h upgradeActionId Lcom/corrodinggames/rts/game/units/a/c;
+	METHOD a addAvailableActions (Ljava/util/ArrayList;I)V
+	METHOD b loadTextures ()V

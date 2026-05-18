@@ -1,0 +1,22 @@
+CLASS com/corrodinggames/rts/appFramework/c com/corrodinggames/rts/appFramework/AppFrameworkUtils
+	FIELD a handler Landroid/os/Handler;
+	FIELD b applicationContext Landroid/content/Context;
+	FIELD c storageTypeDefault Lcom/corrodinggames/rts/appFramework/e;
+	FIELD d storageType Lcom/corrodinggames/rts/appFramework/e;
+	METHOD a getContext ()Landroid/content/Context;
+	METHOD a setup (Landroid/app/Activity;)V
+	METHOD a showSAFDirectoryChooser (Landroid/app/Activity;IZLjava/lang/String;Landroid/net/Uri;)V
+	METHOD a askForStoragePermission (Landroid/app/Activity;Ljava/lang/Runnable;)Z
+	METHOD a askForStoragePermission (Landroid/app/Activity;Ljava/lang/Runnable;Z)Z
+	METHOD a onActivitySetContentView (Landroid/app/Activity;Z)V
+	METHOD a onActivityNewIntent (Landroid/app/Activity;ZZ)V
+	METHOD a setup (Landroid/content/Context;)V
+	METHOD a applySelectMapIntentFlags (Landroid/content/Intent;)V
+	METHOD a postRunnable (Ljava/lang/Runnable;)V
+	METHOD a getNumberOfPlayersInMap (Ljava/lang/String;)I
+	METHOD b requestStoragePermission (Landroid/app/Activity;)Z
+	METHOD b hasStoragePermission (Landroid/content/Context;)Z
+	METHOD b getMapName (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c setImmersiveMode (Landroid/app/Activity;)V
+	METHOD c getMapThumbnail (Ljava/lang/String;)Ljava/lang/String;
+	METHOD d unsetImmersiveMode (Landroid/app/Activity;)V

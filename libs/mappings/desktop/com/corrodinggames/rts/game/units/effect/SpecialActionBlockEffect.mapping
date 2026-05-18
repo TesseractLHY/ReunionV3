@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/g/e com/corrodinggames/rts/game/units/effect/SpecialActionBlockEffect
+	FIELD b startTime I
+	FIELD c blockedAction Lcom/corrodinggames/rts/game/units/a/c;

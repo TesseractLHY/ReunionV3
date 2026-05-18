@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/g/d com/corrodinggames/rts/game/units/effect/MovementSpeedEffect
+	FIELD b speedMultiplier F

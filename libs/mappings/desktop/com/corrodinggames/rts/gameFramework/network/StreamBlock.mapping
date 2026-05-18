@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/gameFramework/j/at com/corrodinggames/rts/gameFramework/network/StreamBlock
+	FIELD a gzipOutput Ljava/util/zip/GZIPOutputStream;
+	FIELD b bufferedOutput Ljava/io/BufferedOutputStream;
+	FIELD c blockName Ljava/lang/String;
+	FIELD d byteBuffer Ljava/io/ByteArrayOutputStream;
+	FIELD e dataOutput Ljava/io/DataOutputStream;
+	FIELD f deferClose Z
+	METHOD a flush ()V
+	METHOD b close ()V

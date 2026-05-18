@@ -1,0 +1,43 @@
+CLASS com/corrodinggames/rts/game/units/d/a/b com/corrodinggames/rts/game/units/buildings/turrets/TurretFactory
+	FIELD a turretTopL1Texture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b turretTopL2Texture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c turretTopL3Texture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD C AA_TURRET_T1_TYPE Ljava/lang/String;
+	FIELD d turretTopArtilleryTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD D AA_TURRET_T2_TYPE Ljava/lang/String;
+	FIELD dK drawRect Landroid/graphics/Rect;
+	FIELD dL upgradeToT2Action Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD dM upgradeToT3Action Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD dN upgradeToArtilleryAction Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD dO upgradeToFlamethrowerAction Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD dP upgradeActions Ljava/util/ArrayList;
+	FIELD e turretTopFlameTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD E AA_FLAK_TURRET_TYPE Ljava/lang/String;
+	FIELD F iconTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD g baseTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD G teamIconTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD h teamTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD H isAnimating Z
+	FIELD i deadTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD I animationTargetAngle F
+	FIELD j isUpgraded Z
+	FIELD J animationTimer F
+	FIELD k turretType I
+	FIELD K animationDirection Z
+	FIELD l turretImplementation Lcom/corrodinggames/rts/game/units/d/a/c;
+	FIELD t GUN_TURRET_TYPE Ljava/lang/String;
+	FIELD u GUN_TURRET_T2_TYPE Ljava/lang/String;
+	FIELD v GUN_TURRET_T3_TYPE Ljava/lang/String;
+	FIELD w ARTILLERY_TURRET_TYPE Ljava/lang/String;
+	FIELD x FLAMETHROWER_TURRET_TYPE Ljava/lang/String;
+	METHOD a getActions (Lcom/corrodinggames/rts/game/units/d/a/b;I)Landroid/graphics/PointF;
+	METHOD b setTurretTypeInternal (Ljava/lang/String;)V
+	METHOD c createTurretImplementation (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/d/a/c;
+	METHOD dB loadTextures ()V
+	METHOD dC drawTurret ()V
+	METHOD M getTurretTechLevel ()I
+	METHOD s updateTurretRotation (F)V
+	CLASS 1 AnonymousClass1
+	CLASS 2 AnonymousClass2
+	CLASS 3 AnonymousClass3
+	CLASS 4 AnonymousClass4

@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/n com/corrodinggames/rts/game/units/custom/logic/actions/ResourceUnitSearchCallback
+	FIELD a tags Lcom/corrodinggames/rts/game/units/custom/h;
+	FIELD b rangeSq F
+	FIELD c includeDead Z
+	FIELD d teamFilter Lcom/corrodinggames/rts/game/q;
+	FIELD e foundUnits Lcom/corrodinggames/rts/gameFramework/utility/m;

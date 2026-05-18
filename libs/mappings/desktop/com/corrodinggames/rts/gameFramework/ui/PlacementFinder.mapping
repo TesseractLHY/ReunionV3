@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/f/j com/corrodinggames/rts/gameFramework/ui/PlacementFinder
+	FIELD a tempPoint Landroid/graphics/Point;
+	METHOD a findClosestOpenPlacement (III)Landroid/graphics/Point;

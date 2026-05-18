@@ -1,0 +1,18 @@
+CLASS com/corrodinggames/rts/game/units/d/g com/corrodinggames/rts/game/units/buildings/ResourceExtractor
+	FIELD a resourceGenerationTimer F
+	FIELD b extractorLevel I
+	FIELD c animationTimer F
+	FIELD d animationFrame I
+	FIELD e level1Textures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD f level2Textures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD g level3Textures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD h backgroundTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD i deadTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD t upgradeToLevel2Action Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD u upgradeToLevel3Action Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD v level1Actions Ljava/util/ArrayList;
+	FIELD w level2Actions Ljava/util/ArrayList;
+	FIELD x level3Actions Ljava/util/ArrayList;
+	METHOD K loadTextures ()V
+	CLASS 1 AnonymousClass1
+	CLASS 2 AnonymousClass2

@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/a/a/d com/corrodinggames/rts/debug/test/MathTest
+	FIELD a dummyValue I
+	METHOD a runTests ()V

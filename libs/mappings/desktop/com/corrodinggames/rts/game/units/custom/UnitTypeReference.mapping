@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/v com/corrodinggames/rts/game/units/custom/UnitTypeReference
+	FIELD a configKey Ljava/lang/String;
+	FIELD b sectionName Ljava/lang/String;
+	FIELD c unitTypeName Ljava/lang/String;
+	FIELD d unitType Lcom/corrodinggames/rts/game/units/as;

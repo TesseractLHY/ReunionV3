@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/j/aj com/corrodinggames/rts/gameFramework/network/BanEntry
+	FIELD b banTimeMillis J
+	FIELD c name Ljava/lang/String;
+	METHOD a getName ()Ljava/lang/String;
+	METHOD b timeLeft ()F

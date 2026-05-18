@@ -1,0 +1,2 @@
+CLASS a/a/l net/rudp/ReliableSocketCloseIfIdleTask
+	FIELD a socket La/a/h;

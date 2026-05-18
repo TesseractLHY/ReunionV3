@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/c com/corrodinggames/rts/game/units/custom/CustomUnitAnimationSet
+	FIELD a animationType Lcom/corrodinggames/rts/game/units/custom/d;
+	FIELD b animationId I
+	FIELD c animationName Ljava/lang/String;
+	FIELD d maxTime F

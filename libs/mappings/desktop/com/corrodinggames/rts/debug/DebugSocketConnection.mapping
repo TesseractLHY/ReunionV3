@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/a/b com/corrodinggames/rts/debug/DebugSocketConnection
+	FIELD a socket Ljava/net/Socket;
+	FIELD b server Lcom/corrodinggames/rts/a/a;

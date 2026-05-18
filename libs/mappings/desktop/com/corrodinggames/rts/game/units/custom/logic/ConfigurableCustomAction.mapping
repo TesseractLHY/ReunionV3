@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/c com/corrodinggames/rts/game/units/custom/logic/ConfigurableCustomAction
+	FIELD b availableCondition Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD c condition1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD d action1 Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD e condition2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD f action2 Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD g condition3 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD h action3 Lcom/corrodinggames/rts/game/units/custom/aj;
+	FIELD i alwaysShow Z
+	FIELD j guiBlinkingCondition Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD k buildCost Lcom/corrodinggames/rts/game/units/custom/d/b;
+	FIELD l resourceCost Lcom/corrodinggames/rts/game/units/custom/d/b;
+	FIELD m upgradeCost Lcom/corrodinggames/rts/game/units/custom/d/b;

@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/ap com/corrodinggames/rts/game/units/UnitMovementData
+	FIELD a targetX F
+	FIELD b targetY F
+	FIELD c velocityX F
+	FIELD d velocityY F
+	FIELD e rotation F
+	FIELD f speed F
+	FIELD g isActive Z
+	FIELD j targetUnit Lcom/corrodinggames/rts/game/units/am;

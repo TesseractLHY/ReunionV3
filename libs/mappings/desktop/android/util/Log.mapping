@@ -1,0 +1,2 @@
+CLASS android/util/Log
+	METHOD d d (Ljava/lang/String;Ljava/lang/String;)I

@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/java/Main
+	FIELD c appName Ljava/lang/String;
+	FIELD o currentTime J
+	FIELD p slickLibRocketManager Lcom/corrodinggames/rts/java/d/a;
+	FIELD q missionEngine Lcom/corrodinggames/rts/gameFramework/n;
+	METHOD a start ([Ljava/lang/String;)V
+	METHOD a shutdown (Z)V
+	METHOD main main ([Ljava/lang/String;)V
+		ARG 0 args

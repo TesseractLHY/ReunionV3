@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/u com/corrodinggames/rts/game/units/custom/CustomUnitActionHandler
+	FIELD a actionNames Lcom/corrodinggames/rts/gameFramework/utility/m;
+	FIELD b actions Lcom/corrodinggames/rts/gameFramework/utility/m;
+	FIELD c actionName Ljava/lang/String;
+	FIELD d actionDescription Ljava/lang/String;

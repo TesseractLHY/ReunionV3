@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/gameFramework/f/m com/corrodinggames/rts/gameFramework/ui/MessageManager
+	FIELD a MAX_MESSAGES I
+	FIELD b gameUi Lcom/corrodinggames/rts/gameFramework/f/g;
+	FIELD c gameEngine Lcom/corrodinggames/rts/gameFramework/l;
+	FIELD d textPaint Landroid/graphics/Paint;
+	FIELD e hasShownMuteWarning Z
+	FIELD f messages Ljava/util/ArrayList;
+	METHOD a initialize ()V
+	METHOD a draw (FI)I
+	METHOD a addMessage (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/f/n;
+	METHOD b clear ()V
+	METHOD c pruneMessages ()V

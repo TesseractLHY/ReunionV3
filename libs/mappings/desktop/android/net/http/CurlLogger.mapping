@@ -1,0 +1,2 @@
+CLASS android/net/http/a android/net/http/CurlLogger
+	FIELD a this$0 Landroid/net/http/AndroidHttpClient;

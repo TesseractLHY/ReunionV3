@@ -1,0 +1,20 @@
+CLASS a/a/i net/rudp/ConnectionStats
+	FIELD a nextSequenceToSend I
+	FIELD b lastSequenceReceived I
+	FIELD c sentPacketCount I
+	FIELD d receivedPacketCount I
+	FIELD e droppedPacketCount I
+	METHOD a nextSequenceToSendAndIncrement ()I
+	METHOD a setNextSequenceToSend (I)I
+	METHOD b getLastSequenceReceived ()I
+	METHOD b setLastSequenceReceived (I)I
+	METHOD c incrementSentPackets ()V
+	METHOD d getSentPacketCount ()I
+	METHOD e drainSentPacketCount ()I
+	METHOD f incrementReceivedPackets ()V
+	METHOD g getReceivedPacketCount ()I
+	METHOD h drainReceivedPacketCount ()I
+	METHOD i incrementDroppedPackets ()V
+	METHOD j getDroppedPacketCount ()I
+	METHOD k drainDroppedPacketCount ()I
+	METHOD l reset ()V

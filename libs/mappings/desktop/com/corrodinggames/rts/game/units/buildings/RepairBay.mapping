@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/game/units/d/r com/corrodinggames/rts/game/units/buildings/RepairBay
+	FIELD a baseTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b teamTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c deadTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD d repairTimer F
+	FIELD f drawRect Landroid/graphics/Rect;
+	FIELD g tempRect Landroid/graphics/Rect;
+	FIELD h availableActions Ljava/util/ArrayList;
+	FIELD i targetPriorityPoints [Landroid/graphics/PointF;
+	FIELD j hiddenPoints [Landroid/graphics/PointF;
+	METHOD M initializeTextures ()V

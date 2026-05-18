@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/d/a/a com/corrodinggames/rts/game/units/buildings/turrets/AntiAirTurret
+	FIELD a level1Texture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b level2Texture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c unitIconTexture Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD d teamIconTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD e upgradeToLevel2Action Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD f availableActions Ljava/util/ArrayList;
+	METHOD b loadTextures ()V
+	CLASS 1 AnonymousClass1

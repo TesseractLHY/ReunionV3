@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/a/a/c com/corrodinggames/rts/game/ai/behaviors/UnitAIBehavior
+	FIELD a managedUnits Lcom/corrodinggames/rts/gameFramework/utility/u;
+	METHOD c isApplicableToUnit (Lcom/corrodinggames/rts/game/a/a;Lcom/corrodinggames/rts/game/units/y;)Z

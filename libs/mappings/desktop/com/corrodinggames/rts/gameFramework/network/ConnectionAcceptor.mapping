@@ -1,0 +1,16 @@
+CLASS com/corrodinggames/rts/gameFramework/j/ao com/corrodinggames/rts/gameFramework/network/ConnectionAcceptor
+	FIELD c isRunning Z
+	FIELD d serverSocket Ljava/net/ServerSocket;
+	FIELD e port I
+	FIELD f isUdp Z
+	FIELD g lastAcceptTime J
+	FIELD j acceptLock Ljava/lang/Object;
+	FIELD k pendingConnections Ljava/util/ArrayList;
+	FIELD m acceptedCount I
+	FIELD n pendingLimit I
+	FIELD r networkEngine Lcom/corrodinggames/rts/gameFramework/j/ad;
+	METHOD a recreateServerSocket ()V
+	METHOD a isIpAllowed (Ljava/net/InetAddress;Z)Z
+	METHOD a startSocket (Z)V
+	METHOD b stop ()V
+	CLASS 1 AnonymousClass1

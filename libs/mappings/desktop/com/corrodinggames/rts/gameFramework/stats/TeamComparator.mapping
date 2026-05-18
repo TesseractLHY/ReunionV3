@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/gameFramework/g/e com/corrodinggames/rts/gameFramework/stats/TeamComparator
+	FIELD a team Lcom/corrodinggames/rts/game/n;

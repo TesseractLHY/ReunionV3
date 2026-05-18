@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/appFramework/s com/corrodinggames/rts/appFramework/SelectFolderActivity
+	FIELD c finishAfterSelect Z
+	FIELD d isShowing Z
+	FIELD e delayTimeouts [I
+	FIELD f activityObject Lcom/corrodinggames/rts/appFramework/d;
+	METHOD l showFolderChooser ()V
