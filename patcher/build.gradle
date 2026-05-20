@@ -31,6 +31,7 @@ configurations {
 def rootDir = project.rootDir.absolutePath
 def androidBaseJar = file("$rootDir/libs/base.jar")
 def androidEnigmaDir = file("$rootDir/libs/mappings/android")
+def androidNamedDir = file("$rootDir/libs/mappings/android_named")
 def androidRSource = file("$rootDir/android/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt")
 def androidRTarget = file("$rootDir/build/R.txt")
 def desktopBaseJar = file("$rootDir/libs/game-lib.jar")
@@ -45,9 +46,10 @@ tasks.register('patchAndroidJar', JavaExec) {
     inputs.files(sourceSets.main.runtimeClasspath)
     inputs.file(androidBaseJar)
     inputs.dir(androidEnigmaDir)
+    inputs.dir(androidNamedDir)
     outputs.file(androidPatchedJar)
     outputs.file(androidRTarget)
-    args = [androidBaseJar.absolutePath, androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--remap-ids', androidRTarget.absolutePath, '--enigma-dir', androidEnigmaDir.absolutePath]
+    args = [androidBaseJar.absolutePath, androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--remap-ids', androidRTarget.absolutePath, '--enigma-dir', androidEnigmaDir.absolutePath, '--named-dir', androidNamedDir.absolutePath]
     workingDir = rootDir
     doFirst {
         androidPatchedJar.get().asFile.with {
