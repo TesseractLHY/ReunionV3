@@ -1,35 +1,11 @@
 CLASS com/corrodinggames/rts/appFramework/g com/corrodinggames/rts/appFramework/InGameActivity
-	METHOD a makeSendMessagePopup (Z)V
-	METHOD d saveGame (Ljava/lang/String;)V
-	METHOD e makeExportMapPopup (Ljava/lang/String;)V
-	METHOD f makeSaveGamePopup (Ljava/lang/String;)V
-	METHOD l openMarketLink ()V
-	METHOD m showPCMainMenu ()V
-	METHOD n openMarketLinkInternal ()V
-	CLASS 1 class_14
-		FIELD a field_163 I
-	CLASS 2 class_15
-		FIELD a field_165 Landroid/widget/EditText;
-		FIELD b field_166 Z
-	CLASS 3 class_16
-	CLASS 4 class_17
-		FIELD a field_169 Landroid/widget/EditText;
-		CLASS 1 class_18
-			FIELD a field_172 Ljava/lang/String;
-	CLASS 5 class_19
-	CLASS 6 class_20
-		FIELD a field_175 Landroid/widget/EditText;
-		CLASS 1 class_21
-			FIELD a field_177 Ljava/lang/String;
-	CLASS 7 class_22
-	CLASS 8 class_26
-	CLASS 9 class_27
-	CLASS 10 class_28
-	CLASS 11 class_29
-	CLASS 12 class_31
-	CLASS 13 class_23
-	CLASS 14 class_33
-	CLASS 15 class_24
-	CLASS 16 class_35
-		FIELD a field_193 Landroid/widget/EditText;
-		FIELD b field_194 Z
+	FIELD c gameView Lcom/corrodinggames/rts/appFramework/f;
+	FIELD d handler Landroid/os/Handler;
+	FIELD e progressDialog Landroid/app/ProgressDialog;
+	FIELD f running Z
+	METHOD a showChatDialog (Z)V
+	METHOD c selectMenuOption (I)V
+	METHOD d onSelectMenuOption (I)V
+	METHOD e showSaveGameDialog (Ljava/lang/String;)V
+	METHOD f showExportMapDialog (Ljava/lang/String;)V
+	METHOD n closeAndRestart ()V

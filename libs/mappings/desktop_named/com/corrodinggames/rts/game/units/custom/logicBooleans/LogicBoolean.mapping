@@ -1,19 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean
-	CLASS AbstractNumberBoolean
-	CLASS AndBoolean
-	CLASS CallContext
-	CLASS CallContext_self
-	CLASS CallContext_selfAndTarget
-	CLASS JoinerBoolean
-	CLASS LogicBooleanCommon
-	CLASS LogicBooleanCommonLocking
-	CLASS LogicNumberOnly
-	CLASS NotBoolean
-	CLASS OrBoolean
-	CLASS Parameter
-	CLASS ReturnType
-	CLASS StaticBoolean
-	CLASS StaticBooleanFalse
-	CLASS StaticBooleanTrue
-	CLASS StaticValueBoolean
-	CLASS TimeBoolean
+	FIELD activeEvent currentEventContext Lcom/corrodinggames/rts/game/units/custom/k;
+	FIELD booleans booleanRegistry Ljava/util/HashMap;
+	FIELD outerUnitParameterContext externalUnitContext Lcom/corrodinggames/rts/game/units/y;
+	FIELD parameterMappings parameterCache Ljava/util/HashMap;

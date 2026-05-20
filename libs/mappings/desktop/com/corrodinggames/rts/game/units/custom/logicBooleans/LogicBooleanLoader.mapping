@@ -1,5 +1,14 @@
 CLASS com/corrodinggames/rts/game/units/custom/logicBooleans/LogicBooleanLoader
-	FIELD patternDoubleQuote doubleQuotePattern Ljava/util/regex/Pattern;
-	FIELD patternFloat floatPattern Ljava/util/regex/Pattern;
-	FIELD patternInteger integerPattern Ljava/util/regex/Pattern;
-	FIELD patternSingleQuote singleQuotePattern Ljava/util/regex/Pattern;
+	CLASS ArrayContextReader
+		CLASS ArrayContains
+		CLASS ArrayFunction
+		CLASS ArrayGet
+		CLASS ArrayGetUnit
+		CLASS ArraySize
+	CLASS DefaultContextReader
+	CLASS LogicBooleanContext
+	CLASS LogicBooleanContextWithDefault
+	CLASS LogicBooleanScopeOnly
+	CLASS ParameterMapping
+		CLASS FieldOrMethod
+	CLASS VoidContextReader

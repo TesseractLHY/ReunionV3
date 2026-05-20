@@ -1,9 +1,22 @@
 CLASS com/corrodinggames/rts/appFramework/n com/corrodinggames/rts/appFramework/MultiplayerBattleroomActivity
-	FIELD c lastLoaded Lcom/corrodinggames/rts/appFramework/n;
-	METHOD a askPasswordInternal (Lcom/corrodinggames/rts/gameFramework/j/ae;)V
+	FIELD c instance Lcom/corrodinggames/rts/appFramework/n;
+	FIELD d onCreateFinished Z
+	FIELD e uiHandler Landroid/os/Handler;
+	FIELD f startGamePending Z
+	FIELD g isActivityOpen Z
+	FIELD h chatLog Landroid/widget/TextView;
+	FIELD i passwordHandler Lcom/corrodinggames/rts/gameFramework/j/ae;
+	FIELD j passwordDialog Landroid/app/AlertDialog;
+	FIELD k chatLogUpdateHandler Landroid/os/Handler;
+	FIELD l updateUIRunnable Ljava/lang/Runnable;
+	FIELD m startGameRunnable Ljava/lang/Runnable;
+	METHOD a showPasswordDialog (Lcom/corrodinggames/rts/gameFramework/j/ae;)V
+	METHOD a finishActivity (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD d addMessageToChatLog (Ljava/lang/String;)V
-	METHOD n refreshChatLogDirect ()V
+	METHOD l isActivityOpen ()Z
+	METHOD m refreshChatLog ()V
+	METHOD n refreshChatLogInternal ()V
 	METHOD o updateUI ()V
 	METHOD p startGame ()V
-	METHOD q warnIfTeamsUneven ()V
-	METHOD r startGameCommon ()V
+	METHOD q showTeamStats ()V
+	METHOD r setupGame ()V
