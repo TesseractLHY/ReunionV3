@@ -34,7 +34,7 @@ public class Patcher {
 
     public static void main(String[] args) throws Exception {
         if (args.length < 2) {
-            System.out.println("Usage: Patcher <input> <output> [--platform android|desktop] [--remap-ids <rFile>] [--enigma-dir <enigmaDir>] [--named-dir <namedDir>]");
+            System.out.println("Usage: Patcher <input> <output> [--platform android|desktop] [--remap-ids <rFile>] [--mappings-dir <mappingsDir>]");
             System.exit(1);
         }
 
@@ -43,17 +43,14 @@ public class Patcher {
 
         Platform platform = Platform.ANDROID;
         Path rFile = null;
-        Path enigmaDir = null;
-        Path namedDir = null;
+        Path mappingsDir = null;
         for (int i = 2; i < args.length; i++) {
             if ("--platform".equals(args[i]) && i + 1 < args.length) {
                 platform = Platform.valueOf(args[++i].trim().toUpperCase(Locale.ROOT));
             } else if ("--remap-ids".equals(args[i]) && i + 1 < args.length) {
                 rFile = Paths.get(args[++i]);
-            } else if ("--enigma-dir".equals(args[i]) && i + 1 < args.length) {
-                enigmaDir = Paths.get(args[++i]);
-            } else if ("--named-dir".equals(args[i]) && i + 1 < args.length) {
-                namedDir = Paths.get(args[++i]);
+            } else if ("--mappings-dir".equals(args[i]) && i + 1 < args.length) {
+                mappingsDir = Paths.get(args[++i]);
             }
         }
 
@@ -68,14 +65,11 @@ public class Patcher {
             if (rFile != null) {
                 patches.add(new ResourceIdRemapPatch(ResourceIdRemapPatch.buildIdMapFromJar(rFile, inputJar)));
             }
-        } else {
-            //TODO: add desktop patches if needed
-
         }
 
         int total = 0;
         int patched = 0;
-        boolean needsRemap = enigmaDir != null;
+        boolean needsRemap = mappingsDir != null;
         Path stagedOutputJar = needsRemap
                 ? Files.createTempFile(outputJar.toAbsolutePath().getParent(), outputJar.getFileName().toString(), ".staged.jar")
                 : outputJar;
@@ -113,25 +107,42 @@ public class Patcher {
         }
 
         if (needsRemap) {
-            System.out.println("Remapping " + platform + " jar with enigma mappings: " + enigmaDir + (namedDir != null ? " -> " + namedDir : ""));
-            remapJar(stagedOutputJar, outputJar, enigmaDir, namedDir);
+            System.out.println("Remapping " + platform + " jar with mappings root: " + mappingsDir);
+            remapJar(stagedOutputJar, outputJar, mappingsDir, platform);
             Files.deleteIfExists(stagedOutputJar);
         }
 
         System.out.println("Done. " + patched + " patched, " + total + " total.");
     }
 
-    private static void remapJar(Path inputJar, Path outputJar, Path enigmaDir, Path namedDir) throws IOException {
-        MemoryMappingTree mappingTree;
-        if (namedDir != null) {
-            mappingTree = buildMergedTree(enigmaDir, namedDir);
-        } else {
-            mappingTree = new MemoryMappingTree();
-            EnigmaDirReader.read(enigmaDir, "obf", "named", mappingTree);
+    private static void remapJar(Path inputJar, Path outputJar, Path mappingsDir, Platform platform) throws IOException {
+        MemoryMappingTree androidIntermediary = new MemoryMappingTree();
+        EnigmaDirReader.read(mappingsDir.resolve("android"), "source", "target", androidIntermediary);
+        MemoryMappingTree androidNamed = new MemoryMappingTree();
+        EnigmaDirReader.read(mappingsDir.resolve("android_named"), "source", "target", androidNamed);
+        MemoryMappingTree desktopIntermediary = new MemoryMappingTree();
+        EnigmaDirReader.read(mappingsDir.resolve("desktop"), "source", "target", desktopIntermediary);
+        MemoryMappingTree desktopNamed = new MemoryMappingTree();
+        EnigmaDirReader.read(mappingsDir.resolve("desktop_named"), "source", "target", desktopNamed);
+
+        MemoryMappingTree intermediary, named;
+        switch (platform) {
+            case ANDROID:
+                intermediary = androidIntermediary;
+                named = androidNamed;
+                break;
+            case DESKTOP:
+                intermediary = desktopIntermediary;
+                named = desktopNamed;
+                break;
+            default:
+                throw new IllegalArgumentException("Unsupported platform: " + platform);
         }
 
+        MemoryMappingTree mappingTree = buildMergedTree(intermediary, named);
+
         TinyRemapper remapper = TinyRemapper.newRemapper()
-                .withMappings(TinyUtils.createMappingProvider(mappingTree, "obf", "named"))
+                .withMappings(TinyUtils.createMappingProvider(mappingTree, "source", "target"))
                 .build();
 
         try (OutputConsumerPath outputConsumer = new OutputConsumerPath.Builder(outputJar).build()) {
@@ -143,15 +154,9 @@ public class Patcher {
         }
     }
 
-    private static MemoryMappingTree buildMergedTree(Path enigmaDir, Path namedDir) throws IOException {
-        MemoryMappingTree obfToInt = new MemoryMappingTree();
-        EnigmaDirReader.read(enigmaDir, "obf", "intermediary", obfToInt);
-
-        MemoryMappingTree intToNamed = new MemoryMappingTree();
-        EnigmaDirReader.read(namedDir, "intermediary", "named", intToNamed);
-
+    private static MemoryMappingTree buildMergedTree(MemoryMappingTree obfToInt, MemoryMappingTree intToNamed) throws IOException {
         MemoryMappingTree merged = new MemoryMappingTree();
-        merged.visitNamespaces("obf", Collections.singletonList("named"));
+        merged.visitNamespaces("source", Collections.singletonList("target"));
 
         obfToInt.accept(new MappingVisitor() {
             private MappingTreeView.ClassMappingView currentNamedClass;
@@ -163,14 +168,15 @@ public class Patcher {
             }
 
             @Override
-            public boolean visitClass(String srcName) throws IOException {
-                String intName = obfToInt.getClass(srcName).getDstName(0);
-                currentNamedClass = intToNamed.getClass(intName);
+            public boolean visitClass(String srcName) {
+                MappingTreeView.ClassMappingView obfClass = obfToInt.getClass(srcName);
+                String intName = obfClass != null ? obfClass.getDstName(0) : null;
+                currentNamedClass = intName != null ? intToNamed.getClass(intName) : null;
                 return merged.visitClass(srcName);
             }
 
             @Override
-            public void visitDstName(MappedElementKind kind, int ns, String intName) throws IOException {
+            public void visitDstName(MappedElementKind kind, int ns, String intName) {
                 String finalName = intName;
                 if (currentNamedClass != null) {
                     if (kind == MappedElementKind.CLASS) {
@@ -189,24 +195,24 @@ public class Patcher {
             }
 
             @Override
-            public boolean visitField(String srcName, String srcDesc) throws IOException {
+            public boolean visitField(String srcName, String srcDesc) {
                 currentFieldDesc = srcDesc;
                 return merged.visitField(srcName, srcDesc);
             }
 
             @Override
-            public boolean visitMethod(String srcName, String srcDesc) throws IOException {
+            public boolean visitMethod(String srcName, String srcDesc) {
                 currentMethodDesc = srcDesc;
                 return merged.visitMethod(srcName, srcDesc);
             }
 
             @Override
-            public boolean visitMethodArg(int lvIndex, int argIndex, String srcName) throws IOException {
+            public boolean visitMethodArg(int lvIndex, int argIndex, String srcName) {
                 return merged.visitMethodArg(lvIndex, argIndex, srcName);
             }
 
             @Override
-            public boolean visitMethodVar(int lvIndex, int startOpIdx, int endOpIdx, int scopeStartOpIdx, String srcName) throws IOException {
+            public boolean visitMethodVar(int lvIndex, int startOpIdx, int endOpIdx, int scopeStartOpIdx, String srcName) {
                 return merged.visitMethodVar(lvIndex, startOpIdx, endOpIdx, scopeStartOpIdx, srcName);
             }
 
@@ -216,19 +222,15 @@ public class Patcher {
             }
 
             @Override
-            public boolean visitEnd() throws IOException {
+            public boolean visitEnd() {
                 return merged.visitEnd();
             }
 
             @Override
-            public void visitComment(MappedElementKind kind, String comment) throws IOException {
+            public void visitComment(MappedElementKind kind, String comment) {
                 merged.visitComment(kind, comment);
             }
         }, VisitOrder.createByInputOrder());
-
-        EnigmaDirWriter writer = new EnigmaDirWriter(namedDir.getParent().resolve("debug"), true);
-        merged.accept(writer, VisitOrder.createByInputOrder());
-        writer.close();
 
         return merged;
     }

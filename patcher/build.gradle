@@ -30,13 +30,10 @@ configurations {
 
 def rootDir = project.rootDir.absolutePath
 def androidBaseJar = file("$rootDir/libs/base.jar")
-def androidEnigmaDir = file("$rootDir/libs/mappings/android")
-def androidNamedDir = file("$rootDir/libs/mappings/android_named")
+def mappingsRootDir = file("$rootDir/libs/mappings")
 def androidRSource = file("$rootDir/android/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt")
 def androidRTarget = file("$rootDir/build/R.txt")
 def desktopBaseJar = file("$rootDir/libs/game-lib.jar")
-def desktopBaseEnigmaDir = file("$rootDir/libs/mappings/desktop")
-def desktopNamedDir = file("$rootDir/libs/mappings/desktop_named")
 def androidPatchedJar = layout.buildDirectory.file('tmp/android/base-patched.jar')
 def desktopPatchedJar = layout.buildDirectory.file('tmp/desktop/base-patched.jar')
 
@@ -46,11 +43,10 @@ tasks.register('patchAndroidJar', JavaExec) {
     mainClass = 'cn.tesseract.patcher.Patcher'
     inputs.files(sourceSets.main.runtimeClasspath)
     inputs.file(androidBaseJar)
-    inputs.dir(androidEnigmaDir)
-    inputs.dir(androidNamedDir)
+    inputs.dir(mappingsRootDir)
     outputs.file(androidPatchedJar)
     outputs.file(androidRTarget)
-    args = [androidBaseJar.absolutePath, androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--remap-ids', androidRTarget.absolutePath, '--enigma-dir', androidEnigmaDir.absolutePath, '--named-dir', androidNamedDir.absolutePath]
+    args = [androidBaseJar.absolutePath, androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--remap-ids', androidRTarget.absolutePath, '--mappings-dir', mappingsRootDir.absolutePath]
     workingDir = rootDir
     doFirst {
         androidPatchedJar.get().asFile.with {
@@ -70,9 +66,9 @@ tasks.register('patchDesktopJar', JavaExec) {
     mainClass = 'cn.tesseract.patcher.Patcher'
     inputs.files(sourceSets.main.runtimeClasspath)
     inputs.file(desktopBaseJar)
-    inputs.dir(desktopBaseEnigmaDir)
+    inputs.dir(mappingsRootDir)
     outputs.file(desktopPatchedJar)
-    args = [desktopBaseJar.absolutePath, desktopPatchedJar.get().asFile.absolutePath, '--platform', 'desktop', '--enigma-dir', desktopBaseEnigmaDir.absolutePath, '--named-dir', desktopNamedDir.absolutePath]
+    args = [desktopBaseJar.absolutePath, desktopPatchedJar.get().asFile.absolutePath, '--platform', 'desktop', '--mappings-dir', mappingsRootDir.absolutePath]
     workingDir = rootDir
     doFirst {
         desktopPatchedJar.get().asFile.with {
