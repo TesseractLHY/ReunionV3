@@ -1,4 +1,7 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_1016 com/corrodinggames/rts/gameFramework/network/GameModeType
+	CLASS class_1017 AnonymousClass1
+	CLASS class_1018 AnonymousClass2
+	CLASS class_1019 AnonymousClass3
 	FIELD field_6029 field_6029 Lcom/corrodinggames/rts/gameFramework/j/class_1016;
 	FIELD field_6030 field_6030 Lcom/corrodinggames/rts/gameFramework/j/class_1016;
 	FIELD field_6031 field_6031 Lcom/corrodinggames/rts/gameFramework/j/class_1016;

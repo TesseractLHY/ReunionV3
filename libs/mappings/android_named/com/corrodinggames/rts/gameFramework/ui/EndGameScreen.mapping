@@ -1,4 +1,8 @@
 CLASS com/corrodinggames/rts/gameFramework/f/class_958 com/corrodinggames/rts/gameFramework/ui/EndGameScreen
+	CLASS class_959 AnonymousClass1
+		FIELD field_5449 field_5449 Lcom/corrodinggames/rts/gameFramework/f/class_958;
+	CLASS class_960 AnonymousClass2
+		FIELD field_5450 field_5450 Lcom/corrodinggames/rts/gameFramework/f/class_958;
 	FIELD field_5429 textPaint Landroid/graphics/Paint;
 	FIELD field_5435 rateGamePopupRect Landroid/graphics/Rect;
 	FIELD field_5436 field_5436 Lcom/corrodinggames/rts/gameFramework/f/class_925;

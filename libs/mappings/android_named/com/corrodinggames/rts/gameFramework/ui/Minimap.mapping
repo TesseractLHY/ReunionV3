@@ -1,4 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/f/class_969 com/corrodinggames/rts/gameFramework/ui/Minimap
+	CLASS class_970 ClearOperation
+		FIELD field_5712 field_5712 Lcom/corrodinggames/rts/gameFramework/f/class_969;
 	FIELD field_5679 x F
 	FIELD field_5653 paint11 Landroid/graphics/Paint;
 	FIELD field_5680 list2 Ljava/util/ArrayList;

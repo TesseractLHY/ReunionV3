@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/gameFramework/f/class_938 com/corrodinggames/rts/gameFramework/ui/panels
+CLASS com/corrodinggames/rts/gameFramework/f/class_938 com/corrodinggames/rts/gameFramework/ui/Panels
 	FIELD field_5379 field_5379 Lcom/corrodinggames/rts/gameFramework/f/class_938;
 	FIELD field_5380 field_5380 Lcom/corrodinggames/rts/gameFramework/f/class_938;
 	FIELD field_5381 field_5381 Lcom/corrodinggames/rts/gameFramework/f/class_938;

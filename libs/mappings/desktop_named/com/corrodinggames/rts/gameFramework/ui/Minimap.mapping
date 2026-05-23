@@ -79,4 +79,4 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_969 com/corrodinggames/rts/ga
 	METHOD method_5300 worldToMinimapX (F)F
 	METHOD method_5301 getCameraZoom ()F
 	METHOD method_5302 updateDimensions ()V
-	CLASS class_970 AnonymousClass1
+	CLASS class_970 ClearOperation

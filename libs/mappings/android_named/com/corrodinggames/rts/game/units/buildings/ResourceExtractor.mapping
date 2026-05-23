@@ -1,4 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/d/class_632 com/corrodinggames/rts/game/units/buildings/ResourceExtractor
+	CLASS class_633 AnonymousClass1
+	CLASS class_634 AnonymousClass2
 	FIELD field_3730 resourceGenerationTimer F
 	FIELD field_3731 extractorLevel I
 	FIELD field_3732 animationTimer F
