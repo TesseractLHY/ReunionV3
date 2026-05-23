@@ -170,7 +170,7 @@ public class Patcher {
 
     private static long getLatestModified(Path dir) throws IOException {
         if (!Files.exists(dir)) return 0;
-        long[] latest = {0};
+        final long[] latest = {0};
         try (Stream<Path> stream = Files.walk(dir)) {
             stream.filter(Files::isRegularFile)
                     .filter(p -> p.toString().endsWith(".mapping"))
