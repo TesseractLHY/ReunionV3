@@ -2,7 +2,6 @@ package cn.tesseract.patcher;
 
 import net.fabricmc.mappingio.MappedElementKind;
 import net.fabricmc.mappingio.MappingVisitor;
-import net.fabricmc.mappingio.adapter.ForwardingMappingVisitor;
 import net.fabricmc.mappingio.format.enigma.EnigmaDirReader;
 import net.fabricmc.mappingio.format.enigma.EnigmaDirWriter;
 import net.fabricmc.mappingio.tree.MappingTreeView;
@@ -22,8 +21,12 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
+import java.util.Set;
 import java.util.jar.JarEntry;
 import java.util.jar.JarInputStream;
 import java.util.jar.JarOutputStream;
@@ -126,15 +129,6 @@ public class Patcher {
         MemoryMappingTree desktopNamed = new MemoryMappingTree();
         EnigmaDirReader.read(mappingsDir.resolve("desktop_named"), "source", "target", desktopNamed);
 
-        /*MemoryMappingTree synced = new MemoryMappingTree();
-        synced.visitNamespaces("source", Collections.singletonList("target"));
-        androidNamed.accept(new ForwardingMappingVisitor(synced) {
-            @Override
-            public void visitDstName(MappedElementKind targetKind, int namespace, String name) throws IOException {
-                super.visitDstName(targetKind, namespace, name);
-            }
-        });*/
-
         MemoryMappingTree intermediary, named;
         switch (platform) {
             case ANDROID:
@@ -148,6 +142,11 @@ public class Patcher {
             default:
                 throw new IllegalArgumentException("Unsupported platform: " + platform);
         }
+
+        MemoryMappingTree shared=buildCommonIntermediateToNamedMapping(androidIntermediary, desktopIntermediary, androidNamed, desktopNamed);
+        EnigmaDirWriter writer = new EnigmaDirWriter(mappingsDir.resolve("debug"),true);
+        shared.accept(writer);
+        writer.close();
 
         MemoryMappingTree mappingTree = buildMergedTree(intermediary, named);
 
@@ -243,6 +242,171 @@ public class Patcher {
         }, VisitOrder.createByInputOrder());
 
         return merged;
+    }
+
+    private static MemoryMappingTree buildCommonIntermediateToNamedMapping(
+            MemoryMappingTree androidInt,
+            MemoryMappingTree desktopInt,
+            MemoryMappingTree androidNamed,
+            MemoryMappingTree desktopNamed
+    ) throws IOException {
+        MemoryMappingTree result = new MemoryMappingTree();
+        result.visitNamespaces("source", Collections.singletonList("target"));
+
+        // Collect intermediate names from desktop (reverse index)
+        Set<String> desktopClasses = new HashSet<>();
+        Map<String, Set<String>> desktopFields = new HashMap<>();
+        Map<String, Set<String>> desktopMethods = new HashMap<>();
+
+        for (MappingTreeView.ClassMappingView cls : desktopInt.getClasses()) {
+            String intName = cls.getDstName(0);
+            if (intName == null) continue;
+            desktopClasses.add(intName);
+
+            Set<String> fields = new HashSet<>();
+            for (MappingTreeView.FieldMappingView f : cls.getFields()) {
+                String n = f.getDstName(0);
+                if (n != null) fields.add(n + ";" + f.getDstDesc(0));
+            }
+            desktopFields.put(intName, fields);
+
+            Set<String> methods = new HashSet<>();
+            for (MappingTreeView.MethodMappingView m : cls.getMethods()) {
+                String n = m.getDstName(0);
+                if (n != null) methods.add(n + ";" + m.getDstDesc(0));
+            }
+            desktopMethods.put(intName, methods);
+        }
+
+        // Intersect with android and build result
+        for (MappingTreeView.ClassMappingView cls : androidInt.getClasses()) {
+            String intName = cls.getDstName(0);
+            if (intName == null || !desktopClasses.contains(intName)) continue;
+
+            String actualName = resolveNamedClass(intName, androidNamed, desktopNamed);
+            result.visitClass(intName);
+            result.visitDstName(MappedElementKind.CLASS, 0, actualName != null ? actualName : intName);
+
+            Set<String> dFields = desktopFields.getOrDefault(intName, Collections.emptySet());
+            for (MappingTreeView.FieldMappingView f : cls.getFields()) {
+                String fn = f.getDstName(0);
+                String fd = f.getDstDesc(0);
+                if (fn == null || !dFields.contains(fn + ";" + fd)) continue;
+
+                String actualFn = resolveNamedField(intName, fn, fd, androidNamed, desktopNamed);
+                result.visitField(fn, fd);
+                result.visitDstName(MappedElementKind.FIELD, 0, actualFn != null ? actualFn : fn);
+                result.visitElementContent(MappedElementKind.FIELD);
+            }
+
+            Set<String> dMethods = desktopMethods.getOrDefault(intName, Collections.emptySet());
+            for (MappingTreeView.MethodMappingView m : cls.getMethods()) {
+                String mn = m.getDstName(0);
+                String md = m.getDstDesc(0);
+                if (mn == null || !dMethods.contains(mn + ";" + md)) continue;
+
+                String actualMn = resolveNamedMethod(intName, mn, md, androidNamed, desktopNamed);
+                result.visitMethod(mn, md);
+                result.visitDstName(MappedElementKind.METHOD, 0, actualMn != null ? actualMn : mn);
+                result.visitElementContent(MappedElementKind.METHOD);
+            }
+
+            result.visitElementContent(MappedElementKind.CLASS);
+        }
+
+        return result;
+    }
+
+    private static MemoryMappingTree mergeIntermediateToNamedMappings(
+            MemoryMappingTree a,
+            MemoryMappingTree b
+    ) throws IOException {
+        MemoryMappingTree result = new MemoryMappingTree();
+        result.visitNamespaces("source", Collections.singletonList("target"));
+
+        Set<String> seenClasses = new HashSet<>();
+        Map<String, Set<String>> seenFields = new HashMap<>();
+        Map<String, Set<String>> seenMethods = new HashMap<>();
+
+        for (MemoryMappingTree tree : new MemoryMappingTree[]{a, b}) {
+            for (MappingTreeView.ClassMappingView cls : tree.getClasses()) {
+                String srcName = cls.getSrcName();
+                String dstName = cls.getDstName(0);
+                if (srcName == null) continue;
+
+                boolean isNew = seenClasses.add(srcName);
+                if (isNew) {
+                    result.visitClass(srcName);
+                    result.visitDstName(MappedElementKind.CLASS, 0, dstName != null ? dstName : srcName);
+                }
+
+                Set<String> classFields = seenFields.computeIfAbsent(srcName, k -> new HashSet<>());
+                for (MappingTreeView.FieldMappingView f : cls.getFields()) {
+                    String fn = f.getSrcName();
+                    String fd = f.getSrcDesc();
+                    if (fn == null || !classFields.add(fn + ";" + fd)) continue;
+
+                    String fDst = f.getDstName(0);
+                    result.visitField(fn, fd);
+                    result.visitDstName(MappedElementKind.FIELD, 0, fDst != null ? fDst : fn);
+                    result.visitElementContent(MappedElementKind.FIELD);
+                }
+
+                Set<String> classMethods = seenMethods.computeIfAbsent(srcName, k -> new HashSet<>());
+                for (MappingTreeView.MethodMappingView m : cls.getMethods()) {
+                    String mn = m.getSrcName();
+                    String md = m.getSrcDesc();
+                    if (mn == null || !classMethods.add(mn + ";" + md)) continue;
+
+                    String mDst = m.getDstName(0);
+                    result.visitMethod(mn, md);
+                    result.visitDstName(MappedElementKind.METHOD, 0, mDst != null ? mDst : mn);
+                    result.visitElementContent(MappedElementKind.METHOD);
+                }
+
+                if (isNew) {
+                    result.visitElementContent(MappedElementKind.CLASS);
+                }
+            }
+        }
+
+        return result;
+    }
+
+    private static String resolveNamedClass(String intName, MemoryMappingTree a, MemoryMappingTree b) {
+        MappingTreeView.ClassMappingView cls = a.getClass(intName);
+        if (cls != null && cls.getDstName(0) != null) return cls.getDstName(0);
+        cls = b.getClass(intName);
+        if (cls != null && cls.getDstName(0) != null) return cls.getDstName(0);
+        return null;
+    }
+
+    private static String resolveNamedField(String clsInt, String name, String desc, MemoryMappingTree a, MemoryMappingTree b) {
+        MappingTreeView.ClassMappingView cls = a.getClass(clsInt);
+        if (cls != null) {
+            MappingTreeView.FieldMappingView f = cls.getField(name, desc);
+            if (f != null && f.getDstName(0) != null) return f.getDstName(0);
+        }
+        cls = b.getClass(clsInt);
+        if (cls != null) {
+            MappingTreeView.FieldMappingView f = cls.getField(name, desc);
+            if (f != null && f.getDstName(0) != null) return f.getDstName(0);
+        }
+        return null;
+    }
+
+    private static String resolveNamedMethod(String clsInt, String name, String desc, MemoryMappingTree a, MemoryMappingTree b) {
+        MappingTreeView.ClassMappingView cls = a.getClass(clsInt);
+        if (cls != null) {
+            MappingTreeView.MethodMappingView m = cls.getMethod(name, desc);
+            if (m != null && m.getDstName(0) != null) return m.getDstName(0);
+        }
+        cls = b.getClass(clsInt);
+        if (cls != null) {
+            MappingTreeView.MethodMappingView m = cls.getMethod(name, desc);
+            if (m != null && m.getDstName(0) != null) return m.getDstName(0);
+        }
+        return null;
     }
 
     private enum Platform {
