@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/game/class_324 com/corrodinggames/rts/game/PlayerTeam
+CLASS com/corrodinggames/rts/game/class_324 com/corrodinggames/rts/game/Player
 	FIELD field_1424 field_1424 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	FIELD field_1398 teamAIDifficultyOverride Ljava/lang/Integer;
 	FIELD field_1425 teamLastPingTime J
