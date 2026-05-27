@@ -1,4 +1,4 @@
-package cn.tesseract.patcher.patches;
+package cn.tesseract.patcher;
 
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassVisitor;
@@ -6,8 +6,6 @@ import org.objectweb.asm.ClassWriter;
 import org.objectweb.asm.Label;
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
-
-import cn.tesseract.patcher.Patch;
 
 public class Dex2JarFixPatch implements Patch {
     @Override

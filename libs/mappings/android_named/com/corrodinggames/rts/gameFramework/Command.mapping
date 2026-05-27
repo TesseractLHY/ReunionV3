@@ -10,7 +10,7 @@ CLASS com/corrodinggames/rts/gameFramework/class_898 com/corrodinggames/rts/game
 	FIELD field_5089 isHighPriority Z
 	FIELD field_5090 field_5090 Lcom/corrodinggames/rts/game/class_324;
 	FIELD field_5091 field_5091 Lcom/corrodinggames/rts/game/units/class_706;
-	FIELD field_5092 field_5092 Lcom/corrodinggames/rts/game/units/a/class_333;
+	FIELD field_5092 actionId Lcom/corrodinggames/rts/game/units/a/class_333;
 	FIELD field_5093 targetPoint Landroid/graphics/PointF;
 	FIELD field_5094 field_5094 Lcom/corrodinggames/rts/game/units/class_426;
 	FIELD field_5095 field_5095 Lcom/corrodinggames/rts/game/units/class_330;

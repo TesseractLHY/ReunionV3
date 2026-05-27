@@ -75,7 +75,7 @@ public class SourceRemapper {
             Files.walkFileTree(dirPath, new SimpleFileVisitor<Path>() {
                 @Override
                 public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-                    if (file.toString().endsWith(".java")) {
+                    if (file.toString().endsWith(".java") && !file.toString().contains("SourceRemapper")) {
                         processJavaFile(file, pattern, mappings, importPattern, importMappings, slashPattern, slashMappings);
                     }
                     return FileVisitResult.CONTINUE;

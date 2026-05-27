@@ -1,4 +1,4 @@
-package cn.tesseract.patcher.patches;
+package cn.tesseract.patcher;
 
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassVisitor;
@@ -18,9 +18,6 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarInputStream;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import cn.tesseract.patcher.Patch;
-import cn.tesseract.patcher.Patcher;
 
 public class ResourceIdRemapPatch implements Patch {
     private final Map<Integer, Integer> idMap;
