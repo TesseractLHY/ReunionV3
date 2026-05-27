@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/gameFramework/i/class_994 com/corrodinggames/rts/gameFramework/mod/PackageType
+	FIELD field_5835 unknown Lcom/corrodinggames/rts/gameFramework/i/class_994;
+	FIELD field_5836 mod Lcom/corrodinggames/rts/gameFramework/i/class_994;
+	FIELD field_5837 map Lcom/corrodinggames/rts/gameFramework/i/class_994;
+	FIELD field_5838 replay Lcom/corrodinggames/rts/gameFramework/i/class_994;
+	FIELD field_5839 save Lcom/corrodinggames/rts/gameFramework/i/class_994;
+	FIELD field_5840 mapThumbnail Lcom/corrodinggames/rts/gameFramework/i/class_994;
+	FIELD field_5841 field_5841 [Lcom/corrodinggames/rts/gameFramework/i/class_994;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/i/class_994;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/i/class_994;

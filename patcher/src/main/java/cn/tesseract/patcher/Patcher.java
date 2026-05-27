@@ -2,6 +2,7 @@ package cn.tesseract.patcher;
 
 import net.fabricmc.mappingio.format.enigma.EnigmaDirReader;
 import net.fabricmc.mappingio.format.enigma.EnigmaDirWriter;
+import net.fabricmc.mappingio.tree.MappingTreeView;
 import net.fabricmc.mappingio.tree.MemoryMappingTree;
 import net.fabricmc.tinyremapper.OutputConsumerPath;
 import net.fabricmc.tinyremapper.TinyRemapper;
@@ -145,6 +146,19 @@ public class Patcher {
             default:
                 throw new IllegalArgumentException("Unsupported platform: " + platform);
         }
+
+        /*for (MappingTreeView.ClassMappingView cls : androidNamed.getClasses()) {
+            String dstName = cls.getDstName(0);
+            if (dstName == null) continue;
+            System.out.println(cls.getSrcName() + " -> " + dstName);
+
+            for (MappingTreeView.FieldMappingView f : cls.getFields()) {
+                String n = f.getDstName(0);
+                if (n != null) {
+                    System.out.println("  " + f.getSrcName() + ";" + f.getSrcDesc() + " -> " + n + ";" + f.getDstDesc(0));
+                }
+            }
+        }*/
 
         MemoryMappingTree mappingTree = MappingUtils.buildNamedMappings(intermediary, named);
 

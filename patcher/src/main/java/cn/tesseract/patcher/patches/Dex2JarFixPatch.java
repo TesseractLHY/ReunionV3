@@ -22,11 +22,11 @@ public class Dex2JarFixPatch implements Patch {
                         if (name.equals("method_161") && desc.equals("(Landroid/content/Context;)V")) {
                             MethodVisitor mv = cv.visitMethod(acc, name, desc, sig, ex);
                             mv.visitInsn(Opcodes.ICONST_1);
-                            mv.visitFieldInsn(Opcodes.PUTSTATIC, "com/corrodinggames/rts/appFramework/ix", "field_587", "Z");
+                            mv.visitFieldInsn(Opcodes.PUTSTATIC, "com/corrodinggames/rts/appFramework/class_243", "field_587", "Z");
                             mv.visitInsn(Opcodes.ICONST_0);
-                            mv.visitFieldInsn(Opcodes.PUTSTATIC, "com/corrodinggames/rts/appFramework/ix", "field_588", "I");
+                            mv.visitFieldInsn(Opcodes.PUTSTATIC, "com/corrodinggames/rts/appFramework/class_243", "field_588", "I");
                             mv.visitLdcInsn("");
-                            mv.visitFieldInsn(Opcodes.PUTSTATIC, "com/corrodinggames/rts/appFramework/ix", "field_589",
+                            mv.visitFieldInsn(Opcodes.PUTSTATIC, "com/corrodinggames/rts/appFramework/class_243", "field_589",
                                     "Ljava/lang/String;");
                             mv.visitInsn(Opcodes.RETURN);
                             mv.visitMaxs(1, 1);

@@ -22,10 +22,6 @@ import java.util.regex.Pattern;
 import cn.tesseract.patcher.Patch;
 import cn.tesseract.patcher.Patcher;
 
-/**
- * Remaps resource IDs in R classes from old (APK) values to new (build) values.
- * Rewrites ConstantValue on fields and ldc constants in &lt;clinit&gt; for int[] arrays.
- */
 public class ResourceIdRemapPatch implements Patch {
     private final Map<Integer, Integer> idMap;
 
