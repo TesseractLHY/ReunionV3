@@ -46,7 +46,7 @@ tasks.register('patchAndroidJar', JavaExec) {
     inputs.dir(mappingsRootDir)
     outputs.file(androidPatchedJar)
     outputs.file(androidRTarget)
-    args = [androidBaseJar.absolutePath, androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--remap-ids', androidRTarget.absolutePath, '--mappings-dir', mappingsRootDir.absolutePath]
+    args = [androidBaseJar.absolutePath, androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--mappings-dir', mappingsRootDir.absolutePath]
     workingDir = rootDir
     doFirst {
         androidPatchedJar.get().asFile.with {

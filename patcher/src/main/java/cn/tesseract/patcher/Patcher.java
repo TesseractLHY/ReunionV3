@@ -27,7 +27,7 @@ public class Patcher {
 
     public static void main(String[] args) throws Exception {
         if (args.length < 2) {
-            System.out.println("Usage: Patcher <input> <output> [--platform android|desktop] [--remap-ids <rFile>] [--mappings-dir <mappingsDir>]");
+            System.out.println("Usage: Patcher <input> <output> [--platform android|desktop] [--mappings-dir <mappingsDir>]");
             System.exit(1);
         }
 
@@ -35,13 +35,10 @@ public class Patcher {
         Path outputJar = Paths.get(args[1]);
 
         Platform platform = Platform.ANDROID;
-        Path rFile = null;
         Path mappingsDir = null;
         for (int i = 2; i < args.length; i++) {
             if ("--platform".equals(args[i]) && i + 1 < args.length) {
                 platform = Platform.valueOf(args[++i].trim().toUpperCase(Locale.ROOT));
-            } else if ("--remap-ids".equals(args[i]) && i + 1 < args.length) {
-                rFile = Paths.get(args[++i]);
             } else if ("--mappings-dir".equals(args[i]) && i + 1 < args.length) {
                 mappingsDir = Paths.get(args[++i]);
             }
@@ -50,9 +47,7 @@ public class Patcher {
         List<Patch> patches = new ArrayList<>();
         if (platform == Platform.ANDROID) {
             patches.add(new Dex2JarFixPatch());
-            if (rFile != null) {
-                patches.add(new ResourceIdRemapPatch(ResourceIdRemapPatch.buildIdMapFromJar(rFile, inputJar)));
-            }
+            patches.add(new ResourceIdRemapPatch());
         }
 
         int total = 0;

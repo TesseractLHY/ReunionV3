@@ -24,8 +24,7 @@ public class Dex2JarFixPatch implements Patch {
                             mv.visitInsn(Opcodes.ICONST_0);
                             mv.visitFieldInsn(Opcodes.PUTSTATIC, "com/corrodinggames/rts/appFramework/class_243", "field_588", "I");
                             mv.visitLdcInsn("");
-                            mv.visitFieldInsn(Opcodes.PUTSTATIC, "com/corrodinggames/rts/appFramework/class_243", "field_589",
-                                    "Ljava/lang/String;");
+                            mv.visitFieldInsn(Opcodes.PUTSTATIC, "com/corrodinggames/rts/appFramework/class_243", "field_589", "Ljava/lang/String;");
                             mv.visitInsn(Opcodes.RETURN);
                             mv.visitMaxs(1, 1);
                             mv.visitEnd();
@@ -43,8 +42,7 @@ public class Dex2JarFixPatch implements Patch {
                         if (name.equals("method_3199") && desc.equals("(Landroid/graphics/Canvas;Lcom/corrodinggames/rts/gameFramework/m/class_1221;)V")) {
                             MethodVisitor mv = cv.visitMethod(acc, name, desc, sig, ex);
                             mv.visitVarInsn(Opcodes.ALOAD, 1);
-                            mv.visitMethodInsn(Opcodes.INVOKEVIRTUAL, "android/graphics/Canvas", "getSaveCount", "()I",
-                                    false);
+                            mv.visitMethodInsn(Opcodes.INVOKEVIRTUAL, "android/graphics/Canvas", "getSaveCount", "()I", false);
                             mv.visitInsn(Opcodes.ICONST_1);
                             Label skip = new Label();
                             mv.visitJumpInsn(Opcodes.IF_ICMPLE, skip);
