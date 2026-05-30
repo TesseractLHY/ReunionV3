@@ -29,6 +29,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "soviet"
 include ':core'
+include ':app'
 include ':android'
 include ':desktop'
 include ':patcher'

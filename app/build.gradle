@@ -1,14 +1,23 @@
 plugins {
-    id 'com.android.library'
+    id 'com.android.application'
 }
 
 android {
-    namespace 'cn.tesseract.reunion'
+    namespace 'cn.tesseract.reunion.app'
     compileSdk {
         //noinspection GradleDependency
         version = release(36) {
             minorApiLevel = 1
         }
+    }
+
+    defaultConfig {
+        applicationId 'cn.tesseract.reunion'
+        minSdk 21
+        //noinspection OldTargetApi
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
     }
 
     compileOptions {
@@ -20,11 +29,6 @@ android {
 }
 
 dependencies {
-    compileOnly project(path: ':patcher', configuration: 'androidPatchedElements')
-    implementation coreProject
-    implementation libs.crosshook.android
+    implementation project(':android')
 }
 
-tasks.named('preBuild').configure {
-    dependsOn ':patcher:patchAndroidJar'
-}
