@@ -7,13 +7,34 @@ java {
     targetCompatibility = JavaVersion.VERSION_1_8
 }
 
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = "UTF-8"
+    if (JavaVersion.current().isJava9Compatible()) {
+        options.release = 8
+    } else {
+        sourceCompatibility = "1.8"
+        targetCompatibility = "1.8"
+    }
+}
+
 dependencies {
     implementation project(':core')
     implementation project(path: ':patcher', configuration: 'desktopPatchedElements')
     implementation libs.crosshook.desktop
+    compileOnly "me.shedaniel.static-mixin:static-mixin-runtime:1.0.9999"
 }
 
 ext.gameDir = project.findProperty('gameDir') ?: layout.projectDirectory.dir('run').asFile.absolutePath
+
+import me.shedaniel.staticmixin.tasks.MixinPatchTask
+
+tasks.register('patchMixin', MixinPatchTask) {
+    dependsOn jar
+    archiveClassifier = "patched"
+    classpath.from(sourceSets.main.output + sourceSets.main.compileClasspath)
+    from(sourceSets.main.output + project(':patcher').layout.buildDirectory.file('tmp/desktop/base-patched.jar').map { zipTree(it) })
+    mixinConfig "desktop.mixins.json"
+}
 
 tasks.register('runDesktop', JavaExec) {
     group = 'soviet'
