@@ -4,6 +4,7 @@ plugins {
 
 dependencies {
     compileOnly project(path: ':patcher', configuration: 'desktopPatchedElements')
+    compileOnly libs.crosshook.core
     api libs.static.mixin.runtime
     compileOnly fileTree(dir: "$gameDir/libs", include: ['*.jar'])
 }

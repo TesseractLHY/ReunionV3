@@ -9,6 +9,7 @@ tinyRemapper = "0.12.1"
 [libraries]
 asm = { module = "org.ow2.asm:asm", version.ref = "asm" }
 crosshook-android = { module = "cn.tesseract.crosshook:crosshook-android", version.ref = "crosshook" }
+crosshook-core = { module = "cn.tesseract.crosshook:crosshook-core", version.ref = "crosshook" }
 crosshook-desktop = { module = "cn.tesseract.crosshook:crosshook-desktop", version.ref = "crosshook" }
 mapping-io = { module = "net.fabricmc:mapping-io", version.ref = "mappingIo" }
 static-mixin-runtime = { module = "me.shedaniel.static-mixin:static-mixin-runtime", version.ref = "staticMixinRuntime" }
@@ -16,6 +17,5 @@ tiny-remapper = { module = "net.fabricmc:tiny-remapper", version.ref = "tinyRema
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
-android-library = { id = "com.android.library", version.ref = "agp" }
 java-library = { id = "java-library" }
 

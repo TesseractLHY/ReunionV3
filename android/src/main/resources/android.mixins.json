@@ -4,6 +4,5 @@
   "package": "cn.tesseract.soviet.android.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "TestMixin"
   ]
 }
