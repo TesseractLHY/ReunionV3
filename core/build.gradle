@@ -4,6 +4,7 @@ plugins {
 
 dependencies {
     compileOnly project(path: ':patcher', configuration: 'desktopPatchedElements')
+    api libs.static.mixin.runtime
 }
 
 java {

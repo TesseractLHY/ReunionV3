@@ -1,8 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "cn.tesseract.soviet.desktop.mixin",
+  "package": "cn.tesseract.soviet.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "TestMixin"
   ]
 }
