@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/appFramework/LevelSelectActivity
+CLASS com/corrodinggames/rts/appFramework/LevelSelectActivity com/corrodinggames/rts/appFramework/LevelSelectActivity
 	FIELD field_7763 showMapDetails Z
 	FIELD field_7764 selectedMap Ljava/lang/String;
 	METHOD convertFilePathToFileName getMapNameFromPath (Ljava/lang/String;)Ljava/lang/String;

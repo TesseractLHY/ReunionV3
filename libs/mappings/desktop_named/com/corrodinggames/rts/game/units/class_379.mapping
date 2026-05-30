@@ -1,6 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/class_379
-	CLASS class_380
-	CLASS class_381
-	CLASS class_382
-	CLASS class_394
-	CLASS class_395
+	CLASS class_380 class_380
+	CLASS class_381 class_381
+	CLASS class_382 class_382
+	CLASS class_394 class_394
+	CLASS class_395 class_395

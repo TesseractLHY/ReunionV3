@@ -1,7 +1,7 @@
 CLASS com/corrodinggames/rts/gameFramework/class_849
-	CLASS class_850
+	CLASS class_850 class_850
 		FIELD field_4687 field_4687 Lcom/corrodinggames/rts/gameFramework/class_849;
 		METHOD onInfo onInfo (Landroid/media/MediaPlayer;II)Z
-	CLASS class_851
+	CLASS class_851 class_851
 		FIELD field_4688 field_4688 Lcom/corrodinggames/rts/gameFramework/class_849;
 		METHOD onPrepared onPrepared (Landroid/media/MediaPlayer;)V

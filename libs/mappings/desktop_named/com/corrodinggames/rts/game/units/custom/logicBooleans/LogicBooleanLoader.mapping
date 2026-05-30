@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/game/units/custom/logicBooleans/LogicBooleanLoader
+CLASS com/corrodinggames/rts/game/units/custom/logicBooleans/LogicBooleanLoader com/corrodinggames/rts/game/units/custom/logicBooleans/LogicBooleanLoader
 	FIELD patternDoubleQuote doubleQuotePattern Ljava/util/regex/Pattern;
 	FIELD patternFloat floatPattern Ljava/util/regex/Pattern;
 	FIELD patternInteger integerPattern Ljava/util/regex/Pattern;

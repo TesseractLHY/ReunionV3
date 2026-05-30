@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/appFramework/MultiplayerBattleroomActivity
+CLASS com/corrodinggames/rts/appFramework/MultiplayerBattleroomActivity com/corrodinggames/rts/appFramework/MultiplayerBattleroomActivity
 	FIELD field_7801 onCreateFinished Z
 	FIELD field_7802 uiHandler Landroid/os/Handler;
 	FIELD field_7803 startGamePending Z

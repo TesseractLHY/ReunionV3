@@ -1,4 +1,4 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1320
-	CLASS class_1321
+	CLASS class_1321 class_1321
 		FIELD field_7304 field_7304 Lcom/corrodinggames/rts/gameFramework/utility/class_1320;
 		METHOD run run ()V

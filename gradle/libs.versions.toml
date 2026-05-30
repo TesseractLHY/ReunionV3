@@ -2,7 +2,7 @@
 agp = "9.2.1"
 asm = "9.9.1"
 crosshook = "1.0.0"
-mappingIo = "0.7.1"
+mappingIo = "0.8.0"
 tinyRemapper = "0.12.1"
 
 [libraries]

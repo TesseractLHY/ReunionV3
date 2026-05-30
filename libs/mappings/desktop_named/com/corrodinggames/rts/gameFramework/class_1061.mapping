@@ -1,17 +1,17 @@
 CLASS com/corrodinggames/rts/gameFramework/class_1061
-	CLASS class_1077
+	CLASS class_1077 class_1077
 		FIELD field_6644 field_6644 Lcom/corrodinggames/rts/gameFramework/class_1061;
 		METHOD run run ()V
 	CLASS class_1254
-		CLASS class_1281
+		CLASS class_1281 class_1281
 			FIELD field_7150 field_7150 Lcom/corrodinggames/rts/gameFramework/class_1061$class_1254;
 			METHOD onClick onClick (Landroid/content/DialogInterface;I)V
-		CLASS class_1283
+		CLASS class_1283 class_1283
 			FIELD field_7152 field_7152 Lcom/corrodinggames/rts/gameFramework/class_1061$class_1254;
 			METHOD onCancel onCancel (Landroid/content/DialogInterface;)V
 		FIELD field_7013 field_7013 Lcom/corrodinggames/rts/gameFramework/class_1061;
 		METHOD run run ()V
-	CLASS class_1284
+	CLASS class_1284 class_1284
 		FIELD field_7153 field_7153 Lcom/corrodinggames/rts/gameFramework/class_1061;
 		METHOD run run ()V
-	CLASS class_1285
+	CLASS class_1285 class_1285

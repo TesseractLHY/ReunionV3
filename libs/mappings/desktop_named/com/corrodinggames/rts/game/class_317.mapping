@@ -1,4 +1,4 @@
 CLASS com/corrodinggames/rts/game/class_317
-	CLASS class_319
+	CLASS class_319 class_319
 		FIELD field_1370 field_1370 Lcom/corrodinggames/rts/game/class_317;
 		METHOD run run ()V

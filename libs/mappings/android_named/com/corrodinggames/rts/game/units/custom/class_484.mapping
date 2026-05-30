@@ -1,20 +1,20 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_484
-	CLASS class_485
-	CLASS class_486
-	CLASS class_487
-	CLASS class_488
-	CLASS class_489
-	CLASS class_490
-	CLASS class_491
-	CLASS class_507
-	CLASS class_508
-	CLASS class_509
-	CLASS class_510
-	CLASS class_511
-	CLASS class_512
-	CLASS class_513
-	CLASS class_514
-	CLASS class_515
-	CLASS class_516
-	CLASS class_517
-	CLASS class_518
+	CLASS class_485 class_485
+	CLASS class_486 class_486
+	CLASS class_487 class_487
+	CLASS class_488 class_488
+	CLASS class_489 class_489
+	CLASS class_490 class_490
+	CLASS class_491 class_491
+	CLASS class_507 class_507
+	CLASS class_508 class_508
+	CLASS class_509 class_509
+	CLASS class_510 class_510
+	CLASS class_511 class_511
+	CLASS class_512 class_512
+	CLASS class_513 class_513
+	CLASS class_514 class_514
+	CLASS class_515 class_515
+	CLASS class_516 class_516
+	CLASS class_517 class_517
+	CLASS class_518 class_518

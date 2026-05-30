@@ -1,9 +1,9 @@
 CLASS com/corrodinggames/rts/appFramework/class_84
-	CLASS class_111
+	CLASS class_111 class_111
 		FIELD field_308 field_308 Ljava/lang/Runnable;
 		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS class_138
-		CLASS class_165
+		CLASS class_165 class_165
 			METHOD run run ()V
 		FIELD field_419 field_419 Ljava/lang/Runnable;
 		METHOD onClick onClick (Landroid/content/DialogInterface;I)V

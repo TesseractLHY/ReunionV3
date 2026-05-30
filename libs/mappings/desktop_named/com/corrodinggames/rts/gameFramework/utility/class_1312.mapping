@@ -1,6 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1312
-	CLASS class_1313
-	CLASS class_1314
-	CLASS class_1315
+	CLASS class_1313 class_1313
+	CLASS class_1314 class_1314
+	CLASS class_1315 class_1315
 		FIELD field_7292 field_7292 Lcom/corrodinggames/rts/gameFramework/utility/class_1312;
 		METHOD run run ()V

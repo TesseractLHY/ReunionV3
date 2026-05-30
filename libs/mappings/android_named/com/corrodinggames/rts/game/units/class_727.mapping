@@ -1,42 +1,42 @@
 CLASS com/corrodinggames/rts/game/units/class_727
-	CLASS class_357
-	CLASS class_358
+	CLASS class_357 class_357
+	CLASS class_358 class_358
 		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
-	CLASS class_359
-	CLASS class_360
-	CLASS class_361
-	CLASS class_362
-	CLASS class_363
-	CLASS class_364
-	CLASS class_365
-	CLASS class_366
-	CLASS class_736
+	CLASS class_359 class_359
+	CLASS class_360 class_360
+	CLASS class_361 class_361
+	CLASS class_362 class_362
+	CLASS class_363 class_363
+	CLASS class_364 class_364
+	CLASS class_365 class_365
+	CLASS class_366 class_366
+	CLASS class_736 class_736
 	CLASS class_737
-		CLASS class_738
+		CLASS class_738 class_738
 			FIELD field_4115 field_4115 Lcom/corrodinggames/rts/game/units/class_727$class_737;
 			METHOD run run ()V
 	CLASS class_739
-		CLASS class_740
+		CLASS class_740 class_740
 			FIELD field_4116 field_4116 Ljava/lang/String;
 			FIELD field_4117 field_4117 Lcom/corrodinggames/rts/game/units/class_727$class_739;
 			METHOD run run ()V
-		CLASS class_741
+		CLASS class_741 class_741
 			FIELD field_4118 field_4118 Lcom/corrodinggames/rts/gameFramework/f/a/class_914;
 			FIELD field_4119 field_4119 Lcom/corrodinggames/rts/gameFramework/class_1061;
 			FIELD field_4120 field_4120 Ljava/lang/Runnable;
 			FIELD field_4121 field_4121 Lcom/corrodinggames/rts/game/units/class_727$class_739;
-		CLASS class_742
+		CLASS class_742 class_742
 			FIELD field_4122 field_4122 Lcom/corrodinggames/rts/game/units/class_727$class_739;
 			METHOD run run ()V
-	CLASS class_743
-	CLASS class_744
-	CLASS class_745
-	CLASS class_746
-	CLASS class_747
+	CLASS class_743 class_743
+	CLASS class_744 class_744
+	CLASS class_745 class_745
+	CLASS class_746 class_746
+	CLASS class_747 class_747
 	CLASS class_748
-		CLASS class_749
+		CLASS class_749 class_749
 			FIELD field_4123 field_4123 Lcom/corrodinggames/rts/game/units/class_727$class_748;
-	CLASS class_750
-	CLASS class_751
-	CLASS class_752
-	CLASS class_753
+	CLASS class_750 class_750
+	CLASS class_751 class_751
+	CLASS class_752 class_752
+	CLASS class_753 class_753

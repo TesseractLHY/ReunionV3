@@ -1,7 +1,7 @@
 CLASS com/corrodinggames/rts/gameFramework/class_789
-	CLASS class_790
+	CLASS class_790 class_790
 		FIELD field_4370 field_4370 Lcom/corrodinggames/rts/gameFramework/class_789;
 		METHOD run run ()V
-	CLASS class_791
+	CLASS class_791 class_791
 		FIELD field_4371 field_4371 Lcom/corrodinggames/rts/gameFramework/class_789;
 		METHOD run run ()V

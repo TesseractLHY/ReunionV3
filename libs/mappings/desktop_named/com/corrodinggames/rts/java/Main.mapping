@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/java/Main
+CLASS com/corrodinggames/rts/java/Main com/corrodinggames/rts/java/Main
 	FIELD field_8827 appName Ljava/lang/String;
 	FIELD field_8839 currentTime J
 	METHOD main main ([Ljava/lang/String;)V

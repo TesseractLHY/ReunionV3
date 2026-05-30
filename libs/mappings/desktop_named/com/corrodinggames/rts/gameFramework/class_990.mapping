@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/gameFramework/class_990
+CLASS com/corrodinggames/rts/gameFramework/class_990 com/corrodinggames/rts/gameFramework/class_990
 	FIELD field_5777 field_5777 Ljava/util/concurrent/ConcurrentHashMap;
 	FIELD field_5778 field_5778 Lcom/corrodinggames/rts/gameFramework/class_995;
 	METHOD method_2644 method_2644 ()V

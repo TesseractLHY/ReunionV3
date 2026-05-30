@@ -1,5 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/class_398
-	CLASS class_399
-	CLASS class_400
-	CLASS class_401
-	CLASS class_402
+	CLASS class_399 class_399
+	CLASS class_400 class_400
+	CLASS class_401 class_401
+	CLASS class_402 class_402

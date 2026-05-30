@@ -1,5 +1,5 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1302
-	CLASS class_1303
+	CLASS class_1303 class_1303
 		FIELD field_7265 field_7265 Ljava/lang/String;
 		FIELD field_7266 field_7266 Lcom/corrodinggames/rts/gameFramework/utility/class_1304;
 		METHOD run run ()V

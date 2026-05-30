@@ -1,46 +1,46 @@
 CLASS com/corrodinggames/rts/appFramework/InGameActivity
-	CLASS class_14
+	CLASS class_14 class_14
 		FIELD field_163 field_163 I
 		METHOD run run ()V
-	CLASS class_15
+	CLASS class_15 class_15
 		FIELD field_165 field_165 Landroid/widget/EditText;
 		FIELD field_166 field_166 Z
 		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
-	CLASS class_16
+	CLASS class_16 class_16
 		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS class_17
-		CLASS class_18
+		CLASS class_18 class_18
 			FIELD field_172 field_172 Ljava/lang/String;
 			METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 		FIELD field_169 field_169 Landroid/widget/EditText;
 		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
-	CLASS class_19
+	CLASS class_19 class_19
 		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS class_20
-		CLASS class_21
+		CLASS class_21 class_21
 			FIELD field_177 field_177 Ljava/lang/String;
 			METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 		FIELD field_175 field_175 Landroid/widget/EditText;
 		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
-	CLASS class_22
+	CLASS class_22 class_22
 		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
-	CLASS class_23
+	CLASS class_23 class_23
 		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
-	CLASS class_24
+	CLASS class_24 class_24
 		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
-	CLASS class_26
+	CLASS class_26 class_26
 		METHOD run run ()V
-	CLASS class_27
+	CLASS class_27 class_27
 		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
-	CLASS class_28
+	CLASS class_28 class_28
 		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
-	CLASS class_29
+	CLASS class_29 class_29
 		METHOD run run ()V
-	CLASS class_31
+	CLASS class_31 class_31
 		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
-	CLASS class_33
+	CLASS class_33 class_33
 		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
-	CLASS class_35
+	CLASS class_35 class_35
 		FIELD field_193 field_193 Landroid/widget/EditText;
 		FIELD field_194 field_194 Z
 		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
