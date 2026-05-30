@@ -15,4 +15,5 @@ plugins {
 ext {
     coreProject = project(':core')
     patcherProject = project(':patcher')
+    gameDir = rootProject.findProperty('gameDir') ?: rootProject.layout.projectDirectory.dir('run').asFile.absolutePath
 }

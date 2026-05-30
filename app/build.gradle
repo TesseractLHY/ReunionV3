@@ -1,5 +1,5 @@
 plugins {
-    alias(libs.plugins.android.application)
+    id 'com.android.library'
 }
 
 def rootDir = rootProject.rootDir.absolutePath
@@ -16,7 +16,6 @@ android {
     }
 
     defaultConfig {
-        applicationId "cn.tesseract.reunion"
         minSdk 21
         //noinspection OldTargetApi
         targetSdk 36

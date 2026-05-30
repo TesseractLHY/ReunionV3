@@ -16,5 +16,6 @@ tiny-remapper = { module = "net.fabricmc:tiny-remapper", version.ref = "tinyRema
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
 java-library = { id = "java-library" }
 

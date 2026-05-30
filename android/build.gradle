@@ -10,6 +10,7 @@ java {
 dependencies {
     compileOnly project(path: ':patcher', configuration: 'androidPatchedElements')
     api coreProject
+    compileOnly fileTree(dir: "$gameDir/libs", include: ['*.jar'])
 }
 
 import me.shedaniel.staticmixin.tasks.MixinPatchTask

@@ -11,9 +11,8 @@ dependencies {
     compileOnly project(path: ':patcher', configuration: 'desktopPatchedElements')
     implementation coreProject
     implementation libs.crosshook.desktop
+    compileOnly fileTree(dir: "$gameDir/libs", include: ['*.jar'])
 }
-
-ext.gameDir = project.findProperty('gameDir') ?: layout.projectDirectory.dir('run').asFile.absolutePath
 
 import me.shedaniel.staticmixin.tasks.MixinPatchTask
 
