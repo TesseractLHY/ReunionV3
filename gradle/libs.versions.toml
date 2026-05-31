@@ -4,7 +4,7 @@ asm = "9.9.1"
 crosshook = "1.0.0"
 mappingIo = "0.8.0"
 staticMixinRuntime = "1.0.9999"
-tinyRemapper = "0.12.1"
+tinyRemapper = "0.13.1"
 
 [libraries]
 asm = { module = "org.ow2.asm:asm", version.ref = "asm" }

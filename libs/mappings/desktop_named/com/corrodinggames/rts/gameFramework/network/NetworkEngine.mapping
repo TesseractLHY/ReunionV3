@@ -27,7 +27,7 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1001 com/corrodinggames/rts/g
 		FIELD field_6000 field_6000 Lcom/corrodinggames/rts/gameFramework/j/class_1001;
 		METHOD run run ()V
 	FIELD field_5899 field_5899 Z
-	FIELD field_5848 field_5848 Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_5848 hostPlayer Lcom/corrodinggames/rts/game/class_324;
 	FIELD field_5874 field_5874 Lcom/corrodinggames/rts/gameFramework/j/class_1015;
 	FIELD field_5902 field_5902 F
 	FIELD field_5875 field_5875 Ljava/lang/String;
@@ -234,7 +234,7 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1001 com/corrodinggames/rts/g
 	METHOD method_2707 readSyncHeader ()V
 	METHOD method_2814 method_2814 (Ljava/lang/String;)V
 	METHOD method_2708 method_2708 ()V
-	METHOD method_2816 method_2816 (Ljava/lang/String;)V
+	METHOD method_2816 sendChatMessage (Ljava/lang/String;)V
 	METHOD method_2709 resetNetworkGameState ()V
 	METHOD method_2710 method_2710 ()V
 	METHOD method_2819 method_2819 ()Z

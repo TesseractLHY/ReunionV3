@@ -4,6 +4,7 @@
   "package": "cn.tesseract.soviet.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "TestMixin"
+    "NetworkEngineMixin",
+    "GameInterfaceRendererMixin"
   ]
 }

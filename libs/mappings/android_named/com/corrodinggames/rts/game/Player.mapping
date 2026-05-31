@@ -1,52 +1,52 @@
 CLASS com/corrodinggames/rts/game/class_324 com/corrodinggames/rts/game/Player
 	FIELD field_1424 field_1424 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
-	FIELD field_1398 teamAIDifficultyOverride Ljava/lang/Integer;
-	FIELD field_1425 teamLastPingTime J
-	FIELD field_1426 teamLastConnectionTime J
-	FIELD field_1427 teamPingCount I
-	FIELD field_1428 isTeamAutoStart Z
-	FIELD field_1429 isTeamAutoStartQueued Z
-	FIELD field_1430 teamSortIndex I
+	FIELD field_1398 AIDifficultyOverride Ljava/lang/Integer;
+	FIELD field_1425 lastPingTime J
+	FIELD field_1426 lastConnectionTime J
+	FIELD field_1427 pingCount I
+	FIELD field_1428 isAutoStart Z
+	FIELD field_1429 isAutoStartQueued Z
+	FIELD field_1430 sortIndex I
 	FIELD field_1431 lastUnitCountCacheTick I
-	FIELD field_1432 teamColorPaint Landroid/graphics/Paint;
-	FIELD field_1433 teamTextPaint Landroid/graphics/Paint;
-	FIELD field_1434 teamColorIds [I
-	FIELD field_1435 teamColorNames [Ljava/lang/String;
-	FIELD field_1437 teamColorCount I
+	FIELD field_1432 colorPaint Landroid/graphics/Paint;
+	FIELD field_1433 textPaint Landroid/graphics/Paint;
+	FIELD field_1434 colorIds [I
+	FIELD field_1435 colorNames [Ljava/lang/String;
+	FIELD field_1437 colorCount I
 	FIELD field_1438 field_1438 Lcom/corrodinggames/rts/game/units/custom/class_577;
 	FIELD field_1439 field_1439 Lcom/corrodinggames/rts/game/units/custom/e/class_567;
 	FIELD field_1440 field_1440 Lcom/corrodinggames/rts/game/units/custom/e/class_564;
-	FIELD field_1441 teamColorAlpha F
-	FIELD field_1442 teamColorRed F
-	FIELD field_1443 teamColorGreen F
-	FIELD field_1444 teamColorBlue J
-	FIELD field_1445 teamColorHue D
+	FIELD field_1441 colorAlpha F
+	FIELD field_1442 colorRed F
+	FIELD field_1443 colorGreen F
+	FIELD field_1444 colorBlue J
+	FIELD field_1445 colorHue D
 	FIELD field_1447 field_1447 [Lcom/corrodinggames/rts/game/class_324;
-	FIELD field_1399 teamAIBehaviourOverride Ljava/lang/Integer;
-	FIELD field_1448 TEAM_NEUTRAL I
-	FIELD field_1400 teamAILevelOverride Ljava/lang/Integer;
-	FIELD field_1449 TEAM_ALL_NEUTRAL I
-	FIELD field_1401 teamAIControlOverride Ljava/lang/Integer;
-	FIELD field_1450 TEAM_ALLIES I
-	FIELD field_1402 teamAIGroupOverride I
-	FIELD field_1451 TEAM_ENEMIES I
-	FIELD field_1403 teamColorBrightness Z
+	FIELD field_1399 AIBehaviourOverride Ljava/lang/Integer;
+	FIELD field_1448 NEUTRAL_PLAYER I
+	FIELD field_1400 AILevelOverride Ljava/lang/Integer;
+	FIELD field_1449 ALL_NEUTRAL_PLAYER I
+	FIELD field_1401 AIControlOverride Ljava/lang/Integer;
+	FIELD field_1450 ALLIES_PLAYER I
+	FIELD field_1402 AIGroupOverride I
+	FIELD field_1451 ENEMIES_PLAYER I
+	FIELD field_1403 colorBrightness Z
 	FIELD field_1452 field_1452 Lcom/corrodinggames/rts/game/class_324;
-	FIELD field_1404 teamColorHex I
+	FIELD field_1404 colorHex I
 	FIELD field_1453 field_1453 Lcom/corrodinggames/rts/game/class_324;
-	FIELD field_1405 isTeamVictory Z
+	FIELD field_1405 isPlayerVictory Z
 	FIELD field_1454 field_1454 Lcom/corrodinggames/rts/game/class_324;
-	FIELD field_1406 isTeamDefeatedTech Z
+	FIELD field_1406 isPlayerDefeatedTech Z
 	FIELD field_1455 field_1455 [Lcom/corrodinggames/rts/game/class_324;
-	FIELD field_1407 isTeamWipedOut Z
+	FIELD field_1407 isPlayerWipedOut Z
 	FIELD field_1456 field_1456 Lcom/corrodinggames/rts/game/class_324;
 	FIELD field_1457 teamId I
-	FIELD field_1409 isTeamConnectionActive Z
-	FIELD field_1458 MODDER_CREDITS_WARNING Ljava/lang/String;
-	FIELD field_1410 isTeamNetworkActive Z
-	FIELD field_1459 isTeamActive Z
+	FIELD field_1409 isPConnectionActive Z
+	FIELD field_1458 MODDER_WARNING Ljava/lang/String;
+	FIELD field_1410 isPlayerNetworkActive Z
+	FIELD field_1459 isPlayerActive Z
 	FIELD field_1411 synchronizationLock Ljava/lang/Object;
-	FIELD field_1460 isTeamControlledByAI Z
+	FIELD field_1460 isPlayerControlledByAI Z
 	FIELD field_1412 fogOfWarWidth I
 	FIELD field_1461 credits D
 	FIELD field_1413 fogOfWarHeight I
@@ -54,26 +54,26 @@ CLASS com/corrodinggames/rts/game/class_324 com/corrodinggames/rts/game/Player
 	FIELD field_1414 fogOfWarData [[B
 	FIELD field_1463 teamUnitCount I
 	FIELD field_1415 teamSharedControlType Ljava/lang/String;
-	FIELD field_1464 teamColorId I
-	FIELD field_1416 teamAIHint Ljava/lang/String;
+	FIELD field_1464 colorId I
+	FIELD field_1416 AIHint Ljava/lang/String;
 	FIELD field_1465 field_1465 Lcom/corrodinggames/rts/game/units/class_409;
-	FIELD field_1417 teamAILevel I
+	FIELD field_1417 AILevel I
 	FIELD field_1466 field_1466 Lcom/corrodinggames/rts/game/units/class_409;
-	FIELD field_1467 isTeamDefeated Z
-	FIELD field_1419 isTeamReady Z
-	FIELD field_1468 teamName Ljava/lang/String;
+	FIELD field_1467 isPlayerDefeated Z
+	FIELD field_1419 isPlayerReady Z
+	FIELD field_1468 name Ljava/lang/String;
 	FIELD field_1420 field_1420 Lcom/corrodinggames/rts/game/class_329;
-	FIELD field_1469 isTeamSpectator Z
-	FIELD field_1421 isTeamObserver Z
+	FIELD field_1469 isPlayerSpectator Z
+	FIELD field_1421 isPlayerObserver Z
 	FIELD field_1470 teamPingTime I
-	FIELD field_1422 teamColorIndex B
-	FIELD field_1471 isTeamLocked Z
-	FIELD field_1423 teamNetworkId I
+	FIELD field_1422 colorIndex B
+	FIELD field_1471 isPlayerLocked Z
+	FIELD field_1423 networkId I
 	METHOD method_464 addCredits ()Z
-	METHOD method_465 getTeamColorName (D)Z
-	METHOD method_466 updateTeam (F)V
+	METHOD method_465 getPlayerColorName (D)Z
+	METHOD method_466 updatePlayer (F)V
 	METHOD method_467 updateFogOfWar (I)Ljava/lang/String;
-	METHOD method_468 updateNetworkTeamData (IZ)I
+	METHOD method_468 updateNetworkPlayerData (IZ)I
 	METHOD method_469 method_469 (Lcom/corrodinggames/rts/game/class_324;)Z
 	METHOD method_470 method_470 (Lcom/corrodinggames/rts/game/class_327;Lcom/corrodinggames/rts/game/class_324;)Z
 	METHOD method_471 method_471 (Lcom/corrodinggames/rts/game/units/class_409;)V
@@ -87,8 +87,8 @@ CLASS com/corrodinggames/rts/game/class_324 com/corrodinggames/rts/game/Player
 	METHOD method_480 method_480 (Lcom/corrodinggames/rts/gameFramework/m/class_1189;Lcom/corrodinggames/rts/game/class_325;Z)[Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_482 method_482 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/class_313;
 	METHOD method_483 getResourceAmount (Z)V
-	METHOD method_484 addUnitToTeam (ZZ)I
-	METHOD method_444 updateTeamActiveStatus ()V
+	METHOD method_484 addUnitToPlayer (ZZ)I
+	METHOD method_444 updatePlayerActiveStatus ()V
 	METHOD method_486 method_486 (F)V
 	METHOD method_487 removeCredits (I)I
 	METHOD method_488 getResourceCost (IZ)V
@@ -100,10 +100,10 @@ CLASS com/corrodinggames/rts/game/class_324 com/corrodinggames/rts/game/Player
 	METHOD method_495 method_495 (Lcom/corrodinggames/rts/gameFramework/m/class_1189;Lcom/corrodinggames/rts/game/class_325;)[Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_497 method_497 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/class_313;
 	METHOD method_498 method_498 (Z)Lcom/corrodinggames/rts/game/class_329;
-	METHOD method_445 updateTeamConnectionStatus ()V
+	METHOD method_445 updatePlayerConnectionStatus ()V
 	METHOD method_499 addEnergy ()Ljava/util/ArrayList;
 	METHOD method_500 method_500 (F)V
-	METHOD method_501 removeUnitFromTeam (I)I
+	METHOD method_501 removeUnitFromPlayer (I)I
 	METHOD method_502 method_502 (IZ)V
 	METHOD method_503 method_503 (Lcom/corrodinggames/rts/game/class_324;)Z
 	METHOD method_504 method_504 (Lcom/corrodinggames/rts/game/units/class_426;)V
@@ -111,52 +111,52 @@ CLASS com/corrodinggames/rts/game/class_324 com/corrodinggames/rts/game/Player
 	METHOD method_506 method_506 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
 	METHOD method_507 method_507 (Lcom/corrodinggames/rts/gameFramework/m/class_1189;[Lcom/corrodinggames/rts/gameFramework/m/class_1189;[I)V
 	METHOD method_508 method_508 (Ljava/lang/String;)V
-	METHOD method_446 updateAllTeamData ()V
+	METHOD method_446 updateAllPlayerData ()V
 	METHOD compareTo compareTo (Ljava/lang/Object;)I
-	METHOD method_511 setTeamId (I)V
+	METHOD method_511 setPlayerId (I)V
 	METHOD method_512 method_512 (Lcom/corrodinggames/rts/game/units/class_426;)V
 	METHOD method_513 method_513 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
 	METHOD method_514 method_514 (Ljava/lang/String;)V
-	METHOD method_447 getTeamName ()Ljava/lang/String;
+	METHOD method_447 getPlayerName ()Ljava/lang/String;
 	METHOD method_515 method_515 ()[Lcom/corrodinggames/rts/game/class_324;
-	METHOD method_516 isNeutralToTeam (F)V
-	METHOD method_517 isTeamIndexActive (I)Z
+	METHOD method_516 isNeutralToPlayer (F)V
+	METHOD method_517 isPlayerIndexActive (I)Z
 	METHOD method_518 method_518 (Ljava/lang/String;)V
-	METHOD method_448 updateTeamVictoryStatus ()V
-	METHOD method_519 getTeamStatistics ()V
+	METHOD method_448 updatePlayerVictoryStatus ()V
+	METHOD method_519 getPlayerStatistics ()V
 	METHOD method_520 method_520 (I)I
-	METHOD method_449 updateTeamDefeatStatus ()V
-	METHOD method_521 getAllTeams ()Ljava/util/ArrayList;
+	METHOD method_449 updatePlayerDefeatStatus ()V
+	METHOD method_521 getAllPlayers ()Ljava/util/ArrayList;
 	METHOD method_522 method_522 (I)I
-	METHOD method_523 isTeamAlly ()Z
+	METHOD method_523 isPlayerAlly ()Z
 	METHOD method_524 method_524 (I)Ljava/lang/String;
-	METHOD method_525 updateTeamAllyStatus ()V
+	METHOD method_525 updatePlayerAllyStatus ()V
 	METHOD method_526 method_526 (I)Lcom/corrodinggames/rts/game/class_324;
-	METHOD method_452 getTeamColorIndex ()I
-	METHOD method_527 isTeamEnemy ()Z
+	METHOD method_452 getPlayerColorIndex ()I
+	METHOD method_527 isPlayerEnemy ()Z
 	METHOD method_528 method_528 (I)V
-	METHOD method_453 getTeamNetworkId ()I
-	METHOD method_529 staticUpdateTeamData ()V
-	METHOD method_530 updateTeamVictoryStatus (I)V
+	METHOD method_453 getPlayerNetworkId ()I
+	METHOD method_529 staticUpdatePlayerData ()V
+	METHOD method_530 updatePlayerVictoryStatus (I)V
 	METHOD method_454 method_454 ()V
-	METHOD method_531 isTeamNeutral ()Z
-	METHOD method_455 updateTeamTextures ()V
-	METHOD method_532 isTeamSpectatorCheck ()Z
-	METHOD method_456 staticUpdateAllTeamColors ()V
-	METHOD method_533 getTeamPing ()I
-	METHOD method_457 staticUpdateTeamColors ()V
-	METHOD method_534 isTeamDefeatedCheck ()Z
+	METHOD method_531 isPlayerNeutral ()Z
+	METHOD method_455 updatePlayerTextures ()V
+	METHOD method_532 isPlayerSpectatorCheck ()Z
+	METHOD method_456 staticUpdateAllPlayerColors ()V
+	METHOD method_533 getPlayerPing ()I
+	METHOD method_457 staticUpdatePlayerColors ()V
+	METHOD method_534 isPlayerDefeatedCheck ()Z
 	METHOD method_458 getDisplayedResourcesTotal ()D
 	METHOD method_536 getEnergyScaledByCredits ()I
-	METHOD method_460 staticUpdateTeamData2 ()V
-	METHOD method_537 getTeamUnitCountInt ()I
+	METHOD method_460 staticUpdatePlayerData2 ()V
+	METHOD method_537 getPlayerUnitCountInt ()I
 	METHOD method_461 getEconomyMultiplier ()F
-	METHOD method_538 getTeamBuildingCountInt ()I
-	METHOD method_539 getTeamId ()I
-	METHOD method_463 updateTeamPing ()V
-	METHOD method_540 isTeamActiveCheck ()Z
-	METHOD method_541 getTeamColorId ()I
+	METHOD method_538 getPlayerBuildingCountInt ()I
+	METHOD method_539 getPlayerId ()I
+	METHOD method_463 updatePlayerPing ()V
+	METHOD method_540 isPlayerActiveCheck ()Z
+	METHOD method_541 getPlayerColorId ()I
 	METHOD method_542 getSpectatorEnergyFactor ()F
-	METHOD method_543 staticInitTeamData ()V
-	METHOD method_544 getActiveTeamCount ()I
-	METHOD method_545 getTeamCount ()I
+	METHOD method_543 staticInitPlayerData ()V
+	METHOD method_544 getActivePlayerCount ()I
+	METHOD method_545 getPlayerCount ()I

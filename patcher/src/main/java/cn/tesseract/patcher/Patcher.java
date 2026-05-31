@@ -140,6 +140,10 @@ public class Patcher {
 
         MemoryMappingTree mappingTree = MappingUtils.buildNamedMappings(intermediary, named);
 
+        /*writer = new EnigmaDirWriter(mappingsDir.resolve("debug"), true);
+        named.accept(writer);
+        writer.close();*/
+
         TinyRemapper remapper = TinyRemapper.newRemapper()
                 .withMappings(TinyUtils.createMappingProvider(mappingTree, "source", "target"))
                 .build();
