@@ -14,4 +14,8 @@
         <attr name="layout_horizontalSpacing" />
         <attr name="layout_breakLine" />
     </declare-styleable>
+
+    <declare-styleable name="GalleryTheme">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
 </resources>
