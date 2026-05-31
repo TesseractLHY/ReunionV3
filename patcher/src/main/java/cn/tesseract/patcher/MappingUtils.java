@@ -1,16 +1,13 @@
 package cn.tesseract.patcher;
 
 import net.fabricmc.mappingio.MappedElementKind;
-import net.fabricmc.mappingio.MappingVisitor;
 import net.fabricmc.mappingio.tree.MappingTreeView;
 import net.fabricmc.mappingio.tree.MemoryMappingTree;
-import net.fabricmc.mappingio.tree.VisitOrder;
 
 import java.io.IOException;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -19,77 +16,45 @@ public final class MappingUtils {
         MemoryMappingTree merged = new MemoryMappingTree();
         merged.visitNamespaces("source", Collections.singletonList("target"));
 
-        obfToInt.accept(new MappingVisitor() {
-            private MappingTreeView.ClassMappingView namedClass;
-            private String fieldDesc;
-            private String methodDesc;
+        for (MappingTreeView.ClassMappingView obfClass : obfToInt.getClasses()) {
+            String obfName = obfClass.getSrcName();
+            if (obfName == null) continue;
 
-            @Override
-            public void visitNamespaces(String srcNs, List<String> dstNs) {
-            }
+            String intClassName = obfClass.getDstName(0);
+            MappingTreeView.ClassMappingView namedClass = intClassName == null ? null : intToNamed.getClass(intClassName);
+            String finalClassName = namedClass != null && namedClass.getDstName(0) != null ? namedClass.getDstName(0) : (intClassName != null ? intClassName : obfName);
 
-            @Override
-            public boolean visitClass(String srcName) {
-                MappingTreeView.ClassMappingView obfClass = obfToInt.getClass(srcName);
-                String intName = obfClass != null ? obfClass.getDstName(0) : null;
-                namedClass = intName != null ? intToNamed.getClass(intName) : null;
-                return merged.visitClass(srcName);
-            }
+            merged.visitClass(obfName);
+            merged.visitDstName(MappedElementKind.CLASS, 0, finalClassName);
 
-            @Override
-            public void visitDstName(MappedElementKind kind, int ns, String intName) {
-                String finalName = intName;
-                if (namedClass != null) {
-                    if (kind == MappedElementKind.CLASS && namedClass.getDstName(0) != null) {
-                        finalName = namedClass.getDstName(0);
-                    } else if (kind == MappedElementKind.FIELD) {
-                        MappingTreeView.FieldMappingView nf = namedClass.getField(intName, fieldDesc);
-                        if (nf != null && nf.getDstName(0) != null) finalName = nf.getDstName(0);
-                    } else if (kind == MappedElementKind.METHOD) {
-                        MappingTreeView.MethodMappingView nm = namedClass.getMethod(intName, methodDesc);
-                        if (nm != null && nm.getDstName(0) != null) finalName = nm.getDstName(0);
-                    }
+            for (MappingTreeView.FieldMappingView field : obfClass.getFields()) {
+                String obfFieldName = field.getSrcName(), obfFieldDesc = field.getSrcDesc(), intFieldName = field.getDstName(0);
+                if (obfFieldName == null) continue;
+                String finalFieldName = intFieldName != null ? intFieldName : obfFieldName;
+                if (namedClass != null && intFieldName != null) {
+                    MappingTreeView.FieldMappingView namedField = namedClass.getField(intFieldName, field.getDstDesc(0));
+                    if (namedField != null && namedField.getDstName(0) != null) finalFieldName = namedField.getDstName(0);
                 }
-                merged.visitDstName(kind, 0, finalName);
+                merged.visitField(obfFieldName, obfFieldDesc);
+                merged.visitDstName(MappedElementKind.FIELD, 0, finalFieldName);
+                merged.visitElementContent(MappedElementKind.FIELD);
             }
 
-            @Override
-            public boolean visitField(String srcName, String srcDesc) {
-                fieldDesc = srcDesc;
-                return merged.visitField(srcName, srcDesc);
+            for (MappingTreeView.MethodMappingView method : obfClass.getMethods()) {
+                String obfMethodName = method.getSrcName(), obfMethodDesc = method.getSrcDesc(), intMethodName = method.getDstName(0);
+                if (obfMethodName == null) continue;
+                String finalMethodName = intMethodName != null ? intMethodName : obfMethodName;
+                if (namedClass != null && intMethodName != null) {
+                    MappingTreeView.MethodMappingView namedMethod = namedClass.getMethod(intMethodName, method.getDstDesc(0));
+                    if (namedMethod != null && namedMethod.getDstName(0) != null) finalMethodName = namedMethod.getDstName(0);
+                }
+                merged.visitMethod(obfMethodName, obfMethodDesc);
+                merged.visitDstName(MappedElementKind.METHOD, 0, finalMethodName);
+                merged.visitElementContent(MappedElementKind.METHOD);
             }
 
-            @Override
-            public boolean visitMethod(String srcName, String srcDesc) {
-                methodDesc = srcDesc;
-                return merged.visitMethod(srcName, srcDesc);
-            }
-
-            @Override
-            public boolean visitMethodArg(int lvIndex, int argIndex, String srcName) {
-                return merged.visitMethodArg(lvIndex, argIndex, srcName);
-            }
-
-            @Override
-            public boolean visitMethodVar(int lvIndex, int startOpIdx, int endOpIdx, int scopeStartOpIdx, String srcName) {
-                return merged.visitMethodVar(lvIndex, startOpIdx, endOpIdx, scopeStartOpIdx, srcName);
-            }
-
-            @Override
-            public boolean visitElementContent(MappedElementKind kind) throws IOException {
-                return merged.visitElementContent(kind);
-            }
-
-            @Override
-            public boolean visitEnd() {
-                return merged.visitEnd();
-            }
-
-            @Override
-            public void visitComment(MappedElementKind kind, String comment) {
-                merged.visitComment(kind, comment);
-            }
-        }, VisitOrder.createByInputOrder());
+            merged.visitElementContent(MappedElementKind.CLASS);
+        }
 
         return merged;
     }
