@@ -31,6 +31,5 @@ android {
 dependencies {
     implementation project(path: ':android', configuration: 'androidMixedElements')
     implementation coreProject
-    implementation libs.crosshook.android
     implementation libs.static.mixin.runtime
 }

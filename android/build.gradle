@@ -33,7 +33,6 @@ def releaseClassesJar = layout.buildDirectory.file('tmp/android/releaseClassesJa
 dependencies {
     compileOnly project(path: ':patcher', configuration: 'androidPatchedElements')
     implementation coreProject
-    implementation libs.crosshook.android
 }
 
 tasks.register('extractReleaseClassesJar', Copy) {

@@ -10,7 +10,6 @@ java {
 dependencies {
     compileOnly project(path: ':patcher', configuration: 'desktopPatchedElements')
     implementation coreProject
-    implementation libs.crosshook.desktop
     runtimeOnly libs.static.mixin.runtime
     compileOnly fileTree(dir: "$gameDir/libs", include: ['*.jar'])
 }
